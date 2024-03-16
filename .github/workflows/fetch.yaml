@@ -4,6 +4,8 @@ on:
     schedule:
       - cron: '*/10 * * * *'
 
+permissions: write-all
+
 jobs:
   fetch_api:
     runs-on: ubuntu-latest
