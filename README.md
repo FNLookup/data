@@ -1,5 +1,5 @@
-# blog
-FNLookup's Blog Database backend.
+# data
+FNLookup's Data backend.
 
 This is not yet worked on
 
