@@ -1,6 +1,7 @@
 from selenium import webdriver
 import json
 import time
+import os
 
 # two times because it bugs out
 languages = ['en-US', 'en-US', 'ar', 'de', 'es-ES', 'es-MX', 'fr', 'it', 'ja', 'ko', 'pl', 'pt-BR', 'ru', 'tr']

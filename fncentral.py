@@ -5,6 +5,7 @@
 import requests
 import json
 import time
+import os
 
 def fetch_save(url):
     print("Attempting to fetch", url)
