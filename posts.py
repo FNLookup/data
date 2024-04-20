@@ -26,9 +26,9 @@ def fetch_fortnite_posts():
 if __name__ == "__main__":
     fortnite_posts = fetch_fortnite_posts()
     if fortnite_posts:
-        with open("blog_posts.json", "w") as file:
-            file.write(fortnite_posts.decode("utf-8"))
+        with open("posts/blog_posts.json", "w") as file:
+            json.dump(fortnite_posts.decode("utf-8"), file, indent=4)
             print("Data saved to file")
-        with open("timestamp.json", "w") as file:
+        with open("posts/timestamp.json", "w") as file:
             file.write('{"timestamp": ' + str(time.time()) + '}')
             print("Timestamp saved to file")

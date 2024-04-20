@@ -1,4 +1,4 @@
-name: Fetch Fortnite API
+name: Save Posts
 
 on:
     schedule:
@@ -21,19 +21,19 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Fetch Fortnite API
-        run: python fetch_fortnite_api.py
+      - name: Save Posts
+        run: python posts.py
 
       - name: Archive response content
         uses: actions/upload-artifact@v2
         with:
           name: BlogPostContent
-          path: blog_posts.json
+          path: posts/blog_posts.json
 
       - name: Commit and push artifact
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
-          git add blog_posts.json timestamp.json
-          git commit -m "Update blog posts"
+          git add posts/blog_posts.json posts/timestamp.json
+          git commit -m "Update posts"
           git push
