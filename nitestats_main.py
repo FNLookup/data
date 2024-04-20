@@ -27,6 +27,9 @@ to_fetch = [{
 
 for dir in to_fetch:
     data = fetch_save(dir["url"])
+    directory = "nitestats"
+    if not os.path.exists(directory):
+        os.makedirs(directory)
     with open("nitestats/" + dir["path"], "w") as file:
         json.dump(data, file, indent=4)
         print("Data saved to file")

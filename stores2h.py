@@ -26,6 +26,9 @@ to_fetch = [{
 
 for dir in to_fetch:
     data = fetch_save(dir["url"])
+    directory = "stores2h"
+    if not os.path.exists(directory):
+        os.makedirs(directory)
     with open("stores2h/" + dir["path"], "w") as file:
         json.dump(data, file, indent=4)
         print("Data saved to file")

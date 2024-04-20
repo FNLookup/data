@@ -8,6 +8,10 @@ base_url = 'https://fortnite.com'
 print("Initializing firefox")
 driver = webdriver.Firefox()
 
+directory = "page"
+if not os.path.exists(directory):
+    os.makedirs(directory)
+
 try:
     timestamps = {}
     for lang in languages:
