@@ -17,7 +17,7 @@ def fetch_fortnite_posts():
     response = requests.get(url, headers=headers)
     if response.status_code == 200:
         print("Fetch successful")
-        return response.content
+        return response.json()
     else:
         print(f"Failed to fetch Fortnite API: {response.status_code}")
         print("Response content:", response.content)
@@ -27,7 +27,7 @@ if __name__ == "__main__":
     fortnite_posts = fetch_fortnite_posts()
     if fortnite_posts:
         with open("posts/blog_posts.json", "w") as file:
-            json.dump(fortnite_posts.decode("utf-8"), file, indent=4)
+            json.dump(fortnite_posts, file, indent=4)
             print("Data saved to file")
         with open("posts/timestamp.json", "w") as file:
             file.write('{"timestamp": ' + str(time.time()) + '}')
