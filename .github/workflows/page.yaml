@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: '0 * * * *'  # Runs every hour
 
+permissions: write-all
+
 jobs:
   open_web_browser:
     runs-on: windows-latest
