@@ -22,7 +22,7 @@ jobs:
         run: pip install requests
 
       - name: Save Jam Data
-        run: python fetch_spark_tracks.py
+        run: python festival.py
 
       - name: Commit and push artifact
         run: |
