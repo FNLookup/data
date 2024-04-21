@@ -1,8 +1,8 @@
-name: Nitestats main
+name: Get Jam Tracks - FN Content
 
 on:
-  schedule:
-    - cron: '*/10 * * * *'
+    schedule:
+      - cron: '*/10 * * * *'
 
 permissions: write-all
 
@@ -21,14 +21,14 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Save Data
-        run: python nitestats_main.py
+      - name: Save Jam Data
+        run: python fetch_spark_tracks.py
 
-      - name: Commit and push
+      - name: Commit and push artifact
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
           git pull
-          git add nitestats/*
-          git commit -m "Update NiteStats Data"
+          git add festival/*
+          git commit -m "Update spark tracks"
           git push
