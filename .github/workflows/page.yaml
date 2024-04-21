@@ -39,6 +39,7 @@ jobs:
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
+          git pull
           git add page/timestamp.json page/context_*.json
           git commit -m "Update page files"
           git push

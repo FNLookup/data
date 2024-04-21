@@ -34,6 +34,7 @@ jobs:
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
+          git pull
           git add posts/blog_posts.json posts/timestamp.json
           git commit -m "Update posts"
           git push

@@ -38,3 +38,6 @@ for dir in to_fetch:
     with open("fncentral/" + dir["path"], "w") as file:
         json.dump(data, file, indent=4)
         print("Data saved to file")
+    with open("fncentral/timestamp.json", "w") as file:
+        file.write('{"timestamp": ' + str(time.time()) + '}')
+        print("Timestamp saved to file")
