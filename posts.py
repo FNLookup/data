@@ -3,7 +3,7 @@ import requests
 import json
 import time
 
-language_list = ['en-US', 'ar', 'de', 'es-ES', 'es-MX', 'fr', 'it', 'ja', 'ko', 'pl', 'pt-BR', 'ru', 'tr']
+language_list = ['en-US', 'es-MX', 'es-ES', 'ar', 'de', 'fr', 'it', 'ja', 'ko', 'pl', 'pt-BR', 'ru', 'tr']
                 # All
 categories_list = ['', 'battle-royale', 'creative', 'fortnite-festival', 'lego-fortnite', 'ranked', 'rocket-racing', 'save-the-world', 'team-rumble']
 
