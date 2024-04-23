@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2024-04-23T02:00:00.000Z",
+    "expiration": "2024-04-23T03:00:00.000Z",
     "storefronts": [
         {
             "name": "CurrencyStorefront",
@@ -680,6 +680,71 @@
         {
             "name": "CardPackStorePreroll",
             "catalogEntries": [
+                {
+                    "offerId": "D46EC225FA1149ADB00B4B17B2ABAB70",
+                    "devName": "RandomFree.FreePack.01",
+                    "offerType": "StaticPrice",
+                    "prices": [
+                        {
+                            "currencyType": "GameItem",
+                            "currencySubType": "AccountResource:currency_xrayllama",
+                            "regularPrice": 50,
+                            "dynamicRegularPrice": -1,
+                            "finalPrice": 0,
+                            "saleType": "Strikethrough",
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 0
+                        }
+                    ],
+                    "categories": [],
+                    "dailyLimit": 2,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "refundable": false,
+                    "appStoreId": [
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "requirements": [],
+                    "metaInfo": [
+                        {
+                            "key": "ProfileId",
+                            "value": "campaign"
+                        },
+                        {
+                            "key": "Preroll",
+                            "value": "True"
+                        },
+                        {
+                            "key": "MaxConcurrentPurchases",
+                            "value": "1"
+                        }
+                    ],
+                    "catalogGroup": "Upgrade",
+                    "catalogGroupPriority": 10,
+                    "sortPriority": 0,
+                    "title": "Upgrade Llama (Seasonal Sale Freebie!)",
+                    "shortDescription": "",
+                    "description": "The old faithful llama, packed with a variety of goodies and upgrade materials. Contains at least 4 items, including a rare item or a hero! Has a high chance to upgrade.",
+                    "displayAssetPath": "/Game/Items/CardPacks/CardPack_Bronze.CardPack_Bronze",
+                    "itemGrants": [
+                        {
+                            "templateId": "CardPack:cardpack_bronze",
+                            "quantity": 1,
+                            "attributes": {}
+                        }
+                    ]
+                },
                 {
                     "offerId": "4D64CBE3618D41FBB5CAD0E472F4610A",
                     "devName": "Always.UpgradePack.01",
@@ -3392,95 +3457,6 @@
                         {
                             "templateId": "AthenaCharacter:character_pastasaucemarinara",
                             "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -2,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Janky, 1 x Janky's Stunt Helmet for 1500 MtxCurrency",
-                    "offerId": "v2:/316501c01259e95ed3d86c83fcf3501be633f9c064941450a65dc387d5bb48cd",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 1500,
-                            "dynamicRegularPrice": 1500,
-                            "finalPrice": 1500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 1500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_CID_A_183_M_AntiquePal_S7A9W.DAv2_CID_A_183_M_AntiquePal_S7A9W",
-                        "LayoutId": "Janky.99",
-                        "TileSize": "Size_1_x_2",
-                        "AnalyticOfferGroupId": "Janky",
-                        "FirstSeen": "4/19/2024"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaCharacter:cid_a_183_athena_commando_m_antiquepal_s7a9w",
-                            "minQuantity": 1
-                        },
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaBackpack:bid_827_antiquepal_bl5er",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_CID_A_183_M_AntiquePal_S7A9W.DAv2_CID_A_183_M_AntiquePal_S7A9W"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "Janky.99"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_2"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "Janky"
-                        },
-                        {
-                            "key": "FirstSeen",
-                            "value": "4/19/2024"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_A_183_Athena_Commando_M_AntiquePal_S7A9W.DA_Featured_CID_A_183_Athena_Commando_M_AntiquePal_S7A9W",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaCharacter:cid_a_183_athena_commando_m_antiquepal_s7a9w",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaBackpack:bid_827_antiquepal_bl5er",
-                            "quantity": 1,
-                            "attributes": {
-                                "extra_grant": true
-                            }
                         }
                     ],
                     "additionalGrants": [],
@@ -8920,83 +8896,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Janky's Dead Fish for 800 MtxCurrency",
-                    "offerId": "v2:/8111f6f904c9affebb0fc6d94c82741f2529f4df4ee71c3bbcb6078c52c030fc",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 800,
-                            "dynamicRegularPrice": 800,
-                            "finalPrice": 800,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 800
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_Pickaxe_ID_649_AntiquePalMale1H_GBT24.DAv2_Pickaxe_ID_649_AntiquePalMale1H_GBT24",
-                        "LayoutId": "Janky.99",
-                        "TileSize": "Size_1_x_2",
-                        "AnalyticOfferGroupId": "Janky",
-                        "FirstSeen": "4/19/2024"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaPickaxe:pickaxe_id_649_antiquepalmale1h_gbt24",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_Pickaxe_ID_649_AntiquePalMale1H_GBT24.DAv2_Pickaxe_ID_649_AntiquePalMale1H_GBT24"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "Janky.99"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_2"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "Janky"
-                        },
-                        {
-                            "key": "FirstSeen",
-                            "value": "4/19/2024"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_649_AntiquePalMale1H_GBT24.DA_Featured_Pickaxe_ID_649_AntiquePalMale1H_GBT24",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaPickaxe:pickaxe_id_649_antiquepalmale1h_gbt24",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -3,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_163) for 500 MtxCurrency",
                     "offerId": "v2:/b9e04c1ba39c35f75c7a13e4fc77dc9437fca34095b4fd4185efd4d3e01bb30c",
                     "fulfillmentIds": [],
@@ -10744,115 +10643,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -5,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Janky, 1 x Janky's Stunt Helmet, 1 x Janky's Dead Fish for -1 MtxCurrency",
-                    "offerId": "v2:/0f8d44ed09b24354ec9cf07047b054485a415cff4fbfcd7ed260065104ae5312",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [],
-                    "dynamicBundleInfo": {
-                        "discountedBasePrice": -500,
-                        "regularBasePrice": 0,
-                        "floorPrice": 300,
-                        "currencyType": "MtxCurrency",
-                        "currencySubType": "",
-                        "displayType": "AmountOff",
-                        "bundleItems": [
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 1500,
-                                "discountedPrice": 1500,
-                                "alreadyOwnedPriceReduction": 1500,
-                                "item": {
-                                    "templateId": "AthenaCharacter:cid_a_183_athena_commando_m_antiquepal_s7a9w",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 0,
-                                "discountedPrice": 0,
-                                "alreadyOwnedPriceReduction": 0,
-                                "item": {
-                                    "templateId": "AthenaBackpack:bid_827_antiquepal_bl5er",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 800,
-                                "discountedPrice": 800,
-                                "alreadyOwnedPriceReduction": 800,
-                                "item": {
-                                    "templateId": "AthenaPickaxe:pickaxe_id_649_antiquepalmale1h_gbt24",
-                                    "quantity": 1
-                                }
-                            }
-                        ]
-                    },
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_Bundle_Featured_AntiquePal.DAv2_Bundle_Featured_AntiquePal",
-                        "LayoutId": "Janky.99",
-                        "TileSize": "Size_2_x_2",
-                        "AnalyticOfferGroupId": "Janky",
-                        "FirstSeen": "4/19/2024"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [],
-                    "offerType": "DynamicBundle",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_Bundle_Featured_AntiquePal.DAv2_Bundle_Featured_AntiquePal"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "Janky.99"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_2_x_2"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "Janky"
-                        },
-                        {
-                            "key": "FirstSeen",
-                            "value": "4/19/2024"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_AntiquePal_Bundle.DA_Featured_AntiquePal_Bundle",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaCharacter:cid_a_183_athena_commando_m_antiquepal_s7a9w",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaBackpack:bid_827_antiquepal_bl5er",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaPickaxe:pickaxe_id_649_antiquepalmale1h_gbt24",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -1,
                     "catalogGroupPriority": 0
                 },
                 {
