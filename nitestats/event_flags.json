@@ -3,7 +3,7 @@
         "standalone-store": {
             "states": [
                 {
-                    "validFrom": "2024-04-23T09:09:46.348Z",
+                    "validFrom": "2024-04-23T09:23:15.522Z",
                     "activeEvents": [],
                     "state": {
                         "activePurchaseLimitingEventIds": [],
@@ -13,12 +13,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-04-23T11:09:46.348Z"
+            "cacheExpire": "2024-04-23T11:23:15.522Z"
         },
         "client-matchmaking": {
             "states": [
                 {
-                    "validFrom": "2024-04-23T09:09:46.348Z",
+                    "validFrom": "2024-04-23T09:23:15.522Z",
                     "activeEvents": [],
                     "state": {
                         "region": {
@@ -130,24 +130,24 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-04-23T11:09:46.348Z"
+            "cacheExpire": "2024-04-23T11:23:15.522Z"
         },
         "tk": {
             "states": [
                 {
-                    "validFrom": "2024-04-23T09:09:46.348Z",
+                    "validFrom": "2024-04-23T09:23:15.522Z",
                     "activeEvents": [],
                     "state": {
                         "k": []
                     }
                 }
             ],
-            "cacheExpire": "2024-04-23T11:09:46.348Z"
+            "cacheExpire": "2024-04-23T11:23:15.522Z"
         },
         "featured-islands": {
             "states": [
                 {
-                    "validFrom": "2024-04-23T09:09:46.348Z",
+                    "validFrom": "2024-04-23T09:23:15.522Z",
                     "activeEvents": [],
                     "state": {
                         "islandCodes": [],
@@ -157,12 +157,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-04-23T11:09:46.348Z"
+            "cacheExpire": "2024-04-23T11:23:15.522Z"
         },
         "community-votes": {
             "states": [
                 {
-                    "validFrom": "2024-04-23T09:09:46.348Z",
+                    "validFrom": "2024-04-23T09:23:15.522Z",
                     "activeEvents": [],
                     "state": {
                         "electionId": "",
@@ -172,18 +172,13 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-04-23T11:09:46.348Z"
+            "cacheExpire": "2024-04-23T11:23:15.522Z"
         },
         "client-events": {
             "states": [
                 {
-                    "validFrom": "2024-04-23T09:09:46.348Z",
+                    "validFrom": "2024-04-23T09:23:15.522Z",
                     "activeEvents": [
-                        {
-                            "eventType": "EventFlag.Event_SparksS02",
-                            "activeUntil": "2024-04-23T13:00:00.000Z",
-                            "activeSince": "2024-02-21T14:00:00.000Z"
-                        },
                         {
                             "eventType": "EventFlag.LobbySeason29",
                             "activeUntil": "2024-05-31T13:00:00.000Z",
@@ -290,11 +285,6 @@
                             "activeSince": "2024-04-18T23:00:00.000Z"
                         },
                         {
-                            "eventType": "PilgrimSong.xgongiveittoya",
-                            "activeUntil": "2024-04-24T00:00:00.000Z",
-                            "activeSince": "2024-04-23T00:00:00.000Z"
-                        },
-                        {
                             "eventType": "PilgrimSong.allthegoodgirls",
                             "activeUntil": "2024-04-24T00:00:00.000Z",
                             "activeSince": "2024-04-23T08:00:00.000Z"
@@ -388,20 +378,27 @@
                             "eventType": "PilgrimSong.woman",
                             "activeUntil": "2024-04-24T00:00:00.000Z",
                             "activeSince": "2024-04-23T08:00:00.000Z"
+                        },
+                        {
+                            "eventType": "PilgrimSong.xgongiveittoya",
+                            "activeUntil": "2024-04-24T00:00:00.000Z",
+                            "activeSince": "2024-04-23T08:00:00.000Z"
+                        },
+                        {
+                            "eventType": "EventFlag.Event_SparksS03",
+                            "activeUntil": "2024-06-13T08:00:00.000Z",
+                            "activeSince": "2024-04-23T08:00:00.000Z"
+                        },
+                        {
+                            "eventType": "EventFlag.Event_SparksS03_Week01",
+                            "activeUntil": "2024-05-02T18:00:00.000Z",
+                            "activeSince": "2024-04-23T08:00:00.000Z"
                         }
                     ],
                     "state": {
                         "activeStorefronts": [],
                         "eventNamedWeights": [],
                         "activeEvents": [
-                            {
-                                "instanceId": "048iqeok458fe5huhf3h5c4h7k[2]0",
-                                "devName": "Event_Sparks_Season02",
-                                "eventName": "CalendarEvent_SparksS02",
-                                "eventStart": "2024-02-21T14:00:00Z",
-                                "eventEnd": "2024-04-23T13:00:00Z",
-                                "eventType": "EventFlag.Event_SparksS02"
-                            },
                             {
                                 "instanceId": "305mlfak7ok5hpbs98rbkf3nt0[2]0",
                                 "devName": "Event_JunoQuests_Fishing_29",
@@ -465,6 +462,22 @@
                                 "eventStart": "2024-04-18T23:00:00Z",
                                 "eventEnd": "2024-04-23T13:00:00Z",
                                 "eventType": "EventFlag.Event_SparksS02_Week09"
+                            },
+                            {
+                                "instanceId": "7m5rjfa3pbadkfdc4e2jelup77[2]0",
+                                "devName": "Event_Sparks_Season03",
+                                "eventName": "CalendarEvent_SparksS03",
+                                "eventStart": "2024-04-23T08:00:00Z",
+                                "eventEnd": "2024-06-13T08:00:00Z",
+                                "eventType": "EventFlag.Event_SparksS03"
+                            },
+                            {
+                                "instanceId": "6un8jp7akmemv6mjadf2h2ram1[2]0",
+                                "devName": "Event_SparksS03_Week01",
+                                "eventName": "CalendarEvent_SparksS03_Week01",
+                                "eventStart": "2024-04-23T08:00:00Z",
+                                "eventEnd": "2024-05-02T18:00:00Z",
+                                "eventType": "EventFlag.Event_SparksS03_Week01"
                             }
                         ],
                         "seasonNumber": 29,
@@ -483,9 +496,9 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-04-23T11:09:46.348Z"
+            "cacheExpire": "2024-04-23T11:23:15.522Z"
         }
     },
     "cacheIntervalMins": 15,
-    "currentTime": "2024-04-23T09:32:31.054Z"
+    "currentTime": "2024-04-23T09:42:15.232Z"
 }
