@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2024-04-23T10:00:00.000Z",
+    "expiration": "2024-04-23T11:00:00.000Z",
     "storefronts": [
         {
             "name": "CurrencyStorefront",
@@ -460,134 +460,7 @@
         },
         {
             "name": "SparksPackS02",
-            "catalogEntries": [
-                {
-                    "offerId": "9D4861E2408E682D371CFF8D63E2D2E1",
-                    "devName": "SparksPackS02.Event.Singlelevel",
-                    "offerType": "StaticPrice",
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 150,
-                            "dynamicRegularPrice": -1,
-                            "finalPrice": 150,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 150
-                        }
-                    ],
-                    "categories": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "refundable": false,
-                    "appStoreId": [
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        ""
-                    ],
-                    "requirements": [],
-                    "metaInfo": [],
-                    "catalogGroup": "",
-                    "catalogGroupPriority": 0,
-                    "sortPriority": 0,
-                    "title": "",
-                    "shortDescription": "",
-                    "description": "",
-                    "displayAssetPath": "",
-                    "itemGrants": [
-                        {
-                            "templateId": "AccountResource:sparkspack_currency_granter",
-                            "quantity": 1000,
-                            "attributes": {}
-                        }
-                    ]
-                },
-                {
-                    "offerId": "D5A249014FB382C3399CDAA1D22EC017",
-                    "devName": "SparksPackS02.Event.Premium",
-                    "offerType": "StaticPrice",
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 1800,
-                            "dynamicRegularPrice": -1,
-                            "finalPrice": 1800,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 1800
-                        }
-                    ],
-                    "categories": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "refundable": false,
-                    "appStoreId": [
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        ""
-                    ],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnFulfillment",
-                            "requiredId": "880D064C4C13B4695F4A2EB0C97054A5",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "metaInfo": [
-                        {
-                            "key": "TileSize",
-                            "value": "DoubleWide"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "BattlePassCrew.1"
-                        },
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S28/DAv2_SparksPack_PremiumS02.DAv2_SparksPack_PremiumS02"
-                        }
-                    ],
-                    "catalogGroup": "",
-                    "catalogGroupPriority": 0,
-                    "sortPriority": -10,
-                    "title": "Festival Pass",
-                    "shortDescription": "",
-                    "description": "",
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_SparksPack_PremiumS02.DA_SparksPack_PremiumS02",
-                    "itemGrants": [
-                        {
-                            "templateId": "Token:sparkspasss02_premiumtrackpurchasetoken",
-                            "quantity": 1,
-                            "attributes": {}
-                        },
-                        {
-                            "templateId": "SparksAura:sparksaura_cyber",
-                            "quantity": 1,
-                            "attributes": {}
-                        }
-                    ]
-                }
-            ]
+            "catalogEntries": []
         },
         {
             "name": "SparksPackS03",
