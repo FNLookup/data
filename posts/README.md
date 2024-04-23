@@ -185,7 +185,7 @@
 |Lego Fortnite #4|[blog_posts_lego-fortnite_de_page_3.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_lego-fortnite_de_page_3.json)|
 |Ranked #1|[blog_posts_ranked_de_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_ranked_de_page_0.json)|
 |Ranked #2|[blog_posts_ranked_de_page_1.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_ranked_de_page_1.json)|
-|Ranked #3|[blog_posts_ranked_de_page_2.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_ranked_de_page_2.json)|
+|Ranked #2|[blog_posts_ranked_de_page_1.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_ranked_de_page_1.json)|
 |Ranked #4|[blog_posts_ranked_de_page_3.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_ranked_de_page_3.json)|
 |Rocket Racing #1|[blog_posts_rocket-racing_de_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_rocket-racing_de_page_0.json)|
 |Rocket Racing #2|[blog_posts_rocket-racing_de_page_1.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_rocket-racing_de_page_1.json)|
