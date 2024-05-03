@@ -3,7 +3,7 @@
         "standalone-store": {
             "states": [
                 {
-                    "validFrom": "2024-05-03T08:05:34.428Z",
+                    "validFrom": "2024-05-03T08:18:11.501Z",
                     "activeEvents": [],
                     "state": {
                         "activePurchaseLimitingEventIds": [],
@@ -13,12 +13,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-05-03T10:05:34.428Z"
+            "cacheExpire": "2024-05-03T10:18:11.501Z"
         },
         "client-matchmaking": {
             "states": [
                 {
-                    "validFrom": "2024-05-03T08:05:34.428Z",
+                    "validFrom": "2024-05-03T08:18:11.501Z",
                     "activeEvents": [],
                     "state": {
                         "region": {
@@ -74,24 +74,24 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-05-03T10:05:34.428Z"
+            "cacheExpire": "2024-05-03T10:18:11.501Z"
         },
         "tk": {
             "states": [
                 {
-                    "validFrom": "2024-05-03T08:05:34.428Z",
+                    "validFrom": "2024-05-03T08:18:11.501Z",
                     "activeEvents": [],
                     "state": {
                         "k": []
                     }
                 }
             ],
-            "cacheExpire": "2024-05-03T10:05:34.428Z"
+            "cacheExpire": "2024-05-03T10:18:11.501Z"
         },
         "featured-islands": {
             "states": [
                 {
-                    "validFrom": "2024-05-03T08:05:34.428Z",
+                    "validFrom": "2024-05-03T08:18:11.501Z",
                     "activeEvents": [],
                     "state": {
                         "islandCodes": [],
@@ -101,12 +101,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-05-03T10:05:34.428Z"
+            "cacheExpire": "2024-05-03T10:18:11.501Z"
         },
         "community-votes": {
             "states": [
                 {
-                    "validFrom": "2024-05-03T08:05:34.428Z",
+                    "validFrom": "2024-05-03T08:18:11.501Z",
                     "activeEvents": [],
                     "state": {
                         "electionId": "",
@@ -116,12 +116,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-05-03T10:05:34.428Z"
+            "cacheExpire": "2024-05-03T10:18:11.501Z"
         },
         "client-events": {
             "states": [
                 {
-                    "validFrom": "2024-05-03T08:05:34.428Z",
+                    "validFrom": "2024-05-03T08:18:11.501Z",
                     "activeEvents": [
                         {
                             "eventType": "EventFlag.LobbySeason29",
@@ -339,6 +339,11 @@
                             "activeSince": "2024-05-03T00:00:00.000Z"
                         },
                         {
+                            "eventType": "EventFlag.Event_Osiris",
+                            "activeUntil": "2024-07-23T08:00:00.000Z",
+                            "activeSince": "2024-05-03T08:00:00.000Z"
+                        },
+                        {
                             "eventType": "PilgrimSong.cantinaband",
                             "activeUntil": "2024-05-04T00:00:00.000Z",
                             "activeSince": "2024-05-03T08:00:00.000Z"
@@ -419,6 +424,14 @@
                                 "eventStart": "2024-05-02T23:00:00Z",
                                 "eventEnd": "2024-05-09T23:00:00Z",
                                 "eventType": "EventFlag.Event_SparksS03_Week02"
+                            },
+                            {
+                                "instanceId": "7sibc4km0tl0lm7rn04ourf724[2]0",
+                                "devName": "JunoEvent_Osiris",
+                                "eventName": "CalendarEvent_Osiris",
+                                "eventStart": "2024-05-03T08:00:00Z",
+                                "eventEnd": "2024-07-23T08:00:00Z",
+                                "eventType": "EventFlag.Event_Osiris"
                             }
                         ],
                         "seasonNumber": 29,
@@ -437,9 +450,9 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-05-03T10:05:34.428Z"
+            "cacheExpire": "2024-05-03T10:18:11.501Z"
         }
     },
     "cacheIntervalMins": 15,
-    "currentTime": "2024-05-03T08:26:55.228Z"
+    "currentTime": "2024-05-03T08:35:05.257Z"
 }
