@@ -3450,11 +3450,11 @@
                     ],
                     "meta": {
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S29/DAv2_Backpack_GuineaPig.DAv2_Backpack_GuineaPig",
+                        "ViolatorTag": "New",
+                        "ViolatorIntensity": "High",
                         "LayoutId": "StarWars.98",
                         "TileSize": "Size_1_x_2",
                         "AnalyticOfferGroupId": "IP Luke and Backpack",
-                        "ViolatorTag": "New",
-                        "ViolatorIntensity": "High",
                         "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Backpack_GuineaPig.DA_Featured_Backpack_GuineaPig"
                     },
                     "matchFilter": "",
@@ -3481,6 +3481,14 @@
                             "value": "/Game/Catalog/NewDisplayAssets/S29/DAv2_Backpack_GuineaPig.DAv2_Backpack_GuineaPig"
                         },
                         {
+                            "key": "ViolatorTag",
+                            "value": "New"
+                        },
+                        {
+                            "key": "ViolatorIntensity",
+                            "value": "High"
+                        },
+                        {
                             "key": "LayoutId",
                             "value": "StarWars.98"
                         },
@@ -3491,14 +3499,6 @@
                         {
                             "key": "AnalyticOfferGroupId",
                             "value": "IP Luke and Backpack"
-                        },
-                        {
-                            "key": "ViolatorTag",
-                            "value": "New"
-                        },
-                        {
-                            "key": "ViolatorIntensity",
-                            "value": "High"
                         }
                     ],
                     "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Backpack_GuineaPig.DA_Featured_Backpack_GuineaPig",
@@ -8907,88 +8907,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Red Lightsaber for 400 MtxCurrency",
-                    "offerId": "v2:/c1eb670df4e2dbfb1a739d6a65866f683a5e9b5ccff980656c22b3c9c69cbb6f",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 400,
-                            "dynamicRegularPrice": 400,
-                            "finalPrice": 400,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 400
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S29/DAv2_Bundle_Featured_Booster_Lava2_Static.DAv2_Bundle_Featured_Booster_Lava2_Static",
-                        "LayoutId": "StarWars.95",
-                        "TileSize": "Size_1_x_2",
-                        "AnalyticOfferGroupId": "Star Wars Vehicle - Darth Maul Wheel / Red Lightsaber Boost",
-                        "ViolatorTag": "New",
-                        "ViolatorIntensity": "High",
-                        "SuppressRegularPrice": "true",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Booster_Lava2_Static_Bundle.DA_Featured_Booster_Lava2_Static_Bundle"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "VehicleCosmetics_Booster:id_booster_lava2",
-                            "minQuantity": -1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "refundable": false,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S29/DAv2_Bundle_Featured_Booster_Lava2_Static.DAv2_Bundle_Featured_Booster_Lava2_Static"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "StarWars.95"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_2"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "Star Wars Vehicle - Darth Maul Wheel / Red Lightsaber Boost"
-                        },
-                        {
-                            "key": "ViolatorTag",
-                            "value": "New"
-                        },
-                        {
-                            "key": "ViolatorIntensity",
-                            "value": "High"
-                        },
-                        {
-                            "key": "SuppressRegularPrice",
-                            "value": "true"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Booster_Lava2_Static_Bundle.DA_Featured_Booster_Lava2_Static_Bundle",
-                    "itemGrants": [
-                        {
-                            "templateId": "VehicleCosmetics_Booster:id_booster_lava2",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -2,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_68) for 500 MtxCurrency",
                     "offerId": "v2:/65d953126bd1508bcff912e265968cfe73456b5adc2b65b22ef2496ccb3ade12",
                     "fulfillmentIds": [],
@@ -13309,88 +13227,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Darth Maul for 700 MtxCurrency",
-                    "offerId": "v2:/8eda4f1a52aee19ec05717dcfdf1754cb7bb09d54536045b305e0d0958979211",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 700,
-                            "dynamicRegularPrice": 700,
-                            "finalPrice": 700,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 700
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S29/DAv2_Bundle_Featured_Wheel_Lava_Static.DAv2_Bundle_Featured_Wheel_Lava_Static",
-                        "LayoutId": "StarWars.95",
-                        "TileSize": "Size_1_x_2",
-                        "AnalyticOfferGroupId": "Star Wars Vehicle - Darth Maul Wheel / Red Lightsaber Boost",
-                        "ViolatorTag": "New",
-                        "ViolatorIntensity": "High",
-                        "SuppressRegularPrice": "true",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Wheel_Lava_Static_Bundle.DA_Featured_Wheel_Lava_Static_Bundle"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "VehicleCosmetics_Wheel:wheel_lava",
-                            "minQuantity": -1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "refundable": false,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S29/DAv2_Bundle_Featured_Wheel_Lava_Static.DAv2_Bundle_Featured_Wheel_Lava_Static"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "StarWars.95"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_2"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "Star Wars Vehicle - Darth Maul Wheel / Red Lightsaber Boost"
-                        },
-                        {
-                            "key": "ViolatorTag",
-                            "value": "New"
-                        },
-                        {
-                            "key": "ViolatorIntensity",
-                            "value": "High"
-                        },
-                        {
-                            "key": "SuppressRegularPrice",
-                            "value": "true"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Wheel_Lava_Static_Bundle.DA_Featured_Wheel_Lava_Static_Bundle",
-                    "itemGrants": [
-                        {
-                            "templateId": "VehicleCosmetics_Wheel:wheel_lava",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x Layup Legend, 1 x Court Commander, 1 x Post Patroller, 1 x Shot-Caller, 1 x Assist Maven for -1 MtxCurrency",
                     "offerId": "v2:/a4be83af28ceaffe198165fecb9a2e7236164ab2a727a0de8ded7e6a227eb713",
                     "fulfillmentIds": [],
@@ -15519,7 +15355,7 @@
                     },
                     "meta": {
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S29/DAv2_Bundle_Featured_Pumpernickel.DAv2_Bundle_Featured_Pumpernickel",
-                        "offertag": "pumpernickel",
+                        "offertag": "promodesc109",
                         "LayoutId": "StartYourEngines.Centio.99",
                         "TileSize": "Size_3_x_2",
                         "AnalyticOfferGroupId": "Centio",
@@ -15544,7 +15380,7 @@
                         },
                         {
                             "key": "offertag",
-                            "value": "pumpernickel"
+                            "value": "promodesc109"
                         },
                         {
                             "key": "LayoutId",
@@ -16139,6 +15975,8 @@
                     ],
                     "meta": {
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S29/DAv2_Bundle_Featured_WidePlaneGear.DAv2_Bundle_Featured_WidePlaneGear",
+                        "ViolatorTag": "CatSpacePack",
+                        "ViolatorIntensity": "High",
                         "LayoutId": "StarWars.98",
                         "TileSize": "Size_1_x_2",
                         "AnalyticOfferGroupId": "IP Luke and Backpack",
@@ -16173,6 +16011,14 @@
                             "value": "/Game/Catalog/NewDisplayAssets/S29/DAv2_Bundle_Featured_WidePlaneGear.DAv2_Bundle_Featured_WidePlaneGear"
                         },
                         {
+                            "key": "ViolatorTag",
+                            "value": "CatSpacePack"
+                        },
+                        {
+                            "key": "ViolatorIntensity",
+                            "value": "High"
+                        },
+                        {
                             "key": "LayoutId",
                             "value": "StarWars.98"
                         },
@@ -16201,6 +16047,103 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -4,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Darth Maul for -1 MtxCurrency",
+                    "offerId": "v2:/9c3742a6d3589878777f7269b108b20620de731068f74090c3f96e2a627916b6",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [],
+                    "dynamicBundleInfo": {
+                        "discountedBasePrice": 0,
+                        "regularBasePrice": 0,
+                        "floorPrice": 700,
+                        "currencyType": "MtxCurrency",
+                        "currencySubType": "",
+                        "displayType": "AmountOff",
+                        "bundleItems": [
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 700,
+                                "discountedPrice": 700,
+                                "alreadyOwnedPriceReduction": 700,
+                                "item": {
+                                    "templateId": "VehicleCosmetics_Wheel:wheel_lava",
+                                    "quantity": 1
+                                }
+                            }
+                        ]
+                    },
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S29/DAv2_Bundle_Featured_Wheel_Lava_Static.DAv2_Bundle_Featured_Wheel_Lava_Static",
+                        "offertag": "wheels",
+                        "LayoutId": "StarWars.95",
+                        "TileSize": "Size_1_x_2",
+                        "AnalyticOfferGroupId": "Star Wars Vehicle - Darth Maul Wheel / Red Lightsaber Boost",
+                        "ViolatorTag": "New",
+                        "ViolatorIntensity": "High",
+                        "SuppressRegularPrice": "true",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Wheel_Lava_Static_Bundle.DA_Featured_Wheel_Lava_Static_Bundle"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [],
+                    "offerType": "DynamicBundle",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/S29/DAv2_Bundle_Featured_Wheel_Lava_Static.DAv2_Bundle_Featured_Wheel_Lava_Static"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "wheels"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "StarWars.95"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_2"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "Star Wars Vehicle - Darth Maul Wheel / Red Lightsaber Boost"
+                        },
+                        {
+                            "key": "ViolatorTag",
+                            "value": "New"
+                        },
+                        {
+                            "key": "ViolatorIntensity",
+                            "value": "High"
+                        },
+                        {
+                            "key": "SuppressRegularPrice",
+                            "value": "true"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Wheel_Lava_Static_Bundle.DA_Featured_Wheel_Lava_Static_Bundle",
+                    "itemGrants": [
+                        {
+                            "templateId": "VehicleCosmetics_Wheel:wheel_lava",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -1,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -18220,7 +18163,7 @@
                     },
                     "meta": {
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S29/DAv2_Bundle_Featured_Booster_RetroTech.DAv2_Bundle_Featured_Booster_RetroTech",
-                        "offertag": "RetroTech",
+                        "offertag": "boosts",
                         "LayoutId": "StartYourEngines.98",
                         "TileSize": "Size_1_x_2",
                         "AnalyticOfferGroupId": "Synthwave Boost / Sandstorm Boost / Turbine Wheel",
@@ -18246,7 +18189,7 @@
                         },
                         {
                             "key": "offertag",
-                            "value": "RetroTech"
+                            "value": "boosts"
                         },
                         {
                             "key": "LayoutId",
@@ -19336,7 +19279,7 @@
                     },
                     "meta": {
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S29/DAv2_Bundle_Featured_Wheel_Pumpernickel.DAv2_Bundle_Featured_Wheel_Pumpernickel",
-                        "offertag": "wheel_pumpernickel",
+                        "offertag": "wheels",
                         "LayoutId": "StartYourEngines.98",
                         "TileSize": "Size_1_x_2",
                         "AnalyticOfferGroupId": "Synthwave Boost / Sandstorm Boost / Turbine Wheel",
@@ -19362,7 +19305,7 @@
                         },
                         {
                             "key": "offertag",
-                            "value": "wheel_pumpernickel"
+                            "value": "wheels"
                         },
                         {
                             "key": "LayoutId",
@@ -20322,7 +20265,7 @@
                     },
                     "meta": {
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S29/DAv2_Bundle_Featured_ThisIsCarta.DAv2_Bundle_Featured_ThisIsCarta",
-                        "offertag": "oblong",
+                        "offertag": "promodesc110",
                         "LayoutId": "StarWars.96",
                         "TileSize": "Size_3_x_2",
                         "AnalyticOfferGroupId": "Star Wars Vehicle - Beskar",
@@ -20347,7 +20290,7 @@
                         },
                         {
                             "key": "offertag",
-                            "value": "oblong"
+                            "value": "promodesc110"
                         },
                         {
                             "key": "LayoutId",
@@ -21658,6 +21601,103 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -47,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Red Lightsaber for -1 MtxCurrency",
+                    "offerId": "v2:/06833de60fe1aac7e873d8832ffcb4066c6d9e5d7bfdc8dbb400e17fb30625ac",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [],
+                    "dynamicBundleInfo": {
+                        "discountedBasePrice": 0,
+                        "regularBasePrice": 0,
+                        "floorPrice": 400,
+                        "currencyType": "MtxCurrency",
+                        "currencySubType": "",
+                        "displayType": "AmountOff",
+                        "bundleItems": [
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 400,
+                                "discountedPrice": 400,
+                                "alreadyOwnedPriceReduction": 400,
+                                "item": {
+                                    "templateId": "VehicleCosmetics_Booster:id_booster_lava2",
+                                    "quantity": 1
+                                }
+                            }
+                        ]
+                    },
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S29/DAv2_Bundle_Featured_Booster_Lava2_Static.DAv2_Bundle_Featured_Booster_Lava2_Static",
+                        "offertag": "boosts",
+                        "LayoutId": "StarWars.95",
+                        "TileSize": "Size_1_x_2",
+                        "AnalyticOfferGroupId": "Star Wars Vehicle - Darth Maul Wheel / Red Lightsaber Boost",
+                        "ViolatorTag": "New",
+                        "ViolatorIntensity": "High",
+                        "SuppressRegularPrice": "true",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Booster_Lava2_Static_Bundle.DA_Featured_Booster_Lava2_Static_Bundle"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [],
+                    "offerType": "DynamicBundle",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/S29/DAv2_Bundle_Featured_Booster_Lava2_Static.DAv2_Bundle_Featured_Booster_Lava2_Static"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "boosts"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "StarWars.95"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_2"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "Star Wars Vehicle - Darth Maul Wheel / Red Lightsaber Boost"
+                        },
+                        {
+                            "key": "ViolatorTag",
+                            "value": "New"
+                        },
+                        {
+                            "key": "ViolatorIntensity",
+                            "value": "High"
+                        },
+                        {
+                            "key": "SuppressRegularPrice",
+                            "value": "true"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Booster_Lava2_Static_Bundle.DA_Featured_Booster_Lava2_Static_Bundle",
+                    "itemGrants": [
+                        {
+                            "templateId": "VehicleCosmetics_Booster:id_booster_lava2",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -2,
                     "catalogGroupPriority": 0
                 },
                 {
