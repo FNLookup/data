@@ -3421,6 +3421,84 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x Elix Vox for 800 MtxCurrency",
+                    "offerId": "v2:/b85fb1961f8ac9982c4389f6db3d204340ee16d9cfca84578d2d49b0315a54a7",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 800,
+                            "dynamicRegularPrice": 800,
+                            "finalPrice": 800,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 800
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S29/DAv2_Mic_Alchemy.DAv2_Mic_Alchemy",
+                        "LayoutId": "GearForFestival.99",
+                        "TileSize": "Size_1_x_2",
+                        "AnalyticOfferGroupId": "SparksInstruments2",
+                        "FirstSeen": "5/7/2024",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Sparks_Mic_Alchemy.DA_Featured_Sparks_Mic_Alchemy"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksMicrophone:sparks_mic_alchemy",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/S29/DAv2_Mic_Alchemy.DAv2_Mic_Alchemy"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "GearForFestival.99"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_2"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "SparksInstruments2"
+                        },
+                        {
+                            "key": "FirstSeen",
+                            "value": "5/7/2024"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Sparks_Mic_Alchemy.DA_Featured_Sparks_Mic_Alchemy",
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksMicrophone:sparks_mic_alchemy",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -2,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Leia Organa, 1 x R2-D2 for 1500 MtxCurrency",
                     "offerId": "v2:/b0ddac174389768cf90e6ae09e511a8567938dbe2a5f2aa2495c9e6a52ffdfb9",
                     "fulfillmentIds": [],
@@ -4259,84 +4337,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -6,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Elix Vox for 1000 MtxCurrency",
-                    "offerId": "v2:/420d6085349906ab91ffb102f2f8de1b15c7a4c3f71e3a2e348b7d35f4efd56c",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 1000,
-                            "dynamicRegularPrice": 1000,
-                            "finalPrice": 1000,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 1000
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S29/DAv2_Mic_Alchemy.DAv2_Mic_Alchemy",
-                        "LayoutId": "GearForFestival.99",
-                        "TileSize": "Size_1_x_2",
-                        "AnalyticOfferGroupId": "SparksInstruments2",
-                        "FirstSeen": "5/7/2024",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Sparks_Mic_Alchemy.DA_Featured_Sparks_Mic_Alchemy"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksMicrophone:sparks_mic_alchemy",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S29/DAv2_Mic_Alchemy.DAv2_Mic_Alchemy"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "GearForFestival.99"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_2"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "SparksInstruments2"
-                        },
-                        {
-                            "key": "FirstSeen",
-                            "value": "5/7/2024"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Sparks_Mic_Alchemy.DA_Featured_Sparks_Mic_Alchemy",
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksMicrophone:sparks_mic_alchemy",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -2,
                     "catalogGroupPriority": 0
                 },
                 {
