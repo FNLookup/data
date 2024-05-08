@@ -351,7 +351,7 @@
 |Rocket Racing #2|[blog_posts_rocket-racing_ko_page_1.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_rocket-racing_ko_page_1.json)|
 |Rocket Racing #3|[blog_posts_rocket-racing_ko_page_2.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_rocket-racing_ko_page_2.json)|
 |Rocket Racing #4|[blog_posts_rocket-racing_ko_page_3.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_rocket-racing_ko_page_3.json)|
-|Save The World #1|[blog_posts_save-the-world_ko_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_save-the-world_ko_page_0.json)|
+|Save The World #4|[blog_posts_rocket-racing_ko_page_3.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_rocket-racing_ko_page_3.json)|
 |Save The World #2|[blog_posts_save-the-world_ko_page_1.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_save-the-world_ko_page_1.json)|
 |Save The World #3|[blog_posts_save-the-world_ko_page_2.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_save-the-world_ko_page_2.json)|
 |Save The World #4|[blog_posts_save-the-world_ko_page_3.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_save-the-world_ko_page_3.json)|
@@ -376,7 +376,7 @@
 |Creative #3|[blog_posts_creative_pl_page_2.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_creative_pl_page_2.json)|
 |Creative #4|[blog_posts_creative_pl_page_3.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_creative_pl_page_3.json)|
 |Fortnite Festival #1|[blog_posts_fortnite-festival_pl_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_fortnite-festival_pl_page_0.json)|
-|Fortnite Festival #2|[blog_posts_fortnite-festival_pl_page_1.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_fortnite-festival_pl_page_1.json)|
+|Fortnite Festival #1|[blog_posts_fortnite-festival_pl_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_fortnite-festival_pl_page_0.json)|
 |Fortnite Festival #3|[blog_posts_fortnite-festival_pl_page_2.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_fortnite-festival_pl_page_2.json)|
 |Fortnite Festival #4|[blog_posts_fortnite-festival_pl_page_3.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_fortnite-festival_pl_page_3.json)|
 |Lego Fortnite #1|[blog_posts_lego-fortnite_pl_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_lego-fortnite_pl_page_0.json)|
