@@ -1,5 +1,6 @@
 {
     "future": {
+        "unstable_singleFetch": false,
         "v3_fetcherPersist": false,
         "v3_relativeSplatPath": false,
         "v3_throwAbortReason": false
@@ -469,6 +470,7 @@
                     "epic.common.download": "\ub2e4\uc6b4\ub85c\ub4dc",
                     "epic.common.download_now": "\uc9c0\uae08 \ub2e4\uc6b4\ub85c\ub4dc",
                     "epic.common.download_on": "Download On",
+                    "epic.common.downloading": "Downloading...",
                     "epic.common.epic_games": "Epic Games",
                     "epic.common.error": "\uc624\ub958",
                     "epic.common.experience_not_rated": "\uc774\uc6a9\ub4f1\uae09 \uc2ec\uc0ac \ubbf8\uc644\ub8cc",
@@ -487,6 +489,7 @@
                     "epic.common.find_playlist_in_discover": "\ud3ec\ud2b8\ub098\uc774\ud2b8 \uac8c\uc784\uc758 \ub514\uc2a4\ucee4\ubc84 \uc139\uc158\uc5d0\uc11c \ub098\uc758 \ud50c\ub808\uc774\ub9ac\uc2a4\ud2b8\ub97c \ucc3e\uc544\ubcf4\uc138\uc694.",
                     "epic.common.finish": "\uc644\ub8cc",
                     "epic.common.follow": "{0} \ud314\ub85c\uc6b0",
+                    "epic.common.follow_the_prompts_to_continue": "Follow the prompts to continue.",
                     "epic.common.form.fields.authorizationPhrase": "\uc2b9\uc778 \ubb38\uad6c",
                     "epic.common.form.fields.country": "\uad6d\uac00",
                     "epic.common.form.fields.displayName": "\ud45c\uc2dc\uba85",
@@ -505,6 +508,7 @@
                     "epic.common.gameType.battleRoyale": "\ubc30\ud2c0\ub85c\uc584",
                     "epic.common.gameType.saveTheWorld": "\uc138\uc774\ube0c \ub354 \uc6d4\ub4dc",
                     "epic.common.get_it_on_epic_games_store": "Get it on Epic Games Store",
+                    "epic.common.get_support": "Get Support",
                     "epic.common.go_back": "\ub4a4\ub85c\uac00\uae30",
                     "epic.common.here": "\uc5ec\uae30",
                     "epic.common.heroes": "\uc601\uc6c5",
@@ -538,6 +542,7 @@
                     "epic.common.my_islands": "\ub098\uc758 \uc12c",
                     "epic.common.my_library": "\ub098\uc758 \ub77c\uc774\ube0c\ub7ec\ub9ac",
                     "epic.common.my_playlist": "\ub098\uc758 \ud50c\ub808\uc774\ub9ac\uc2a4\ud2b8",
+                    "epic.common.need_more_help": "Need More Help?",
                     "epic.common.news": "\uc0c8 \uc18c\uc2dd",
                     "epic.common.next": "\ub2e4\uc74c",
                     "epic.common.nintendo": "Nintendo Switch",
@@ -573,6 +578,7 @@
                     "epic.common.removed_from_playlist": "\ud50c\ub808\uc774\ub9ac\uc2a4\ud2b8\uc5d0\uc11c \uc81c\uac70 \uc644\ub8cc!",
                     "epic.common.reset": "\ub9ac\uc14b",
                     "epic.common.retry": "\uc7ac\uc2dc\ub3c4",
+                    "epic.common.retry_download": "Retry Download",
                     "epic.common.search": "\uac80\uc0c9",
                     "epic.common.searching": "\uac80\uc0c9 \uc911...",
                     "epic.common.securityCode": "\ubcf4\uc548 \ucf54\ub4dc",
@@ -1264,20 +1270,6 @@
                 "analyticsId": "v2|1719|a5157be5d4d50cdd6b5fb2df5fc44344",
                 "blog": [
                     {
-                        "date": "2024\ub144 5\uc6d4 1\uc77c",
-                        "href": "/news/star-wars-lands-in-the-fortnite-universe-the-eve-of-star-wars-day",
-                        "imgAlt": "\uc2a4\ud0c0\uc6cc\uc988\uac00 \ud3ec\ud2b8\ub098\uc774\ud2b8 \uc720\ub2c8\ubc84\uc2a4\uc5d0 \ucc3e\uc544\uc635\ub2c8\ub2e4!",
-                        "imgSrc": "https://cdn2.unrealengine.com/fortnite-star-wars-thumbnail-576x576-e54b03396128.jpg",
-                        "title": "\uc2a4\ud0c0\uc6cc\uc988\uac00 \ud3ec\ud2b8\ub098\uc774\ud2b8 \uc720\ub2c8\ubc84\uc2a4\uc5d0 \ucc3e\uc544\uc635\ub2c8\ub2e4!"
-                    },
-                    {
-                        "date": "2024\ub144 5\uc6d4 1\uc77c",
-                        "href": "/news/lego-fortnite-star-wars-begins-in-v29-40",
-                        "imgAlt": "\ub808\uace0 \ud3ec\ud2b8\ub098\uc774\ud2b8 | \uc2a4\ud0c0\uc6cc\uc988\uac00 v29.40 \uc5c5\ub370\uc774\ud2b8\ub85c \uc2dc\uc791\ub429\ub2c8\ub2e4!",
-                        "imgSrc": "https://cdn2.unrealengine.com/lego-fortnite-star-wars-thumbnail-576x576-e3abfdb9d61d.jpg",
-                        "title": "\ub808\uace0 \ud3ec\ud2b8\ub098\uc774\ud2b8 | \uc2a4\ud0c0\uc6cc\uc988\uac00 v29.40 \uc5c5\ub370\uc774\ud2b8\ub85c \uc2dc\uc791\ub429\ub2c8\ub2e4!"
-                    },
-                    {
                         "date": "2024\ub144 5\uc6d4 3\uc77c",
                         "href": "/news/complete-a-fortnite-item-collection-on-twitch-and-get-a-loading-screen",
                         "imgAlt": "Twitch\uc5d0\uc11c \ud3ec\ud2b8\ub098\uc774\ud2b8 \ud14c\uc774\ud06c\uc624\ubc84\ub97c \uc2dc\uc791\ud558\uc138\uc694!",
@@ -1292,25 +1284,25 @@
                         "title": "\ub85c\ucf13 \ub808\uc774\uc2f1 v29.40: 2\uac1c\uc758 \uc2e0\uaddc \uc5d0\ud53d \uc81c\uc791 \ud2b8\ub799\uc744 \ud50c\ub808\uc774\ud558\uc138\uc694!"
                     },
                     {
+                        "date": "2024\ub144 5\uc6d4 1\uc77c",
+                        "href": "/news/star-wars-lands-in-the-fortnite-universe-the-eve-of-star-wars-day",
+                        "imgAlt": "\uc2a4\ud0c0\uc6cc\uc988\uac00 \ud3ec\ud2b8\ub098\uc774\ud2b8 \uc720\ub2c8\ubc84\uc2a4\uc5d0 \ucc3e\uc544\uc635\ub2c8\ub2e4!",
+                        "imgSrc": "https://cdn2.unrealengine.com/fortnite-star-wars-thumbnail-576x576-e54b03396128.jpg",
+                        "title": "\uc2a4\ud0c0\uc6cc\uc988\uac00 \ud3ec\ud2b8\ub098\uc774\ud2b8 \uc720\ub2c8\ubc84\uc2a4\uc5d0 \ucc3e\uc544\uc635\ub2c8\ub2e4!"
+                    },
+                    {
+                        "date": "2024\ub144 5\uc6d4 1\uc77c",
+                        "href": "/news/lego-fortnite-star-wars-begins-in-v29-40",
+                        "imgAlt": "\ub808\uace0 \ud3ec\ud2b8\ub098\uc774\ud2b8 | \uc2a4\ud0c0\uc6cc\uc988\uac00 v29.40 \uc5c5\ub370\uc774\ud2b8\ub85c \uc2dc\uc791\ub429\ub2c8\ub2e4!",
+                        "imgSrc": "https://cdn2.unrealengine.com/lego-fortnite-star-wars-thumbnail-576x576-e3abfdb9d61d.jpg",
+                        "title": "\ub808\uace0 \ud3ec\ud2b8\ub098\uc774\ud2b8 | \uc2a4\ud0c0\uc6cc\uc988\uac00 v29.40 \uc5c5\ub370\uc774\ud2b8\ub85c \uc2dc\uc791\ub429\ub2c8\ub2e4!"
+                    },
+                    {
                         "date": "2024\ub144 4\uc6d4 23\uc77c",
                         "href": "/news/fortnite-festival-season-3-features-billie-eilish",
                         "imgAlt": "\ud3ec\ud2b8\ub098\uc774\ud2b8 \ud398\uc2a4\ud2f0\ubc8c \uc2dc\uc98c 3\uc5d0 \ube4c\ub9ac \uc544\uc77c\ub9ac\uc2dc\uac00 \ucc3e\uc544\uc635\ub2c8\ub2e4!",
                         "imgSrc": "https://cdn2.unrealengine.com/fortnite-festival-season-3-thumbnail-576x576-47f42a85a1e6.jpg",
                         "title": "\ud3ec\ud2b8\ub098\uc774\ud2b8 \ud398\uc2a4\ud2f0\ubc8c \uc2dc\uc98c 3\uc5d0 \ube4c\ub9ac \uc544\uc77c\ub9ac\uc2dc\uac00 \ucc3e\uc544\uc635\ub2c8\ub2e4!"
-                    },
-                    {
-                        "date": "2024\ub144 4\uc6d4 22\uc77c",
-                        "href": "/news/new-see-confrontational-emotes-setting-in-fortnite",
-                        "imgAlt": "'\ub3c4\ubc1c \uc774\ubaa8\ud2b8 \ubcf4\uae30' \uc2e0\uaddc \uc124\uc815",
-                        "imgSrc": "https://cdn2.unrealengine.com/fortnite-confrontational-emotes-setting-thumbnail-576x576-6fbea226d8bd.jpg",
-                        "title": "'\ub3c4\ubc1c \uc774\ubaa8\ud2b8 \ubcf4\uae30' \uc2e0\uaddc \uc124\uc815"
-                    },
-                    {
-                        "date": "2024\ub144 4\uc6d4 22\uc77c",
-                        "href": "/news/lego-fortnite-v29-30-farm-friends",
-                        "imgAlt": "\ub808\uace0 \ud3ec\ud2b8\ub098\uc774\ud2b8 v29.30: \ub18d\uc7a5 \uce5c\uad6c\ub4e4!  ",
-                        "imgSrc": "https://cdn2.unrealengine.com/lego-fortnite-farmfriends-thumb-576x576-7a387e9d09d8.jpg",
-                        "title": "\ub808\uace0 \ud3ec\ud2b8\ub098\uc774\ud2b8 v29.30: \ub18d\uc7a5 \uce5c\uad6c\ub4e4!  "
                     }
                 ],
                 "bottomCard": {
@@ -1548,7 +1540,7 @@
                         "islands": [
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 297791,
+                                "ccu": 301088,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ubc30\ud2c0\ub85c\uc584",
                                 "imgSrc": "https://cdn2.unrealengine.com/ch5s2-br-480-480x270-57e98ffb3d25.jpg",
@@ -1562,7 +1554,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 266047,
+                                "ccu": 283582,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ube4c\ub4dc \uc81c\ub85c",
                                 "imgSrc": "https://cdn2.unrealengine.com/ch5s2-zb-480-ko-480x270-c6d3de82657c.jpg",
@@ -1576,7 +1568,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "E10+",
-                                "ccu": 83715,
+                                "ccu": 84100,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ub808\uace0 \ud3ec\ud2b8\ub098\uc774\ud2b8",
                                 "imgSrc": "https://cdn2.unrealengine.com/fnjn-starwars-discovertile-480-480x270-2dbb298ed188.jpg",
@@ -1590,7 +1582,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "E",
-                                "ccu": 7697,
+                                "ccu": 8257,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ub85c\ucf13 \ub808\uc774\uc2f1",
                                 "imgSrc": "https://cdn2.unrealengine.com/rocketracing-launchtile-480-480x270-55c0384846bd.jpg",
@@ -1604,7 +1596,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 12799,
+                                "ccu": 13886,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ud398\uc2a4\ud2f0\ubc8c \uba54\uc778 \uc2a4\ud14c\uc774\uc9c0",
                                 "imgSrc": "https://cdn2.unrealengine.com/kr-fnsp-03-playlisttile-mainstage-480-480x270-4a9e54077e2f.jpg",
@@ -1618,7 +1610,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 1720,
+                                "ccu": 1636,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ud398\uc2a4\ud2f0\ubc8c \uc7bc \uc2a4\ud14c\uc774\uc9c0",
                                 "imgSrc": "https://cdn2.unrealengine.com/kr-fnsp-02-playlist-tile-jam-stage-480-480x270-f6675b2290c2.jpg",
@@ -1632,7 +1624,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 135879,
+                                "ccu": 134932,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ub7ad\ud06c \ubc30\ud2c0\ub85c\uc584",
                                 "imgSrc": "https://static-assets-prod.s3.amazonaws.com/fn/static/1p/Ranked_BR_480_s.jpg",
@@ -1646,7 +1638,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 24046,
+                                "ccu": 24299,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ub7ad\ud06c \ube4c\ub4dc \uc81c\ub85c",
                                 "imgSrc": "https://static-assets-prod.s3.amazonaws.com/fn/static/1p/Ranked_ZB_480_s.jpg",
@@ -1660,7 +1652,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 13686,
+                                "ccu": 13627,
                                 "hasParentalLock": false,
                                 "imgAlt": "\uc138\uc774\ube0c \ub354 \uc6d4\ub4dc",
                                 "imgSrc": "https://cdn2.unrealengine.com/stw-480-480x270-5cb46625cf5b.jpg",
@@ -1673,7 +1665,7 @@
                                 "title": "\uc138\uc774\ube0c \ub354 \uc6d4\ub4dc"
                             },
                             {
-                                "ccu": 8813,
+                                "ccu": 9023,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ud3ec\ud06c\ub9ac",
                                 "imgSrc": "https://cdn2.unrealengine.com/fneco-28-00-creative-discovertiles-keyart-480x270-480x270-93a3c0ed804d.jpg",
@@ -1700,7 +1692,7 @@
                         "islands": [
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 13929,
+                                "ccu": 13798,
                                 "hasParentalLock": false,
                                 "imgAlt": "SUPER RED VS BLUE \ud83d\udd34\ud83d\udd35",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/bIGEDniTHEFjCnUqcT/image/landscape_comp_s.jpeg",
@@ -1713,7 +1705,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 34302,
+                                "ccu": 33618,
                                 "hasParentalLock": false,
                                 "imgAlt": "The Pit - Free For All",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/fZGOpaMyJsChNNbPWU/image/landscape_comp_s.jpeg",
@@ -1726,7 +1718,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 25483,
+                                "ccu": 24862,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ud06c\ub808\uc774\uc9c0 \ub808\ub4dc VS \ube14\ub8e8 \ud83c\udd95",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/hIAuofqkBVwIRRQDIt/image/landscape_comp_s.jpeg",
@@ -1739,7 +1731,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 16710,
+                                "ccu": 16875,
                                 "hasParentalLock": false,
                                 "imgAlt": "Piece Control 2v2 \ud83c\udfaf",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/glLsUZDMszfdiigTCh/image/landscape_comp_s.jpeg",
@@ -1752,7 +1744,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 24395,
+                                "ccu": 25533,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ud83d\udc10 GO GOATED! Zone Wars \ud83c\udf00 *CH5 WEAPONS*",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/KQkevQEfaEnaSgOiHo/image/landscape_comp_s.jpeg",
@@ -1765,7 +1757,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 5138,
+                                "ccu": 5178,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ud83c\udfdd\ufe0f SKYLANDS TYCOON",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/LphSppFklYszIoXfuF/image/landscape_comp_s.jpeg",
@@ -1778,7 +1770,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 2856,
+                                "ccu": 2383,
                                 "hasParentalLock": false,
                                 "imgAlt": "250+ MEDIUM PARKOUR\u2b50",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/FfvWiqsnuJwOQEnAbX/image/landscape_comp_s.jpeg",
@@ -1791,7 +1783,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 12884,
+                                "ccu": 13117,
                                 "hasParentalLock": false,
                                 "imgAlt": "Bed Wars",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/YWLlJLAqupinfUJupy/image/landscape_comp_s.jpeg",
@@ -1804,7 +1796,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 1157,
+                                "ccu": 1101,
                                 "hasParentalLock": false,
                                 "imgAlt": "Star Trip Tycoon",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/LNJCZvkPcSVfKXNXXA/image/landscape_comp_s.jpeg",
@@ -1817,7 +1809,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 7857,
+                                "ccu": 8949,
                                 "hasParentalLock": false,
                                 "imgAlt": "TILTED ZONE WARS \u2b50",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/OnAoidffDQgvADNDDU/image/landscape_comp_s.jpeg",
@@ -1843,7 +1835,7 @@
                         "islands": [
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 2500,
+                                "ccu": 2568,
                                 "hasParentalLock": false,
                                 "imgAlt": "FARMLIFE4\ud83c\udf3e",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/MAHhZvkxswTabuPJqo/image/landscape_comp_s.jpeg",
@@ -1856,7 +1848,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 5138,
+                                "ccu": 5178,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ud83c\udfdd\ufe0f SKYLANDS TYCOON",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/LphSppFklYszIoXfuF/image/landscape_comp_s.jpeg",
@@ -1869,7 +1861,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 1155,
+                                "ccu": 2068,
                                 "hasParentalLock": false,
                                 "imgAlt": "KILLER TYCOON \ud83d\udd2a",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/kJXwGTvDKCXuygSfFS/image/landscape_comp_s.jpeg",
@@ -1882,7 +1874,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 12884,
+                                "ccu": 13117,
                                 "hasParentalLock": false,
                                 "imgAlt": "Bed Wars",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/YWLlJLAqupinfUJupy/image/landscape_comp_s.jpeg",
@@ -1895,7 +1887,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 4612,
+                                "ccu": 4630,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ud83d\udd36Prison Breakout RP\ud83d\udd37 *New Heist!*",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/eIqVjfnmxkbkswBAYw/image/landscape_comp_s.jpeg",
@@ -1908,7 +1900,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 856,
+                                "ccu": 787,
                                 "hasParentalLock": false,
                                 "imgAlt": "MEGA WORLD: Bossfight",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/zhLyajWllqLJXuCQXB/image/landscape_comp_s.jpeg",
@@ -1921,7 +1913,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 1746,
+                                "ccu": 1977,
                                 "hasParentalLock": false,
                                 "imgAlt": "TR\ud83e\udd23LL Bed Wars \ud83d\udecf\ufe0f",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/XlSGIIBoxYNRMhFqPg/image/landscape_comp_s.jpeg",
@@ -1934,7 +1926,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 1651,
+                                "ccu": 1494,
                                 "hasParentalLock": false,
                                 "imgAlt": "Bed Wars Klombos [PvP BedWars]",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/VXXKajtjCWFiqvpWWo/image/landscape_comp_s.jpeg",
@@ -1947,7 +1939,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 7207,
+                                "ccu": 7315,
                                 "hasParentalLock": false,
                                 "imgAlt": "MURDER MYSTERY",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/YHQQEDvuSVXIUVnczJ/image/landscape_comp_s.jpeg",
@@ -1960,7 +1952,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 1364,
+                                "ccu": 1281,
                                 "hasParentalLock": false,
                                 "imgAlt": "Lucky Block Bedwars",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/cSrzIctlQtHqVYPYYi/image/landscape_comp_s.jpeg",
@@ -1999,7 +1991,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 6893,
+                                "ccu": 6995,
                                 "hasParentalLock": false,
                                 "imgAlt": "All Weapons - Free For All",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/IurmiwYvRPFyjKAlux/image/landscape_comp_s.jpeg",
@@ -2012,7 +2004,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 4256,
+                                "ccu": 4732,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ud83e\uddb8 HEROES GO GOATED \ud83c\udf00",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/dxPelPxVlJaRKNbipX/image/landscape_comp_s.jpeg",
@@ -2025,7 +2017,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 5852,
+                                "ccu": 5964,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ud83d\udc96Bio's TRIO - Zone Wars\ud83c\udf00",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/ZiYEkeVnHtoZGzfckb/image/landscape_comp_s.jpeg",
@@ -2038,7 +2030,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 34302,
+                                "ccu": 33618,
                                 "hasParentalLock": false,
                                 "imgAlt": "The Pit - Free For All",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/fZGOpaMyJsChNNbPWU/image/landscape_comp_s.jpeg",
@@ -2051,7 +2043,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 13929,
+                                "ccu": 13798,
                                 "hasParentalLock": false,
                                 "imgAlt": "SUPER RED VS BLUE \ud83d\udd34\ud83d\udd35",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/bIGEDniTHEFjCnUqcT/image/landscape_comp_s.jpeg",
@@ -2064,7 +2056,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 25483,
+                                "ccu": 24862,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ud06c\ub808\uc774\uc9c0 \ub808\ub4dc VS \ube14\ub8e8 \ud83c\udd95",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/hIAuofqkBVwIRRQDIt/image/landscape_comp_s.jpeg",
@@ -2077,7 +2069,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 3864,
+                                "ccu": 4067,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ud83d\udcaf RED VS BLUE \ud83e\udd76 RUMBLE - Zero Build",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/rvTXXtOlspivFZztRN/image/landscape_comp_s.jpeg",
@@ -2090,7 +2082,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 4079,
+                                "ccu": 4232,
                                 "hasParentalLock": false,
                                 "imgAlt": "\u0645\u0627\u0628 \u0627\u0644\u0645\u0639\u0631\u0642\u064a\u0646 PRO \ud83d\udcaf",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/hSWKZkISESVQrnJCIn/image/landscape_comp_s.jpeg",
@@ -2103,7 +2095,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 1856,
+                                "ccu": 1900,
                                 "hasParentalLock": false,
                                 "imgAlt": "The Pit - Zero Build",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/qFRDkZBGEKdBJtwBYU/image/landscape_comp_s.jpeg",
@@ -2129,7 +2121,7 @@
                         "islands": [
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 896,
+                                "ccu": 930,
                                 "hasParentalLock": false,
                                 "imgAlt": "BLADE BALL FORTNITE \u2604\ufe0f",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/iseXUAPKChcBejTwPY/image/landscape_comp_s.jpeg",
@@ -2142,7 +2134,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 1676,
+                                "ccu": 1589,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ud83d\udd34 YOUTUBER 3 TYCOON",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/ODmHeguXOIZSSGGDMn/image/landscape_comp_s.jpeg",
@@ -2155,7 +2147,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "E",
-                                "ccu": 1101,
+                                "ccu": 1108,
                                 "hasParentalLock": false,
                                 "imgAlt": "OnlyUp Time Travel \ud83d\ude80",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/pyOZbZiDlJIvKXyHkK/image/landscape_comp_s.jpeg",
@@ -2168,7 +2160,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 1320,
+                                "ccu": 1515,
                                 "hasParentalLock": false,
                                 "imgAlt": "HIDE AND SEEK",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/GwtfgPugvxNIztQWBj/image/landscape_comp_s.jpeg",
@@ -2181,7 +2173,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 2522,
+                                "ccu": 2578,
                                 "hasParentalLock": false,
                                 "imgAlt": "SPEED REALISTICS 1v1 [RAPID]",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/enzLNoBWGPtDRaBJwV/image/landscape_comp_s.jpeg",
@@ -2194,7 +2186,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "E",
-                                "ccu": 1341,
+                                "ccu": 1606,
                                 "hasParentalLock": false,
                                 "imgAlt": "\u2754 Fort Who \u2753 - Guess Who They Are",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/gRfJLKTHaIwZCNHrRH/image/landscape_comp_s.jpeg",
@@ -2207,7 +2199,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 911,
+                                "ccu": 1016,
                                 "hasParentalLock": false,
                                 "imgAlt": "FNAF - ULTIMATE SURVIVAL",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/ilQFKTiUubGxunqLYf/image/landscape_comp_s.jpeg",
@@ -2220,7 +2212,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 697,
+                                "ccu": 692,
                                 "hasParentalLock": false,
                                 "imgAlt": "SPEED 1V1 MONGRAAL x MRSAVAGE x AMAR",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/UAobWzcVXHrUxkKyfw/image/landscape_comp_s.jpeg",
@@ -2233,7 +2225,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 143,
+                                "ccu": 146,
                                 "hasParentalLock": false,
                                 "imgAlt": "Season 3 Playground (OG MAP)",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/mxKzMgAgnliZswWwzh/image/landscape_comp_s.jpeg",
@@ -2246,7 +2238,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 215,
+                                "ccu": 288,
                                 "hasParentalLock": false,
                                 "imgAlt": "ESCAPE CASEOH [HORROR]",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/LPJVVWySxnvpeOiXmy/image/landscape_comp_s.jpeg",
@@ -2272,7 +2264,7 @@
                         "islands": [
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 380,
+                                "ccu": 391,
                                 "hasParentalLock": false,
                                 "imgAlt": "WORLD ZONE WARS\u00a0\ud83c\udf0e (FOREVER / ENDLESS)",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/EtDUeOXJuTgWRmSIQX/image/landscape_comp_s.jpeg",
@@ -2285,7 +2277,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 652,
+                                "ccu": 653,
                                 "hasParentalLock": false,
                                 "imgAlt": "MUTANTS BOX FIGHTS",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/mlDFysaxsXfuLwPgin/image/landscape_comp_s.jpeg",
@@ -2298,7 +2290,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "E10+",
-                                "ccu": 483,
+                                "ccu": 553,
                                 "hasParentalLock": false,
                                 "imgAlt": "Goated Golf",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/kZggyvwBzppZdPTaLY/image/landscape_comp_s.jpeg",
@@ -2311,7 +2303,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 2269,
+                                "ccu": 2264,
                                 "hasParentalLock": false,
                                 "imgAlt": "CASTLE TYCOON: BOSSFIGHT\ud83d\udc32",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/OTqKAWREWXrbPrAzjK/image/landscape_comp_s.jpeg",
@@ -2324,7 +2316,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 856,
+                                "ccu": 787,
                                 "hasParentalLock": false,
                                 "imgAlt": "MEGA WORLD: Bossfight",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/zhLyajWllqLJXuCQXB/image/landscape_comp_s.jpeg",
@@ -2350,7 +2342,7 @@
                         "islands": [
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 12884,
+                                "ccu": 13117,
                                 "hasParentalLock": false,
                                 "imgAlt": "Bed Wars",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/YWLlJLAqupinfUJupy/image/landscape_comp_s.jpeg",
@@ -2363,7 +2355,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 7207,
+                                "ccu": 7315,
                                 "hasParentalLock": false,
                                 "imgAlt": "MURDER MYSTERY",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/YHQQEDvuSVXIUVnczJ/image/landscape_comp_s.jpeg",
@@ -2376,7 +2368,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 2269,
+                                "ccu": 2264,
                                 "hasParentalLock": false,
                                 "imgAlt": "CASTLE TYCOON: BOSSFIGHT\ud83d\udc32",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/OTqKAWREWXrbPrAzjK/image/landscape_comp_s.jpeg",
@@ -2389,7 +2381,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 1676,
+                                "ccu": 1589,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ud83d\udd34 YOUTUBER 3 TYCOON",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/ODmHeguXOIZSSGGDMn/image/landscape_comp_s.jpeg",
@@ -2402,7 +2394,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 1002,
+                                "ccu": 1304,
                                 "hasParentalLock": false,
                                 "imgAlt": "Dragon SkyBlock Tycoon",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/nAGTZChQvSimmjiCMb/image/landscape_comp_s.jpeg",
@@ -2415,7 +2407,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 5138,
+                                "ccu": 5178,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ud83c\udfdd\ufe0f SKYLANDS TYCOON",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/LphSppFklYszIoXfuF/image/landscape_comp_s.jpeg",
@@ -2428,7 +2420,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 1746,
+                                "ccu": 1977,
                                 "hasParentalLock": false,
                                 "imgAlt": "TR\ud83e\udd23LL Bed Wars \ud83d\udecf\ufe0f",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/XlSGIIBoxYNRMhFqPg/image/landscape_comp_s.jpeg",
@@ -2441,7 +2433,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "E",
-                                "ccu": 1341,
+                                "ccu": 1606,
                                 "hasParentalLock": false,
                                 "imgAlt": "\u2754 Fort Who \u2753 - Guess Who They Are",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/gRfJLKTHaIwZCNHrRH/image/landscape_comp_s.jpeg",
@@ -2454,7 +2446,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 835,
+                                "ccu": 809,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ud83d\udd34 TIKTOKER TYCOON",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/KfeGenHylveykDYYRt/image/landscape_comp_s.jpeg",
@@ -2467,7 +2459,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 4612,
+                                "ccu": 4630,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ud83d\udd36Prison Breakout RP\ud83d\udd37 *New Heist!*",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/eIqVjfnmxkbkswBAYw/image/landscape_comp_s.jpeg",
@@ -2493,7 +2485,7 @@
                         "islands": [
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 1945,
+                                "ccu": 2033,
                                 "hasParentalLock": false,
                                 "imgAlt": "FUNNY RED VS BLUE \ud83d\udd34\ud83d\udd35",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/waFfjGNbZlIAnePIPG/image/landscape_comp_s.jpeg",
@@ -2506,7 +2498,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 1358,
+                                "ccu": 1494,
                                 "hasParentalLock": false,
                                 "imgAlt": "\u2b50STAR WARS\u2b50 RED VS BLUE",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/zEwltKIcwBPHJtIxrL/image/landscape_comp_s.jpeg",
@@ -2519,7 +2511,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 1403,
+                                "ccu": 1825,
                                 "hasParentalLock": false,
                                 "imgAlt": "AGENT TYCOON\ud83d\udca5",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/XmEKyjDuWPwBvxVgUF/image/landscape_comp_s.jpeg",
@@ -2532,7 +2524,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "E10+",
-                                "ccu": 1143,
+                                "ccu": 1162,
                                 "hasParentalLock": false,
                                 "imgAlt": "Animal Tycoon \ud83d\udc36",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/WfZLjFqNoraCIkVvQi/image/landscape_comp_s.jpeg",
@@ -2545,7 +2537,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 3034,
+                                "ccu": 3303,
                                 "hasParentalLock": false,
                                 "imgAlt": "MEGA RED VS BLUE GUN GAME HERO ONE SHOT",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/yJHDANsTxXZBoZOriI/image/landscape_comp_s.jpeg",
@@ -2558,7 +2550,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 1002,
+                                "ccu": 1304,
                                 "hasParentalLock": false,
                                 "imgAlt": "Dragon SkyBlock Tycoon",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/nAGTZChQvSimmjiCMb/image/landscape_comp_s.jpeg",
@@ -2571,7 +2563,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 1551,
+                                "ccu": 1965,
                                 "hasParentalLock": false,
                                 "imgAlt": "BRAWL FFA \u2b50",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/GFXTLZltMSoRHcoPYm/image/landscape_comp_s.jpeg",
@@ -2584,7 +2576,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 652,
+                                "ccu": 653,
                                 "hasParentalLock": false,
                                 "imgAlt": "MUTANTS BOX FIGHTS",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/mlDFysaxsXfuLwPgin/image/landscape_comp_s.jpeg",
@@ -2597,7 +2589,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 143,
+                                "ccu": 166,
                                 "hasParentalLock": false,
                                 "imgAlt": "PRO GUN GAME \ud83d\udd2b",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/GlRSZPpUEtxwuWrcuA/image/landscape_comp_s.jpeg",
@@ -2610,7 +2602,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 645,
+                                "ccu": 269,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ud83d\ude0e 1V1 FASHION \ud83c\udfaf",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/mDXYGrmjRMKJJdaCgR/image/landscape_comp_s.jpeg",
@@ -2636,7 +2628,7 @@
                         "islands": [
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 1403,
+                                "ccu": 1825,
                                 "hasParentalLock": false,
                                 "imgAlt": "AGENT TYCOON\ud83d\udca5",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/XmEKyjDuWPwBvxVgUF/image/landscape_comp_s.jpeg",
@@ -2649,7 +2641,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 165,
+                                "ccu": 173,
                                 "hasParentalLock": false,
                                 "imgAlt": "MEME 1v1 [FLOWKS]",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/rliPUJgdJuGCUWAbrz/image/landscape_comp_s.jpeg",
@@ -2662,7 +2654,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 229,
+                                "ccu": 246,
                                 "hasParentalLock": false,
                                 "imgAlt": "SUMMER TYCOON \ud83c\udfd6\ufe0f",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/yIOuirsOIJLmqrpmRC/image/landscape_comp_s.jpeg",
@@ -2675,7 +2667,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 354,
+                                "ccu": 399,
                                 "hasParentalLock": false,
                                 "imgAlt": "FUTURE FOOTBALL",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/NfoaHQHDhhXSVEpXod/image/landscape_comp_s.jpeg",
@@ -2688,7 +2680,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 397,
+                                "ccu": 419,
                                 "hasParentalLock": false,
                                 "imgAlt": "FIGHT CLUB TYCOON \ud83d\udc4a",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/znXSgFZJqXgIMqrZxH/image/landscape_comp_s.jpeg",
@@ -2701,7 +2693,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 88,
+                                "ccu": 68,
                                 "hasParentalLock": false,
                                 "imgAlt": "AIRSHIP WARS! RED VS BLUE\ud83d\udd34\ud83d\udd35",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/bBjuQWIGBZdBPyqRZZ/image/landscape_comp_s.jpeg",
@@ -2714,7 +2706,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 49,
+                                "ccu": 46,
                                 "hasParentalLock": false,
                                 "imgAlt": "LITESABER TYCOON",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/HoBYbUzHnGXamiyTsy/image/landscape_comp_s.jpeg",
@@ -2727,7 +2719,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 3034,
+                                "ccu": 3303,
                                 "hasParentalLock": false,
                                 "imgAlt": "MEGA RED VS BLUE GUN GAME HERO ONE SHOT",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/yJHDANsTxXZBoZOriI/image/landscape_comp_s.jpeg",
@@ -2740,7 +2732,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 45,
+                                "ccu": 51,
                                 "hasParentalLock": false,
                                 "imgAlt": "The OG Gun Game [Ranked] \ud83d\udccd",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/pHncwZGLybamJpIVIC/image/landscape_comp_s.jpeg",
@@ -2753,7 +2745,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 165,
+                                "ccu": 161,
                                 "hasParentalLock": false,
                                 "imgAlt": "ZOMBIE CITY: BOSSFIGHT",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/ToVemdlhciCuDkcFRf/image/landscape_comp_s.jpeg",
@@ -2766,7 +2758,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 892,
+                                "ccu": 522,
                                 "hasParentalLock": false,
                                 "imgAlt": "FAST FOOD PROP HUNT\ud83c\udf54",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/ICAGpJjHxtRWSkZMHZ/image/landscape_comp_s.jpeg",
@@ -2779,7 +2771,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 17,
+                                "ccu": 8,
                                 "hasParentalLock": false,
                                 "imgAlt": "PIT - SUPERFLATPVP",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/qjuFBcosZykBwcUbBY/image/landscape_comp_s.jpeg",
@@ -2805,7 +2797,7 @@
                         "islands": [
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 34302,
+                                "ccu": 33618,
                                 "hasParentalLock": false,
                                 "imgAlt": "The Pit - Free For All",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/fZGOpaMyJsChNNbPWU/image/landscape_comp_s.jpeg",
@@ -2818,7 +2810,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 24395,
+                                "ccu": 25533,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ud83d\udc10 GO GOATED! Zone Wars \ud83c\udf00 *CH5 WEAPONS*",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/KQkevQEfaEnaSgOiHo/image/landscape_comp_s.jpeg",
@@ -2831,7 +2823,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 16710,
+                                "ccu": 16875,
                                 "hasParentalLock": false,
                                 "imgAlt": "Piece Control 2v2 \ud83c\udfaf",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/glLsUZDMszfdiigTCh/image/landscape_comp_s.jpeg",
@@ -2844,7 +2836,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 1100,
+                                "ccu": 1201,
                                 "hasParentalLock": false,
                                 "imgAlt": "Minecraft - The Pit - Free For All",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/DNqXddtvQKRSBMMZpc/image/landscape_comp_s.jpeg",
@@ -2857,7 +2849,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 10442,
+                                "ccu": 10765,
                                 "hasParentalLock": false,
                                 "imgAlt": "BHE 1V1 BUILD FIGHTS \u0639\u0627\u0631\u0643\u0646\u064a \u0628\u0627\u0644\u0628\u0646\u0627\u0621 \u6226\u3044\ud83d\udc8e",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/rkULKGxCHRHLorJTUa/image/landscape_comp_s.jpeg",
@@ -2870,7 +2862,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 7857,
+                                "ccu": 8949,
                                 "hasParentalLock": false,
                                 "imgAlt": "TILTED ZONE WARS \u2b50",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/OnAoidffDQgvADNDDU/image/landscape_comp_s.jpeg",
@@ -2883,7 +2875,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 60,
+                                "ccu": 81,
                                 "hasParentalLock": false,
                                 "imgAlt": "All-in-One 1v1's",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/NoXnpLtflcnlxjGIFi/image/landscape_comp_s.jpeg",
@@ -2896,7 +2888,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 5716,
+                                "ccu": 5969,
                                 "hasParentalLock": false,
                                 "imgAlt": "PANDVIL Box Fight (2v2) \ud83d\udce6",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/eiSrQmQBXjaopHnocQ/image/landscape_comp_s.jpeg",
@@ -2909,7 +2901,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 5852,
+                                "ccu": 5964,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ud83d\udc96Bio's TRIO - Zone Wars\ud83c\udf00",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/ZiYEkeVnHtoZGzfckb/image/landscape_comp_s.jpeg",
@@ -2922,7 +2914,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 5763,
+                                "ccu": 5566,
                                 "hasParentalLock": false,
                                 "imgAlt": "1v1 Build Fights! [4.6.4]",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/DvHxvhVqJouxUDkEkx/image/landscape_comp_s.jpeg",
@@ -2949,7 +2941,7 @@
                         "islands": [
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 25483,
+                                "ccu": 24862,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ud06c\ub808\uc774\uc9c0 \ub808\ub4dc VS \ube14\ub8e8 \ud83c\udd95",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/hIAuofqkBVwIRRQDIt/image/landscape_comp_s.jpeg",
@@ -2962,7 +2954,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 13929,
+                                "ccu": 13798,
                                 "hasParentalLock": false,
                                 "imgAlt": "SUPER RED VS BLUE \ud83d\udd34\ud83d\udd35",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/bIGEDniTHEFjCnUqcT/image/landscape_comp_s.jpeg",
@@ -2975,7 +2967,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 12884,
+                                "ccu": 13117,
                                 "hasParentalLock": false,
                                 "imgAlt": "Bed Wars",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/YWLlJLAqupinfUJupy/image/landscape_comp_s.jpeg",
@@ -2988,7 +2980,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 28,
+                                "ccu": 159,
                                 "hasParentalLock": false,
                                 "imgAlt": "CRAZY BEDWARS \ud83d\udecf\ufe0f",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/WtpUvboRumIjovQYPw/image/landscape_comp_s.jpeg",
@@ -3001,7 +2993,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 4079,
+                                "ccu": 4232,
                                 "hasParentalLock": false,
                                 "imgAlt": "\u0645\u0627\u0628 \u0627\u0644\u0645\u0639\u0631\u0642\u064a\u0646 PRO \ud83d\udcaf",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/hSWKZkISESVQrnJCIn/image/landscape_comp_s.jpeg",
@@ -3014,7 +3006,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 3864,
+                                "ccu": 4067,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ud83d\udcaf RED VS BLUE \ud83e\udd76 RUMBLE - Zero Build",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/rvTXXtOlspivFZztRN/image/landscape_comp_s.jpeg",
@@ -3027,7 +3019,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 13,
+                                "ccu": 43,
                                 "hasParentalLock": false,
                                 "imgAlt": "*fixed* FORTLINES FIRST PERSON",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/RYBTGULjncstIymoDL/image/landscape_comp_s.jpeg",
@@ -3040,7 +3032,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 1614,
+                                "ccu": 1175,
                                 "hasParentalLock": false,
                                 "imgAlt": "\u2b50NEW WEAPONS CH5 GUN GAME HERO ONE SHOT",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/hNMMDMeFGqvtmiuIkM/image/landscape_comp_s.jpeg",
@@ -3053,7 +3045,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 1364,
+                                "ccu": 1281,
                                 "hasParentalLock": false,
                                 "imgAlt": "Lucky Block Bedwars",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/cSrzIctlQtHqVYPYYi/image/landscape_comp_s.jpeg",
@@ -3066,7 +3058,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 4612,
+                                "ccu": 4630,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ud83d\udd36Prison Breakout RP\ud83d\udd37 *New Heist!*",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/eIqVjfnmxkbkswBAYw/image/landscape_comp_s.jpeg",
@@ -3093,7 +3085,7 @@
                         "islands": [
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 2856,
+                                "ccu": 2383,
                                 "hasParentalLock": false,
                                 "imgAlt": "250+ MEDIUM PARKOUR\u2b50",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/FfvWiqsnuJwOQEnAbX/image/landscape_comp_s.jpeg",
@@ -3106,7 +3098,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 7207,
+                                "ccu": 7315,
                                 "hasParentalLock": false,
                                 "imgAlt": "MURDER MYSTERY",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/YHQQEDvuSVXIUVnczJ/image/landscape_comp_s.jpeg",
@@ -3119,7 +3111,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 5138,
+                                "ccu": 5178,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ud83c\udfdd\ufe0f SKYLANDS TYCOON",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/LphSppFklYszIoXfuF/image/landscape_comp_s.jpeg",
@@ -3131,21 +3123,21 @@
                                 "title": "\ud83c\udfdd\ufe0f SKYLANDS TYCOON"
                             },
                             {
-                                "ageRatingTextAbbr": "T",
-                                "ccu": 9,
+                                "ageRatingTextAbbr": "E",
+                                "ccu": 41,
                                 "hasParentalLock": false,
-                                "imgAlt": "SUPERSTAR TYCOON \u2b50",
-                                "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/wHQWhPedsfKduTwhMA/image/landscape_comp_s.jpeg",
-                                "islandCode": "7640-8220-9954",
-                                "islandUrl": "/creative/island-codes/7640-8220-9954",
+                                "imgAlt": "Hidden People",
+                                "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/DAwQTIzNzDnMRsnyPu/image/landscape_comp_s.jpeg",
+                                "islandCode": "8771-9906-7075",
+                                "islandUrl": "/creative/island-codes/8771-9906-7075",
                                 "lockStatus": "UNLOCKED",
                                 "lockStatusReason": "RATING_THRESHOLD",
-                                "squareImgSrc": "https://cdn-0001.qstv.on.epicgames.com/wHQWhPedsfKduTwhMA/image/square_s.jpeg",
-                                "title": "SUPERSTAR TYCOON \u2b50"
+                                "squareImgSrc": "https://cdn-0001.qstv.on.epicgames.com/DAwQTIzNzDnMRsnyPu/image/square_s.jpeg",
+                                "title": "Hidden People"
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 1582,
+                                "ccu": 1171,
                                 "hasParentalLock": false,
                                 "imgAlt": "RAPPER 2 TYCOON\ud83c\udfa4",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/KrvwfRhDzXjvxshDLw/image/landscape_comp_s.jpeg",
@@ -3158,7 +3150,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "E",
-                                "ccu": 2566,
+                                "ccu": 2642,
                                 "hasParentalLock": false,
                                 "imgAlt": "OnlyUp Fortnite! \ud83c\udf04",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/QidyWmjDDYDuvqNNpX/image/landscape_comp_s.jpeg",
@@ -3170,21 +3162,21 @@
                                 "title": "OnlyUp Fortnite! \ud83c\udf04"
                             },
                             {
-                                "ageRatingTextAbbr": "T",
-                                "ccu": 24,
+                                "ageRatingTextAbbr": "E",
+                                "ccu": 17,
                                 "hasParentalLock": false,
-                                "imgAlt": "\ud83d\udd34Streamer Tycoon 4\ud83d\udc51 |\ud83d\udcbeSAVING\ud83d\udcbe|",
-                                "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/ZxPwXGnFOvFUMSvjkZ/image/landscape_comp_s.jpeg",
-                                "islandCode": "7058-9028-9859",
-                                "islandUrl": "/creative/island-codes/7058-9028-9859",
+                                "imgAlt": "lunapark 1",
+                                "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/sHkeZqIHozZRYFHCIp/image/landscape_comp_s.jpeg",
+                                "islandCode": "7538-0529-2507",
+                                "islandUrl": "/creative/island-codes/7538-0529-2507",
                                 "lockStatus": "UNLOCKED",
                                 "lockStatusReason": "RATING_THRESHOLD",
-                                "squareImgSrc": "https://cdn-0001.qstv.on.epicgames.com/ZxPwXGnFOvFUMSvjkZ/image/square_s.jpeg",
-                                "title": "\ud83d\udd34Streamer Tycoon 4\ud83d\udc51 |\ud83d\udcbeSAVING\ud83d\udcbe|"
+                                "squareImgSrc": "https://cdn-0001.qstv.on.epicgames.com/sHkeZqIHozZRYFHCIp/image/landscape_comp.jpeg",
+                                "title": "lunapark 1"
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 1155,
+                                "ccu": 2068,
                                 "hasParentalLock": false,
                                 "imgAlt": "KILLER TYCOON \ud83d\udd2a",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/kJXwGTvDKCXuygSfFS/image/landscape_comp_s.jpeg",
@@ -3197,7 +3189,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 2500,
+                                "ccu": 2568,
                                 "hasParentalLock": false,
                                 "imgAlt": "FARMLIFE4\ud83c\udf3e",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/MAHhZvkxswTabuPJqo/image/landscape_comp_s.jpeg",
@@ -3210,7 +3202,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 2269,
+                                "ccu": 2264,
                                 "hasParentalLock": false,
                                 "imgAlt": "CASTLE TYCOON: BOSSFIGHT\ud83d\udc32",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/OTqKAWREWXrbPrAzjK/image/landscape_comp_s.jpeg",
@@ -3236,7 +3228,7 @@
                         "islands": [
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 169,
+                                "ccu": 182,
                                 "hasParentalLock": false,
                                 "imgAlt": "\u6539\u8fdb\u7684 1V1 BUILD FIGHTS",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/EcUsgJJkhOGswWNnjo/image/landscape_comp_s.jpeg",
@@ -3249,7 +3241,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 28,
+                                "ccu": 159,
                                 "hasParentalLock": false,
                                 "imgAlt": "CRAZY BEDWARS \ud83d\udecf\ufe0f",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/WtpUvboRumIjovQYPw/image/landscape_comp_s.jpeg",
@@ -3262,7 +3254,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 145,
+                                "ccu": 110,
                                 "hasParentalLock": false,
                                 "imgAlt": "ZOMBIE RUN \ud83e\udddf\u200d\u2642\ufe0f",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/uHiOnPBUTUpKcTJuiD/image/landscape_comp_s.jpeg",
@@ -3275,33 +3267,20 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 40,
+                                "ccu": 212,
                                 "hasParentalLock": false,
-                                "imgAlt": "Deathrun 200+ **Medium**\ud83e\udd47",
-                                "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/BGuOarkVsWpDExVRCP/image/landscape_comp_s.jpeg",
-                                "islandCode": "2445-5772-5161",
-                                "islandUrl": "/creative/island-codes/2445-5772-5161",
+                                "imgAlt": "The Gulag - All Weapons FFA",
+                                "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/aOABWGqfFcmFxLUtPn/image/landscape_comp_s.jpeg",
+                                "islandCode": "2316-5603-9373",
+                                "islandUrl": "/creative/island-codes/2316-5603-9373",
                                 "lockStatus": "UNLOCKED",
                                 "lockStatusReason": "RATING_THRESHOLD",
-                                "squareImgSrc": "https://cdn-0001.qstv.on.epicgames.com/BGuOarkVsWpDExVRCP/image/square_s.jpeg",
-                                "title": "Deathrun 200+ **Medium**\ud83e\udd47"
-                            },
-                            {
-                                "ageRatingTextAbbr": "E",
-                                "ccu": 133,
-                                "hasParentalLock": false,
-                                "imgAlt": "MEGA RAMPS",
-                                "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/UdpBlrewuYUfRinBxC/image/landscape_comp_s.jpeg",
-                                "islandCode": "1334-2565-1263",
-                                "islandUrl": "/creative/island-codes/1334-2565-1263",
-                                "lockStatus": "UNLOCKED",
-                                "lockStatusReason": "RATING_THRESHOLD",
-                                "squareImgSrc": "https://cdn-0001.qstv.on.epicgames.com/UdpBlrewuYUfRinBxC/image/square_s.jpeg",
-                                "title": "MEGA RAMPS"
+                                "squareImgSrc": "https://cdn-0001.qstv.on.epicgames.com/aOABWGqfFcmFxLUtPn/image/square_s.jpeg",
+                                "title": "The Gulag - All Weapons FFA"
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 12,
+                                "ccu": 13,
                                 "hasParentalLock": false,
                                 "imgAlt": "Phone Company Tycoon \ud83d\udcf1",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/zLWJrcwcZujeMzxOXS/image/landscape_comp_s.jpeg",
@@ -3314,7 +3293,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 55,
+                                "ccu": 13,
                                 "hasParentalLock": false,
                                 "imgAlt": "Bunker 2v2\ud83c\udfaf",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/KPOHgCWOeyszlpokUN/image/landscape_comp_s.jpeg",
@@ -3327,7 +3306,33 @@
                             },
                             {
                                 "ageRatingTextAbbr": "E",
-                                "ccu": 16,
+                                "ccu": 3,
+                                "hasParentalLock": false,
+                                "imgAlt": "GTOS ULTIMATE LATE GAME",
+                                "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/SdBSfAKylAQXyrTKzT/image/landscape_comp_s.jpeg",
+                                "islandCode": "0013-1078-1194",
+                                "islandUrl": "/creative/island-codes/0013-1078-1194",
+                                "lockStatus": "UNLOCKED",
+                                "lockStatusReason": "RATING_THRESHOLD",
+                                "squareImgSrc": "https://cdn-0001.qstv.on.epicgames.com/SdBSfAKylAQXyrTKzT/image/landscape_comp.jpeg",
+                                "title": "GTOS ULTIMATE LATE GAME"
+                            },
+                            {
+                                "ageRatingTextAbbr": "T",
+                                "ccu": 21,
+                                "hasParentalLock": false,
+                                "imgAlt": "Deathrun 200+ **Medium**\ud83e\udd47",
+                                "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/BGuOarkVsWpDExVRCP/image/landscape_comp_s.jpeg",
+                                "islandCode": "2445-5772-5161",
+                                "islandUrl": "/creative/island-codes/2445-5772-5161",
+                                "lockStatus": "UNLOCKED",
+                                "lockStatusReason": "RATING_THRESHOLD",
+                                "squareImgSrc": "https://cdn-0001.qstv.on.epicgames.com/BGuOarkVsWpDExVRCP/image/square_s.jpeg",
+                                "title": "Deathrun 200+ **Medium**\ud83e\udd47"
+                            },
+                            {
+                                "ageRatingTextAbbr": "E",
+                                "ccu": 8,
                                 "hasParentalLock": false,
                                 "imgAlt": "Deathrun 200+ [neon street] easy2default",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/crYUAZQGoKdegRGrsV/image/landscape_comp_s.jpeg",
@@ -3337,19 +3342,6 @@
                                 "lockStatusReason": "RATING_THRESHOLD",
                                 "squareImgSrc": "https://cdn-0001.qstv.on.epicgames.com/crYUAZQGoKdegRGrsV/image/square_s.jpeg",
                                 "title": "Deathrun 200+ [neon street] easy2default"
-                            },
-                            {
-                                "ageRatingTextAbbr": "T",
-                                "ccu": 126,
-                                "hasParentalLock": false,
-                                "imgAlt": "The Gulag - All Weapons FFA",
-                                "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/aOABWGqfFcmFxLUtPn/image/landscape_comp_s.jpeg",
-                                "islandCode": "2316-5603-9373",
-                                "islandUrl": "/creative/island-codes/2316-5603-9373",
-                                "lockStatus": "UNLOCKED",
-                                "lockStatusReason": "RATING_THRESHOLD",
-                                "squareImgSrc": "https://cdn-0001.qstv.on.epicgames.com/aOABWGqfFcmFxLUtPn/image/square_s.jpeg",
-                                "title": "The Gulag - All Weapons FFA"
                             }
                         ],
                         "panelName": "TrySomethingNew_Web"
@@ -3366,7 +3358,7 @@
                         "islands": [
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 34302,
+                                "ccu": 33618,
                                 "hasParentalLock": false,
                                 "imgAlt": "The Pit - Free For All",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/fZGOpaMyJsChNNbPWU/image/landscape_comp_s.jpeg",
@@ -3379,7 +3371,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 327,
+                                "ccu": 287,
                                 "hasParentalLock": false,
                                 "imgAlt": "\u0642\u0627\u062a\u0644\u0646\u064a \u0628\u0627\u0644\u0628\u0646\u0627\u0621 | 1v1 build fights \u2714",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/ojvqbdjEyBeGRMIwBK/image/landscape_comp_s.jpeg",
@@ -3392,7 +3384,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 25483,
+                                "ccu": 24862,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ud06c\ub808\uc774\uc9c0 \ub808\ub4dc VS \ube14\ub8e8 \ud83c\udd95",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/hIAuofqkBVwIRRQDIt/image/landscape_comp_s.jpeg",
@@ -3405,7 +3397,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 1856,
+                                "ccu": 1900,
                                 "hasParentalLock": false,
                                 "imgAlt": "The Pit - Zero Build",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/qFRDkZBGEKdBJtwBYU/image/landscape_comp_s.jpeg",
@@ -3418,7 +3410,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "E10+",
-                                "ccu": 1143,
+                                "ccu": 1162,
                                 "hasParentalLock": false,
                                 "imgAlt": "Animal Tycoon \ud83d\udc36",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/WfZLjFqNoraCIkVvQi/image/landscape_comp_s.jpeg",
@@ -3431,7 +3423,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 2923,
+                                "ccu": 2995,
                                 "hasParentalLock": false,
                                 "imgAlt": "Endless Zone Wars Ranked",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/pKdUIqemvChHSBhaLA/image/landscape_comp_s.jpeg",
@@ -3444,7 +3436,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 12884,
+                                "ccu": 13117,
                                 "hasParentalLock": false,
                                 "imgAlt": "Bed Wars",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/YWLlJLAqupinfUJupy/image/landscape_comp_s.jpeg",
@@ -3457,7 +3449,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 7207,
+                                "ccu": 7315,
                                 "hasParentalLock": false,
                                 "imgAlt": "MURDER MYSTERY",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/YHQQEDvuSVXIUVnczJ/image/landscape_comp_s.jpeg",
@@ -3470,7 +3462,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 1371,
+                                "ccu": 1339,
                                 "hasParentalLock": false,
                                 "imgAlt": "GAMEDEV TYCOON \ud83c\udfae",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/hcMOttWzxoQZLVVgaa/image/landscape_comp_s.jpeg",
@@ -3483,7 +3475,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 13929,
+                                "ccu": 13798,
                                 "hasParentalLock": false,
                                 "imgAlt": "SUPER RED VS BLUE \ud83d\udd34\ud83d\udd35",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/bIGEDniTHEFjCnUqcT/image/landscape_comp_s.jpeg",
@@ -3509,7 +3501,7 @@
                         "islands": [
                             {
                                 "ageRatingTextAbbr": "E10+",
-                                "ccu": 1143,
+                                "ccu": 1162,
                                 "hasParentalLock": false,
                                 "imgAlt": "Animal Tycoon \ud83d\udc36",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/WfZLjFqNoraCIkVvQi/image/landscape_comp_s.jpeg",
@@ -3522,7 +3514,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 1358,
+                                "ccu": 1494,
                                 "hasParentalLock": false,
                                 "imgAlt": "\u2b50STAR WARS\u2b50 RED VS BLUE",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/zEwltKIcwBPHJtIxrL/image/landscape_comp_s.jpeg",
@@ -3535,7 +3527,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 652,
+                                "ccu": 653,
                                 "hasParentalLock": false,
                                 "imgAlt": "MUTANTS BOX FIGHTS",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/mlDFysaxsXfuLwPgin/image/landscape_comp_s.jpeg",
@@ -3548,7 +3540,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 229,
+                                "ccu": 246,
                                 "hasParentalLock": false,
                                 "imgAlt": "SUMMER TYCOON \ud83c\udfd6\ufe0f",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/yIOuirsOIJLmqrpmRC/image/landscape_comp_s.jpeg",
@@ -3561,7 +3553,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 146,
+                                "ccu": 156,
                                 "hasParentalLock": false,
                                 "imgAlt": "Big Boy Gun Game",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/qTjbsEyfYwTLJZULSr/image/landscape_comp_s.jpeg",
@@ -3574,7 +3566,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 24,
+                                "ccu": 25,
                                 "hasParentalLock": false,
                                 "imgAlt": "EYOSABA 1v1 BUILDFIGHTS",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/cIjqnyQFMmBhZcOhiE/image/landscape_comp_s.jpeg",
@@ -3587,7 +3579,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 45,
+                                "ccu": 51,
                                 "hasParentalLock": false,
                                 "imgAlt": "The OG Gun Game [Ranked] \ud83d\udccd",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/pHncwZGLybamJpIVIC/image/landscape_comp_s.jpeg",
@@ -3600,7 +3592,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 397,
+                                "ccu": 419,
                                 "hasParentalLock": false,
                                 "imgAlt": "FIGHT CLUB TYCOON \ud83d\udc4a",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/znXSgFZJqXgIMqrZxH/image/landscape_comp_s.jpeg",
@@ -3613,7 +3605,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 46,
+                                "ccu": 39,
                                 "hasParentalLock": false,
                                 "imgAlt": "KICK TYCOON\ud83c\udfa5",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/tBeoOMBCfbeHgYkPyJ/image/landscape_comp_s.jpeg",
@@ -3639,7 +3631,7 @@
                         "islands": [
                             {
                                 "ageRatingTextAbbr": "E",
-                                "ccu": 7697,
+                                "ccu": 8257,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ub85c\ucf13 \ub808\uc774\uc2f1",
                                 "imgSrc": "https://cdn2.unrealengine.com/rocketracing-launchtile-480-480x270-55c0384846bd.jpg",
@@ -3653,7 +3645,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "E10+",
-                                "ccu": 83715,
+                                "ccu": 84100,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ub808\uace0 \ud3ec\ud2b8\ub098\uc774\ud2b8",
                                 "imgSrc": "https://cdn2.unrealengine.com/fnjn-starwars-discovertile-480-480x270-2dbb298ed188.jpg",
@@ -3667,7 +3659,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 12799,
+                                "ccu": 13886,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ud398\uc2a4\ud2f0\ubc8c \uba54\uc778 \uc2a4\ud14c\uc774\uc9c0",
                                 "imgSrc": "https://cdn2.unrealengine.com/kr-fnsp-03-playlisttile-mainstage-480-480x270-4a9e54077e2f.jpg",
@@ -3681,7 +3673,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 1720,
+                                "ccu": 1636,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ud398\uc2a4\ud2f0\ubc8c \uc7bc \uc2a4\ud14c\uc774\uc9c0",
                                 "imgSrc": "https://cdn2.unrealengine.com/kr-fnsp-02-playlist-tile-jam-stage-480-480x270-f6675b2290c2.jpg",
@@ -3695,7 +3687,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 266047,
+                                "ccu": 283582,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ube4c\ub4dc \uc81c\ub85c",
                                 "imgSrc": "https://cdn2.unrealengine.com/ch5s2-zb-480-ko-480x270-c6d3de82657c.jpg",
@@ -3709,7 +3701,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 297791,
+                                "ccu": 301088,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ubc30\ud2c0\ub85c\uc584",
                                 "imgSrc": "https://cdn2.unrealengine.com/ch5s2-br-480-480x270-57e98ffb3d25.jpg",
@@ -3723,7 +3715,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 135879,
+                                "ccu": 134932,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ub7ad\ud06c \ubc30\ud2c0\ub85c\uc584",
                                 "imgSrc": "https://static-assets-prod.s3.amazonaws.com/fn/static/1p/Ranked_BR_480_s.jpg",
@@ -3737,7 +3729,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 24046,
+                                "ccu": 24299,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ub7ad\ud06c \ube4c\ub4dc \uc81c\ub85c",
                                 "imgSrc": "https://static-assets-prod.s3.amazonaws.com/fn/static/1p/Ranked_ZB_480_s.jpg",
@@ -3751,7 +3743,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 13686,
+                                "ccu": 13627,
                                 "hasParentalLock": false,
                                 "imgAlt": "\uc138\uc774\ube0c \ub354 \uc6d4\ub4dc",
                                 "imgSrc": "https://cdn2.unrealengine.com/stw-480-480x270-5cb46625cf5b.jpg",
@@ -3764,7 +3756,7 @@
                                 "title": "\uc138\uc774\ube0c \ub354 \uc6d4\ub4dc"
                             },
                             {
-                                "ccu": 8813,
+                                "ccu": 9023,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ud3ec\ud06c\ub9ac",
                                 "imgSrc": "https://cdn2.unrealengine.com/fneco-28-00-creative-discovertiles-keyart-480x270-480x270-93a3c0ed804d.jpg",
@@ -3778,7 +3770,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 4472,
+                                "ccu": 4566,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ud300 \ub7fc\ube14",
                                 "imgSrc": "https://cdn2.unrealengine.com/teamrumble-480-480x270-15c7a8d7fbee.jpg",
@@ -3792,7 +3784,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 2588,
+                                "ccu": 2762,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ud30c\ud2f0\ub85c\uc584",
                                 "imgSrc": "https://cdn2.unrealengine.com/partyroyalelogo-480-480x270-d148a8a84907.jpg",
@@ -3806,7 +3798,7 @@
                             },
                             {
                                 "ageRatingTextAbbr": "T",
-                                "ccu": 86,
+                                "ccu": 89,
                                 "hasParentalLock": false,
                                 "imgAlt": "\ub808\uc804\ub4dc \ub79c\ub529",
                                 "imgSrc": "https://cdn-0001.qstv.on.epicgames.com/mIcgCkITFUGCXoRtUD/image/landscape_comp_s.jpeg",
