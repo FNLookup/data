@@ -4,7 +4,7 @@
 |Entry|File|
 |-|-|
 |All #1|[blog_posts_all_en-US_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_all_en-US_page_0.json)|
-|All #2|[blog_posts_all_en-US_page_1.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_all_en-US_page_1.json)|
+|All #1|[blog_posts_all_en-US_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_all_en-US_page_0.json)|
 |All #3|[blog_posts_all_en-US_page_2.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_all_en-US_page_2.json)|
 |All #4|[blog_posts_all_en-US_page_3.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_all_en-US_page_3.json)|
 |Battle Royale #1|[blog_posts_battle-royale_en-US_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_battle-royale_en-US_page_0.json)|
