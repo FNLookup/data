@@ -500,7 +500,7 @@
 |Fortnite Festival #3|[blog_posts_fortnite-festival_tr_page_2.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_fortnite-festival_tr_page_2.json)|
 |Fortnite Festival #4|[blog_posts_fortnite-festival_tr_page_3.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_fortnite-festival_tr_page_3.json)|
 |Lego Fortnite #1|[blog_posts_lego-fortnite_tr_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_lego-fortnite_tr_page_0.json)|
-|Lego Fortnite #2|[blog_posts_lego-fortnite_tr_page_1.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_lego-fortnite_tr_page_1.json)|
+|Lego Fortnite #1|[blog_posts_lego-fortnite_tr_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_lego-fortnite_tr_page_0.json)|
 |Lego Fortnite #3|[blog_posts_lego-fortnite_tr_page_2.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_lego-fortnite_tr_page_2.json)|
 |Lego Fortnite #4|[blog_posts_lego-fortnite_tr_page_3.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_lego-fortnite_tr_page_3.json)|
 |Ranked #1|[blog_posts_ranked_tr_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_ranked_tr_page_0.json)|
