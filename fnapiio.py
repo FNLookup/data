@@ -24,7 +24,7 @@ to_fetch = [{
     "url": "https://fortniteapi.io/v2/items/list?fields=images,displayAssets,name,id,gameplayTags,rarity,type,series",
     "path": "items_all"
 },{
-    "url": "https://fortniteapi.io/v2/items/list?fields=images,name,id,type",
+    "url": "https://fortniteapi.io/v2/items/list?fields=images,name,id,type,shopHistory",
     "path": "items_smaller"
 }]
 
