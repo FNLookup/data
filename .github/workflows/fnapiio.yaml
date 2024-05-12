@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Save Posts
+      - name: Save Items
         run: python fnapiio.py
         env:
             API_KEY: ${{ secrets.API_KEY }}
