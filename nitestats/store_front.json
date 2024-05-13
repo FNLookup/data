@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2024-05-13T22:00:00.000Z",
+    "expiration": "2024-05-13T23:00:00.000Z",
     "storefronts": [
         {
             "name": "CurrencyStorefront",
@@ -4267,87 +4267,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_198) for 500 MtxCurrency",
-                    "offerId": "v2:/113470101a3fdb460292d2a0e3572e5b64df33bfceb0fe1b00556fb7dd8a3aeb",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_198",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "StarWars.89",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "Star Wars Sparks",
-                        "FirstSeen": "5/3/2024"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_198",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_198"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "StarWars.89"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "Star Wars Sparks"
-                        },
-                        {
-                            "key": "FirstSeen",
-                            "value": "5/3/2024"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_198",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -4,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_148) for 500 MtxCurrency",
                     "offerId": "v2:/897f1e3ded0aa0476498ec9ef166373fde11cdf2c24a985736d18df930792243",
                     "fulfillmentIds": [],
@@ -4426,6 +4345,87 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -52,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_198) for 500 MtxCurrency",
+                    "offerId": "v2:/113470101a3fdb460292d2a0e3572e5b64df33bfceb0fe1b00556fb7dd8a3aeb",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_198",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "StarWars.89",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "Star Wars Sparks",
+                        "FirstSeen": "5/3/2024"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_198",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_198"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "StarWars.89"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "Star Wars Sparks"
+                        },
+                        {
+                            "key": "FirstSeen",
+                            "value": "5/3/2024"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_198",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -4,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -7098,87 +7098,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_210) for 500 MtxCurrency",
-                    "offerId": "v2:/0c9e09c9f5eee48b9a70314904da00eaabbc4a3e98c0cd436cd5b23f7fb8f01d",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_210",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "JamTracks.99",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "JamTracks0513-1",
-                        "FirstSeen": "5/10/2024"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_210",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_210"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "JamTracks.99"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "JamTracks0513-1"
-                        },
-                        {
-                            "key": "FirstSeen",
-                            "value": "5/10/2024"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_210",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_80) for 500 MtxCurrency",
                     "offerId": "v2:/eb067abe5d21078d21b70c067abf4445650fda68ef93f504f9a59ce06f107aec",
                     "fulfillmentIds": [],
@@ -7257,6 +7176,87 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -54,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_210) for 500 MtxCurrency",
+                    "offerId": "v2:/0c9e09c9f5eee48b9a70314904da00eaabbc4a3e98c0cd436cd5b23f7fb8f01d",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_210",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "JamTracks.99",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "JamTracks0513-1",
+                        "FirstSeen": "5/10/2024"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_210",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_210"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "JamTracks.99"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "JamTracks0513-1"
+                        },
+                        {
+                            "key": "FirstSeen",
+                            "value": "5/10/2024"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_210",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -1,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -11458,84 +11458,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Rebel Hideout for 700 MtxCurrency",
-                    "offerId": "v2:/5e2fdcd523aa752d28765591ffe1934b3113accb40f5a275b3c7cbf60a9664e4",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 700,
-                            "dynamicRegularPrice": 700,
-                            "finalPrice": 700,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 700
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/s29/DAv2_BuildingProp_JBPID_SW_RebelHideout.DAv2_BuildingProp_JBPID_SW_RebelHideout",
-                        "LayoutId": "StarWars.LegoKits.87",
-                        "TileSize": "Size_1_x_2",
-                        "AnalyticOfferGroupId": "Star Wars Lego Kits - RF Group 1",
-                        "FirstSeen": "5/12/2024",
-                        "displayAssetPath": "None"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "JunoBuildingProp:jbpid_sw_rebelhideout",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/s29/DAv2_BuildingProp_JBPID_SW_RebelHideout.DAv2_BuildingProp_JBPID_SW_RebelHideout"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "StarWars.LegoKits.87"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_2"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "Star Wars Lego Kits - RF Group 1"
-                        },
-                        {
-                            "key": "FirstSeen",
-                            "value": "5/12/2024"
-                        }
-                    ],
-                    "displayAssetPath": "None",
-                    "itemGrants": [
-                        {
-                            "templateId": "JunoBuildingProp:jbpid_sw_rebelhideout",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -3,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_27) for 500 MtxCurrency",
                     "offerId": "v2:/1b275d2fbcf5142070434293dc7d56232d9be12d5ff6cab08ee7c8d06a944942",
                     "fulfillmentIds": [],
@@ -11614,6 +11536,84 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -32,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Rebel Hideout for 700 MtxCurrency",
+                    "offerId": "v2:/5e2fdcd523aa752d28765591ffe1934b3113accb40f5a275b3c7cbf60a9664e4",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 700,
+                            "dynamicRegularPrice": 700,
+                            "finalPrice": 700,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 700
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/s29/DAv2_BuildingProp_JBPID_SW_RebelHideout.DAv2_BuildingProp_JBPID_SW_RebelHideout",
+                        "LayoutId": "StarWars.LegoKits.87",
+                        "TileSize": "Size_1_x_2",
+                        "AnalyticOfferGroupId": "Star Wars Lego Kits - RF Group 1",
+                        "FirstSeen": "5/12/2024",
+                        "displayAssetPath": "None"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "JunoBuildingProp:jbpid_sw_rebelhideout",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/s29/DAv2_BuildingProp_JBPID_SW_RebelHideout.DAv2_BuildingProp_JBPID_SW_RebelHideout"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "StarWars.LegoKits.87"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_2"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "Star Wars Lego Kits - RF Group 1"
+                        },
+                        {
+                            "key": "FirstSeen",
+                            "value": "5/12/2024"
+                        }
+                    ],
+                    "displayAssetPath": "None",
+                    "itemGrants": [
+                        {
+                            "templateId": "JunoBuildingProp:jbpid_sw_rebelhideout",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -3,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -23157,84 +23157,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Rebel Bedroom for 500 MtxCurrency",
-                    "offerId": "v2:/4e5179d3fbac65d99e1b5c1d884695612ea05e0b55b0d189c016d82aab0b9f6c",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/s29/DAv2_BuildingProp_JBPID_SW_RebelBedroom.DAv2_BuildingProp_JBPID_SW_RebelBedroom",
-                        "LayoutId": "StarWars.LegoKits.87",
-                        "TileSize": "Size_1_x_2",
-                        "AnalyticOfferGroupId": "Star Wars Lego Kits - RF Group 1",
-                        "FirstSeen": "5/12/2024",
-                        "displayAssetPath": "None"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "JunoBuildingProp:jbpid_sw_rebelbedroom",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/s29/DAv2_BuildingProp_JBPID_SW_RebelBedroom.DAv2_BuildingProp_JBPID_SW_RebelBedroom"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "StarWars.LegoKits.87"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_2"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "Star Wars Lego Kits - RF Group 1"
-                        },
-                        {
-                            "key": "FirstSeen",
-                            "value": "5/12/2024"
-                        }
-                    ],
-                    "displayAssetPath": "None",
-                    "itemGrants": [
-                        {
-                            "templateId": "JunoBuildingProp:jbpid_sw_rebelbedroom",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_12) for 500 MtxCurrency",
                     "offerId": "v2:/c99df33223109c32098445e8a8b7482d34c174023c6a45ab4d2ebeb063d133c5",
                     "fulfillmentIds": [],
@@ -23313,6 +23235,84 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -25,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Rebel Bedroom for 500 MtxCurrency",
+                    "offerId": "v2:/4e5179d3fbac65d99e1b5c1d884695612ea05e0b55b0d189c016d82aab0b9f6c",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/s29/DAv2_BuildingProp_JBPID_SW_RebelBedroom.DAv2_BuildingProp_JBPID_SW_RebelBedroom",
+                        "LayoutId": "StarWars.LegoKits.87",
+                        "TileSize": "Size_1_x_2",
+                        "AnalyticOfferGroupId": "Star Wars Lego Kits - RF Group 1",
+                        "FirstSeen": "5/12/2024",
+                        "displayAssetPath": "None"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "JunoBuildingProp:jbpid_sw_rebelbedroom",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/s29/DAv2_BuildingProp_JBPID_SW_RebelBedroom.DAv2_BuildingProp_JBPID_SW_RebelBedroom"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "StarWars.LegoKits.87"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_2"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "Star Wars Lego Kits - RF Group 1"
+                        },
+                        {
+                            "key": "FirstSeen",
+                            "value": "5/12/2024"
+                        }
+                    ],
+                    "displayAssetPath": "None",
+                    "itemGrants": [
+                        {
+                            "templateId": "JunoBuildingProp:jbpid_sw_rebelbedroom",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -1,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -24000,6 +24000,87 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_67) for 500 MtxCurrency",
+                    "offerId": "v2:/48caf8d346ec939187b4fda36fc15b23179f22368a3c01c613496139a5d033b8",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_67",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "JamTracks.97",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "JamTrackList0510",
+                        "FirstSeen": "5/3/2024"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_67",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_67"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "JamTracks.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "JamTrackList0510"
+                        },
+                        {
+                            "key": "FirstSeen",
+                            "value": "5/3/2024"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_67",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -47,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Red Guitar for 800 MtxCurrency",
                     "offerId": "v2:/22a96a03c2721e19d25c6a693e17e94ee02704ecf973443330dfd59a5dcd5354",
                     "fulfillmentIds": [],
@@ -24080,87 +24161,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -5,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_67) for 500 MtxCurrency",
-                    "offerId": "v2:/48caf8d346ec939187b4fda36fc15b23179f22368a3c01c613496139a5d033b8",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_67",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "JamTracks.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "JamTrackList0510",
-                        "FirstSeen": "5/3/2024"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_67",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_67"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "JamTracks.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "JamTrackList0510"
-                        },
-                        {
-                            "key": "FirstSeen",
-                            "value": "5/3/2024"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_67",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -47,
                     "catalogGroupPriority": 0
                 },
                 {
