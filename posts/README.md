@@ -84,7 +84,7 @@
 |Entry|File|
 |-|-|
 |All #1|[blog_posts_all_es-ES_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_all_es-ES_page_0.json)|
-|All #1|[blog_posts_all_es-ES_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_all_es-ES_page_0.json)|
+|All #2|[blog_posts_all_es-ES_page_1.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_all_es-ES_page_1.json)|
 |All #3|[blog_posts_all_es-ES_page_2.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_all_es-ES_page_2.json)|
 |All #4|[blog_posts_all_es-ES_page_3.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_all_es-ES_page_3.json)|
 |Battle Royale #1|[blog_posts_battle-royale_es-ES_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_battle-royale_es-ES_page_0.json)|
@@ -164,7 +164,7 @@
 |Entry|File|
 |-|-|
 |All #1|[blog_posts_all_de_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_all_de_page_0.json)|
-|All #2|[blog_posts_all_de_page_1.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_all_de_page_1.json)|
+|All #1|[blog_posts_all_de_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_all_de_page_0.json)|
 |All #3|[blog_posts_all_de_page_2.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_all_de_page_2.json)|
 |All #4|[blog_posts_all_de_page_3.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_all_de_page_3.json)|
 |Battle Royale #1|[blog_posts_battle-royale_de_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_battle-royale_de_page_0.json)|
@@ -278,7 +278,7 @@
 |Team Rumble #1|[blog_posts_team-rumble_it_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_team-rumble_it_page_0.json)|
 |Team Rumble #2|[blog_posts_team-rumble_it_page_1.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_team-rumble_it_page_1.json)|
 |Team Rumble #3|[blog_posts_team-rumble_it_page_2.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_team-rumble_it_page_2.json)|
-|Team Rumble #4|[blog_posts_team-rumble_it_page_3.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_team-rumble_it_page_3.json)|
+|Team Rumble #3|[blog_posts_team-rumble_it_page_2.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_team-rumble_it_page_2.json)|
 
 ## ja
 |Entry|File|
@@ -313,7 +313,7 @@
 |Rocket Racing #4|[blog_posts_rocket-racing_ja_page_3.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_rocket-racing_ja_page_3.json)|
 |Save The World #1|[blog_posts_save-the-world_ja_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_save-the-world_ja_page_0.json)|
 |Save The World #2|[blog_posts_save-the-world_ja_page_1.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_save-the-world_ja_page_1.json)|
-|Save The World #2|[blog_posts_save-the-world_ja_page_1.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_save-the-world_ja_page_1.json)|
+|Save The World #3|[blog_posts_save-the-world_ja_page_2.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_save-the-world_ja_page_2.json)|
 |Save The World #4|[blog_posts_save-the-world_ja_page_3.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_save-the-world_ja_page_3.json)|
 |Team Rumble #1|[blog_posts_team-rumble_ja_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_team-rumble_ja_page_0.json)|
 |Team Rumble #2|[blog_posts_team-rumble_ja_page_1.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_team-rumble_ja_page_1.json)|
@@ -348,7 +348,7 @@
 |Ranked #3|[blog_posts_ranked_ko_page_2.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_ranked_ko_page_2.json)|
 |Ranked #4|[blog_posts_ranked_ko_page_3.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_ranked_ko_page_3.json)|
 |Rocket Racing #1|[blog_posts_rocket-racing_ko_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_rocket-racing_ko_page_0.json)|
-|Rocket Racing #1|[blog_posts_rocket-racing_ko_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_rocket-racing_ko_page_0.json)|
+|Rocket Racing #2|[blog_posts_rocket-racing_ko_page_1.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_rocket-racing_ko_page_1.json)|
 |Rocket Racing #3|[blog_posts_rocket-racing_ko_page_2.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_rocket-racing_ko_page_2.json)|
 |Rocket Racing #4|[blog_posts_rocket-racing_ko_page_3.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_rocket-racing_ko_page_3.json)|
 |Save The World #1|[blog_posts_save-the-world_ko_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_save-the-world_ko_page_0.json)|
@@ -392,7 +392,7 @@
 |Rocket Racing #3|[blog_posts_rocket-racing_pl_page_2.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_rocket-racing_pl_page_2.json)|
 |Rocket Racing #4|[blog_posts_rocket-racing_pl_page_3.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_rocket-racing_pl_page_3.json)|
 |Save The World #1|[blog_posts_save-the-world_pl_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_save-the-world_pl_page_0.json)|
-|Save The World #1|[blog_posts_save-the-world_pl_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_save-the-world_pl_page_0.json)|
+|Save The World #2|[blog_posts_save-the-world_pl_page_1.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_save-the-world_pl_page_1.json)|
 |Save The World #3|[blog_posts_save-the-world_pl_page_2.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_save-the-world_pl_page_2.json)|
 |Save The World #4|[blog_posts_save-the-world_pl_page_3.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_save-the-world_pl_page_3.json)|
 |Team Rumble #1|[blog_posts_team-rumble_pl_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_team-rumble_pl_page_0.json)|
@@ -408,7 +408,7 @@
 |All #3|[blog_posts_all_pt-BR_page_2.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_all_pt-BR_page_2.json)|
 |All #4|[blog_posts_all_pt-BR_page_3.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_all_pt-BR_page_3.json)|
 |Battle Royale #1|[blog_posts_battle-royale_pt-BR_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_battle-royale_pt-BR_page_0.json)|
-|Battle Royale #1|[blog_posts_battle-royale_pt-BR_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_battle-royale_pt-BR_page_0.json)|
+|Battle Royale #2|[blog_posts_battle-royale_pt-BR_page_1.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_battle-royale_pt-BR_page_1.json)|
 |Battle Royale #3|[blog_posts_battle-royale_pt-BR_page_2.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_battle-royale_pt-BR_page_2.json)|
 |Battle Royale #4|[blog_posts_battle-royale_pt-BR_page_3.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_battle-royale_pt-BR_page_3.json)|
 |Creative #1|[blog_posts_creative_pt-BR_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_creative_pt-BR_page_0.json)|
@@ -425,7 +425,7 @@
 |Lego Fortnite #4|[blog_posts_lego-fortnite_pt-BR_page_3.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_lego-fortnite_pt-BR_page_3.json)|
 |Ranked #1|[blog_posts_ranked_pt-BR_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_ranked_pt-BR_page_0.json)|
 |Ranked #2|[blog_posts_ranked_pt-BR_page_1.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_ranked_pt-BR_page_1.json)|
-|Ranked #3|[blog_posts_ranked_pt-BR_page_2.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_ranked_pt-BR_page_2.json)|
+|Ranked #2|[blog_posts_ranked_pt-BR_page_1.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_ranked_pt-BR_page_1.json)|
 |Ranked #4|[blog_posts_ranked_pt-BR_page_3.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_ranked_pt-BR_page_3.json)|
 |Rocket Racing #1|[blog_posts_rocket-racing_pt-BR_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_rocket-racing_pt-BR_page_0.json)|
 |Rocket Racing #2|[blog_posts_rocket-racing_pt-BR_page_1.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_rocket-racing_pt-BR_page_1.json)|
