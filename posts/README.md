@@ -36,7 +36,7 @@
 |Save The World #3|[blog_posts_save-the-world_en-US_page_2.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_save-the-world_en-US_page_2.json)|
 |Save The World #4|[blog_posts_save-the-world_en-US_page_3.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_save-the-world_en-US_page_3.json)|
 |Team Rumble #1|[blog_posts_team-rumble_en-US_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_team-rumble_en-US_page_0.json)|
-|Team Rumble #2|[blog_posts_team-rumble_en-US_page_1.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_team-rumble_en-US_page_1.json)|
+|Team Rumble #1|[blog_posts_team-rumble_en-US_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_team-rumble_en-US_page_0.json)|
 |Team Rumble #3|[blog_posts_team-rumble_en-US_page_2.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_team-rumble_en-US_page_2.json)|
 |Team Rumble #4|[blog_posts_team-rumble_en-US_page_3.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_team-rumble_en-US_page_3.json)|
 
@@ -73,7 +73,7 @@
 |Rocket Racing #4|[blog_posts_rocket-racing_es-MX_page_3.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_rocket-racing_es-MX_page_3.json)|
 |Save The World #1|[blog_posts_save-the-world_es-MX_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_save-the-world_es-MX_page_0.json)|
 |Save The World #2|[blog_posts_save-the-world_es-MX_page_1.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_save-the-world_es-MX_page_1.json)|
-|Save The World #3|[blog_posts_save-the-world_es-MX_page_2.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_save-the-world_es-MX_page_2.json)|
+|Save The World #2|[blog_posts_save-the-world_es-MX_page_1.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_save-the-world_es-MX_page_1.json)|
 |Save The World #4|[blog_posts_save-the-world_es-MX_page_3.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_save-the-world_es-MX_page_3.json)|
 |Team Rumble #1|[blog_posts_team-rumble_es-MX_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_team-rumble_es-MX_page_0.json)|
 |Team Rumble #2|[blog_posts_team-rumble_es-MX_page_1.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_team-rumble_es-MX_page_1.json)|
@@ -352,7 +352,7 @@
 |Rocket Racing #3|[blog_posts_rocket-racing_ko_page_2.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_rocket-racing_ko_page_2.json)|
 |Rocket Racing #4|[blog_posts_rocket-racing_ko_page_3.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_rocket-racing_ko_page_3.json)|
 |Save The World #1|[blog_posts_save-the-world_ko_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_save-the-world_ko_page_0.json)|
-|Save The World #2|[blog_posts_save-the-world_ko_page_1.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_save-the-world_ko_page_1.json)|
+|Save The World #1|[blog_posts_save-the-world_ko_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_save-the-world_ko_page_0.json)|
 |Save The World #3|[blog_posts_save-the-world_ko_page_2.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_save-the-world_ko_page_2.json)|
 |Save The World #4|[blog_posts_save-the-world_ko_page_3.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_save-the-world_ko_page_3.json)|
 |Team Rumble #1|[blog_posts_team-rumble_ko_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_team-rumble_ko_page_0.json)|
@@ -367,7 +367,7 @@
 |All #2|[blog_posts_all_pl_page_1.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_all_pl_page_1.json)|
 |All #3|[blog_posts_all_pl_page_2.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_all_pl_page_2.json)|
 |All #4|[blog_posts_all_pl_page_3.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_all_pl_page_3.json)|
-|Battle Royale #1|[blog_posts_battle-royale_pl_page_0.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_battle-royale_pl_page_0.json)|
+|Battle Royale #4|[blog_posts_all_pl_page_3.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_all_pl_page_3.json)|
 |Battle Royale #2|[blog_posts_battle-royale_pl_page_1.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_battle-royale_pl_page_1.json)|
 |Battle Royale #3|[blog_posts_battle-royale_pl_page_2.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_battle-royale_pl_page_2.json)|
 |Battle Royale #4|[blog_posts_battle-royale_pl_page_3.json](https://github.com/FNLookup/data/blob/main/posts/blog_posts_battle-royale_pl_page_3.json)|
