@@ -5,7 +5,7 @@ import time
 
 language_list = ['en-US', 'es-MX', 'es-ES', 'ar', 'de', 'fr', 'it', 'ja', 'ko', 'pl', 'pt-BR', 'ru', 'tr']
                 # All
-categories_list = ['', 'battle-royale', 'creative', 'fortnite-festival', 'lego-fortnite', 'ranked', 'rocket-racing', 'save-the-world', 'team-rumble']
+categories_list = ['', 'battle-royale', 'fortnite-festival', 'lego-fortnite', 'rocket-racing'] # Ditching the other categories cause whos gonna see that
 
 fetch_list = [
     {
@@ -53,7 +53,13 @@ def fetch_fortnite_posts(url):
         'Accept': 'application/json, text/plain, */*',
         'Accept-Language': 'en-US',
         'Referer': 'https://www.fortnite.com/news',
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+        "sec-ch-ua": "\"Chromium\";v=\"124\", \"Google Chrome\";v=\"124\", \"Not-A.Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin"
     }
     
     response = requests.get(url, headers=headers)
@@ -93,7 +99,14 @@ if __name__ == "__main__":
                     timestamps[path.replace('.json', '')] = time.time()
 
                 markdown_string += f'|{format_category(path_category)} #{get_page(path) + 1}|[{path}](https://github.com/FNLookup/data/blob/main/posts/{path})|\n'
-                time.sleep(15)
+
+                time.sleep(2)
+
+            time.sleep(5)
+
+        time.sleep(6)
+
+        # Yep i actually had to add THREE TIME SLEEP calls.
 
 
     with open("posts/timestamps.json", "w") as file:
