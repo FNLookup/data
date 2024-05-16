@@ -99,6 +99,7 @@ if __name__ == "__main__":
                     timestamps[path.replace('.json', '')] = time.time()
 
                 markdown_string += f'|{format_category(path_category)} #{get_page(path) + 1}|[{path}](https://github.com/FNLookup/data/blob/main/posts/{path})|\n'
+                time.sleep(5)
 
 
     with open("posts/timestamps.json", "w") as file:
