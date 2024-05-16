@@ -14,12 +14,6 @@ fetch_list = [
     },{
         "url": "https://www.fortnite.com/api/blog/getPosts?postsPerPage=13&offset=13&rootPageSlug=blog",
         "path": "blog_posts_category_lang_page_1.json"
-    },{
-        "url": "https://www.fortnite.com/api/blog/getPosts?postsPerPage=13&offset=26&rootPageSlug=blog",
-        "path": "blog_posts_category_lang_page_2.json"
-    },{
-        "url": "https://www.fortnite.com/api/blog/getPosts?postsPerPage=13&offset=39&rootPageSlug=blog",
-        "path": "blog_posts_category_lang_page_3.json"
     }
 ]
 
@@ -99,7 +93,7 @@ if __name__ == "__main__":
                     timestamps[path.replace('.json', '')] = time.time()
 
                 markdown_string += f'|{format_category(path_category)} #{get_page(path) + 1}|[{path}](https://github.com/FNLookup/data/blob/main/posts/{path})|\n'
-                time.sleep(5)
+                time.sleep(15)
 
 
     with open("posts/timestamps.json", "w") as file:
