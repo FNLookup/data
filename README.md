@@ -1,5 +1,6 @@
 # data
 FNLookup's Data backend.
+They freaking rate limited the blogs
 
 ## fnlookup-blog
 
