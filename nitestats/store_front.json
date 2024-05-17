@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2024-05-17T16:00:00.000Z",
+    "expiration": "2024-05-17T17:00:00.000Z",
     "storefronts": [
         {
             "name": "CurrencyStorefront",
@@ -3402,6 +3402,84 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x Sunbird's Scream for 800 MtxCurrency",
+                    "offerId": "v2:/c7a49bc8bdd425bdc7672add197218fc9f5a968d3d1ccd600f99cab3d6d70b63",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 800,
+                            "dynamicRegularPrice": 800,
+                            "finalPrice": 800,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 800
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S28/DAv2_Mic_Jungle.DAv2_Mic_Jungle",
+                        "LayoutId": "GearForFestival.99",
+                        "TileSize": "Size_1_x_2",
+                        "AnalyticOfferGroupId": "SparksInstruments4",
+                        "FirstSeen": "5/15/2024",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Sparks_Mic_Jungle.DA_Featured_Sparks_Mic_Jungle"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksMicrophone:sparks_mic_jungle",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/S28/DAv2_Mic_Jungle.DAv2_Mic_Jungle"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "GearForFestival.99"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_2"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "SparksInstruments4"
+                        },
+                        {
+                            "key": "FirstSeen",
+                            "value": "5/15/2024"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Sparks_Mic_Jungle.DA_Featured_Sparks_Mic_Jungle",
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksMicrophone:sparks_mic_jungle",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -2,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Joy, 1 x Joyride for 1200 MtxCurrency",
                     "offerId": "v2:/74331c281bec6feda50c52f2a747b7e293532791c56942f755bd9e0a056c414b",
                     "fulfillmentIds": [],
@@ -3495,84 +3573,6 @@
                             "attributes": {
                                 "extra_grant": true
                             }
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -2,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Sunbird's Scream for 800 MtxCurrency",
-                    "offerId": "v2:/c7a49bc8bdd425bdc7672add197218fc9f5a968d3d1ccd600f99cab3d6d70b63",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 800,
-                            "dynamicRegularPrice": 800,
-                            "finalPrice": 800,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 800
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S28/DAv2_Mic_Jungle.DAv2_Mic_Jungle",
-                        "LayoutId": "GearForFestival.99",
-                        "TileSize": "Size_1_x_2",
-                        "AnalyticOfferGroupId": "SparksInstruments4",
-                        "FirstSeen": "5/15/2024",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Sparks_Mic_Jungle.DA_Featured_Sparks_Mic_Jungle"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksMicrophone:sparks_mic_jungle",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S28/DAv2_Mic_Jungle.DAv2_Mic_Jungle"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "GearForFestival.99"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_2"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "SparksInstruments4"
-                        },
-                        {
-                            "key": "FirstSeen",
-                            "value": "5/15/2024"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Sparks_Mic_Jungle.DA_Featured_Sparks_Mic_Jungle",
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksMicrophone:sparks_mic_jungle",
-                            "quantity": 1
                         }
                     ],
                     "additionalGrants": [],
@@ -5863,6 +5863,82 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_143) for 500 MtxCurrency",
+                    "offerId": "v2:/4670c45f0f0bbb5691fd9e4860732ee7dd37889f5504d6d08080f158ac7ad60e",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "SparksCMSVisualTest143",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "JamTracks.97",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "JamTrackList0517"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_143",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "SparksCMSVisualTest143"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "JamTracks.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "JamTrackList0517"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_143",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -28,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Rainbow Smash for 1500 MtxCurrency",
                     "offerId": "v2:/21e0febdd8eed1f98bb73a35eaf789adbb4f80c65e3a0ae02b86e6a1db4804b6",
                     "fulfillmentIds": [],
@@ -5943,82 +6019,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -6,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_143) for 500 MtxCurrency",
-                    "offerId": "v2:/4670c45f0f0bbb5691fd9e4860732ee7dd37889f5504d6d08080f158ac7ad60e",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "SparksCMSVisualTest143",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "JamTracks.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "JamTrackList0517"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_143",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "SparksCMSVisualTest143"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "JamTracks.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "JamTrackList0517"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_143",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -28,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -6355,82 +6355,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_40) for 500 MtxCurrency",
-                    "offerId": "v2:/ed3c3d9d111dd18bcfaf791ac27891a3eef3454c2eda744c6e3d2684ff33241b",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_40",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "JamTracks.99",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "JamTracks0517-1-v2"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_40",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_40"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "JamTracks.99"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "JamTracks0517-1-v2"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_40",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -3,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_206) for 500 MtxCurrency",
                     "offerId": "v2:/faab4c28a9faa3a462238f421888115097b3949d1fdcd4fc3bb1e8c5cab6d9df",
                     "fulfillmentIds": [],
@@ -6509,6 +6433,92 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -82,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_40) for 500 MtxCurrency",
+                    "offerId": "v2:/ed3c3d9d111dd18bcfaf791ac27891a3eef3454c2eda744c6e3d2684ff33241b",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_40",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "JamTracks.99",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "JamTracks0517-1-v2",
+                        "ViolatorTag": "New",
+                        "ViolatorIntensity": "High"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_40",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_40"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "JamTracks.99"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "JamTracks0517-1-v2"
+                        },
+                        {
+                            "key": "ViolatorTag",
+                            "value": "New"
+                        },
+                        {
+                            "key": "ViolatorIntensity",
+                            "value": "High"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_40",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -3,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -11406,77 +11416,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Waddle Away for 200 MtxCurrency",
-                    "offerId": "v2:/105f0e347bcb272592f91e1230d0b81e9a6463a6b477affd48ed5f5833b75ac7",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 200,
-                            "dynamicRegularPrice": 200,
-                            "finalPrice": 200,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 200
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_EID_PenguinWalk.DAv2_EID_PenguinWalk",
-                        "LayoutId": "DahjaCat.99",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "Dahja Cat's Locker Bundle"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaDance:eid_penguinwalk",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_EID_PenguinWalk.DAv2_EID_PenguinWalk"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "DahjaCat.99"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "Dahja Cat's Locker Bundle"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaDance:eid_penguinwalk",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -4,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_18) for 500 MtxCurrency",
                     "offerId": "v2:/355e1880a127f708d833082a53589e39c9880667b34f9e6c611158f583e344b8",
                     "fulfillmentIds": [],
@@ -11636,6 +11575,77 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -40,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Waddle Away for 200 MtxCurrency",
+                    "offerId": "v2:/105f0e347bcb272592f91e1230d0b81e9a6463a6b477affd48ed5f5833b75ac7",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 200,
+                            "dynamicRegularPrice": 200,
+                            "finalPrice": 200,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 200
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_EID_PenguinWalk.DAv2_EID_PenguinWalk",
+                        "LayoutId": "DahjaCat.99",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "Dahja Cat's Locker Bundle"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaDance:eid_penguinwalk",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_EID_PenguinWalk.DAv2_EID_PenguinWalk"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "DahjaCat.99"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "Dahja Cat's Locker Bundle"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaDance:eid_penguinwalk",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -4,
                     "catalogGroupPriority": 0
                 },
                 {
