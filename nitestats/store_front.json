@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2024-05-24T11:00:00.000Z",
+    "expiration": "2024-05-24T12:00:00.000Z",
     "storefronts": [
         {
             "name": "CurrencyStorefront",
@@ -15533,6 +15533,8 @@
                         "InDate": "2024-05-24T00:00:00Z",
                         "OutDate": "2024-06-07T00:00:00Z",
                         "AnalyticOfferGroupId": "Behemoth",
+                        "ViolatorTag": "New",
+                        "ViolatorIntensity": "High",
                         "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_MoonFlaxSUV_Bundle.DA_Featured_MoonFlaxSUV_Bundle"
                     },
                     "matchFilter": "",
@@ -15579,6 +15581,14 @@
                         {
                             "key": "AnalyticOfferGroupId",
                             "value": "Behemoth"
+                        },
+                        {
+                            "key": "ViolatorTag",
+                            "value": "New"
+                        },
+                        {
+                            "key": "ViolatorIntensity",
+                            "value": "High"
                         }
                     ],
                     "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_MoonFlaxSUV_Bundle.DA_Featured_MoonFlaxSUV_Bundle",
