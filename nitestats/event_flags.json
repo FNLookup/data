@@ -3,7 +3,7 @@
         "standalone-store": {
             "states": [
                 {
-                    "validFrom": "2024-06-04T02:25:16.315Z",
+                    "validFrom": "2024-06-04T02:55:09.180Z",
                     "activeEvents": [],
                     "state": {
                         "activePurchaseLimitingEventIds": [],
@@ -13,12 +13,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-06-04T04:25:16.315Z"
+            "cacheExpire": "2024-06-04T04:55:09.180Z"
         },
         "client-matchmaking": {
             "states": [
                 {
-                    "validFrom": "2024-06-04T02:25:16.315Z",
+                    "validFrom": "2024-06-04T02:55:09.180Z",
                     "activeEvents": [],
                     "state": {
                         "region": {
@@ -128,26 +128,82 @@
                             }
                         }
                     }
+                },
+                {
+                    "validFrom": "2024-06-04T05:00:00.000Z",
+                    "activeEvents": [],
+                    "state": {
+                        "region": {
+                            "ASIA": {
+                                "eventFlagsForcedOff": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "ME": {
+                                "eventFlagsForcedOff": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "NAE": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "NAW": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "NAC": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "EU": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "BR": {
+                                "eventFlagsForcedOff": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "OCE": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            }
+                        }
+                    }
                 }
             ],
-            "cacheExpire": "2024-06-04T04:25:16.315Z"
+            "cacheExpire": "2024-06-04T04:55:09.180Z"
         },
         "tk": {
             "states": [
                 {
-                    "validFrom": "2024-06-04T02:25:16.315Z",
+                    "validFrom": "2024-06-04T02:55:09.180Z",
                     "activeEvents": [],
                     "state": {
                         "k": []
                     }
                 }
             ],
-            "cacheExpire": "2024-06-04T04:25:16.315Z"
+            "cacheExpire": "2024-06-04T04:55:09.180Z"
         },
         "featured-islands": {
             "states": [
                 {
-                    "validFrom": "2024-06-04T02:25:16.315Z",
+                    "validFrom": "2024-06-04T02:55:09.180Z",
                     "activeEvents": [],
                     "state": {
                         "islandCodes": [],
@@ -157,12 +213,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-06-04T04:25:16.315Z"
+            "cacheExpire": "2024-06-04T04:55:09.180Z"
         },
         "community-votes": {
             "states": [
                 {
-                    "validFrom": "2024-06-04T02:25:16.315Z",
+                    "validFrom": "2024-06-04T02:55:09.180Z",
                     "activeEvents": [],
                     "state": {
                         "electionId": "",
@@ -172,12 +228,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-06-04T04:25:16.315Z"
+            "cacheExpire": "2024-06-04T04:55:09.180Z"
         },
         "client-events": {
             "states": [
                 {
-                    "validFrom": "2024-06-04T02:25:16.315Z",
+                    "validFrom": "2024-06-04T02:55:09.180Z",
                     "activeEvents": [
                         {
                             "eventType": "EventFlag.LobbyStW.Adventure",
@@ -501,9 +557,9 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-06-04T04:25:16.315Z"
+            "cacheExpire": "2024-06-04T04:55:09.180Z"
         }
     },
     "cacheIntervalMins": 15,
-    "currentTime": "2024-06-04T02:53:05.246Z"
+    "currentTime": "2024-06-04T03:11:50.277Z"
 }
