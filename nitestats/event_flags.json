@@ -3,7 +3,7 @@
         "standalone-store": {
             "states": [
                 {
-                    "validFrom": "2024-06-12T21:48:40.012Z",
+                    "validFrom": "2024-06-12T22:06:49.849Z",
                     "activeEvents": [],
                     "state": {
                         "activePurchaseLimitingEventIds": [],
@@ -13,12 +13,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-06-12T23:48:40.012Z"
+            "cacheExpire": "2024-06-13T00:06:49.849Z"
         },
         "client-matchmaking": {
             "states": [
                 {
-                    "validFrom": "2024-06-12T21:48:40.012Z",
+                    "validFrom": "2024-06-12T22:06:49.849Z",
                     "activeEvents": [],
                     "state": {
                         "region": {
@@ -130,24 +130,24 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-06-12T23:48:40.012Z"
+            "cacheExpire": "2024-06-13T00:06:49.849Z"
         },
         "tk": {
             "states": [
                 {
-                    "validFrom": "2024-06-12T21:48:40.012Z",
+                    "validFrom": "2024-06-12T22:06:49.849Z",
                     "activeEvents": [],
                     "state": {
                         "k": []
                     }
                 }
             ],
-            "cacheExpire": "2024-06-12T23:48:40.012Z"
+            "cacheExpire": "2024-06-13T00:06:49.849Z"
         },
         "featured-islands": {
             "states": [
                 {
-                    "validFrom": "2024-06-12T21:48:40.012Z",
+                    "validFrom": "2024-06-12T22:06:49.849Z",
                     "activeEvents": [],
                     "state": {
                         "islandCodes": [],
@@ -157,12 +157,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-06-12T23:48:40.012Z"
+            "cacheExpire": "2024-06-13T00:06:49.849Z"
         },
         "community-votes": {
             "states": [
                 {
-                    "validFrom": "2024-06-12T21:48:40.012Z",
+                    "validFrom": "2024-06-12T22:06:49.849Z",
                     "activeEvents": [],
                     "state": {
                         "electionId": "",
@@ -172,12 +172,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-06-12T23:48:40.012Z"
+            "cacheExpire": "2024-06-13T00:06:49.849Z"
         },
         "client-events": {
             "states": [
                 {
-                    "validFrom": "2024-06-12T21:48:40.012Z",
+                    "validFrom": "2024-06-12T22:06:49.849Z",
                     "activeEvents": [
                         {
                             "eventType": "EventFlag.LobbyStW.Adventure",
@@ -255,13 +255,13 @@
                             "activeSince": "2024-05-03T08:00:00.000Z"
                         },
                         {
-                            "eventType": "EventFlag.Event_Juno_FTUE",
-                            "activeUntil": "2024-08-06T13:00:00.000Z",
+                            "eventType": "EventFlag.Event_Juno_Osiris_TownRewards",
+                            "activeUntil": "2025-05-02T13:00:00.000Z",
                             "activeSince": "2024-05-03T13:00:00.000Z"
                         },
                         {
-                            "eventType": "EventFlag.Event_Juno_Osiris_TownRewards",
-                            "activeUntil": "2025-05-02T13:00:00.000Z",
+                            "eventType": "EventFlag.Event_Juno_FTUE",
+                            "activeUntil": "2024-06-24T13:00:00.000Z",
                             "activeSince": "2024-05-03T13:00:00.000Z"
                         },
                         {
@@ -273,6 +273,11 @@
                             "eventType": "EventFlag.LobbySeason30",
                             "activeUntil": "2024-08-23T13:00:00.000Z",
                             "activeSince": "2024-05-17T13:00:00.000Z"
+                        },
+                        {
+                            "eventType": "EventFlag.Event_S30_UISeasonEnd",
+                            "activeUntil": "2024-08-16T06:00:00.000Z",
+                            "activeSince": "2024-05-24T13:00:00.000Z"
                         },
                         {
                             "eventType": "EventFlag.Event_S30_StoryQuests",
@@ -440,20 +445,28 @@
                                 "eventType": "EventFlag.Event_Osiris"
                             },
                             {
-                                "instanceId": "4vl10h0l2bgiqeda1oeo5n7jdn[2]0",
-                                "devName": "Juno_FTUE",
-                                "eventName": "CalendarEvent_Juno_FTUE",
-                                "eventStart": "2024-05-03T13:00:00Z",
-                                "eventEnd": "2024-08-06T13:00:00Z",
-                                "eventType": "EventFlag.Event_Juno_FTUE"
-                            },
-                            {
                                 "instanceId": "1qpmtohufgsj9hbths6b3m3hrl[2]0",
                                 "devName": "Juno_Osiris_TownRewards",
                                 "eventName": "CalendarEvent_Juno_Osiris_TownRewards",
                                 "eventStart": "2024-05-03T13:00:00Z",
                                 "eventEnd": "2025-05-02T13:00:00Z",
                                 "eventType": "EventFlag.Event_Juno_Osiris_TownRewards"
+                            },
+                            {
+                                "instanceId": "4vl10h0l2bgiqeda1oeo5n7jdn[2]0",
+                                "devName": "Juno_FTUE",
+                                "eventName": "CalendarEvent_Juno_FTUE",
+                                "eventStart": "2024-05-03T13:00:00Z",
+                                "eventEnd": "2024-06-24T13:00:00Z",
+                                "eventType": "EventFlag.Event_Juno_FTUE"
+                            },
+                            {
+                                "instanceId": "4rulairbsr0q1kl244vu4uvpmt[2]0",
+                                "devName": "Event_S30_UISeasonEnd",
+                                "eventName": "CalendarEvent_S30_UISeasonEnd",
+                                "eventStart": "2024-05-24T13:00:00Z",
+                                "eventEnd": "2024-08-16T06:00:00Z",
+                                "eventType": "EventFlag.Event_S30_UISeasonEnd"
                             },
                             {
                                 "instanceId": "19fp0jb4c6du4kns82ia7c1lb9[2]0",
@@ -566,13 +579,13 @@
                             "activeSince": "2024-05-03T08:00:00.000Z"
                         },
                         {
-                            "eventType": "EventFlag.Event_Juno_FTUE",
-                            "activeUntil": "2024-08-06T13:00:00.000Z",
+                            "eventType": "EventFlag.Event_Juno_Osiris_TownRewards",
+                            "activeUntil": "2025-05-02T13:00:00.000Z",
                             "activeSince": "2024-05-03T13:00:00.000Z"
                         },
                         {
-                            "eventType": "EventFlag.Event_Juno_Osiris_TownRewards",
-                            "activeUntil": "2025-05-02T13:00:00.000Z",
+                            "eventType": "EventFlag.Event_Juno_FTUE",
+                            "activeUntil": "2024-06-24T13:00:00.000Z",
                             "activeSince": "2024-05-03T13:00:00.000Z"
                         },
                         {
@@ -584,6 +597,11 @@
                             "eventType": "EventFlag.LobbySeason30",
                             "activeUntil": "2024-08-23T13:00:00.000Z",
                             "activeSince": "2024-05-17T13:00:00.000Z"
+                        },
+                        {
+                            "eventType": "EventFlag.Event_S30_UISeasonEnd",
+                            "activeUntil": "2024-08-16T06:00:00.000Z",
+                            "activeSince": "2024-05-24T13:00:00.000Z"
                         },
                         {
                             "eventType": "EventFlag.Event_S30_StoryQuests",
@@ -751,20 +769,28 @@
                                 "eventType": "EventFlag.Event_Osiris"
                             },
                             {
-                                "instanceId": "4vl10h0l2bgiqeda1oeo5n7jdn[2]0",
-                                "devName": "Juno_FTUE",
-                                "eventName": "CalendarEvent_Juno_FTUE",
-                                "eventStart": "2024-05-03T13:00:00Z",
-                                "eventEnd": "2024-08-06T13:00:00Z",
-                                "eventType": "EventFlag.Event_Juno_FTUE"
-                            },
-                            {
                                 "instanceId": "1qpmtohufgsj9hbths6b3m3hrl[2]0",
                                 "devName": "Juno_Osiris_TownRewards",
                                 "eventName": "CalendarEvent_Juno_Osiris_TownRewards",
                                 "eventStart": "2024-05-03T13:00:00Z",
                                 "eventEnd": "2025-05-02T13:00:00Z",
                                 "eventType": "EventFlag.Event_Juno_Osiris_TownRewards"
+                            },
+                            {
+                                "instanceId": "4vl10h0l2bgiqeda1oeo5n7jdn[2]0",
+                                "devName": "Juno_FTUE",
+                                "eventName": "CalendarEvent_Juno_FTUE",
+                                "eventStart": "2024-05-03T13:00:00Z",
+                                "eventEnd": "2024-06-24T13:00:00Z",
+                                "eventType": "EventFlag.Event_Juno_FTUE"
+                            },
+                            {
+                                "instanceId": "4rulairbsr0q1kl244vu4uvpmt[2]0",
+                                "devName": "Event_S30_UISeasonEnd",
+                                "eventName": "CalendarEvent_S30_UISeasonEnd",
+                                "eventStart": "2024-05-24T13:00:00Z",
+                                "eventEnd": "2024-08-16T06:00:00Z",
+                                "eventType": "EventFlag.Event_S30_UISeasonEnd"
                             },
                             {
                                 "instanceId": "19fp0jb4c6du4kns82ia7c1lb9[2]0",
@@ -799,9 +825,9 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-06-12T23:48:40.012Z"
+            "cacheExpire": "2024-06-13T00:06:49.849Z"
         }
     },
     "cacheIntervalMins": 15,
-    "currentTime": "2024-06-12T22:09:01.281Z"
+    "currentTime": "2024-06-12T22:26:05.250Z"
 }
