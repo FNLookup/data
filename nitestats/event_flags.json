@@ -3,7 +3,7 @@
         "standalone-store": {
             "states": [
                 {
-                    "validFrom": "2024-06-13T08:33:52.266Z",
+                    "validFrom": "2024-06-13T08:43:21.539Z",
                     "activeEvents": [],
                     "state": {
                         "activePurchaseLimitingEventIds": [],
@@ -13,12 +13,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-06-13T10:33:52.266Z"
+            "cacheExpire": "2024-06-13T10:43:21.539Z"
         },
         "client-matchmaking": {
             "states": [
                 {
-                    "validFrom": "2024-06-13T08:33:52.266Z",
+                    "validFrom": "2024-06-13T08:43:21.539Z",
                     "activeEvents": [],
                     "state": {
                         "region": {
@@ -74,24 +74,24 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-06-13T10:33:52.266Z"
+            "cacheExpire": "2024-06-13T10:43:21.539Z"
         },
         "tk": {
             "states": [
                 {
-                    "validFrom": "2024-06-13T08:33:52.266Z",
+                    "validFrom": "2024-06-13T08:43:21.539Z",
                     "activeEvents": [],
                     "state": {
                         "k": []
                     }
                 }
             ],
-            "cacheExpire": "2024-06-13T10:33:52.266Z"
+            "cacheExpire": "2024-06-13T10:43:21.539Z"
         },
         "featured-islands": {
             "states": [
                 {
-                    "validFrom": "2024-06-13T08:33:52.266Z",
+                    "validFrom": "2024-06-13T08:43:21.539Z",
                     "activeEvents": [],
                     "state": {
                         "islandCodes": [],
@@ -101,12 +101,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-06-13T10:33:52.266Z"
+            "cacheExpire": "2024-06-13T10:43:21.539Z"
         },
         "community-votes": {
             "states": [
                 {
-                    "validFrom": "2024-06-13T08:33:52.266Z",
+                    "validFrom": "2024-06-13T08:43:21.539Z",
                     "activeEvents": [],
                     "state": {
                         "electionId": "",
@@ -116,12 +116,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-06-13T10:33:52.266Z"
+            "cacheExpire": "2024-06-13T10:43:21.539Z"
         },
         "client-events": {
             "states": [
                 {
-                    "validFrom": "2024-06-13T08:33:52.266Z",
+                    "validFrom": "2024-06-13T08:43:21.539Z",
                     "activeEvents": [
                         {
                             "eventType": "EventFlag.LobbyStW.Adventure",
@@ -237,6 +237,11 @@
                             "eventType": "EventFlag.HordeV3.Week09",
                             "activeUntil": "2024-06-20T00:00:00.000Z",
                             "activeSince": "2024-06-13T00:00:00.000Z"
+                        },
+                        {
+                            "eventType": "EventFlag.Event_S30_Stainless",
+                            "activeUntil": "2024-07-02T13:00:00.000Z",
+                            "activeSince": "2024-06-13T08:00:00.000Z"
                         },
                         {
                             "eventType": "EventFlag.Event_SparksS04_Week01",
@@ -431,6 +436,14 @@
                                 "eventType": "EventFlag.Event_Juno_Hardcore"
                             },
                             {
+                                "instanceId": "1d0rs98g8bi412m4kqbn7ll9so[2]0",
+                                "devName": "Event_S30_Stainless",
+                                "eventName": "CalendarEvent_S30_Stainless",
+                                "eventStart": "2024-06-13T08:00:00Z",
+                                "eventEnd": "2024-07-02T13:00:00Z",
+                                "eventType": "EventFlag.Event_S30_Stainless"
+                            },
+                            {
                                 "instanceId": "3gqqkfetiv2l8okjmfe07urkgn[2]0",
                                 "devName": "Event_SparksS04_Week01",
                                 "eventName": "CalendarEvent_SparksS04_Week01",
@@ -471,9 +484,9 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-06-13T10:33:52.266Z"
+            "cacheExpire": "2024-06-13T10:43:21.539Z"
         }
     },
     "cacheIntervalMins": 15,
-    "currentTime": "2024-06-13T08:53:31.089Z"
+    "currentTime": "2024-06-13T09:10:45.301Z"
 }
