@@ -49,9 +49,9 @@ We can see `/1706206034/` is common across both.
 
 On the first URL we see a structure
 
-`https://fortnite-vod.akamaized.net/:VUIDPath/:UnknownID/`
+`https://fortnite-vod.akamaized.net/:VUIDPath/:UnixDate/`
 
-To obtain a blurl we must not use the Unknown ID and instead replace it with `master.blurl`.
+To obtain a blurl we must not use the Unix timestamp and instead replace it with `master.blurl`.
 
 For our song, this would be:
 
