@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2024-06-22T08:00:00.000Z",
+    "expiration": "2024-06-22T09:00:00.000Z",
     "storefronts": [
         {
             "name": "CurrencyStorefront",
@@ -4305,6 +4305,92 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x Roadhouse Neon for 1000 MtxCurrency",
+                    "offerId": "v2:/da1001563fc93262ef0fdcffd2662b10bbda1b3c9d2dcad389de1fe265e97a1a",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 1000,
+                            "dynamicRegularPrice": 1000,
+                            "finalPrice": 1000,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 1000
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S28/DAv2_Sparks_Bass_Wired.DAv2_Sparks_Bass_Wired",
+                        "LayoutId": "GearForFestival.97",
+                        "TileSize": "Size_1_x_2",
+                        "AnalyticOfferGroupId": "GearForFestival",
+                        "templateId": "SparksBass:sparks_bass_wired",
+                        "inDate": "2024-06-22T00:00:00.000Z",
+                        "outDate": "2024-06-23T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksBass:sparks_bass_wired",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/S28/DAv2_Sparks_Bass_Wired.DAv2_Sparks_Bass_Wired"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "GearForFestival.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_2"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "GearForFestival"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksBass:sparks_bass_wired"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-06-22T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-06-23T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksBass:sparks_bass_wired",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -2,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Finesse Finisher for 1200 MtxCurrency",
                     "offerId": "v2:/9429c4683e6351a67297a106a274bef3f11e59b60e1758fd0101c7d8a29b9bb6",
                     "fulfillmentIds": [],
@@ -4390,92 +4476,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -7,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Roadhouse Neon for 1000 MtxCurrency",
-                    "offerId": "v2:/da1001563fc93262ef0fdcffd2662b10bbda1b3c9d2dcad389de1fe265e97a1a",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 1000,
-                            "dynamicRegularPrice": 1000,
-                            "finalPrice": 1000,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 1000
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S28/DAv2_Sparks_Bass_Wired.DAv2_Sparks_Bass_Wired",
-                        "LayoutId": "GearForFestival.97",
-                        "TileSize": "Size_1_x_2",
-                        "AnalyticOfferGroupId": "GearForFestival",
-                        "templateId": "SparksBass:sparks_bass_wired",
-                        "inDate": "2024-06-22T00:00:00.000Z",
-                        "outDate": "2024-06-23T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksBass:sparks_bass_wired",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S28/DAv2_Sparks_Bass_Wired.DAv2_Sparks_Bass_Wired"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "GearForFestival.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_2"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "GearForFestival"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksBass:sparks_bass_wired"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-06-22T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-06-23T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksBass:sparks_bass_wired",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -2,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -12107,94 +12107,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Clinical Crosser for 1200 MtxCurrency",
-                    "offerId": "v2:/aff5280aeb870201edcd3012516b8f03d53043349942207fcd276fa6f0b8a23a",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 1200,
-                            "dynamicRegularPrice": 1200,
-                            "finalPrice": 1200,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 1200
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_CID_150_F_SoccerGirlC.DAv2_CID_150_F_SoccerGirlC",
-                        "LayoutId": "Goalbound.98",
-                        "TileSize": "Size_1_x_2",
-                        "AnalyticOfferGroupId": "Goalbound",
-                        "templateId": "AthenaCharacter:cid_151_athena_commando_f_soccergirld",
-                        "inDate": "2024-06-22T00:00:00.000Z",
-                        "outDate": "2024-06-23T23:59:59.999Z",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_151_Athena_Commando_F_SoccerGirlD.DA_Featured_CID_151_Athena_Commando_F_SoccerGirlD"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaCharacter:cid_151_athena_commando_f_soccergirld",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_CID_150_F_SoccerGirlC.DAv2_CID_150_F_SoccerGirlC"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "Goalbound.98"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_2"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "Goalbound"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaCharacter:cid_151_athena_commando_f_soccergirld"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-06-22T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-06-23T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_151_Athena_Commando_F_SoccerGirlD.DA_Featured_CID_151_Athena_Commando_F_SoccerGirlD",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaCharacter:cid_151_athena_commando_f_soccergirld",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -8,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_238) for 500 MtxCurrency",
                     "offerId": "v2:/e7e2c2a0ff7e607fc7bd85f22b50671afd2738a1b24c7f0bd65208d765bc7132",
                     "fulfillmentIds": [],
@@ -12283,6 +12195,94 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -10,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Clinical Crosser for 1200 MtxCurrency",
+                    "offerId": "v2:/aff5280aeb870201edcd3012516b8f03d53043349942207fcd276fa6f0b8a23a",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 1200,
+                            "dynamicRegularPrice": 1200,
+                            "finalPrice": 1200,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 1200
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_CID_150_F_SoccerGirlC.DAv2_CID_150_F_SoccerGirlC",
+                        "LayoutId": "Goalbound.98",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "Goalbound",
+                        "templateId": "AthenaCharacter:cid_151_athena_commando_f_soccergirld",
+                        "inDate": "2024-06-22T00:00:00.000Z",
+                        "outDate": "2024-06-23T23:59:59.999Z",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_151_Athena_Commando_F_SoccerGirlD.DA_Featured_CID_151_Athena_Commando_F_SoccerGirlD"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaCharacter:cid_151_athena_commando_f_soccergirld",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_CID_150_F_SoccerGirlC.DAv2_CID_150_F_SoccerGirlC"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "Goalbound.98"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "Goalbound"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaCharacter:cid_151_athena_commando_f_soccergirld"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-06-22T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-06-23T23:59:59.999Z"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_151_Athena_Commando_F_SoccerGirlD.DA_Featured_CID_151_Athena_Commando_F_SoccerGirlD",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaCharacter:cid_151_athena_commando_f_soccergirld",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -8,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -14993,7 +14993,7 @@
                     "meta": {
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_CID_146_M_SoccerDudeC.DAv2_CID_146_M_SoccerDudeC",
                         "LayoutId": "Goalbound.98",
-                        "TileSize": "Size_1_x_2",
+                        "TileSize": "Size_1_x_1",
                         "AnalyticOfferGroupId": "Goalbound",
                         "templateId": "AthenaCharacter:cid_146_athena_commando_m_soccerdudec",
                         "inDate": "2024-06-22T00:00:00.000Z",
@@ -15029,7 +15029,7 @@
                         },
                         {
                             "key": "TileSize",
-                            "value": "Size_1_x_2"
+                            "value": "Size_1_x_1"
                         },
                         {
                             "key": "AnalyticOfferGroupId",
