@@ -3,7 +3,7 @@
         "standalone-store": {
             "states": [
                 {
-                    "validFrom": "2024-06-22T05:33:44.312Z",
+                    "validFrom": "2024-06-22T05:55:00.355Z",
                     "activeEvents": [],
                     "state": {
                         "activePurchaseLimitingEventIds": [],
@@ -13,12 +13,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-06-22T07:33:44.312Z"
+            "cacheExpire": "2024-06-22T07:55:00.355Z"
         },
         "client-matchmaking": {
             "states": [
                 {
-                    "validFrom": "2024-06-22T05:33:44.312Z",
+                    "validFrom": "2024-06-22T05:55:00.355Z",
                     "activeEvents": [],
                     "state": {
                         "region": {
@@ -72,26 +72,82 @@
                             }
                         }
                     }
+                },
+                {
+                    "validFrom": "2024-06-22T08:00:00.000Z",
+                    "activeEvents": [],
+                    "state": {
+                        "region": {
+                            "NAE": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "NAW": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "NAC": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "EU": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "ASIA": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "OCE": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "BR": {
+                                "eventFlagsForcedOff": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "ME": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            }
+                        }
+                    }
                 }
             ],
-            "cacheExpire": "2024-06-22T07:33:44.312Z"
+            "cacheExpire": "2024-06-22T07:55:00.355Z"
         },
         "tk": {
             "states": [
                 {
-                    "validFrom": "2024-06-22T05:33:44.312Z",
+                    "validFrom": "2024-06-22T05:55:00.355Z",
                     "activeEvents": [],
                     "state": {
                         "k": []
                     }
                 }
             ],
-            "cacheExpire": "2024-06-22T07:33:44.312Z"
+            "cacheExpire": "2024-06-22T07:55:00.355Z"
         },
         "featured-islands": {
             "states": [
                 {
-                    "validFrom": "2024-06-22T05:33:44.312Z",
+                    "validFrom": "2024-06-22T05:55:00.355Z",
                     "activeEvents": [],
                     "state": {
                         "islandCodes": [],
@@ -101,12 +157,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-06-22T07:33:44.312Z"
+            "cacheExpire": "2024-06-22T07:55:00.355Z"
         },
         "community-votes": {
             "states": [
                 {
-                    "validFrom": "2024-06-22T05:33:44.312Z",
+                    "validFrom": "2024-06-22T05:55:00.355Z",
                     "activeEvents": [],
                     "state": {
                         "electionId": "",
@@ -116,12 +172,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-06-22T07:33:44.312Z"
+            "cacheExpire": "2024-06-22T07:55:00.355Z"
         },
         "client-events": {
             "states": [
                 {
-                    "validFrom": "2024-06-22T05:33:44.312Z",
+                    "validFrom": "2024-06-22T05:55:00.355Z",
                     "activeEvents": [
                         {
                             "eventType": "EventFlag.Event_DelMar_Season01_Dailies",
@@ -327,16 +383,6 @@
                             "eventType": "PilgrimSong.fuel",
                             "activeUntil": "2024-06-23T00:00:00.000Z",
                             "activeSince": "2024-06-22T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.Event_Juno_FTUE_V2",
-                            "activeUntil": "2025-07-22T08:00:00.000Z",
-                            "activeSince": "2024-06-22T05:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.Event_Juno_FTUE_BB",
-                            "activeUntil": "2025-08-21T08:01:00.000Z",
-                            "activeSince": "2024-06-22T05:01:00.000Z"
                         }
                     ],
                     "state": {
@@ -470,22 +516,6 @@
                                 "eventStart": "2024-06-20T23:00:00Z",
                                 "eventEnd": "2024-06-27T23:00:00Z",
                                 "eventType": "EventFlag.Event_SparksS04_Week02"
-                            },
-                            {
-                                "instanceId": "3gv78os4amga401e1l4n5h0h33[2]0",
-                                "devName": "JunoEvent_FTUE_V2",
-                                "eventName": "CalendarEvent_Juno_FTUE_V2",
-                                "eventStart": "2024-06-22T05:00:00Z",
-                                "eventEnd": "2025-07-22T08:00:00Z",
-                                "eventType": "EventFlag.Event_Juno_FTUE_V2"
-                            },
-                            {
-                                "instanceId": "1t9mdltjdk11253n5umv9snipj[2]0",
-                                "devName": "Juno_FTUE_BB",
-                                "eventName": "CalendarEvent_Juno_FTUE_BB",
-                                "eventStart": "2024-06-22T05:01:00Z",
-                                "eventEnd": "2025-08-21T08:01:00Z",
-                                "eventType": "EventFlag.Event_Juno_FTUE_BB"
                             }
                         ],
                         "seasonNumber": 30,
@@ -504,9 +534,9 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-06-22T07:33:44.312Z"
+            "cacheExpire": "2024-06-22T07:55:00.355Z"
         }
     },
     "cacheIntervalMins": 15,
-    "currentTime": "2024-06-22T05:52:31.054Z"
+    "currentTime": "2024-06-22T06:12:01.232Z"
 }
