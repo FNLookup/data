@@ -3,7 +3,7 @@
         "standalone-store": {
             "states": [
                 {
-                    "validFrom": "2024-06-22T05:24:30.712Z",
+                    "validFrom": "2024-06-22T05:33:44.312Z",
                     "activeEvents": [],
                     "state": {
                         "activePurchaseLimitingEventIds": [],
@@ -13,12 +13,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-06-22T07:24:30.712Z"
+            "cacheExpire": "2024-06-22T07:33:44.312Z"
         },
         "client-matchmaking": {
             "states": [
                 {
-                    "validFrom": "2024-06-22T05:24:30.712Z",
+                    "validFrom": "2024-06-22T05:33:44.312Z",
                     "activeEvents": [],
                     "state": {
                         "region": {
@@ -74,24 +74,24 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-06-22T07:24:30.712Z"
+            "cacheExpire": "2024-06-22T07:33:44.312Z"
         },
         "tk": {
             "states": [
                 {
-                    "validFrom": "2024-06-22T05:24:30.712Z",
+                    "validFrom": "2024-06-22T05:33:44.312Z",
                     "activeEvents": [],
                     "state": {
                         "k": []
                     }
                 }
             ],
-            "cacheExpire": "2024-06-22T07:24:30.712Z"
+            "cacheExpire": "2024-06-22T07:33:44.312Z"
         },
         "featured-islands": {
             "states": [
                 {
-                    "validFrom": "2024-06-22T05:24:30.712Z",
+                    "validFrom": "2024-06-22T05:33:44.312Z",
                     "activeEvents": [],
                     "state": {
                         "islandCodes": [],
@@ -101,12 +101,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-06-22T07:24:30.712Z"
+            "cacheExpire": "2024-06-22T07:33:44.312Z"
         },
         "community-votes": {
             "states": [
                 {
-                    "validFrom": "2024-06-22T05:24:30.712Z",
+                    "validFrom": "2024-06-22T05:33:44.312Z",
                     "activeEvents": [],
                     "state": {
                         "electionId": "",
@@ -116,12 +116,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-06-22T07:24:30.712Z"
+            "cacheExpire": "2024-06-22T07:33:44.312Z"
         },
         "client-events": {
             "states": [
                 {
-                    "validFrom": "2024-06-22T05:24:30.712Z",
+                    "validFrom": "2024-06-22T05:33:44.312Z",
                     "activeEvents": [
                         {
                             "eventType": "EventFlag.Event_DelMar_Season01_Dailies",
@@ -327,6 +327,16 @@
                             "eventType": "PilgrimSong.fuel",
                             "activeUntil": "2024-06-23T00:00:00.000Z",
                             "activeSince": "2024-06-22T00:00:00.000Z"
+                        },
+                        {
+                            "eventType": "EventFlag.Event_Juno_FTUE_V2",
+                            "activeUntil": "2025-07-22T08:00:00.000Z",
+                            "activeSince": "2024-06-22T05:00:00.000Z"
+                        },
+                        {
+                            "eventType": "EventFlag.Event_Juno_FTUE_BB",
+                            "activeUntil": "2025-08-21T08:01:00.000Z",
+                            "activeSince": "2024-06-22T05:01:00.000Z"
                         }
                     ],
                     "state": {
@@ -460,6 +470,22 @@
                                 "eventStart": "2024-06-20T23:00:00Z",
                                 "eventEnd": "2024-06-27T23:00:00Z",
                                 "eventType": "EventFlag.Event_SparksS04_Week02"
+                            },
+                            {
+                                "instanceId": "3gv78os4amga401e1l4n5h0h33[2]0",
+                                "devName": "JunoEvent_FTUE_V2",
+                                "eventName": "CalendarEvent_Juno_FTUE_V2",
+                                "eventStart": "2024-06-22T05:00:00Z",
+                                "eventEnd": "2025-07-22T08:00:00Z",
+                                "eventType": "EventFlag.Event_Juno_FTUE_V2"
+                            },
+                            {
+                                "instanceId": "1t9mdltjdk11253n5umv9snipj[2]0",
+                                "devName": "Juno_FTUE_BB",
+                                "eventName": "CalendarEvent_Juno_FTUE_BB",
+                                "eventStart": "2024-06-22T05:01:00Z",
+                                "eventEnd": "2025-08-21T08:01:00Z",
+                                "eventType": "EventFlag.Event_Juno_FTUE_BB"
                             }
                         ],
                         "seasonNumber": 30,
@@ -478,9 +504,9 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-06-22T07:24:30.712Z"
+            "cacheExpire": "2024-06-22T07:33:44.312Z"
         }
     },
     "cacheIntervalMins": 15,
-    "currentTime": "2024-06-22T05:42:15.236Z"
+    "currentTime": "2024-06-22T05:52:31.054Z"
 }
