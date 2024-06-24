@@ -3,7 +3,7 @@
         "standalone-store": {
             "states": [
                 {
-                    "validFrom": "2024-06-24T13:44:30.918Z",
+                    "validFrom": "2024-06-24T14:10:08.285Z",
                     "activeEvents": [],
                     "state": {
                         "activePurchaseLimitingEventIds": [],
@@ -13,12 +13,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-06-24T15:44:30.918Z"
+            "cacheExpire": "2024-06-24T16:10:08.285Z"
         },
         "client-matchmaking": {
             "states": [
                 {
-                    "validFrom": "2024-06-24T13:44:30.918Z",
+                    "validFrom": "2024-06-24T14:10:08.285Z",
                     "activeEvents": [],
                     "state": {
                         "region": {
@@ -128,26 +128,82 @@
                             }
                         }
                     }
+                },
+                {
+                    "validFrom": "2024-06-24T16:00:00.000Z",
+                    "activeEvents": [],
+                    "state": {
+                        "region": {
+                            "NAE": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "NAW": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "NAC": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "EU": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "OCE": {
+                                "eventFlagsForcedOff": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "ME": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "ASIA": {
+                                "eventFlagsForcedOff": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "BR": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            }
+                        }
+                    }
                 }
             ],
-            "cacheExpire": "2024-06-24T15:44:30.918Z"
+            "cacheExpire": "2024-06-24T16:10:08.285Z"
         },
         "tk": {
             "states": [
                 {
-                    "validFrom": "2024-06-24T13:44:30.918Z",
+                    "validFrom": "2024-06-24T14:10:08.285Z",
                     "activeEvents": [],
                     "state": {
                         "k": []
                     }
                 }
             ],
-            "cacheExpire": "2024-06-24T15:44:30.918Z"
+            "cacheExpire": "2024-06-24T16:10:08.285Z"
         },
         "featured-islands": {
             "states": [
                 {
-                    "validFrom": "2024-06-24T13:44:30.918Z",
+                    "validFrom": "2024-06-24T14:10:08.285Z",
                     "activeEvents": [],
                     "state": {
                         "islandCodes": [],
@@ -157,12 +213,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-06-24T15:44:30.918Z"
+            "cacheExpire": "2024-06-24T16:10:08.285Z"
         },
         "community-votes": {
             "states": [
                 {
-                    "validFrom": "2024-06-24T13:44:30.918Z",
+                    "validFrom": "2024-06-24T14:10:08.285Z",
                     "activeEvents": [],
                     "state": {
                         "electionId": "",
@@ -172,12 +228,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-06-24T15:44:30.918Z"
+            "cacheExpire": "2024-06-24T16:10:08.285Z"
         },
         "client-events": {
             "states": [
                 {
-                    "validFrom": "2024-06-24T13:44:30.918Z",
+                    "validFrom": "2024-06-24T14:10:08.285Z",
                     "activeEvents": [
                         {
                             "eventType": "EventFlag.Event_DelMar_Season01_Dailies",
@@ -240,13 +296,13 @@
                             "activeSince": "2024-06-13T08:00:00.000Z"
                         },
                         {
-                            "eventType": "EventFlag.Event_GreenhousePrelude",
-                            "activeUntil": "2024-07-19T13:00:00.000Z",
+                            "eventType": "EventFlag.Event_S30_3010Adjustments",
+                            "activeUntil": "2024-08-16T08:00:00.000Z",
                             "activeSince": "2024-06-13T13:00:00.000Z"
                         },
                         {
-                            "eventType": "EventFlag.Event_S30_3010Adjustments",
-                            "activeUntil": "2024-08-16T08:00:00.000Z",
+                            "eventType": "EventFlag.Event_GreenhousePrelude",
+                            "activeUntil": "2024-07-19T13:00:00.000Z",
                             "activeSince": "2024-06-13T13:00:00.000Z"
                         },
                         {
@@ -553,20 +609,20 @@
                                 "eventType": "EventFlag.Event_Sparks_Stainless01"
                             },
                             {
-                                "instanceId": "5s0ns9rcgb7ev8j78bi4tqkdc0[2]0",
-                                "devName": "Event_S30_Greenhouse_Prelude",
-                                "eventName": "CalendarEvent_GreenhousePrelude",
-                                "eventStart": "2024-06-13T13:00:00Z",
-                                "eventEnd": "2024-07-19T13:00:00Z",
-                                "eventType": "EventFlag.Event_GreenhousePrelude"
-                            },
-                            {
                                 "instanceId": "54td3i9s025595jgfv15v0duv5[2]0",
                                 "devName": "Event_S30_3010Adjustments",
                                 "eventName": "CalendarEvent_S30_3010Adjustments",
                                 "eventStart": "2024-06-13T13:00:00Z",
                                 "eventEnd": "2024-08-16T08:00:00Z",
                                 "eventType": "EventFlag.Event_S30_3010Adjustments"
+                            },
+                            {
+                                "instanceId": "5s0ns9rcgb7ev8j78bi4tqkdc0[2]0",
+                                "devName": "Event_S30_Greenhouse_Prelude",
+                                "eventName": "CalendarEvent_GreenhousePrelude",
+                                "eventStart": "2024-06-13T13:00:00Z",
+                                "eventEnd": "2024-07-19T13:00:00Z",
+                                "eventType": "EventFlag.Event_GreenhousePrelude"
                             },
                             {
                                 "instanceId": "3r1atnmfp91u1m4t916ruk9b58[2]0",
@@ -649,9 +705,9 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-06-24T15:44:30.918Z"
+            "cacheExpire": "2024-06-24T16:10:08.285Z"
         }
     },
     "cacheIntervalMins": 15,
-    "currentTime": "2024-06-24T14:08:40.274Z"
+    "currentTime": "2024-06-24T14:25:55.222Z"
 }
