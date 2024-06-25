@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2024-06-25T20:00:00.000Z",
+    "expiration": "2024-06-25T21:00:00.000Z",
     "storefronts": [
         {
             "name": "CurrencyStorefront",
@@ -8254,94 +8254,6 @@
                     "itemGrants": [
                         {
                             "templateId": "AthenaPickaxe:pickaxe_id_231_flamingo2",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -4,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Alienz Wuz Here for 300 MtxCurrency",
-                    "offerId": "v2:/97ccfdf3f1bd97e04f1c61af9af2275e6b0dc3ffb5b3a9fb047a4ead04985cec",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 300,
-                            "dynamicRegularPrice": 300,
-                            "finalPrice": 300,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 300
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S29/DAv2_Wrap_AlienGraffiti.DAv2_Wrap_AlienGraffiti",
-                        "LayoutId": "SignatureStyle.95",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "SignatureStyle",
-                        "templateId": "AthenaItemWrap:wrap_aliengraffiti",
-                        "inDate": "2024-06-24T00:00:00.000Z",
-                        "outDate": "2024-06-25T23:59:59.999Z",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Wrap_AlienGraffiti.DA_Featured_Wrap_AlienGraffiti"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaItemWrap:wrap_aliengraffiti",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S29/DAv2_Wrap_AlienGraffiti.DAv2_Wrap_AlienGraffiti"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "SignatureStyle.95"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "SignatureStyle"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaItemWrap:wrap_aliengraffiti"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-06-24T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-06-25T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Wrap_AlienGraffiti.DA_Featured_Wrap_AlienGraffiti",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaItemWrap:wrap_aliengraffiti",
                             "quantity": 1
                         }
                     ],
@@ -17862,145 +17774,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Human Bill, 1 x A WEATHER BALLOON, 1 x Freezie Friendz, 1 x Alienz Wuz Here for -1 MtxCurrency",
-                    "offerId": "v2:/cca9481b7d6f2c6aa4bf3a83805d6c85bc27190cdb398aa6147c670a06df9618",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [],
-                    "dynamicBundleInfo": {
-                        "discountedBasePrice": -400,
-                        "regularBasePrice": 0,
-                        "floorPrice": 100,
-                        "currencyType": "MtxCurrency",
-                        "currencySubType": "",
-                        "displayType": "AmountOff",
-                        "bundleItems": [
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 1800,
-                                "discountedPrice": 1800,
-                                "alreadyOwnedPriceReduction": 1800,
-                                "item": {
-                                    "templateId": "AthenaCharacter:cid_a_175_athena_commando_m_aliensummer",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 0,
-                                "discountedPrice": 0,
-                                "alreadyOwnedPriceReduction": 0,
-                                "item": {
-                                    "templateId": "AthenaBackpack:bid_822_aliensummer",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 500,
-                                "discountedPrice": 500,
-                                "alreadyOwnedPriceReduction": 500,
-                                "item": {
-                                    "templateId": "AthenaPickaxe:pickaxe_id_643_aliensummermale",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 300,
-                                "discountedPrice": 300,
-                                "alreadyOwnedPriceReduction": 300,
-                                "item": {
-                                    "templateId": "AthenaItemWrap:wrap_aliengraffiti",
-                                    "quantity": 1
-                                }
-                            }
-                        ]
-                    },
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_AlienSummer.DAv2_Bundle_Featured_AlienSummer",
-                        "bundleId": "DynamicBundle:b_aliensummer",
-                        "LayoutId": "SignatureStyle.95",
-                        "TileSize": "Size_2_x_2",
-                        "AnalyticOfferGroupId": "SignatureStyle",
-                        "templateId": "DynamicBundle:b_aliensummer",
-                        "inDate": "2024-06-24T00:00:00.000Z",
-                        "outDate": "2024-06-25T23:59:59.999Z",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_AlienSummer_Bundle.DA_Featured_AlienSummer_Bundle"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [],
-                    "offerType": "DynamicBundle",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_AlienSummer.DAv2_Bundle_Featured_AlienSummer"
-                        },
-                        {
-                            "key": "bundleId",
-                            "value": "DynamicBundle:b_aliensummer"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "SignatureStyle.95"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_2_x_2"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "SignatureStyle"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "DynamicBundle:b_aliensummer"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-06-24T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-06-25T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_AlienSummer_Bundle.DA_Featured_AlienSummer_Bundle",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaCharacter:cid_a_175_athena_commando_m_aliensummer",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaBackpack:bid_822_aliensummer",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaPickaxe:pickaxe_id_643_aliensummermale",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaItemWrap:wrap_aliengraffiti",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x REM Raider for 1200 MtxCurrency",
                     "offerId": "v2:/46ac00df4a210eb1682bc0f5d40ad4be5d7939bfdeda3189183138df36ea0e73",
                     "fulfillmentIds": [],
@@ -19563,94 +19336,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -37,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Freezie Friendz for 500 MtxCurrency",
-                    "offerId": "v2:/bc5685f6cd98755727ad41a240e671b3746d78f295ee71b4447a786b13573340",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_Pickaxe_ID_643_AlienSummerMale.DAv2_Pickaxe_ID_643_AlienSummerMale",
-                        "LayoutId": "SignatureStyle.95",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "SignatureStyle",
-                        "templateId": "AthenaPickaxe:pickaxe_id_643_aliensummermale",
-                        "inDate": "2024-06-24T00:00:00.000Z",
-                        "outDate": "2024-06-25T23:59:59.999Z",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_643_AlienSummerMale.DA_Featured_Pickaxe_ID_643_AlienSummerMale"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaPickaxe:pickaxe_id_643_aliensummermale",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_Pickaxe_ID_643_AlienSummerMale.DAv2_Pickaxe_ID_643_AlienSummerMale"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "SignatureStyle.95"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "SignatureStyle"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaPickaxe:pickaxe_id_643_aliensummermale"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-06-24T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-06-25T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_643_AlienSummerMale.DA_Featured_Pickaxe_ID_643_AlienSummerMale",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaPickaxe:pickaxe_id_643_aliensummermale",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -3,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -22458,121 +22143,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -4,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Human Bill, 1 x A WEATHER BALLOON for 1800 MtxCurrency",
-                    "offerId": "v2:/ac7e50acfd895bf905b1bf712c6e50866e2a6e89888917d2c1d381cfc47e78fe",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 1800,
-                            "dynamicRegularPrice": 1800,
-                            "finalPrice": 1800,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 1800
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_CID_A_175_M_AlienSummer.DAv2_CID_A_175_M_AlienSummer",
-                        "offertag": "somanystyles",
-                        "ViolatorTag": "SoManyStylesBanner",
-                        "ViolatorIntensity": "High",
-                        "LayoutId": "SignatureStyle.95",
-                        "TileSize": "Size_1_x_2",
-                        "AnalyticOfferGroupId": "SignatureStyle",
-                        "templateId": "AthenaCharacter:cid_a_175_athena_commando_m_aliensummer",
-                        "inDate": "2024-06-24T00:00:00.000Z",
-                        "outDate": "2024-06-25T23:59:59.999Z",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_A_175_Athena_Commando_M_AlienSummer.DA_Featured_CID_A_175_Athena_Commando_M_AlienSummer"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaCharacter:cid_a_175_athena_commando_m_aliensummer",
-                            "minQuantity": 1
-                        },
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaBackpack:bid_822_aliensummer",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_CID_A_175_M_AlienSummer.DAv2_CID_A_175_M_AlienSummer"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "somanystyles"
-                        },
-                        {
-                            "key": "ViolatorTag",
-                            "value": "SoManyStylesBanner"
-                        },
-                        {
-                            "key": "ViolatorIntensity",
-                            "value": "High"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "SignatureStyle.95"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_2"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "SignatureStyle"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaCharacter:cid_a_175_athena_commando_m_aliensummer"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-06-24T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-06-25T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_A_175_Athena_Commando_M_AlienSummer.DA_Featured_CID_A_175_Athena_Commando_M_AlienSummer",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaCharacter:cid_a_175_athena_commando_m_aliensummer",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaBackpack:bid_822_aliensummer",
-                            "quantity": 1,
-                            "attributes": {
-                                "extra_grant": true
-                            }
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -2,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -30293,6 +29863,97 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_131) for 500 MtxCurrency",
+                    "offerId": "v2:/4dde57e9b02f61de72a7d7de24ffef0126f7fc7d497a3d33ed8b6388c9103a69",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "SparksCMSVisualTest131",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "JamTracks.97",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "JamTracks",
+                        "templateId": "SparksSong:sid_placeholder_131",
+                        "inDate": "2024-06-24T00:00:00.000Z",
+                        "outDate": "2024-07-23T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_131",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "SparksCMSVisualTest131"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "JamTracks.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "JamTracks"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksSong:sid_placeholder_131"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-06-24T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-07-23T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_131",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -12,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Sun Tan Specialist, 1 x Rescue Ring for 1500 MtxCurrency",
                     "offerId": "v2:/9e80150db3374fa325f403a9b9ac38e8abd873ef50806fbd14e522a293331ebd",
                     "fulfillmentIds": [],
@@ -30390,97 +30051,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_131) for 500 MtxCurrency",
-                    "offerId": "v2:/4dde57e9b02f61de72a7d7de24ffef0126f7fc7d497a3d33ed8b6388c9103a69",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "SparksCMSVisualTest131",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "JamTracks.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "JamTracks",
-                        "templateId": "SparksSong:sid_placeholder_131",
-                        "inDate": "2024-06-24T00:00:00.000Z",
-                        "outDate": "2024-07-23T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_131",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "SparksCMSVisualTest131"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "JamTracks.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "JamTracks"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksSong:sid_placeholder_131"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-06-24T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-07-23T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_131",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -12,
                     "catalogGroupPriority": 0
                 },
                 {
