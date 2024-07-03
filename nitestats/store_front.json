@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2024-07-03T05:00:00.000Z",
+    "expiration": "2024-07-03T06:00:00.000Z",
     "storefronts": [
         {
             "name": "CurrencyStorefront",
@@ -20812,135 +20812,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Weapon X, 1 x Experiment X Gear, 1 x Weapon X Claws, 1 x X-Tracker for 2000 MtxCurrency",
-                    "offerId": "v2:/3bc1eecae63f0df187794540bbc015e01206ad7a1a6ef17806b33a47cd1f2548",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 2000,
-                            "dynamicRegularPrice": 2000,
-                            "finalPrice": 2000,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 2000
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_HydroBottle.DAv2_Bundle_Featured_HydroBottle",
-                        "LayoutId": "WeaponX.99",
-                        "TileSize": "Size_5_x_2",
-                        "AnalyticOfferGroupId": "WeaponX",
-                        "templateId": "SK-Weapon-X",
-                        "inDate": "2024-07-03T00:00:00.000Z",
-                        "outDate": "2024-07-08T23:59:59.999Z",
-                        "EncryptionKey": "73D899AB236474741E0B023F2B00FD88:CkZQjqgV2rS+Uwf/00TbN+o74EkwHmOdhjWxRLLbAqY=:Wrap_HydroBottle",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_HydroBottle_Bundle.DA_Featured_HydroBottle_Bundle"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaCharacter:character_hydrobottle",
-                            "minQuantity": 1
-                        },
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaBackpack:backpack_hydrobottle",
-                            "minQuantity": 1
-                        },
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaPickaxe:pickaxe_hydrobottle",
-                            "minQuantity": 1
-                        },
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaItemWrap:wrap_hydrobottle",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_HydroBottle.DAv2_Bundle_Featured_HydroBottle"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "WeaponX.99"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_5_x_2"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "WeaponX"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SK-Weapon-X"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-07-03T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-07-08T23:59:59.999Z"
-                        },
-                        {
-                            "key": "EncryptionKey",
-                            "value": "73D899AB236474741E0B023F2B00FD88:CkZQjqgV2rS+Uwf/00TbN+o74EkwHmOdhjWxRLLbAqY=:Wrap_HydroBottle"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_HydroBottle_Bundle.DA_Featured_HydroBottle_Bundle",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaCharacter:character_hydrobottle",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaBackpack:backpack_hydrobottle",
-                            "quantity": 1,
-                            "attributes": {
-                                "extra_grant": true
-                            }
-                        },
-                        {
-                            "templateId": "AthenaPickaxe:pickaxe_hydrobottle",
-                            "quantity": 1,
-                            "attributes": {
-                                "extra_grant": true
-                            }
-                        },
-                        {
-                            "templateId": "AthenaItemWrap:wrap_hydrobottle",
-                            "quantity": 1,
-                            "attributes": {
-                                "extra_grant": true
-                            }
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_184) for 500 MtxCurrency",
                     "offerId": "v2:/5eef7aef15dbcd0d4708db35880700619199b051cd1745e771b13f0086d2d6ae",
                     "fulfillmentIds": [],
@@ -21029,6 +20900,145 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -90,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Weapon X, 1 x Experiment X Gear, 1 x Weapon X Claws, 1 x X-Tracker for 2000 MtxCurrency",
+                    "offerId": "v2:/3bc1eecae63f0df187794540bbc015e01206ad7a1a6ef17806b33a47cd1f2548",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 2000,
+                            "dynamicRegularPrice": 2000,
+                            "finalPrice": 2000,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 2000
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_HydroBottle.DAv2_Bundle_Featured_HydroBottle",
+                        "LayoutId": "WeaponX.99",
+                        "TileSize": "Size_5_x_2",
+                        "AnalyticOfferGroupId": "WeaponX",
+                        "templateId": "SK-Weapon-X",
+                        "inDate": "2024-07-03T00:00:00.000Z",
+                        "outDate": "2024-07-08T23:59:59.999Z",
+                        "ViolatorTag": "New",
+                        "ViolatorIntensity": "High",
+                        "EncryptionKey": "73D899AB236474741E0B023F2B00FD88:CkZQjqgV2rS+Uwf/00TbN+o74EkwHmOdhjWxRLLbAqY=:Wrap_HydroBottle",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_HydroBottle_Bundle.DA_Featured_HydroBottle_Bundle"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaCharacter:character_hydrobottle",
+                            "minQuantity": 1
+                        },
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaBackpack:backpack_hydrobottle",
+                            "minQuantity": 1
+                        },
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaPickaxe:pickaxe_hydrobottle",
+                            "minQuantity": 1
+                        },
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaItemWrap:wrap_hydrobottle",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_HydroBottle.DAv2_Bundle_Featured_HydroBottle"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "WeaponX.99"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_5_x_2"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "WeaponX"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SK-Weapon-X"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-07-03T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-07-08T23:59:59.999Z"
+                        },
+                        {
+                            "key": "ViolatorTag",
+                            "value": "New"
+                        },
+                        {
+                            "key": "ViolatorIntensity",
+                            "value": "High"
+                        },
+                        {
+                            "key": "EncryptionKey",
+                            "value": "73D899AB236474741E0B023F2B00FD88:CkZQjqgV2rS+Uwf/00TbN+o74EkwHmOdhjWxRLLbAqY=:Wrap_HydroBottle"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_HydroBottle_Bundle.DA_Featured_HydroBottle_Bundle",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaCharacter:character_hydrobottle",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaBackpack:backpack_hydrobottle",
+                            "quantity": 1,
+                            "attributes": {
+                                "extra_grant": true
+                            }
+                        },
+                        {
+                            "templateId": "AthenaPickaxe:pickaxe_hydrobottle",
+                            "quantity": 1,
+                            "attributes": {
+                                "extra_grant": true
+                            }
+                        },
+                        {
+                            "templateId": "AthenaItemWrap:wrap_hydrobottle",
+                            "quantity": 1,
+                            "attributes": {
+                                "extra_grant": true
+                            }
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -1,
                     "catalogGroupPriority": 0
                 },
                 {
