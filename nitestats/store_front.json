@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2024-07-04T01:00:00.000Z",
+    "expiration": "2024-07-04T02:00:00.000Z",
     "storefronts": [
         {
             "name": "CurrencyStorefront",
@@ -5197,133 +5197,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Captain America, 1 x Proto-Adamantium Shield, 1 x Proto-Adamantium Shield for 2000 MtxCurrency",
-                    "offerId": "v2:/8508ff8909ed72a4b3b82b785053c162b54953bb346bc92e4df0d5e9ae02a1de",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 2000,
-                            "dynamicRegularPrice": 2000,
-                            "finalPrice": 2000,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 2000
-                        }
-                    ],
-                    "meta": {
-                        "offertag": "reactivecapshield",
-                        "ViolatorTag": "PickaxeIncluded",
-                        "ViolatorIntensity": "High",
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_CID_807_M_CandyApple.DAv2_CID_807_M_CandyApple",
-                        "LayoutId": "Marvel.99",
-                        "TileSize": "Size_1_x_2",
-                        "AnalyticOfferGroupId": "Marvel",
-                        "templateId": "AthenaCharacter:cid_807_athena_commando_m_candyapple_b1u7x",
-                        "inDate": "2024-07-04T00:00:00.000Z",
-                        "outDate": "2024-07-08T23:59:59.999Z",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_807_Athena_Commando_M_CandyApple_B1U7X.DA_Featured_CID_807_Athena_Commando_M_CandyApple_B1U7X"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaCharacter:cid_807_athena_commando_m_candyapple_b1u7x",
-                            "minQuantity": 1
-                        },
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaBackpack:bid_560_candyapple_wtxxo",
-                            "minQuantity": 1
-                        },
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaPickaxe:pickaxe_id_420_candyapplesour_jxbza",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "offertag",
-                            "value": "reactivecapshield"
-                        },
-                        {
-                            "key": "ViolatorTag",
-                            "value": "PickaxeIncluded"
-                        },
-                        {
-                            "key": "ViolatorIntensity",
-                            "value": "High"
-                        },
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_CID_807_M_CandyApple.DAv2_CID_807_M_CandyApple"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "Marvel.99"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_2"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "Marvel"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaCharacter:cid_807_athena_commando_m_candyapple_b1u7x"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-07-04T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-07-08T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_807_Athena_Commando_M_CandyApple_B1U7X.DA_Featured_CID_807_Athena_Commando_M_CandyApple_B1U7X",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaCharacter:cid_807_athena_commando_m_candyapple_b1u7x",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaBackpack:bid_560_candyapple_wtxxo",
-                            "quantity": 1,
-                            "attributes": {
-                                "extra_grant": true
-                            }
-                        },
-                        {
-                            "templateId": "AthenaPickaxe:pickaxe_id_420_candyapplesour_jxbza",
-                            "quantity": 1,
-                            "attributes": {
-                                "extra_grant": true
-                            }
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_238) for 500 MtxCurrency",
                     "offerId": "v2:/7627167c5dfd797931d4c24ea686708362d1e31e93b75d80d927d7034ebe03be",
                     "fulfillmentIds": [],
@@ -5500,6 +5373,133 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -4,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Captain America, 1 x Proto-Adamantium Shield, 1 x Proto-Adamantium Shield for 2000 MtxCurrency",
+                    "offerId": "v2:/8508ff8909ed72a4b3b82b785053c162b54953bb346bc92e4df0d5e9ae02a1de",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 2000,
+                            "dynamicRegularPrice": 2000,
+                            "finalPrice": 2000,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 2000
+                        }
+                    ],
+                    "meta": {
+                        "offertag": "reactivecapshield",
+                        "ViolatorTag": "PickaxeIncluded",
+                        "ViolatorIntensity": "High",
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_CID_807_M_CandyApple.DAv2_CID_807_M_CandyApple",
+                        "LayoutId": "Summershop4.96",
+                        "TileSize": "Size_1_x_2",
+                        "AnalyticOfferGroupId": "Summershop4",
+                        "templateId": "AthenaCharacter:cid_807_athena_commando_m_candyapple_b1u7x",
+                        "inDate": "2024-07-04T00:00:00.000Z",
+                        "outDate": "2024-07-08T23:59:59.999Z",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_807_Athena_Commando_M_CandyApple_B1U7X.DA_Featured_CID_807_Athena_Commando_M_CandyApple_B1U7X"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaCharacter:cid_807_athena_commando_m_candyapple_b1u7x",
+                            "minQuantity": 1
+                        },
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaBackpack:bid_560_candyapple_wtxxo",
+                            "minQuantity": 1
+                        },
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaPickaxe:pickaxe_id_420_candyapplesour_jxbza",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "offertag",
+                            "value": "reactivecapshield"
+                        },
+                        {
+                            "key": "ViolatorTag",
+                            "value": "PickaxeIncluded"
+                        },
+                        {
+                            "key": "ViolatorIntensity",
+                            "value": "High"
+                        },
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_CID_807_M_CandyApple.DAv2_CID_807_M_CandyApple"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "Summershop4.96"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_2"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "Summershop4"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaCharacter:cid_807_athena_commando_m_candyapple_b1u7x"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-07-04T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-07-08T23:59:59.999Z"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_807_Athena_Commando_M_CandyApple_B1U7X.DA_Featured_CID_807_Athena_Commando_M_CandyApple_B1U7X",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaCharacter:cid_807_athena_commando_m_candyapple_b1u7x",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaBackpack:bid_560_candyapple_wtxxo",
+                            "quantity": 1,
+                            "attributes": {
+                                "extra_grant": true
+                            }
+                        },
+                        {
+                            "templateId": "AthenaPickaxe:pickaxe_id_420_candyapplesour_jxbza",
+                            "quantity": 1,
+                            "attributes": {
+                                "extra_grant": true
+                            }
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -1,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -9302,92 +9302,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Hands Off! for 300 MtxCurrency",
-                    "offerId": "v2:/5b4be187086bfac3d6c95227d93bd0d90101605a2bce87629ec35c0c1dd53cb5",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 300,
-                            "dynamicRegularPrice": 300,
-                            "finalPrice": 300,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 300
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_EID_Gimmick_Female_6CMF4.DAv2_EID_Gimmick_Female_6CMF4",
-                        "LayoutId": "X-Men.98",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "X-Men",
-                        "templateId": "AthenaDance:eid_gimmick_female_6cmf4",
-                        "inDate": "2024-06-29T00:00:00.000Z",
-                        "outDate": "2024-07-04T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaDance:eid_gimmick_female_6cmf4",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_EID_Gimmick_Female_6CMF4.DAv2_EID_Gimmick_Female_6CMF4"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "X-Men.98"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "X-Men"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaDance:eid_gimmick_female_6cmf4"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-06-29T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-07-04T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaDance:eid_gimmick_female_6cmf4",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -6,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x Nissan Z Performance, 1 x Flames, 1 x Lightning, 1 x Stripes, 1 x Wings, 1 x Nissan Z Performance for -1 MtxCurrency",
                     "offerId": "v2:/79d6aae9c1e69be22ce59f981f0653b9beeb206675d7558e68e5b32f71acb015",
                     "fulfillmentIds": [],
@@ -9565,6 +9479,92 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x Hands Off! for 300 MtxCurrency",
+                    "offerId": "v2:/5b4be187086bfac3d6c95227d93bd0d90101605a2bce87629ec35c0c1dd53cb5",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 300,
+                            "dynamicRegularPrice": 300,
+                            "finalPrice": 300,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 300
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_EID_Gimmick_Female_6CMF4.DAv2_EID_Gimmick_Female_6CMF4",
+                        "LayoutId": "X-Men.98",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "X-Men",
+                        "templateId": "AthenaDance:eid_gimmick_female_6cmf4",
+                        "inDate": "2024-06-29T00:00:00.000Z",
+                        "outDate": "2024-07-04T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaDance:eid_gimmick_female_6cmf4",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_EID_Gimmick_Female_6CMF4.DAv2_EID_Gimmick_Female_6CMF4"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "X-Men.98"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "X-Men"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaDance:eid_gimmick_female_6cmf4"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-06-29T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-07-04T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaDance:eid_gimmick_female_6cmf4",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -6,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_218) for 500 MtxCurrency",
                     "offerId": "v2:/7127f327abf0b45501f36f914d8609e475e8792c7a50c79ea61219b032a7af5c",
                     "fulfillmentIds": [],
@@ -9653,6 +9653,94 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -31,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Boomer for 800 MtxCurrency",
+                    "offerId": "v2:/3e266c614f28f3fe79de1f2b3b91569f570bafcd8265d9e38ca7a43724edd1de",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 800,
+                            "dynamicRegularPrice": 800,
+                            "finalPrice": 800,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 800
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_Glider_ID_300_FirecrackerMale.DAv2_Glider_ID_300_FirecrackerMale",
+                        "LayoutId": "Summershop4.97",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "Summershop4",
+                        "templateId": "AthenaGlider:glider_id_300_firecrackermale",
+                        "inDate": "2024-07-04T00:00:00.000Z",
+                        "outDate": "2024-07-10T23:59:59.999Z",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Glider_ID_300_FirecrackerMale.DA_Featured_Glider_ID_300_FirecrackerMale"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaGlider:glider_id_300_firecrackermale",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_Glider_ID_300_FirecrackerMale.DAv2_Glider_ID_300_FirecrackerMale"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "Summershop4.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "Summershop4"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaGlider:glider_id_300_firecrackermale"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-07-04T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-07-10T23:59:59.999Z"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Glider_ID_300_FirecrackerMale.DA_Featured_Glider_ID_300_FirecrackerMale",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaGlider:glider_id_300_firecrackermale",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -3,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -9753,94 +9841,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -2,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Boomer for 800 MtxCurrency",
-                    "offerId": "v2:/3e266c614f28f3fe79de1f2b3b91569f570bafcd8265d9e38ca7a43724edd1de",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 800,
-                            "dynamicRegularPrice": 800,
-                            "finalPrice": 800,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 800
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_Glider_ID_300_FirecrackerMale.DAv2_Glider_ID_300_FirecrackerMale",
-                        "LayoutId": "Summershop4.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "Summershop4",
-                        "templateId": "AthenaGlider:glider_id_300_firecrackermale",
-                        "inDate": "2024-07-04T00:00:00.000Z",
-                        "outDate": "2024-07-10T23:59:59.999Z",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Glider_ID_300_FirecrackerMale.DA_Featured_Glider_ID_300_FirecrackerMale"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaGlider:glider_id_300_firecrackermale",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_Glider_ID_300_FirecrackerMale.DAv2_Glider_ID_300_FirecrackerMale"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "Summershop4.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "Summershop4"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaGlider:glider_id_300_firecrackermale"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-07-04T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-07-10T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Glider_ID_300_FirecrackerMale.DA_Featured_Glider_ID_300_FirecrackerMale",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaGlider:glider_id_300_firecrackermale",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -3,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -11215,94 +11215,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Sparklaxe for 800 MtxCurrency",
-                    "offerId": "v2:/81def5339fd70fbeedd067c345ef94b871ebf6c32d8e87d26b7fb2d2a33552be",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 800,
-                            "dynamicRegularPrice": 800,
-                            "finalPrice": 800,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 800
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_Pickaxe_ID_624_FirecrackerMale.DAv2_Pickaxe_ID_624_FirecrackerMale",
-                        "LayoutId": "Summershop4.97",
-                        "TileSize": "Size_1_x_2",
-                        "AnalyticOfferGroupId": "Summershop4",
-                        "templateId": "AthenaPickaxe:pickaxe_id_624_firecrackermale",
-                        "inDate": "2024-07-04T00:00:00.000Z",
-                        "outDate": "2024-07-10T23:59:59.999Z",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_624_FirecrackerMale.DA_Featured_Pickaxe_ID_624_FirecrackerMale"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaPickaxe:pickaxe_id_624_firecrackermale",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_Pickaxe_ID_624_FirecrackerMale.DAv2_Pickaxe_ID_624_FirecrackerMale"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "Summershop4.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_2"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "Summershop4"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaPickaxe:pickaxe_id_624_firecrackermale"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-07-04T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-07-10T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_624_FirecrackerMale.DA_Featured_Pickaxe_ID_624_FirecrackerMale",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaPickaxe:pickaxe_id_624_firecrackermale",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -2,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_169) for 500 MtxCurrency",
                     "offerId": "v2:/bc6b51af31ebc6e041d8cf6c500abd0dd1488d3ea8e7ed8eb50c061327e55538",
                     "fulfillmentIds": [],
@@ -11391,6 +11303,94 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -48,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Sparklaxe for 800 MtxCurrency",
+                    "offerId": "v2:/81def5339fd70fbeedd067c345ef94b871ebf6c32d8e87d26b7fb2d2a33552be",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 800,
+                            "dynamicRegularPrice": 800,
+                            "finalPrice": 800,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 800
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_Pickaxe_ID_624_FirecrackerMale.DAv2_Pickaxe_ID_624_FirecrackerMale",
+                        "LayoutId": "Summershop4.97",
+                        "TileSize": "Size_1_x_2",
+                        "AnalyticOfferGroupId": "Summershop4",
+                        "templateId": "AthenaPickaxe:pickaxe_id_624_firecrackermale",
+                        "inDate": "2024-07-04T00:00:00.000Z",
+                        "outDate": "2024-07-10T23:59:59.999Z",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_624_FirecrackerMale.DA_Featured_Pickaxe_ID_624_FirecrackerMale"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaPickaxe:pickaxe_id_624_firecrackermale",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_Pickaxe_ID_624_FirecrackerMale.DAv2_Pickaxe_ID_624_FirecrackerMale"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "Summershop4.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_2"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "Summershop4"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaPickaxe:pickaxe_id_624_firecrackermale"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-07-04T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-07-10T23:59:59.999Z"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_624_FirecrackerMale.DA_Featured_Pickaxe_ID_624_FirecrackerMale",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaPickaxe:pickaxe_id_624_firecrackermale",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -2,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -14349,9 +14349,9 @@
                     ],
                     "meta": {
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S23/DAv2_Wrap_ShinyStar.DAv2_Wrap_ShinyStar",
-                        "LayoutId": "Marvel.99",
+                        "LayoutId": "Summershop4.96",
                         "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "Marvel",
+                        "AnalyticOfferGroupId": "Summershop4",
                         "templateId": "AthenaItemWrap:wrap_shinystar",
                         "inDate": "2024-07-04T00:00:00.000Z",
                         "outDate": "2024-07-08T23:59:59.999Z",
@@ -14382,7 +14382,7 @@
                         },
                         {
                             "key": "LayoutId",
-                            "value": "Marvel.99"
+                            "value": "Summershop4.96"
                         },
                         {
                             "key": "TileSize",
@@ -14390,7 +14390,7 @@
                         },
                         {
                             "key": "AnalyticOfferGroupId",
-                            "value": "Marvel"
+                            "value": "Summershop4"
                         },
                         {
                             "key": "templateId",
@@ -21089,9 +21089,9 @@
                         "offertag": "promodesc87",
                         "ViolatorTag": "GliderPickaxe",
                         "ViolatorIntensity": "High",
-                        "LayoutId": "Marvel.99",
+                        "LayoutId": "Summershop4.96",
                         "TileSize": "Size_1_x_2",
-                        "AnalyticOfferGroupId": "Marvel",
+                        "AnalyticOfferGroupId": "Summershop4",
                         "templateId": "AthenaCharacter:character_elevate",
                         "inDate": "2024-07-04T00:00:00.000Z",
                         "outDate": "2024-07-08T23:59:59.999Z",
@@ -21149,7 +21149,7 @@
                         },
                         {
                             "key": "LayoutId",
-                            "value": "Marvel.99"
+                            "value": "Summershop4.96"
                         },
                         {
                             "key": "TileSize",
@@ -21157,7 +21157,7 @@
                         },
                         {
                             "key": "AnalyticOfferGroupId",
-                            "value": "Marvel"
+                            "value": "Summershop4"
                         },
                         {
                             "key": "templateId",
@@ -23176,9 +23176,9 @@
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S23/DAv2_Bundle_Featured_Elevate.DAv2_Bundle_Featured_Elevate",
                         "offertag": "promodesc89",
                         "bundleId": "DynamicBundle:b_elevate",
-                        "LayoutId": "Marvel.99",
+                        "LayoutId": "Summershop4.96",
                         "TileSize": "Size_2_x_2",
-                        "AnalyticOfferGroupId": "Marvel",
+                        "AnalyticOfferGroupId": "Summershop4",
                         "templateId": "DynamicBundle:b_elevate",
                         "inDate": "2024-07-04T00:00:00.000Z",
                         "outDate": "2024-07-08T23:59:59.999Z",
@@ -23211,7 +23211,7 @@
                         },
                         {
                             "key": "LayoutId",
-                            "value": "Marvel.99"
+                            "value": "Summershop4.96"
                         },
                         {
                             "key": "TileSize",
@@ -23219,7 +23219,7 @@
                         },
                         {
                             "key": "AnalyticOfferGroupId",
-                            "value": "Marvel"
+                            "value": "Summershop4"
                         },
                         {
                             "key": "templateId",
@@ -25341,6 +25341,97 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_178) for 500 MtxCurrency",
+                    "offerId": "v2:/7564c1b4e2b8858c302292c295a9e82ce2bfce5022bddf7c0529f8bd4d6b4ada",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_178",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "JamTracks.98",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "JamTracks",
+                        "templateId": "SparksSong:sid_placeholder_178",
+                        "inDate": "2024-06-28T00:00:00.000Z",
+                        "outDate": "2024-07-23T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_178",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_178"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "JamTracks.98"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "JamTracks"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksSong:sid_placeholder_178"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-06-28T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-07-23T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_178",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -71,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Suit Surfer for 800 MtxCurrency",
                     "offerId": "v2:/2446bf8c7386cbeae0de4864cf3e610c1b3cb50b5f37ab5907d8d08dd97686ec",
                     "fulfillmentIds": [],
@@ -25436,97 +25527,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -3,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_178) for 500 MtxCurrency",
-                    "offerId": "v2:/7564c1b4e2b8858c302292c295a9e82ce2bfce5022bddf7c0529f8bd4d6b4ada",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_178",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "JamTracks.98",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "JamTracks",
-                        "templateId": "SparksSong:sid_placeholder_178",
-                        "inDate": "2024-06-28T00:00:00.000Z",
-                        "outDate": "2024-07-23T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_178",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_178"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "JamTracks.98"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "JamTracks"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksSong:sid_placeholder_178"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-06-28T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-07-23T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_178",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -71,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -26885,9 +26885,9 @@
                         "offertag": "promodesc88",
                         "ViolatorTag": "IncludesPickaxe",
                         "ViolatorIntensity": "High",
-                        "LayoutId": "Marvel.99",
+                        "LayoutId": "Summershop4.96",
                         "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "Marvel",
+                        "AnalyticOfferGroupId": "Summershop4",
                         "templateId": "AthenaCharacter:character_shinystar",
                         "inDate": "2024-07-04T00:00:00.000Z",
                         "outDate": "2024-07-08T23:59:59.999Z",
@@ -26940,7 +26940,7 @@
                         },
                         {
                             "key": "LayoutId",
-                            "value": "Marvel.99"
+                            "value": "Summershop4.96"
                         },
                         {
                             "key": "TileSize",
@@ -26948,7 +26948,7 @@
                         },
                         {
                             "key": "AnalyticOfferGroupId",
-                            "value": "Marvel"
+                            "value": "Summershop4"
                         },
                         {
                             "key": "templateId",
