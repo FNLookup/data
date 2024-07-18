@@ -94,9 +94,6 @@ if __name__ == "__main__":
         output_original = "festival/spark-tracks.json"
         transform_data(input_data, output_file)
         print("Data transformation complete. Transformed data saved to", output_file)
-        with open("festival/timestamp.json", "w") as file:
-            file.write('{"timestamp": ' + str(time.time()) + '}')
-            print("Timestamp saved")
         with open(output_original, 'w') as f:
             json.dump(input_data, f, indent=4)
             print("Original Saved")
