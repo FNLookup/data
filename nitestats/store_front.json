@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2024-07-24T12:00:00.000Z",
+    "expiration": "2024-07-24T13:00:00.000Z",
     "storefronts": [
         {
             "name": "CurrencyStorefront",
@@ -480,138 +480,7 @@
         },
         {
             "name": "JunoOsirisPack",
-            "catalogEntries": [
-                {
-                    "offerId": "44E29A684E2C6EB9442190B884F4705C",
-                    "devName": "Juno.Event.Osiris.Premium",
-                    "offerType": "StaticPrice",
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 1400,
-                            "dynamicRegularPrice": -1,
-                            "finalPrice": 1400,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 1400
-                        }
-                    ],
-                    "categories": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "refundable": false,
-                    "appStoreId": [
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        ""
-                    ],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnFulfillment",
-                            "requiredId": "F552F73741652FB3C5CCD3B7AC2BC4EF",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "metaInfo": [
-                        {
-                            "key": "TileSize",
-                            "value": "Size_2_x_2"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "BattlePassCrew.1"
-                        },
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S29/DAv2_JunoOsiris_Premium.DAv2_JunoOsiris_Premium"
-                        },
-                        {
-                            "key": "ViolatorTag",
-                            "value": "GuineaPigBanner"
-                        }
-                    ],
-                    "catalogGroup": "",
-                    "catalogGroupPriority": 0,
-                    "sortPriority": -10,
-                    "title": "",
-                    "shortDescription": "",
-                    "description": "",
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_JunoOsiris_Premium.DA_JunoOsiris_Premium",
-                    "itemGrants": [
-                        {
-                            "templateId": "Token:junoevent_osiris_eventpremiumtrackpurchasetoken",
-                            "quantity": 1,
-                            "attributes": {}
-                        },
-                        {
-                            "templateId": "AthenaCharacter:character_guineapig",
-                            "quantity": 1,
-                            "attributes": {}
-                        }
-                    ]
-                },
-                {
-                    "offerId": "FD0062654C90F4087C5EDDB2FD5FA627",
-                    "devName": "Juno.Event.Osiris.Singlelevel",
-                    "offerType": "StaticPrice",
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 150,
-                            "dynamicRegularPrice": -1,
-                            "finalPrice": 150,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 150
-                        }
-                    ],
-                    "categories": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "refundable": false,
-                    "appStoreId": [
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        ""
-                    ],
-                    "requirements": [],
-                    "metaInfo": [],
-                    "catalogGroup": "",
-                    "catalogGroupPriority": 0,
-                    "sortPriority": 0,
-                    "title": "",
-                    "shortDescription": "",
-                    "description": "",
-                    "displayAssetPath": "",
-                    "itemGrants": [
-                        {
-                            "templateId": "AccountResource:junoevent_osiris_eventcurrency_granter",
-                            "quantity": 1000,
-                            "attributes": {}
-                        }
-                    ]
-                }
-            ]
+            "catalogEntries": []
         },
         {
             "name": "BRSeason21",
