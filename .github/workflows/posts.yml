@@ -1,8 +1,8 @@
 name: Save Posts
 
 on:
-    schedule:
-      - cron: '*/10 * * * *'
+    push:
+        branches: ['main']
 
 permissions: write-all
 
