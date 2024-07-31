@@ -2,7 +2,7 @@ name: Save Posts
 
 on:
     schedule:
-      - cron: '0 */1 * * *'
+      - cron: '*/10 * * * *'
 
 permissions: write-all
 
