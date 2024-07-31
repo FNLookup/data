@@ -4,7 +4,7 @@ import time
 import os
 
 # two times because it bugs out
-languages = ['en-US', 'en-US', 'ar', 'de', 'es-ES', 'es-MX', 'fr', 'it', 'ja', 'ko', 'pl', 'pt-BR', 'ru', 'tr']
+languages = ['en-US', 'en-US']
 base_url = 'https://fortnite.com'
 print("Initializing firefox")
 driver = webdriver.Firefox()
