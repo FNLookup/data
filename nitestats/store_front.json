@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2024-08-06T08:00:00.000Z",
+    "expiration": "2024-08-06T09:00:00.000Z",
     "storefronts": [
         {
             "name": "CurrencyStorefront",
@@ -28085,81 +28085,6 @@
                     "itemGrants": []
                 },
                 {
-                    "offerId": "6CC6CDAC4DDC32DD72BE21961BA7B1FD",
-                    "devName": "BR.Season30.Event.Premium",
-                    "offerType": "StaticPrice",
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 1000,
-                            "dynamicRegularPrice": -1,
-                            "finalPrice": 1000,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 1000
-                        }
-                    ],
-                    "categories": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "refundable": false,
-                    "appStoreId": [
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        ""
-                    ],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnFulfillment",
-                            "requiredId": "5EE2236548F6F060314A2E807E8174AC",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "metaInfo": [
-                        {
-                            "key": "TileSize",
-                            "value": "Size_3_x_2"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "BattlePassCrew.2"
-                        },
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Featured_Greenhouse_PremiumPass.DAv2_Featured_Greenhouse_PremiumPass"
-                        }
-                    ],
-                    "catalogGroup": "",
-                    "catalogGroupPriority": 0,
-                    "sortPriority": 0,
-                    "title": "",
-                    "shortDescription": "",
-                    "description": "",
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_GreenHouse_PremiumPass.DA_GreenHouse_PremiumPass",
-                    "itemGrants": [
-                        {
-                            "templateId": "Token:s30_eventpremiumtrackpurchasetoken",
-                            "quantity": 1,
-                            "attributes": {}
-                        },
-                        {
-                            "templateId": "AthenaCharacter:character_springbreak",
-                            "quantity": 1,
-                            "attributes": {}
-                        }
-                    ]
-                },
-                {
                     "offerId": "26630E5A433627F941E7ACBE338BF007",
                     "devName": "BR.Season30.SingleTier.01",
                     "offerType": "StaticPrice",
@@ -28208,57 +28133,6 @@
                     "description": "Get great rewards now!",
                     "displayAssetPath": "",
                     "itemGrants": []
-                },
-                {
-                    "offerId": "CB04D5D840CE2DA26EB5B2A86CBF08DC",
-                    "devName": "BR.Season30.Event.Singlelevel",
-                    "offerType": "StaticPrice",
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 150,
-                            "dynamicRegularPrice": -1,
-                            "finalPrice": 150,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 150
-                        }
-                    ],
-                    "categories": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "refundable": false,
-                    "appStoreId": [
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        ""
-                    ],
-                    "requirements": [],
-                    "metaInfo": [],
-                    "catalogGroup": "",
-                    "catalogGroupPriority": 0,
-                    "sortPriority": 0,
-                    "title": "",
-                    "shortDescription": "",
-                    "description": "",
-                    "displayAssetPath": "",
-                    "itemGrants": [
-                        {
-                            "templateId": "AccountResource:greenhouse_eventcurrency_granter",
-                            "quantity": 1000,
-                            "attributes": {}
-                        }
-                    ]
                 },
                 {
                     "offerId": "DC4C07DB41C4F3F7B43D249C1641B14C",
