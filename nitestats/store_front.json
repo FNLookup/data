@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2024-08-07T01:00:00.000Z",
+    "expiration": "2024-08-07T02:00:00.000Z",
     "storefronts": [
         {
             "name": "CurrencyStorefront",
@@ -7840,6 +7840,106 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x Cyprus Nell, 1 x Quantic Pulsar for 1200 MtxCurrency",
+                    "offerId": "v2:/e30d6e4ea1b9df5ba666d94dc1923a445097e0eb156fa3b2843a89c2e5452907",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 1200,
+                            "dynamicRegularPrice": 1200,
+                            "finalPrice": 1200,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 1200
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_CID_A_032_M_SpaceWarrior.DAv2_CID_A_032_M_SpaceWarrior",
+                        "LayoutId": "SignatureStyle.99",
+                        "TileSize": "Size_1_x_2",
+                        "AnalyticOfferGroupId": "SignatureStyle",
+                        "templateId": "AthenaCharacter:cid_a_032_athena_commando_m_spacewarrior",
+                        "inDate": "2024-08-07T00:00:00.000Z",
+                        "outDate": "2024-08-14T00:00:00.000Z",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_A_032_Athena_Commando_M_SpaceWarrior.DA_Featured_CID_A_032_Athena_Commando_M_SpaceWarrior"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaCharacter:cid_a_032_athena_commando_m_spacewarrior",
+                            "minQuantity": 1
+                        },
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaBackpack:bid_709_spacewarrior",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_CID_A_032_M_SpaceWarrior.DAv2_CID_A_032_M_SpaceWarrior"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "SignatureStyle.99"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_2"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "SignatureStyle"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaCharacter:cid_a_032_athena_commando_m_spacewarrior"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-08-07T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-08-14T00:00:00.000Z"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_A_032_Athena_Commando_M_SpaceWarrior.DA_Featured_CID_A_032_Athena_Commando_M_SpaceWarrior",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaCharacter:cid_a_032_athena_commando_m_spacewarrior",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaBackpack:bid_709_spacewarrior",
+                            "quantity": 1,
+                            "attributes": {
+                                "extra_grant": true
+                            }
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -5,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_273) for 500 MtxCurrency",
                     "offerId": "v2:/6dc2beb0d189d6b859c2532e5c60bafef9e936e0701174ca7a1919a3a8b7c0c7",
                     "fulfillmentIds": [],
@@ -13464,89 +13564,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -12,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x The Paradigm for 1200 MtxCurrency",
-                    "offerId": "v2:/a559eebba15d66cea67dce329b1b626fce6b0e6d4ffdf18cf39bb7339cf8b335",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 1200,
-                            "dynamicRegularPrice": 1200,
-                            "finalPrice": 1200,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 1200
-                        }
-                    ],
-                    "meta": {
-                        "LayoutId": "SignatureStyle.99",
-                        "TileSize": "Size_1_x_2",
-                        "AnalyticOfferGroupId": "SignatureStyle",
-                        "templateId": "AthenaCharacter:cid_547_athena_commando_f_meteorwoman",
-                        "inDate": "2024-08-07T00:00:00.000Z",
-                        "outDate": "2024-08-14T00:00:00.000Z",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_547_Athena_Commando_F_Meteorwoman.DA_Featured_CID_547_Athena_Commando_F_Meteorwoman"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaCharacter:cid_547_athena_commando_f_meteorwoman",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "LayoutId",
-                            "value": "SignatureStyle.99"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_2"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "SignatureStyle"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaCharacter:cid_547_athena_commando_f_meteorwoman"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-07T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-08-14T00:00:00.000Z"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_547_Athena_Commando_F_Meteorwoman.DA_Featured_CID_547_Athena_Commando_F_Meteorwoman",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaCharacter:cid_547_athena_commando_f_meteorwoman",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -5,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -20962,106 +20979,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Cyprus Nell, 1 x Quantic Pulsar for 1200 MtxCurrency",
-                    "offerId": "v2:/ec0ff68e262bf3c1eec427a06dc8e5e4cf8b1b65a0a111a756e876732f1bfbb2",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 1200,
-                            "dynamicRegularPrice": 1200,
-                            "finalPrice": 1200,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 1200
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_CID_A_032_M_SpaceWarrior.DAv2_CID_A_032_M_SpaceWarrior",
-                        "LayoutId": "SignatureStyle.99",
-                        "TileSize": "Size_1_x_2",
-                        "AnalyticOfferGroupId": "SignatureStyle",
-                        "templateId": "AthenaCharacter:cid_a_032_athena_commando_m_spacewarrior",
-                        "inDate": "2024-08-07T00:00:00.000Z",
-                        "outDate": "2024-08-14T00:00:00.000Z",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_A_032_Athena_Commando_M_SpaceWarrior.DA_Featured_CID_A_032_Athena_Commando_M_SpaceWarrior"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaCharacter:cid_a_032_athena_commando_m_spacewarrior",
-                            "minQuantity": 1
-                        },
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaBackpack:bid_709_spacewarrior",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_CID_A_032_M_SpaceWarrior.DAv2_CID_A_032_M_SpaceWarrior"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "SignatureStyle.99"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_2"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "SignatureStyle"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaCharacter:cid_a_032_athena_commando_m_spacewarrior"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-07T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-08-14T00:00:00.000Z"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_A_032_Athena_Commando_M_SpaceWarrior.DA_Featured_CID_A_032_Athena_Commando_M_SpaceWarrior",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaCharacter:cid_a_032_athena_commando_m_spacewarrior",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaBackpack:bid_709_spacewarrior",
-                            "quantity": 1,
-                            "attributes": {
-                                "extra_grant": true
-                            }
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -6,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x Puppet Master Robert, 1 x Chitin Titan for 1500 MtxCurrency",
                     "offerId": "v2:/ff499cabaf89cd4a8cae45321f39852577af11343122d83dd39fb8967bdab5cd",
                     "fulfillmentIds": [],
@@ -21881,6 +21798,94 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x Seaport Style Bundle for 200 MtxCurrency",
+                    "offerId": "v2:/428ca04358a9f294001050aca94a881f73d97560e3c0b9426b14f35fc5a5fe34",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 200,
+                            "dynamicRegularPrice": 200,
+                            "finalPrice": 200,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 200
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_BuildingProp_JBPID_PT_Outdoor.DAv2_BuildingProp_JBPID_PT_Outdoor",
+                        "LayoutId": "PirateLifestyle.98",
+                        "TileSize": "Size_1_x_2",
+                        "AnalyticOfferGroupId": "PirateLifestyle",
+                        "templateId": "JunoBuildingProp:jbpid_pt_seaportstyle",
+                        "inDate": "2024-08-07T00:00:00.000Z",
+                        "outDate": "2024-08-14T00:00:00.000Z",
+                        "displayAssetPath": "None"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "JunoBuildingProp:jbpid_pt_seaportstyle",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_BuildingProp_JBPID_PT_Outdoor.DAv2_BuildingProp_JBPID_PT_Outdoor"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "PirateLifestyle.98"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_2"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "PirateLifestyle"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "JunoBuildingProp:jbpid_pt_seaportstyle"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-08-07T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-08-14T00:00:00.000Z"
+                        }
+                    ],
+                    "displayAssetPath": "None",
+                    "itemGrants": [
+                        {
+                            "templateId": "JunoBuildingProp:jbpid_pt_seaportstyle",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -1,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Ether, 1 x CnXn for 1500 MtxCurrency",
                     "offerId": "v2:/70c078ff13169d3dc80adae4aae12f74d872239c945016801f76eab3a7269392",
                     "fulfillmentIds": [],
@@ -21978,94 +21983,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -8,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Seaport Style Bundle for 200 MtxCurrency",
-                    "offerId": "v2:/428ca04358a9f294001050aca94a881f73d97560e3c0b9426b14f35fc5a5fe34",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 200,
-                            "dynamicRegularPrice": 200,
-                            "finalPrice": 200,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 200
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_BuildingProp_JBPID_PT_Outdoor.DAv2_BuildingProp_JBPID_PT_Outdoor",
-                        "LayoutId": "PirateLifestyle.98",
-                        "TileSize": "Size_1_x_2",
-                        "AnalyticOfferGroupId": "PirateLifestyle",
-                        "templateId": "JunoBuildingProp:jbpid_pt_seaportstyle",
-                        "inDate": "2024-08-07T00:00:00.000Z",
-                        "outDate": "2024-08-14T00:00:00.000Z",
-                        "displayAssetPath": "None"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "JunoBuildingProp:jbpid_pt_seaportstyle",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_BuildingProp_JBPID_PT_Outdoor.DAv2_BuildingProp_JBPID_PT_Outdoor"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "PirateLifestyle.98"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_2"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "PirateLifestyle"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "JunoBuildingProp:jbpid_pt_seaportstyle"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-07T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-08-14T00:00:00.000Z"
-                        }
-                    ],
-                    "displayAssetPath": "None",
-                    "itemGrants": [
-                        {
-                            "templateId": "JunoBuildingProp:jbpid_pt_seaportstyle",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -1,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -23542,94 +23459,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Tech Turbine for 800 MtxCurrency",
-                    "offerId": "v2:/43f64467bec82623b984e3c872fb33525b7e8efc52e29d970f41cbe6fb49a09f",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 800,
-                            "dynamicRegularPrice": 800,
-                            "finalPrice": 800,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 800
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_Glider_ID_148_CyberScavenger.DAv2_Glider_ID_148_CyberScavenger",
-                        "LayoutId": "SignatureStyle.98",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "SignatureStyle",
-                        "templateId": "AthenaGlider:glider_id_148_cyberscavenger",
-                        "inDate": "2024-08-07T00:00:00.000Z",
-                        "outDate": "2024-08-14T00:00:00.000Z",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Glider_ID_148_CyberScavenger.DA_Featured_Glider_ID_148_CyberScavenger"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaGlider:glider_id_148_cyberscavenger",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_Glider_ID_148_CyberScavenger.DAv2_Glider_ID_148_CyberScavenger"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "SignatureStyle.98"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "SignatureStyle"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaGlider:glider_id_148_cyberscavenger"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-07T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-08-14T00:00:00.000Z"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Glider_ID_148_CyberScavenger.DA_Featured_Glider_ID_148_CyberScavenger",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaGlider:glider_id_148_cyberscavenger",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -6,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_187) for 500 MtxCurrency",
                     "offerId": "v2:/28c840edf457a1be7fcb95010902d4f2d057c62f6f2d248752c1f9f681c30f6d",
                     "fulfillmentIds": [],
@@ -23718,6 +23547,94 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -81,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Tech Turbine for 800 MtxCurrency",
+                    "offerId": "v2:/43f64467bec82623b984e3c872fb33525b7e8efc52e29d970f41cbe6fb49a09f",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 800,
+                            "dynamicRegularPrice": 800,
+                            "finalPrice": 800,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 800
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_Glider_ID_148_CyberScavenger.DAv2_Glider_ID_148_CyberScavenger",
+                        "LayoutId": "SignatureStyle.98",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "SignatureStyle",
+                        "templateId": "AthenaGlider:glider_id_148_cyberscavenger",
+                        "inDate": "2024-08-07T00:00:00.000Z",
+                        "outDate": "2024-08-14T00:00:00.000Z",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Glider_ID_148_CyberScavenger.DA_Featured_Glider_ID_148_CyberScavenger"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaGlider:glider_id_148_cyberscavenger",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_Glider_ID_148_CyberScavenger.DAv2_Glider_ID_148_CyberScavenger"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "SignatureStyle.98"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "SignatureStyle"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaGlider:glider_id_148_cyberscavenger"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-08-07T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-08-14T00:00:00.000Z"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Glider_ID_148_CyberScavenger.DA_Featured_Glider_ID_148_CyberScavenger",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaGlider:glider_id_148_cyberscavenger",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -6,
                     "catalogGroupPriority": 0
                 },
                 {
