@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2024-08-09T19:00:00.000Z",
+    "expiration": "2024-08-09T20:00:00.000Z",
     "storefronts": [
         {
             "name": "CurrencyStorefront",
@@ -8774,92 +8774,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Recon Scout for 1200 MtxCurrency",
-                    "offerId": "v2:/2bfec49955c280605b80bb024a5e6abe80ae1da7c6a29cb4a918af0eb8a05efe",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 1200,
-                            "dynamicRegularPrice": 1200,
-                            "finalPrice": 1200,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 1200
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_CID_018_Commando_M.DAv2_CID_018_Commando_M",
-                        "LayoutId": "SignatureStyle.97",
-                        "TileSize": "Size_1_x_2",
-                        "AnalyticOfferGroupId": "SignatureStyle",
-                        "templateId": "AthenaCharacter:cid_018_athena_commando_m",
-                        "inDate": "2024-08-09T00:00:00.000Z",
-                        "outDate": "2024-08-09T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaCharacter:cid_018_athena_commando_m",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_CID_018_Commando_M.DAv2_CID_018_Commando_M"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "SignatureStyle.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_2"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "SignatureStyle"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaCharacter:cid_018_athena_commando_m"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-09T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-08-09T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaCharacter:cid_018_athena_commando_m",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_209) for 500 MtxCurrency",
                     "offerId": "v2:/14c86c13c3ce97cdc28e3c355b70ba59abbd20ea8af089c5d3120f5fad905941",
                     "fulfillmentIds": [],
@@ -8948,6 +8862,92 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -98,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Recon Scout for 1200 MtxCurrency",
+                    "offerId": "v2:/2bfec49955c280605b80bb024a5e6abe80ae1da7c6a29cb4a918af0eb8a05efe",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 1200,
+                            "dynamicRegularPrice": 1200,
+                            "finalPrice": 1200,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 1200
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_CID_018_Commando_M.DAv2_CID_018_Commando_M",
+                        "LayoutId": "SignatureStyle.97",
+                        "TileSize": "Size_1_x_2",
+                        "AnalyticOfferGroupId": "SignatureStyle",
+                        "templateId": "AthenaCharacter:cid_018_athena_commando_m",
+                        "inDate": "2024-08-09T00:00:00.000Z",
+                        "outDate": "2024-08-09T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaCharacter:cid_018_athena_commando_m",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_CID_018_Commando_M.DAv2_CID_018_Commando_M"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "SignatureStyle.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_2"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "SignatureStyle"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaCharacter:cid_018_athena_commando_m"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-08-09T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-08-09T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaCharacter:cid_018_athena_commando_m",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -1,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -11575,94 +11575,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Turbulent for 500 MtxCurrency",
-                    "offerId": "v2:/fa9648144d2dc3c48251191e2316ecd39bf68b86a893ea20e873fb4c19eaae24",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_Wrap_077_StormSoldier.DAv2_Wrap_077_StormSoldier",
-                        "LayoutId": "SignatureStyle.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "SignatureStyle",
-                        "templateId": "AthenaItemWrap:wrap_077_stormsoldier",
-                        "inDate": "2024-08-09T00:00:00.000Z",
-                        "outDate": "2024-08-09T23:59:59.999Z",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Wrap_077_StormSoldier.DA_Featured_Wrap_077_StormSoldier"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaItemWrap:wrap_077_stormsoldier",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_Wrap_077_StormSoldier.DAv2_Wrap_077_StormSoldier"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "SignatureStyle.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "SignatureStyle"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaItemWrap:wrap_077_stormsoldier"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-09T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-08-09T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Wrap_077_StormSoldier.DA_Featured_Wrap_077_StormSoldier",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaItemWrap:wrap_077_stormsoldier",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -6,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_233) for 500 MtxCurrency",
                     "offerId": "v2:/b052eb64a33e47f10f04ab4132cc46b3935b97c6bd52d41ec86355d662e12f12",
                     "fulfillmentIds": [],
@@ -11751,6 +11663,94 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -30,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Turbulent for 500 MtxCurrency",
+                    "offerId": "v2:/fa9648144d2dc3c48251191e2316ecd39bf68b86a893ea20e873fb4c19eaae24",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_Wrap_077_StormSoldier.DAv2_Wrap_077_StormSoldier",
+                        "LayoutId": "SignatureStyle.97",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "SignatureStyle",
+                        "templateId": "AthenaItemWrap:wrap_077_stormsoldier",
+                        "inDate": "2024-08-09T00:00:00.000Z",
+                        "outDate": "2024-08-09T23:59:59.999Z",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Wrap_077_StormSoldier.DA_Featured_Wrap_077_StormSoldier"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaItemWrap:wrap_077_stormsoldier",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_Wrap_077_StormSoldier.DAv2_Wrap_077_StormSoldier"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "SignatureStyle.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "SignatureStyle"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaItemWrap:wrap_077_stormsoldier"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-08-09T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-08-09T23:59:59.999Z"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Wrap_077_StormSoldier.DA_Featured_Wrap_077_StormSoldier",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaItemWrap:wrap_077_stormsoldier",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -6,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -19410,97 +19410,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Outlaw for 500 MtxCurrency",
-                    "offerId": "v2:/5832697ea82c428b30907786a89b324637c3c3bf23d696b0cadf2f3a44cfe2da",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_EID_ArmyBunny.DAv2_EID_ArmyBunny",
-                        "LayoutId": "SignatureStyle.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "SignatureStyle",
-                        "templateId": "AthenaDance:eid_armybunny",
-                        "inDate": "2024-08-07T00:00:00.000Z",
-                        "outDate": "2024-08-15T23:59:59.999Z",
-                        "EncryptionKey": "E9EB23F83112E35700E8BC975D74BADE:y8vbtF2zLfv0NnutlW7lsNrXWQNpEmuEiYb34AYgUQw=:EID_ArmyBunny"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaDance:eid_armybunny",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_EID_ArmyBunny.DAv2_EID_ArmyBunny"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "SignatureStyle.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "SignatureStyle"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaDance:eid_armybunny"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-07T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-08-15T23:59:59.999Z"
-                        },
-                        {
-                            "key": "EncryptionKey",
-                            "value": "E9EB23F83112E35700E8BC975D74BADE:y8vbtF2zLfv0NnutlW7lsNrXWQNpEmuEiYb34AYgUQw=:EID_ArmyBunny"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaDance:eid_armybunny",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -2,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_215) for 500 MtxCurrency",
                     "offerId": "v2:/b8365999a3a153713f59759768bdccd581c769c2f535e59ea852fff1fb2df0d9",
                     "fulfillmentIds": [],
@@ -21100,7 +21009,7 @@
                     "meta": {
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_CID_430_M_StormSoldier.DAv2_CID_430_M_StormSoldier",
                         "LayoutId": "SignatureStyle.97",
-                        "TileSize": "Size_1_x_1",
+                        "TileSize": "Size_1_x_2",
                         "AnalyticOfferGroupId": "SignatureStyle",
                         "templateId": "AthenaCharacter:cid_430_athena_commando_m_stormsoldier",
                         "inDate": "2024-08-09T00:00:00.000Z",
@@ -21141,7 +21050,7 @@
                         },
                         {
                             "key": "TileSize",
-                            "value": "Size_1_x_1"
+                            "value": "Size_1_x_2"
                         },
                         {
                             "key": "AnalyticOfferGroupId",
@@ -29903,94 +29812,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Storm Eye for 1200 MtxCurrency",
-                    "offerId": "v2:/7f4ea59c7ed9ef127aac9e16c1a4f8be28201307617658431571bb722773a367",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 1200,
-                            "dynamicRegularPrice": 1200,
-                            "finalPrice": 1200,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 1200
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_Glider_ID_151_StormSoldier.DAv2_Glider_ID_151_StormSoldier",
-                        "LayoutId": "SignatureStyle.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "SignatureStyle",
-                        "templateId": "AthenaGlider:glider_id_151_stormsoldier",
-                        "inDate": "2024-08-09T00:00:00.000Z",
-                        "outDate": "2024-08-09T23:59:59.999Z",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Glider_ID_151_StormSoldier.DA_Featured_Glider_ID_151_StormSoldier"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaGlider:glider_id_151_stormsoldier",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_Glider_ID_151_StormSoldier.DAv2_Glider_ID_151_StormSoldier"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "SignatureStyle.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "SignatureStyle"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaGlider:glider_id_151_stormsoldier"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-09T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-08-09T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Glider_ID_151_StormSoldier.DA_Featured_Glider_ID_151_StormSoldier",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaGlider:glider_id_151_stormsoldier",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -5,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_243) for 500 MtxCurrency",
                     "offerId": "v2:/a308fd277abb1e70b68ecade257b40fe84321905a120b62ba1839e654de63e83",
                     "fulfillmentIds": [],
@@ -30079,6 +29900,94 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -11,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Storm Eye for 1200 MtxCurrency",
+                    "offerId": "v2:/7f4ea59c7ed9ef127aac9e16c1a4f8be28201307617658431571bb722773a367",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 1200,
+                            "dynamicRegularPrice": 1200,
+                            "finalPrice": 1200,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 1200
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_Glider_ID_151_StormSoldier.DAv2_Glider_ID_151_StormSoldier",
+                        "LayoutId": "SignatureStyle.97",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "SignatureStyle",
+                        "templateId": "AthenaGlider:glider_id_151_stormsoldier",
+                        "inDate": "2024-08-09T00:00:00.000Z",
+                        "outDate": "2024-08-09T23:59:59.999Z",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Glider_ID_151_StormSoldier.DA_Featured_Glider_ID_151_StormSoldier"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaGlider:glider_id_151_stormsoldier",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_Glider_ID_151_StormSoldier.DAv2_Glider_ID_151_StormSoldier"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "SignatureStyle.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "SignatureStyle"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaGlider:glider_id_151_stormsoldier"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-08-09T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-08-09T23:59:59.999Z"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Glider_ID_151_StormSoldier.DA_Featured_Glider_ID_151_StormSoldier",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaGlider:glider_id_151_stormsoldier",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -5,
                     "catalogGroupPriority": 0
                 }
             ]
