@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2024-08-10T01:00:00.000Z",
+    "expiration": "2024-08-10T02:00:00.000Z",
     "storefronts": [
         {
             "name": "CurrencyStorefront",
@@ -2795,6 +2795,97 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_25) for 500 MtxCurrency",
+                    "offerId": "v2:/af1dddb2f29ef2e080cb89fccea698dc44fd46e870195a0f2f3b1b8441162856",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_25",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "JamTracks.97",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "JamTracks",
+                        "templateId": "SparksSong:sid_placeholder_25",
+                        "inDate": "2024-08-09T00:00:00.000Z",
+                        "outDate": "2024-08-23T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_25",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_25"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "JamTracks.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "JamTracks"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksSong:sid_placeholder_25"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-08-09T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-08-23T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_25",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -42,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Cirrus, 1 x Cirrus, 1 x Cirrus, 1 x Cirrus, 1 x Cirrus, 1 x Cirrus, 1 x Cirrus, 1 x Cirrus, 1 x Cirrus, 1 x Cirrus, 1 x Cirrus, 1 x Cirrus, 1 x Cirrus, 1 x Cirrus for -1 MtxCurrency",
                     "offerId": "v2:/093c39620b18b95b7b9248c892260d8ef5e119ac0a3469232a3aab1e424542cc",
                     "fulfillmentIds": [],
@@ -3076,97 +3167,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -3,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_25) for 500 MtxCurrency",
-                    "offerId": "v2:/af1dddb2f29ef2e080cb89fccea698dc44fd46e870195a0f2f3b1b8441162856",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_25",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "JamTracks.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "JamTracks",
-                        "templateId": "SparksSong:sid_placeholder_25",
-                        "inDate": "2024-08-09T00:00:00.000Z",
-                        "outDate": "2024-08-23T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_25",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_25"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "JamTracks.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "JamTracks"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksSong:sid_placeholder_25"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-09T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-08-23T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_25",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -42,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -3685,12 +3685,14 @@
                     "meta": {
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_YogaPatio.DAv2_Bundle_Featured_YogaPatio",
                         "bundleId": "StaticBundle:b_yogapatio",
-                        "LayoutId": "DragonBallZ.99",
+                        "LayoutId": "DragonBallZ.98",
                         "TileSize": "Size_2_x_2",
                         "AnalyticOfferGroupId": "DragonBallZ",
                         "templateId": "SK-Trunks-Static",
                         "inDate": "2024-08-10T00:00:00.000Z",
                         "outDate": "2024-08-16T23:59:59.999Z",
+                        "ViolatorTag": "New",
+                        "ViolatorIntensity": "High",
                         "EncryptionKey": "C50EC9789A634E9BA829CD5C4653C248:1pqFVcUR6pJ3zNoBgu4bFffbIANvAfPO4BtqvPON3IU=:Pickaxe_YogaPatio",
                         "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_YogaPatio_Bundle.DA_Featured_YogaPatio_Bundle"
                     },
@@ -3733,7 +3735,7 @@
                         },
                         {
                             "key": "LayoutId",
-                            "value": "DragonBallZ.99"
+                            "value": "DragonBallZ.98"
                         },
                         {
                             "key": "TileSize",
@@ -3754,6 +3756,14 @@
                         {
                             "key": "outDate",
                             "value": "2024-08-16T23:59:59.999Z"
+                        },
+                        {
+                            "key": "ViolatorTag",
+                            "value": "New"
+                        },
+                        {
+                            "key": "ViolatorIntensity",
+                            "value": "High"
                         },
                         {
                             "key": "EncryptionKey",
@@ -4164,12 +4174,14 @@
                     ],
                     "meta": {
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Character_CashewRoll.DAv2_Character_CashewRoll",
-                        "LayoutId": "DragonBallZ.98",
+                        "LayoutId": "DragonBallZ.99",
                         "TileSize": "Size_2_x_2",
                         "AnalyticOfferGroupId": "DragonBallZ",
                         "templateId": "AthenaCharacter:character_cashewroll",
                         "inDate": "2024-08-10T00:00:00.000Z",
                         "outDate": "2024-08-16T23:59:59.999Z",
+                        "ViolatorTag": "New",
+                        "ViolatorIntensity": "High",
                         "EncryptionKey": "C50EC9789A634E9BA829CD5C4653C248:1pqFVcUR6pJ3zNoBgu4bFffbIANvAfPO4BtqvPON3IU=:Backpack_CashewRoll",
                         "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Character_CashewRoll.DA_Featured_Character_CashewRoll"
                     },
@@ -4203,7 +4215,7 @@
                         },
                         {
                             "key": "LayoutId",
-                            "value": "DragonBallZ.98"
+                            "value": "DragonBallZ.99"
                         },
                         {
                             "key": "TileSize",
@@ -4224,6 +4236,14 @@
                         {
                             "key": "outDate",
                             "value": "2024-08-16T23:59:59.999Z"
+                        },
+                        {
+                            "key": "ViolatorTag",
+                            "value": "New"
+                        },
+                        {
+                            "key": "ViolatorIntensity",
+                            "value": "High"
                         },
                         {
                             "key": "EncryptionKey",
@@ -6458,12 +6478,14 @@
                     "meta": {
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_CashewButter.DAv2_Bundle_Featured_CashewButter",
                         "bundleId": "DynamicBundle:b_cashewbutter",
-                        "LayoutId": "DragonBallZ.99",
+                        "LayoutId": "DragonBallZ.98",
                         "TileSize": "Size_3_x_2",
                         "AnalyticOfferGroupId": "DragonBallZ",
                         "templateId": "SK-Android-17-&-18-Bundle",
                         "inDate": "2024-08-10T00:00:00.000Z",
                         "outDate": "2024-08-16T23:59:59.999Z",
+                        "ViolatorTag": "New",
+                        "ViolatorIntensity": "High",
                         "EncryptionKey": "C50EC9789A634E9BA829CD5C4653C248:1pqFVcUR6pJ3zNoBgu4bFffbIANvAfPO4BtqvPON3IU=:Backpack_KettlePress",
                         "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CashewButter_Bundle.DA_Featured_CashewButter_Bundle"
                     },
@@ -6490,7 +6512,7 @@
                         },
                         {
                             "key": "LayoutId",
-                            "value": "DragonBallZ.99"
+                            "value": "DragonBallZ.98"
                         },
                         {
                             "key": "TileSize",
@@ -6511,6 +6533,14 @@
                         {
                             "key": "outDate",
                             "value": "2024-08-16T23:59:59.999Z"
+                        },
+                        {
+                            "key": "ViolatorTag",
+                            "value": "New"
+                        },
+                        {
+                            "key": "ViolatorIntensity",
+                            "value": "High"
                         },
                         {
                             "key": "EncryptionKey",
@@ -7314,99 +7344,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -3,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Lumikinetic Bat for 800 MtxCurrency",
-                    "offerId": "v2:/d1d03934bb5d64e6b6d2e38d704504b5b941fb34f484f3bd4ce112fcf17f166b",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 800,
-                            "dynamicRegularPrice": 800,
-                            "finalPrice": 800,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 800
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Pickaxe_SodaMug.DAv2_Pickaxe_SodaMug",
-                        "LayoutId": "X-Men.97",
-                        "TileSize": "Size_1_x_2",
-                        "AnalyticOfferGroupId": "X-Men",
-                        "templateId": "AthenaPickaxe:pickaxe_sodamug",
-                        "inDate": "2024-08-10T00:00:00.000Z",
-                        "outDate": "2024-08-20T23:59:59.999Z",
-                        "EncryptionKey": "1B6D6B48DFCDB01B0CDB8AE49A8B2445:3DJghcvV/qBavlgT2JMumI49yQIz+5CMF7ke7sD+lx8=:Pickaxe_SodaMug",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Pickaxe_SodaMug.DA_Featured_Pickaxe_SodaMug"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaPickaxe:pickaxe_sodamug",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Pickaxe_SodaMug.DAv2_Pickaxe_SodaMug"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "X-Men.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_2"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "X-Men"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaPickaxe:pickaxe_sodamug"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-10T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-08-20T23:59:59.999Z"
-                        },
-                        {
-                            "key": "EncryptionKey",
-                            "value": "1B6D6B48DFCDB01B0CDB8AE49A8B2445:3DJghcvV/qBavlgT2JMumI49yQIz+5CMF7ke7sD+lx8=:Pickaxe_SodaMug"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Pickaxe_SodaMug.DA_Featured_Pickaxe_SodaMug",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaPickaxe:pickaxe_sodamug",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -2,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -9998,140 +9935,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -108,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Colossus, 1 x Osmium Shield, 1 x Colossal Hammer, 1 x Sentinel Squats for 2000 MtxCurrency",
-                    "offerId": "v2:/20718dc91e2da40c041903c95b0976d7f5485c45e83f4b5c7e6d1e248e91f642",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 2000,
-                            "dynamicRegularPrice": 2000,
-                            "finalPrice": 2000,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 2000
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_PotteryWheel.DAv2_Bundle_Featured_PotteryWheel",
-                        "bundleId": "StaticBundle:b_potterywheel",
-                        "LayoutId": "X-Men.98",
-                        "TileSize": "Size_2_x_2",
-                        "AnalyticOfferGroupId": "X-Men",
-                        "templateId": "SK-Colossus",
-                        "inDate": "2024-08-10T00:00:00.000Z",
-                        "outDate": "2024-08-20T23:59:59.999Z",
-                        "EncryptionKey": "1B6D6B48DFCDB01B0CDB8AE49A8B2445:3DJghcvV/qBavlgT2JMumI49yQIz+5CMF7ke7sD+lx8=:EID_PotteryWheel",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_PotteryWheel_Bundle.DA_Featured_PotteryWheel_Bundle"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaCharacter:character_potterywheel",
-                            "minQuantity": 1
-                        },
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaBackpack:backpack_potterywheel",
-                            "minQuantity": 1
-                        },
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaPickaxe:pickaxe_potterywheel",
-                            "minQuantity": 1
-                        },
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaDance:eid_potterywheel",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_PotteryWheel.DAv2_Bundle_Featured_PotteryWheel"
-                        },
-                        {
-                            "key": "bundleId",
-                            "value": "StaticBundle:b_potterywheel"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "X-Men.98"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_2_x_2"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "X-Men"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SK-Colossus"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-10T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-08-20T23:59:59.999Z"
-                        },
-                        {
-                            "key": "EncryptionKey",
-                            "value": "1B6D6B48DFCDB01B0CDB8AE49A8B2445:3DJghcvV/qBavlgT2JMumI49yQIz+5CMF7ke7sD+lx8=:EID_PotteryWheel"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_PotteryWheel_Bundle.DA_Featured_PotteryWheel_Bundle",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaCharacter:character_potterywheel",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaBackpack:backpack_potterywheel",
-                            "quantity": 1,
-                            "attributes": {
-                                "extra_grant": true
-                            }
-                        },
-                        {
-                            "templateId": "AthenaPickaxe:pickaxe_potterywheel",
-                            "quantity": 1,
-                            "attributes": {
-                                "extra_grant": true
-                            }
-                        },
-                        {
-                            "templateId": "AthenaDance:eid_potterywheel",
-                            "quantity": 1,
-                            "attributes": {
-                                "extra_grant": true
-                            }
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -2,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -13397,6 +13200,97 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_218) for 500 MtxCurrency",
+                    "offerId": "v2:/8a8bef9aa28658eee26a77d4a3d69ecd63f6b2cd3f168b05dbc3703ef7b07a98",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_218",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "JamTracks.97",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "JamTracks",
+                        "templateId": "SparksSong:sid_placeholder_218",
+                        "inDate": "2024-06-24T00:00:00.000Z",
+                        "outDate": "2024-08-23T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_218",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_218"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "JamTracks.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "JamTracks"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksSong:sid_placeholder_218"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-06-24T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-08-23T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_218",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -18,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Tesla Cybertruck, 1 x CyberCamo, 1 x Matte Black, 1 x Stainless Steel, 1 x OMG, 1 x Cyber for -1 MtxCurrency",
                     "offerId": "v2:/ce38221cc205281f378485b7e83ac4d930393e0da1ab4c5aa7cacfa4d7492425",
                     "fulfillmentIds": [],
@@ -13566,97 +13460,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_218) for 500 MtxCurrency",
-                    "offerId": "v2:/8a8bef9aa28658eee26a77d4a3d69ecd63f6b2cd3f168b05dbc3703ef7b07a98",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_218",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "JamTracks.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "JamTracks",
-                        "templateId": "SparksSong:sid_placeholder_218",
-                        "inDate": "2024-06-24T00:00:00.000Z",
-                        "outDate": "2024-08-23T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_218",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_218"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "JamTracks.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "JamTracks"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksSong:sid_placeholder_218"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-06-24T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-08-23T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_218",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -18,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -14522,12 +14325,14 @@
                     ],
                     "meta": {
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Character_KettlePress.DAv2_Character_KettlePress",
-                        "LayoutId": "DragonBallZ.98",
+                        "LayoutId": "DragonBallZ.99",
                         "TileSize": "Size_2_x_2",
                         "AnalyticOfferGroupId": "DragonBallZ",
                         "templateId": "AthenaCharacter:character_kettlepress",
                         "inDate": "2024-08-10T00:00:00.000Z",
                         "outDate": "2024-08-16T23:59:59.999Z",
+                        "ViolatorTag": "New",
+                        "ViolatorIntensity": "High",
                         "EncryptionKey": "C50EC9789A634E9BA829CD5C4653C248:1pqFVcUR6pJ3zNoBgu4bFffbIANvAfPO4BtqvPON3IU=:Backpack_KettlePress",
                         "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Character_KettlePress.DA_Featured_Character_KettlePress"
                     },
@@ -14561,7 +14366,7 @@
                         },
                         {
                             "key": "LayoutId",
-                            "value": "DragonBallZ.98"
+                            "value": "DragonBallZ.99"
                         },
                         {
                             "key": "TileSize",
@@ -14582,6 +14387,14 @@
                         {
                             "key": "outDate",
                             "value": "2024-08-16T23:59:59.999Z"
+                        },
+                        {
+                            "key": "ViolatorTag",
+                            "value": "New"
+                        },
+                        {
+                            "key": "ViolatorIntensity",
+                            "value": "High"
                         },
                         {
                             "key": "EncryptionKey",
@@ -15087,262 +14900,6 @@
                         },
                         {
                             "templateId": "CosmeticVariantToken:vtid_body_sourdough_none",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Jubilee, 1 x Cyclops, 1 x Colossus, 1 x Jubilee's Blades, 1 x Lumikinetic Bat, 1 x Cyclops Flair, 1 x OPTIC BLAST!, 1 x X-Pack, 1 x Op-pick-tal Blast Axe, 1 x Sentinel Squats, 1 x Osmium Shield, 1 x Colossal Hammer for -1 MtxCurrency",
-                    "offerId": "v2:/c20f010fc98dc6ad1093bb65fe6c9502c79996df4d89a7c24e2a8254445afbce",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [],
-                    "dynamicBundleInfo": {
-                        "discountedBasePrice": -2500,
-                        "regularBasePrice": 0,
-                        "floorPrice": 400,
-                        "currencyType": "MtxCurrency",
-                        "currencySubType": "",
-                        "displayType": "AmountOff",
-                        "bundleItems": [
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 1500,
-                                "discountedPrice": 1500,
-                                "alreadyOwnedPriceReduction": 1500,
-                                "item": {
-                                    "templateId": "AthenaCharacter:character_sodamug",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 2000,
-                                "discountedPrice": 2000,
-                                "alreadyOwnedPriceReduction": 2000,
-                                "item": {
-                                    "templateId": "AthenaCharacter:character_saladdressing",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 2000,
-                                "discountedPrice": 2000,
-                                "alreadyOwnedPriceReduction": 2000,
-                                "item": {
-                                    "templateId": "AthenaCharacter:character_potterywheel",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 0,
-                                "discountedPrice": 0,
-                                "alreadyOwnedPriceReduction": 0,
-                                "item": {
-                                    "templateId": "AthenaBackpack:backpack_sodamug",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 800,
-                                "discountedPrice": 800,
-                                "alreadyOwnedPriceReduction": 800,
-                                "item": {
-                                    "templateId": "AthenaPickaxe:pickaxe_sodamug",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 0,
-                                "discountedPrice": 0,
-                                "alreadyOwnedPriceReduction": 0,
-                                "item": {
-                                    "templateId": "AthenaItemWrap:wrap_saladdressing",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 0,
-                                "discountedPrice": 0,
-                                "alreadyOwnedPriceReduction": 0,
-                                "item": {
-                                    "templateId": "AthenaDance:eid_saladdressing",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 0,
-                                "discountedPrice": 0,
-                                "alreadyOwnedPriceReduction": 0,
-                                "item": {
-                                    "templateId": "AthenaBackpack:backpack_saladdressing",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 0,
-                                "discountedPrice": 0,
-                                "alreadyOwnedPriceReduction": 0,
-                                "item": {
-                                    "templateId": "AthenaPickaxe:pickaxe_saladdressing",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 0,
-                                "discountedPrice": 0,
-                                "alreadyOwnedPriceReduction": 0,
-                                "item": {
-                                    "templateId": "AthenaDance:eid_potterywheel",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 0,
-                                "discountedPrice": 0,
-                                "alreadyOwnedPriceReduction": 0,
-                                "item": {
-                                    "templateId": "AthenaBackpack:backpack_potterywheel",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 0,
-                                "discountedPrice": 0,
-                                "alreadyOwnedPriceReduction": 0,
-                                "item": {
-                                    "templateId": "AthenaPickaxe:pickaxe_potterywheel",
-                                    "quantity": 1
-                                }
-                            }
-                        ]
-                    },
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_Crouton.DAv2_Bundle_Featured_Crouton",
-                        "bundleId": "DynamicBundle:b_crouton",
-                        "LayoutId": "X-Men.99",
-                        "TileSize": "Size_5_x_2",
-                        "AnalyticOfferGroupId": "X-Men",
-                        "templateId": "SK-X-Men-Bundle",
-                        "inDate": "2024-08-10T00:00:00.000Z",
-                        "outDate": "2024-08-20T23:59:59.999Z",
-                        "EncryptionKey": "1B6D6B48DFCDB01B0CDB8AE49A8B2445:3DJghcvV/qBavlgT2JMumI49yQIz+5CMF7ke7sD+lx8=:Pickaxe_PotteryWheel",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Crouton_Bundle.DA_Featured_Crouton_Bundle"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [],
-                    "offerType": "DynamicBundle",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_Crouton.DAv2_Bundle_Featured_Crouton"
-                        },
-                        {
-                            "key": "bundleId",
-                            "value": "DynamicBundle:b_crouton"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "X-Men.99"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_5_x_2"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "X-Men"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SK-X-Men-Bundle"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-10T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-08-20T23:59:59.999Z"
-                        },
-                        {
-                            "key": "EncryptionKey",
-                            "value": "1B6D6B48DFCDB01B0CDB8AE49A8B2445:3DJghcvV/qBavlgT2JMumI49yQIz+5CMF7ke7sD+lx8=:Pickaxe_PotteryWheel"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Crouton_Bundle.DA_Featured_Crouton_Bundle",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaCharacter:character_sodamug",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaCharacter:character_saladdressing",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaCharacter:character_potterywheel",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaBackpack:backpack_sodamug",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaPickaxe:pickaxe_sodamug",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaItemWrap:wrap_saladdressing",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaDance:eid_saladdressing",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaBackpack:backpack_saladdressing",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaPickaxe:pickaxe_saladdressing",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaDance:eid_potterywheel",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaBackpack:backpack_potterywheel",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaPickaxe:pickaxe_potterywheel",
                             "quantity": 1
                         }
                     ],
@@ -16199,116 +15756,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -45,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Jubilee, 1 x Jubilee's Blades for 1500 MtxCurrency",
-                    "offerId": "v2:/69fd3c7a111c7bce418de527ae25bdfafef3aa39d0e4cf0270ee2442543741a4",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 1500,
-                            "dynamicRegularPrice": 1500,
-                            "finalPrice": 1500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 1500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Character_SodaMug.DAv2_Character_SodaMug",
-                        "LayoutId": "X-Men.97",
-                        "TileSize": "Size_2_x_2",
-                        "AnalyticOfferGroupId": "X-Men",
-                        "templateId": "AthenaCharacter:character_sodamug",
-                        "ViolatorIntensity": "High",
-                        "inDate": "2024-08-10T00:00:00.000Z",
-                        "outDate": "2024-08-20T23:59:59.999Z",
-                        "EncryptionKey": "1B6D6B48DFCDB01B0CDB8AE49A8B2445:3DJghcvV/qBavlgT2JMumI49yQIz+5CMF7ke7sD+lx8=:Backpack_SodaMug",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Character_SodaMug.DA_Featured_Character_SodaMug"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaCharacter:character_sodamug",
-                            "minQuantity": 1
-                        },
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaBackpack:backpack_sodamug",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Character_SodaMug.DAv2_Character_SodaMug"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "X-Men.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_2_x_2"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "X-Men"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaCharacter:character_sodamug"
-                        },
-                        {
-                            "key": "ViolatorIntensity",
-                            "value": "High"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-10T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-08-20T23:59:59.999Z"
-                        },
-                        {
-                            "key": "EncryptionKey",
-                            "value": "1B6D6B48DFCDB01B0CDB8AE49A8B2445:3DJghcvV/qBavlgT2JMumI49yQIz+5CMF7ke7sD+lx8=:Backpack_SodaMug"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Character_SodaMug.DA_Featured_Character_SodaMug",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaCharacter:character_sodamug",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaBackpack:backpack_sodamug",
-                            "quantity": 1,
-                            "attributes": {
-                                "extra_grant": true
-                            }
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -1,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -19704,140 +19151,6 @@
                         {
                             "templateId": "SparksDrums:sparks_drum_orb",
                             "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Cyclops, 1 x X-Pack, 1 x Op-pick-tal Blast Axe, 1 x OPTIC BLAST! for 2000 MtxCurrency",
-                    "offerId": "v2:/986289a842fd56fe7c78161c38c3752b177845f4c4e0e079b95c200a49bf6f04",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 2000,
-                            "dynamicRegularPrice": 2000,
-                            "finalPrice": 2000,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 2000
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_SaladDressing.DAv2_Bundle_Featured_SaladDressing",
-                        "bundleId": "StaticBundle:b_saladdressing",
-                        "LayoutId": "X-Men.98",
-                        "TileSize": "Size_2_x_2",
-                        "AnalyticOfferGroupId": "X-Men",
-                        "templateId": "SK-Cyclops",
-                        "inDate": "2024-08-10T00:00:00.000Z",
-                        "outDate": "2024-08-20T23:59:59.999Z",
-                        "EncryptionKey": "1B6D6B48DFCDB01B0CDB8AE49A8B2445:3DJghcvV/qBavlgT2JMumI49yQIz+5CMF7ke7sD+lx8=:EID_SaladDressing",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_SaladDressing_Bundle.DA_Featured_SaladDressing_Bundle"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaCharacter:character_saladdressing",
-                            "minQuantity": 1
-                        },
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaBackpack:backpack_saladdressing",
-                            "minQuantity": 1
-                        },
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaPickaxe:pickaxe_saladdressing",
-                            "minQuantity": 1
-                        },
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaDance:eid_saladdressing",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_SaladDressing.DAv2_Bundle_Featured_SaladDressing"
-                        },
-                        {
-                            "key": "bundleId",
-                            "value": "StaticBundle:b_saladdressing"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "X-Men.98"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_2_x_2"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "X-Men"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SK-Cyclops"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-10T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-08-20T23:59:59.999Z"
-                        },
-                        {
-                            "key": "EncryptionKey",
-                            "value": "1B6D6B48DFCDB01B0CDB8AE49A8B2445:3DJghcvV/qBavlgT2JMumI49yQIz+5CMF7ke7sD+lx8=:EID_SaladDressing"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_SaladDressing_Bundle.DA_Featured_SaladDressing_Bundle",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaCharacter:character_saladdressing",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaBackpack:backpack_saladdressing",
-                            "quantity": 1,
-                            "attributes": {
-                                "extra_grant": true
-                            }
-                        },
-                        {
-                            "templateId": "AthenaPickaxe:pickaxe_saladdressing",
-                            "quantity": 1,
-                            "attributes": {
-                                "extra_grant": true
-                            }
-                        },
-                        {
-                            "templateId": "AthenaDance:eid_saladdressing",
-                            "quantity": 1,
-                            "attributes": {
-                                "extra_grant": true
-                            }
                         }
                     ],
                     "additionalGrants": [],
@@ -30716,7 +30029,7 @@
                     "meta": {
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_Scallywag.DAv2_Bundle_Featured_Scallywag",
                         "bundleId": "DynamicBundle:b_scallywag",
-                        "LayoutId": "PirateLifestyle.97",
+                        "LayoutId": "PirateLifestyle.99",
                         "TileSize": "Size_5_x_2",
                         "AnalyticOfferGroupId": "PirateLifestyle",
                         "templateId": "SK-Pirate-Lifestyle-Bundle",
@@ -30747,7 +30060,7 @@
                         },
                         {
                             "key": "LayoutId",
-                            "value": "PirateLifestyle.97"
+                            "value": "PirateLifestyle.99"
                         },
                         {
                             "key": "TileSize",
