@@ -3,7 +3,7 @@
         "standalone-store": {
             "states": [
                 {
-                    "validFrom": "2024-08-10T23:24:02.292Z",
+                    "validFrom": "2024-08-11T00:24:05.857Z",
                     "activeEvents": [],
                     "state": {
                         "activePurchaseLimitingEventIds": [],
@@ -13,68 +13,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-08-11T01:24:02.292Z"
+            "cacheExpire": "2024-08-11T02:24:05.857Z"
         },
         "client-matchmaking": {
             "states": [
                 {
-                    "validFrom": "2024-08-10T23:24:02.292Z",
-                    "activeEvents": [],
-                    "state": {
-                        "region": {
-                            "NAE": {
-                                "eventFlagsForcedOn": [
-                                    "Playlist_NoBuildBR_Habanero_Solo",
-                                    "Playlist_NoBuildBR_Habanero_Squad"
-                                ]
-                            },
-                            "NAW": {
-                                "eventFlagsForcedOn": [
-                                    "Playlist_NoBuildBR_Habanero_Solo",
-                                    "Playlist_NoBuildBR_Habanero_Squad"
-                                ]
-                            },
-                            "NAC": {
-                                "eventFlagsForcedOn": [
-                                    "Playlist_NoBuildBR_Habanero_Solo",
-                                    "Playlist_NoBuildBR_Habanero_Squad"
-                                ]
-                            },
-                            "EU": {
-                                "eventFlagsForcedOn": [
-                                    "Playlist_NoBuildBR_Habanero_Solo",
-                                    "Playlist_NoBuildBR_Habanero_Squad"
-                                ]
-                            },
-                            "OCE": {
-                                "eventFlagsForcedOff": [
-                                    "Playlist_NoBuildBR_Habanero_Solo",
-                                    "Playlist_NoBuildBR_Habanero_Squad"
-                                ]
-                            },
-                            "BR": {
-                                "eventFlagsForcedOn": [
-                                    "Playlist_NoBuildBR_Habanero_Solo",
-                                    "Playlist_NoBuildBR_Habanero_Squad"
-                                ]
-                            },
-                            "ASIA": {
-                                "eventFlagsForcedOff": [
-                                    "Playlist_NoBuildBR_Habanero_Solo",
-                                    "Playlist_NoBuildBR_Habanero_Squad"
-                                ]
-                            },
-                            "ME": {
-                                "eventFlagsForcedOff": [
-                                    "Playlist_NoBuildBR_Habanero_Solo",
-                                    "Playlist_NoBuildBR_Habanero_Squad"
-                                ]
-                            }
-                        }
-                    }
-                },
-                {
-                    "validFrom": "2024-08-11T00:00:00.000Z",
+                    "validFrom": "2024-08-11T00:24:05.857Z",
                     "activeEvents": [],
                     "state": {
                         "region": {
@@ -130,12 +74,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-08-11T01:24:02.292Z"
+            "cacheExpire": "2024-08-11T02:24:05.857Z"
         },
         "tk": {
             "states": [
                 {
-                    "validFrom": "2024-08-10T23:24:02.292Z",
+                    "validFrom": "2024-08-11T00:24:05.857Z",
                     "activeEvents": [],
                     "state": {
                         "k": [
@@ -145,12 +89,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-08-11T01:24:02.292Z"
+            "cacheExpire": "2024-08-11T02:24:05.857Z"
         },
         "featured-islands": {
             "states": [
                 {
-                    "validFrom": "2024-08-10T23:24:02.292Z",
+                    "validFrom": "2024-08-11T00:24:05.857Z",
                     "activeEvents": [],
                     "state": {
                         "islandCodes": [],
@@ -160,12 +104,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-08-11T01:24:02.292Z"
+            "cacheExpire": "2024-08-11T02:24:05.857Z"
         },
         "community-votes": {
             "states": [
                 {
-                    "validFrom": "2024-08-10T23:24:02.292Z",
+                    "validFrom": "2024-08-11T00:24:05.857Z",
                     "activeEvents": [],
                     "state": {
                         "electionId": "",
@@ -175,486 +119,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-08-11T01:24:02.292Z"
+            "cacheExpire": "2024-08-11T02:24:05.857Z"
         },
         "client-events": {
             "states": [
                 {
-                    "validFrom": "2024-08-10T23:24:02.292Z",
-                    "activeEvents": [
-                        {
-                            "eventType": "EventFlag.Event_DelMar_Season01_Dailies",
-                            "activeUntil": "2024-10-01T13:00:00.000Z",
-                            "activeSince": "2024-04-09T13:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.Event_Juno_Osiris_TownRewards",
-                            "activeUntil": "2025-05-02T13:00:00.000Z",
-                            "activeSince": "2024-05-03T13:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.LobbySeason30",
-                            "activeUntil": "2024-08-23T13:00:00.000Z",
-                            "activeSince": "2024-05-17T13:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.Event_S30_UISeasonEnd",
-                            "activeUntil": "2024-08-16T06:00:00.000Z",
-                            "activeSince": "2024-05-24T13:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.Event_Juno_Hardcore",
-                            "activeUntil": "2025-06-10T08:00:00.000Z",
-                            "activeSince": "2024-06-11T08:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.Event_SparksS04",
-                            "activeUntil": "2024-08-16T08:00:00.000Z",
-                            "activeSince": "2024-06-13T08:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.Event_S30_3010Adjustments",
-                            "activeUntil": "2024-08-16T03:00:00.000Z",
-                            "activeSince": "2024-06-13T13:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.Event_DelMar_Stainless",
-                            "activeUntil": "2024-08-16T13:00:00.000Z",
-                            "activeSince": "2024-06-13T13:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.Mayday",
-                            "activeUntil": "2024-09-05T00:00:00.000Z",
-                            "activeSince": "2024-06-20T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.Mayday.Quests",
-                            "activeUntil": "2024-09-05T00:00:00.000Z",
-                            "activeSince": "2024-06-20T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.LobbyStW.RoadTrip",
-                            "activeUntil": "2024-09-05T00:00:00.000Z",
-                            "activeSince": "2024-06-20T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.PassiveIceStorms",
-                            "activeUntil": "2024-09-05T00:00:00.000Z",
-                            "activeSince": "2024-06-20T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.ActiveFireStorms",
-                            "activeUntil": "2024-09-05T00:00:00.000Z",
-                            "activeSince": "2024-06-20T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.PassiveLightningStorms",
-                            "activeUntil": "2024-09-05T00:00:00.000Z",
-                            "activeSince": "2024-06-20T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.PassiveMiniBosses",
-                            "activeUntil": "2024-09-05T00:00:00.000Z",
-                            "activeSince": "2024-06-20T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.MissionAlert.MegaAlert",
-                            "activeUntil": "2024-09-05T00:00:00.000Z",
-                            "activeSince": "2024-06-20T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.ElderGroupMissions",
-                            "activeUntil": "2024-09-05T00:00:00.000Z",
-                            "activeSince": "2024-06-20T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.Phoenix.RoadTrip",
-                            "activeUntil": "2024-09-05T00:00:00.000Z",
-                            "activeSince": "2024-06-20T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.Phoenix.RoadTrip.Quests",
-                            "activeUntil": "2024-09-05T00:00:00.000Z",
-                            "activeSince": "2024-06-20T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.Mayday.Quests.1020",
-                            "activeUntil": "2024-09-05T00:00:00.000Z",
-                            "activeSince": "2024-06-20T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.Event_Juno_FTUE_V2",
-                            "activeUntil": "2025-07-22T08:00:00.000Z",
-                            "activeSince": "2024-06-22T05:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.Event_Juno_FTUE_BB",
-                            "activeUntil": "2024-08-16T06:00:00.000Z",
-                            "activeSince": "2024-06-22T05:01:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.Event_S30_BlastBerryQuests",
-                            "activeUntil": "2024-08-16T06:00:00.000Z",
-                            "activeSince": "2024-06-22T18:05:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.Event_S30_AllSweat",
-                            "activeUntil": "2024-08-16T07:00:00.000Z",
-                            "activeSince": "2024-07-04T13:00:00.000Z"
-                        },
-                        {
-                            "eventType": "GreenhouseActive",
-                            "activeUntil": "2024-08-23T13:00:00.000Z",
-                            "activeSince": "2024-07-19T13:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.Event_DelMar_Rank_02",
-                            "activeUntil": "2024-10-01T08:00:00.000Z",
-                            "activeSince": "2024-07-23T08:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.Event_DelMar_Inferno",
-                            "activeUntil": "2024-10-01T08:00:00.000Z",
-                            "activeSince": "2024-07-23T08:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.Event_S30_LevelUpPass",
-                            "activeUntil": "2024-08-16T03:00:00.000Z",
-                            "activeSince": "2024-07-23T13:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.Season9.Phase1",
-                            "activeUntil": "2024-09-05T00:00:00.000Z",
-                            "activeSince": "2024-07-25T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.Event_DelMar_QuestPack_02",
-                            "activeUntil": "2025-07-27T00:00:00.000Z",
-                            "activeSince": "2024-07-26T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.Event_Sparks_S04Event",
-                            "activeUntil": "2024-08-16T08:00:00.000Z",
-                            "activeSince": "2024-08-02T16:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.Event_S30_Beanstalk_Quests",
-                            "activeUntil": "2024-08-16T03:00:00.000Z",
-                            "activeSince": "2024-08-06T08:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.Event_S30_AccoladeTrackingQuest",
-                            "activeUntil": "2024-08-16T03:00:00.000Z",
-                            "activeSince": "2024-08-06T09:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.Mayday.Quests.Phase8",
-                            "activeUntil": "2024-08-15T00:00:00.000Z",
-                            "activeSince": "2024-08-08T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.STWRobert",
-                            "activeUntil": "2024-09-05T00:00:00.000Z",
-                            "activeSince": "2024-08-08T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.STWOutlandish",
-                            "activeUntil": "2024-09-05T00:00:00.000Z",
-                            "activeSince": "2024-08-08T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.Event_SparksS04_Week09",
-                            "activeUntil": "2024-08-16T08:00:00.000Z",
-                            "activeSince": "2024-08-08T23:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.Event_ SparksSpotlight_S04_A",
-                            "activeUntil": "2024-08-16T08:00:00.000Z",
-                            "activeSince": "2024-08-08T23:00:00.000Z"
-                        },
-                        {
-                            "eventType": "PilgrimSong.paradisecity",
-                            "activeUntil": "2024-08-16T00:00:00.000Z",
-                            "activeSince": "2024-08-09T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "PilgrimSong.sweetchildomine",
-                            "activeUntil": "2024-08-16T00:00:00.000Z",
-                            "activeSince": "2024-08-09T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "PilgrimSong.welcometothejungle",
-                            "activeUntil": "2024-08-16T00:00:00.000Z",
-                            "activeSince": "2024-08-09T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "PilgrimSong.panda",
-                            "activeUntil": "2024-08-11T00:00:00.000Z",
-                            "activeSince": "2024-08-10T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "PilgrimSong.daynnite",
-                            "activeUntil": "2024-08-11T00:00:00.000Z",
-                            "activeSince": "2024-08-10T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "PilgrimSong.blackbeatles",
-                            "activeUntil": "2024-08-11T00:00:00.000Z",
-                            "activeSince": "2024-08-10T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "PilgrimSong.nothingelsematters",
-                            "activeUntil": "2024-08-11T00:00:00.000Z",
-                            "activeSince": "2024-08-10T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "PilgrimSong.sadbuttrue",
-                            "activeUntil": "2024-08-11T00:00:00.000Z",
-                            "activeSince": "2024-08-10T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "PilgrimSong.forwhomthebelltolls",
-                            "activeUntil": "2024-08-11T00:00:00.000Z",
-                            "activeSince": "2024-08-10T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "PilgrimSong.dontfearthereaper",
-                            "activeUntil": "2024-08-11T00:00:00.000Z",
-                            "activeSince": "2024-08-10T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "PilgrimSong.makedamnsure",
-                            "activeUntil": "2024-08-11T00:00:00.000Z",
-                            "activeSince": "2024-08-10T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "PilgrimSong.thisishowwedoit",
-                            "activeUntil": "2024-08-11T00:00:00.000Z",
-                            "activeSince": "2024-08-10T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "PilgrimSong.ihadsomehelp",
-                            "activeUntil": "2024-08-11T00:00:00.000Z",
-                            "activeSince": "2024-08-10T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "PilgrimSong.rosesimanbek",
-                            "activeUntil": "2024-08-11T00:00:00.000Z",
-                            "activeSince": "2024-08-10T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "PilgrimSong.killinginthename",
-                            "activeUntil": "2024-08-11T00:00:00.000Z",
-                            "activeSince": "2024-08-10T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "PilgrimSong.feelgoodinc",
-                            "activeUntil": "2024-08-11T00:00:00.000Z",
-                            "activeSince": "2024-08-10T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "PilgrimSong.marchofthepigs",
-                            "activeUntil": "2024-08-11T00:00:00.000Z",
-                            "activeSince": "2024-08-10T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "PilgrimSong.downwiththesickness",
-                            "activeUntil": "2024-08-11T00:00:00.000Z",
-                            "activeSince": "2024-08-10T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "PilgrimSong.poison",
-                            "activeUntil": "2024-08-11T00:00:00.000Z",
-                            "activeSince": "2024-08-10T00:00:00.000Z"
-                        },
-                        {
-                            "eventType": "PilgrimSong.aintnorestforthewicked",
-                            "activeUntil": "2024-08-15T00:00:00.000Z",
-                            "activeSince": "2024-08-10T16:30:00.000Z"
-                        }
-                    ],
-                    "state": {
-                        "activeStorefronts": [],
-                        "eventNamedWeights": [],
-                        "activeEvents": [
-                            {
-                                "instanceId": "06k2t28rsl80ajssd78cihhq8a[2]0",
-                                "devName": "DelMar_Season01_Dailies",
-                                "eventName": "CalendarEvent_DelMar_Season01_Dailies",
-                                "eventStart": "2024-04-09T13:00:00Z",
-                                "eventEnd": "2024-10-01T13:00:00Z",
-                                "eventType": "EventFlag.Event_DelMar_Season01_Dailies"
-                            },
-                            {
-                                "instanceId": "1qpmtohufgsj9hbths6b3m3hrl[2]0",
-                                "devName": "Juno_Osiris_TownRewards",
-                                "eventName": "CalendarEvent_Juno_Osiris_TownRewards",
-                                "eventStart": "2024-05-03T13:00:00Z",
-                                "eventEnd": "2025-05-02T13:00:00Z",
-                                "eventType": "EventFlag.Event_Juno_Osiris_TownRewards"
-                            },
-                            {
-                                "instanceId": "4rulairbsr0q1kl244vu4uvpmt[2]0",
-                                "devName": "Event_S30_UISeasonEnd",
-                                "eventName": "CalendarEvent_S30_UISeasonEnd",
-                                "eventStart": "2024-05-24T13:00:00Z",
-                                "eventEnd": "2024-08-16T06:00:00Z",
-                                "eventType": "EventFlag.Event_S30_UISeasonEnd"
-                            },
-                            {
-                                "instanceId": "0jo2qb31biq7seotnp8s0809dk[2]0",
-                                "devName": "Juno_Hardcore",
-                                "eventName": "CalendarEvent_Juno_Hardcore",
-                                "eventStart": "2024-06-11T08:00:00Z",
-                                "eventEnd": "2025-06-10T08:00:00Z",
-                                "eventType": "EventFlag.Event_Juno_Hardcore"
-                            },
-                            {
-                                "instanceId": "0rgo9pihdk9clvhjh1houjc27f[2]0",
-                                "devName": "Event_Sparks_Season04",
-                                "eventName": "CalendarEvent_SparksS04",
-                                "eventStart": "2024-06-13T08:00:00Z",
-                                "eventEnd": "2024-08-16T08:00:00Z",
-                                "eventType": "EventFlag.Event_SparksS04"
-                            },
-                            {
-                                "instanceId": "54td3i9s025595jgfv15v0duv5[2]0",
-                                "devName": "Event_S30_3010Adjustments",
-                                "eventName": "CalendarEvent_S30_3010Adjustments",
-                                "eventStart": "2024-06-13T13:00:00Z",
-                                "eventEnd": "2024-08-16T03:00:00Z",
-                                "eventType": "EventFlag.Event_S30_3010Adjustments"
-                            },
-                            {
-                                "instanceId": "3r1atnmfp91u1m4t916ruk9b58[2]0",
-                                "devName": "DelMar_Stainless",
-                                "eventName": "CalendarEvent_DelMar_Stainless",
-                                "eventStart": "2024-06-13T13:00:00Z",
-                                "eventEnd": "2024-08-16T13:00:00Z",
-                                "eventType": "EventFlag.Event_DelMar_Stainless"
-                            },
-                            {
-                                "instanceId": "3gv78os4amga401e1l4n5h0h33[2]0",
-                                "devName": "JunoEvent_FTUE_V2",
-                                "eventName": "CalendarEvent_Juno_FTUE_V2",
-                                "eventStart": "2024-06-22T05:00:00Z",
-                                "eventEnd": "2025-07-22T08:00:00Z",
-                                "eventType": "EventFlag.Event_Juno_FTUE_V2"
-                            },
-                            {
-                                "instanceId": "1t9mdltjdk11253n5umv9snipj[2]0",
-                                "devName": "Juno_FTUE_BB",
-                                "eventName": "CalendarEvent_Juno_FTUE_BB",
-                                "eventStart": "2024-06-22T05:01:00Z",
-                                "eventEnd": "2024-08-16T06:00:00Z",
-                                "eventType": "EventFlag.Event_Juno_FTUE_BB"
-                            },
-                            {
-                                "instanceId": "17rlku68mhoujagmm03qbrmivc[2]0",
-                                "devName": "Event_S30_BlastBerryQuests",
-                                "eventName": "CalendarEvent_S30_BlastBerryQuests",
-                                "eventStart": "2024-06-22T18:05:00Z",
-                                "eventEnd": "2024-08-16T06:00:00Z",
-                                "eventType": "EventFlag.Event_S30_BlastBerryQuests"
-                            },
-                            {
-                                "instanceId": "3gmfm0fjft8fsh860o8l7dqjdc[2]0",
-                                "devName": "CalendarEvent_S30_AllSweat",
-                                "eventName": "CalendarEvent_S30_AllSweat",
-                                "eventStart": "2024-07-04T13:00:00Z",
-                                "eventEnd": "2024-08-16T07:00:00Z",
-                                "eventType": "EventFlag.Event_S30_AllSweat"
-                            },
-                            {
-                                "instanceId": "5fjjrr1i2ee8nnunb283e9lru7[2]0",
-                                "devName": "DelMarRank_02",
-                                "eventName": "CalendarEvent_DelMar_Rank_02",
-                                "eventStart": "2024-07-23T08:00:00Z",
-                                "eventEnd": "2024-10-01T08:00:00Z",
-                                "eventType": "EventFlag.Event_DelMar_Rank_02"
-                            },
-                            {
-                                "instanceId": "78dienc5559ave48k2v4htfujr[2]0",
-                                "devName": "DelMarInferno",
-                                "eventName": "CalendarEvent_DelMar_Inferno",
-                                "eventStart": "2024-07-23T08:00:00Z",
-                                "eventEnd": "2024-10-01T08:00:00Z",
-                                "eventType": "EventFlag.Event_DelMar_Inferno"
-                            },
-                            {
-                                "instanceId": "0629l94l7b1t19p9em467ijmfn[2]0",
-                                "devName": "Event_S30_LevelUpPass",
-                                "eventName": "CalendarEvent_S30_LevelUpPass",
-                                "eventStart": "2024-07-23T13:00:00Z",
-                                "eventEnd": "2024-08-16T03:00:00Z",
-                                "eventType": "EventFlag.Event_S30_LevelUpPass"
-                            },
-                            {
-                                "instanceId": "3s12fq0ljdbdjhsig8nrk9tchi[2]0",
-                                "devName": "DelMarQuestPack_02",
-                                "eventName": "CalendarEvent_DelMar_QuestPack_02",
-                                "eventStart": "2024-07-26T00:00:00Z",
-                                "eventEnd": "2025-07-27T00:00:00Z",
-                                "eventType": "EventFlag.Event_DelMar_QuestPack_02"
-                            },
-                            {
-                                "instanceId": "0agr6mk257tmavsen8mc6is422[2]0",
-                                "devName": "Event_Sparks_S04Event",
-                                "eventName": "CalendarEvent_Sparks_S04Event",
-                                "eventStart": "2024-08-02T16:00:00Z",
-                                "eventEnd": "2024-08-16T08:00:00Z",
-                                "eventType": "EventFlag.Event_Sparks_S04Event"
-                            },
-                            {
-                                "instanceId": "3r6emjq0c92o4s4bb68g2mi29r[2]0",
-                                "devName": "Event_S30_Beanstalk_Quests",
-                                "eventName": "CalendarEvent_S30_Beanstalk_Quests",
-                                "eventStart": "2024-08-06T08:00:00Z",
-                                "eventEnd": "2024-08-16T03:00:00Z",
-                                "eventType": "EventFlag.Event_S30_Beanstalk_Quests"
-                            },
-                            {
-                                "instanceId": "208p87hvn90uck9pad4ht6tngj[2]0",
-                                "devName": "Event_S30_AccoladeTrackingQuest",
-                                "eventName": "CalendarEvent_S30_AccoladeTrackingQuest",
-                                "eventStart": "2024-08-06T09:00:00Z",
-                                "eventEnd": "2024-08-16T03:00:00Z",
-                                "eventType": "EventFlag.Event_S30_AccoladeTrackingQuest"
-                            },
-                            {
-                                "instanceId": "6t6649j0e7v23rqcrqcm4ui7k9[2]0",
-                                "devName": "Event_SparksS04_Week09",
-                                "eventName": "CalendarEvent_SparksS04_Week09",
-                                "eventStart": "2024-08-08T23:00:00Z",
-                                "eventEnd": "2024-08-16T08:00:00Z",
-                                "eventType": "EventFlag.Event_SparksS04_Week09"
-                            },
-                            {
-                                "instanceId": "7mm9v7e9mudlm1oiiaiuidlphd[2]0",
-                                "devName": "Event_ SparksSpotlight_S04_A",
-                                "eventName": "CalendarEvent_SparksSpotlight_S04_A",
-                                "eventStart": "2024-08-08T23:00:00Z",
-                                "eventEnd": "2024-08-16T08:00:00Z",
-                                "eventType": "EventFlag.Event_ SparksSpotlight_S04_A"
-                            }
-                        ],
-                        "seasonNumber": 30,
-                        "seasonTemplateId": "AthenaSeason:athenaseason30",
-                        "matchXpBonusPoints": 0,
-                        "eventPunchCardTemplateId": "",
-                        "seasonBegin": "2024-05-17T13:00:00Z",
-                        "seasonEnd": "2024-08-23T13:00:00Z",
-                        "seasonDisplayedEnd": "2024-12-31T04:00:00Z",
-                        "weeklyStoreEnd": "0001-01-01T00:00:00.000Z",
-                        "stwEventStoreEnd": "2024-09-05T00:00:00.000Z",
-                        "stwWeeklyStoreEnd": "2024-08-15T00:00:00.000Z",
-                        "sectionStoreEnds": [],
-                        "rmtPromotion": "",
-                        "dailyStoreEnd": "2024-08-11T00:00:00Z"
-                    }
-                },
-                {
-                    "validFrom": "2024-08-11T00:00:00.000Z",
+                    "validFrom": "2024-08-11T00:24:05.857Z",
                     "activeEvents": [
                         {
                             "eventType": "EventFlag.Event_DelMar_Season01_Dailies",
@@ -1128,9 +598,9 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-08-11T01:24:02.292Z"
+            "cacheExpire": "2024-08-11T02:24:05.857Z"
         }
     },
     "cacheIntervalMins": 15,
-    "currentTime": "2024-08-10T23:52:30.977Z"
+    "currentTime": "2024-08-11T00:46:45.240Z"
 }
