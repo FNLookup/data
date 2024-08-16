@@ -4,7 +4,7 @@ import time
 import os
 
 # two times because it bugs out
-languages = ['en-US', 'en-US']
+languages = ['en-US']
 base_url = 'https://fortnite.com'
 print("Initializing firefox")
 driver = webdriver.Firefox()
@@ -21,16 +21,12 @@ try:
 
         if lang == "en-US":
             url = base_url
-            print("Waiting before doing anything...")
             time.sleep(15)
 
         driver.get(url)
         
         timestamp = time.time()
         timestamps[lang] = timestamp
-
-        print("Waiting...")
-        time.sleep(15)
         
         variable_data = driver.execute_script('return window.__remixContext;')
         
