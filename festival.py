@@ -92,7 +92,7 @@ def transform_data(input_data, output_file):
         try:
             if ogstuff != alltransform:
                 # new jam tracks
-                set_old = set(json.loads(ogstuff)['tracks'])
+                set_old = json.loads(ogstuff)['tracks']
                 newjt = [item for item in json.loads(alltransform)['tracks'] if item not in set_old]
                 strnewjtrs = 'New Jam Tracks:\n'
                 for t in newjt:
