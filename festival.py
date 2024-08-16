@@ -2,6 +2,7 @@ import json
 import requests
 from datetime import datetime
 import time
+import os
 
 def transform_data(input_data, output_file):
     transformed_data = {"tracks": [], "lastModified": 0}
