@@ -25,6 +25,7 @@ jobs:
         run: python festival.py
         env:
             WKFL: ${{ secrets.TRACKWEBHOOK }}
+            UTP: ${{ secrets.USERTOPING }}
 
       - name: Commit and push artifact
         run: |
