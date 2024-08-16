@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2024-08-16T16:00:00.000Z",
+    "expiration": "2024-08-16T17:00:00.000Z",
     "storefronts": [
         {
             "name": "WinterQuest2019",
@@ -1979,6 +1979,114 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x Capsule No. 576 for 800 MtxCurrency",
+                    "offerId": "v2:/57204fa2a20fe898ca0702519256df5f961727c576f121fdffc8c343b68aedeb",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 800,
+                            "dynamicRegularPrice": 800,
+                            "finalPrice": 800,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 800
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S23/DAv2_Glider_ArcticIceBlue.DAv2_Glider_ArcticIceBlue",
+                        "LayoutId": "DragonBallZ.87",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "DragonBallZ",
+                        "templateId": "AthenaGlider:glider_arcticiceblue",
+                        "color1": "#008b91",
+                        "color2": "#004c66",
+                        "color3": "#002452",
+                        "textBackgroundColor": "#002452",
+                        "inDate": "2024-08-11T00:00:00.000Z",
+                        "outDate": "2024-08-16T23:59:59.999Z",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Glider_ArcticIceBlue.DA_Featured_Glider_ArcticIceBlue"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaGlider:glider_arcticiceblue",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/S23/DAv2_Glider_ArcticIceBlue.DAv2_Glider_ArcticIceBlue"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "DragonBallZ.87"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "DragonBallZ"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaGlider:glider_arcticiceblue"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#008b91"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#004c66"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#002452"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#002452"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-08-11T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-08-16T23:59:59.999Z"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Glider_ArcticIceBlue.DA_Featured_Glider_ArcticIceBlue",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaGlider:glider_arcticiceblue",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -2,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Cirrus, 1 x Cirrus, 1 x Cirrus, 1 x Cirrus, 1 x Cirrus, 1 x Cirrus, 1 x Cirrus, 1 x Cirrus, 1 x Cirrus, 1 x Cirrus, 1 x Cirrus, 1 x Cirrus, 1 x Cirrus, 1 x Cirrus for -1 MtxCurrency",
                     "offerId": "v2:/093c39620b18b95b7b9248c892260d8ef5e119ac0a3469232a3aab1e424542cc",
                     "fulfillmentIds": [],
@@ -2280,114 +2388,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -3,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Capsule No. 576 for 800 MtxCurrency",
-                    "offerId": "v2:/57204fa2a20fe898ca0702519256df5f961727c576f121fdffc8c343b68aedeb",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 800,
-                            "dynamicRegularPrice": 800,
-                            "finalPrice": 800,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 800
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S23/DAv2_Glider_ArcticIceBlue.DAv2_Glider_ArcticIceBlue",
-                        "LayoutId": "DragonBallZ.87",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "DragonBallZ",
-                        "templateId": "AthenaGlider:glider_arcticiceblue",
-                        "color1": "#008b91",
-                        "color2": "#004c66",
-                        "color3": "#002452",
-                        "textBackgroundColor": "#002452",
-                        "inDate": "2024-08-11T00:00:00.000Z",
-                        "outDate": "2024-08-16T23:59:59.999Z",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Glider_ArcticIceBlue.DA_Featured_Glider_ArcticIceBlue"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaGlider:glider_arcticiceblue",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S23/DAv2_Glider_ArcticIceBlue.DAv2_Glider_ArcticIceBlue"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "DragonBallZ.87"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "DragonBallZ"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaGlider:glider_arcticiceblue"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#008b91"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#004c66"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#002452"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#002452"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-11T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-08-16T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Glider_ArcticIceBlue.DA_Featured_Glider_ArcticIceBlue",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaGlider:glider_arcticiceblue",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -2,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -3655,7 +3655,7 @@
                         "color3": "#8150d6",
                         "textBackgroundColor": "#8150d6",
                         "inDate": "2024-08-16T00:00:00.000Z",
-                        "outDate": "2024-08-24T23:59:59.999Z",
+                        "outDate": "2024-09-01T23:59:59.999Z",
                         "ViolatorTag": "New",
                         "ViolatorIntensity": "High"
                     },
@@ -3720,7 +3720,7 @@
                         },
                         {
                             "key": "outDate",
-                            "value": "2024-08-24T23:59:59.999Z"
+                            "value": "2024-09-01T23:59:59.999Z"
                         },
                         {
                             "key": "ViolatorTag",
@@ -10556,7 +10556,7 @@
                         "tileBackgroundMaterial": "vehicle_item",
                         "textBackgroundColor": "#101C28",
                         "inDate": "2024-08-16T00:00:00.000Z",
-                        "outDate": "2024-08-24T23:59:59.999Z",
+                        "outDate": "2024-08-29T23:59:59.999Z",
                         "ViolatorTag": "New",
                         "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Sixty_Bundle.DA_Featured_Sixty_Bundle"
                     },
@@ -10631,7 +10631,7 @@
                         },
                         {
                             "key": "outDate",
-                            "value": "2024-08-24T23:59:59.999Z"
+                            "value": "2024-08-29T23:59:59.999Z"
                         },
                         {
                             "key": "ViolatorTag",
@@ -13797,6 +13797,97 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_237) for 500 MtxCurrency",
+                    "offerId": "v2:/ff70ea6a9d94332d76b537f6d8ef704e1049334233bad7379a4d566890346f4b",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_237",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "JamTracks-0816.97",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "JamTracks-0816",
+                        "templateId": "SparksSong:sid_placeholder_237",
+                        "inDate": "2024-06-20T00:00:00.000Z",
+                        "outDate": "2024-08-24T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_237",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_237"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "JamTracks-0816.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "JamTracks-0816"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksSong:sid_placeholder_237"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-06-20T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-08-24T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_237",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -171,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Fireplug, 1 x Fireplug, 1 x Fireplug, 1 x Fireplug, 1 x Fireplug, 1 x Fireplug, 1 x Fireplug, 1 x Fireplug, 1 x Fireplug, 1 x Fireplug, 1 x Fireplug, 1 x Fireplug, 1 x Fireplug for -1 MtxCurrency",
                     "offerId": "v2:/1cb74eaeec285cdb383b752bff1eb5aea808e905ad0583caf3626e3c3df51b69",
                     "fulfillmentIds": [],
@@ -14084,97 +14175,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_237) for 500 MtxCurrency",
-                    "offerId": "v2:/ff70ea6a9d94332d76b537f6d8ef704e1049334233bad7379a4d566890346f4b",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_237",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "JamTracks-0816.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "JamTracks-0816",
-                        "templateId": "SparksSong:sid_placeholder_237",
-                        "inDate": "2024-06-20T00:00:00.000Z",
-                        "outDate": "2024-08-24T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_237",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_237"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "JamTracks-0816.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "JamTracks-0816"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksSong:sid_placeholder_237"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-06-20T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-08-24T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_237",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -171,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -16862,7 +16862,7 @@
                         "color3": "#8150d6",
                         "textBackgroundColor": "#8150d6",
                         "inDate": "2024-08-16T00:00:00.000Z",
-                        "outDate": "2024-08-24T23:59:59.999Z",
+                        "outDate": "2024-09-01T23:59:59.999Z",
                         "ViolatorTag": "New",
                         "ViolatorIntensity": "High",
                         "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_ElegantLilyCharm_Bundle.DA_Featured_ElegantLilyCharm_Bundle"
@@ -16926,7 +16926,7 @@
                         },
                         {
                             "key": "outDate",
-                            "value": "2024-08-24T23:59:59.999Z"
+                            "value": "2024-09-01T23:59:59.999Z"
                         },
                         {
                             "key": "ViolatorTag",
@@ -23663,165 +23663,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Vintage Ramirez, 1 x Vanguard Banshee, 1 x Wildstreak One, 1 x Headhunter Prime for -1 MtxCurrency",
-                    "offerId": "v2:/f61db3b52a8e5850bc0387b4ceccb6372da5d310d4840eddda08503bbb0de534",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [],
-                    "dynamicBundleInfo": {
-                        "discountedBasePrice": -1200,
-                        "regularBasePrice": 0,
-                        "floorPrice": 400,
-                        "currencyType": "MtxCurrency",
-                        "currencySubType": "",
-                        "displayType": "AmountOff",
-                        "bundleItems": [
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 800,
-                                "discountedPrice": 800,
-                                "alreadyOwnedPriceReduction": 800,
-                                "item": {
-                                    "templateId": "AthenaCharacter:cid_884_athena_commando_f_choneramirez",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 800,
-                                "discountedPrice": 800,
-                                "alreadyOwnedPriceReduction": 800,
-                                "item": {
-                                    "templateId": "AthenaCharacter:cid_888_athena_commando_f_chonebanshee",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 800,
-                                "discountedPrice": 800,
-                                "alreadyOwnedPriceReduction": 800,
-                                "item": {
-                                    "templateId": "AthenaCharacter:cid_889_athena_commando_f_chonewildcat",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 800,
-                                "discountedPrice": 800,
-                                "alreadyOwnedPriceReduction": 800,
-                                "item": {
-                                    "templateId": "AthenaCharacter:cid_890_athena_commando_f_choneheadhunter",
-                                    "quantity": 1
-                                }
-                            }
-                        ]
-                    },
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_Bundles_ChOne_F.DAv2_Bundles_ChOne_F",
-                        "bundleId": "DynamicBundle:b_defaultfemalebundle",
-                        "LayoutId": "ReloadSquads.99",
-                        "TileSize": "Size_2_x_1",
-                        "AnalyticOfferGroupId": "ReloadSquads",
-                        "templateId": "DynamicBundle:b_defaultfemalebundle",
-                        "color1": "#20eef8",
-                        "color2": "#139bCb",
-                        "color3": "#06499e",
-                        "textBackgroundColor": "#06499e",
-                        "inDate": "2024-08-12T00:00:00.000Z",
-                        "outDate": "2024-08-18T23:59:59.999Z",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_ChOneFemaleBundle.DA_Featured_ChOneFemaleBundle"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [],
-                    "offerType": "DynamicBundle",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_Bundles_ChOne_F.DAv2_Bundles_ChOne_F"
-                        },
-                        {
-                            "key": "bundleId",
-                            "value": "DynamicBundle:b_defaultfemalebundle"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "ReloadSquads.99"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_2_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "ReloadSquads"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "DynamicBundle:b_defaultfemalebundle"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#20eef8"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#139bCb"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#06499e"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#06499e"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-12T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-08-18T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_ChOneFemaleBundle.DA_Featured_ChOneFemaleBundle",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaCharacter:cid_884_athena_commando_f_choneramirez",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaCharacter:cid_888_athena_commando_f_chonebanshee",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaCharacter:cid_889_athena_commando_f_chonewildcat",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaCharacter:cid_890_athena_commando_f_choneheadhunter",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -2,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x Hold Me Closer for 500 MtxCurrency",
                     "offerId": "v2:/34cb63ea89f91f3cd2205ebe4342145fa513dd2093a48e5c3931536d5fba933b",
                     "fulfillmentIds": [],
@@ -24001,6 +23842,165 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -180,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Vintage Ramirez, 1 x Vanguard Banshee, 1 x Wildstreak One, 1 x Headhunter Prime for -1 MtxCurrency",
+                    "offerId": "v2:/f61db3b52a8e5850bc0387b4ceccb6372da5d310d4840eddda08503bbb0de534",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [],
+                    "dynamicBundleInfo": {
+                        "discountedBasePrice": -1200,
+                        "regularBasePrice": 0,
+                        "floorPrice": 400,
+                        "currencyType": "MtxCurrency",
+                        "currencySubType": "",
+                        "displayType": "AmountOff",
+                        "bundleItems": [
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 800,
+                                "discountedPrice": 800,
+                                "alreadyOwnedPriceReduction": 800,
+                                "item": {
+                                    "templateId": "AthenaCharacter:cid_884_athena_commando_f_choneramirez",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 800,
+                                "discountedPrice": 800,
+                                "alreadyOwnedPriceReduction": 800,
+                                "item": {
+                                    "templateId": "AthenaCharacter:cid_888_athena_commando_f_chonebanshee",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 800,
+                                "discountedPrice": 800,
+                                "alreadyOwnedPriceReduction": 800,
+                                "item": {
+                                    "templateId": "AthenaCharacter:cid_889_athena_commando_f_chonewildcat",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 800,
+                                "discountedPrice": 800,
+                                "alreadyOwnedPriceReduction": 800,
+                                "item": {
+                                    "templateId": "AthenaCharacter:cid_890_athena_commando_f_choneheadhunter",
+                                    "quantity": 1
+                                }
+                            }
+                        ]
+                    },
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_Bundles_ChOne_F.DAv2_Bundles_ChOne_F",
+                        "bundleId": "DynamicBundle:b_defaultfemalebundle",
+                        "LayoutId": "ReloadSquads.99",
+                        "TileSize": "Size_2_x_1",
+                        "AnalyticOfferGroupId": "ReloadSquads",
+                        "templateId": "DynamicBundle:b_defaultfemalebundle",
+                        "color1": "#20eef8",
+                        "color2": "#139bCb",
+                        "color3": "#06499e",
+                        "textBackgroundColor": "#06499e",
+                        "inDate": "2024-08-12T00:00:00.000Z",
+                        "outDate": "2024-08-18T23:59:59.999Z",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_ChOneFemaleBundle.DA_Featured_ChOneFemaleBundle"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [],
+                    "offerType": "DynamicBundle",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_Bundles_ChOne_F.DAv2_Bundles_ChOne_F"
+                        },
+                        {
+                            "key": "bundleId",
+                            "value": "DynamicBundle:b_defaultfemalebundle"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "ReloadSquads.99"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_2_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "ReloadSquads"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "DynamicBundle:b_defaultfemalebundle"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#20eef8"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#139bCb"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#06499e"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#06499e"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-08-12T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-08-18T23:59:59.999Z"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_ChOneFemaleBundle.DA_Featured_ChOneFemaleBundle",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaCharacter:cid_884_athena_commando_f_choneramirez",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaCharacter:cid_888_athena_commando_f_chonebanshee",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaCharacter:cid_889_athena_commando_f_chonewildcat",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaCharacter:cid_890_athena_commando_f_choneheadhunter",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -2,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -24803,7 +24803,7 @@
                         "color3": "#8150d6",
                         "textBackgroundColor": "#8150d6",
                         "inDate": "2024-08-16T00:00:00.000Z",
-                        "outDate": "2024-08-24T23:59:59.999Z",
+                        "outDate": "2024-09-01T23:59:59.999Z",
                         "ViolatorTag": "New",
                         "ViolatorIntensity": "High"
                     },
@@ -24872,7 +24872,7 @@
                         },
                         {
                             "key": "outDate",
-                            "value": "2024-08-24T23:59:59.999Z"
+                            "value": "2024-09-01T23:59:59.999Z"
                         },
                         {
                             "key": "ViolatorTag",
@@ -26915,114 +26915,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Jonesy The First for 800 MtxCurrency",
-                    "offerId": "v2:/59eeb9e63bfc7d77bc06bc1868e2090ff6da928c24966d21d91a45690361d9a5",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 800,
-                            "dynamicRegularPrice": 800,
-                            "finalPrice": 800,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 800
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_CID_883_M_ChOneJonesy.DAv2_CID_883_M_ChOneJonesy",
-                        "LayoutId": "ReloadSquads.98",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "ReloadSquads",
-                        "templateId": "AthenaCharacter:cid_883_athena_commando_m_chonejonesy",
-                        "color1": "#20eef8",
-                        "color2": "#139bCb",
-                        "color3": "#06499e",
-                        "textBackgroundColor": "#06499e",
-                        "inDate": "2024-08-12T00:00:00.000Z",
-                        "outDate": "2024-08-18T23:59:59.999Z",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_883_Athena_Commando_M_ChOneJonesy.DA_Featured_CID_883_Athena_Commando_M_ChOneJonesy"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaCharacter:cid_883_athena_commando_m_chonejonesy",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_CID_883_M_ChOneJonesy.DAv2_CID_883_M_ChOneJonesy"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "ReloadSquads.98"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "ReloadSquads"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaCharacter:cid_883_athena_commando_m_chonejonesy"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#20eef8"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#139bCb"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#06499e"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#06499e"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-12T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-08-18T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_883_Athena_Commando_M_ChOneJonesy.DA_Featured_CID_883_Athena_Commando_M_ChOneJonesy",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaCharacter:cid_883_athena_commando_m_chonejonesy",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x X Gon' Give It To Ya for 500 MtxCurrency",
                     "offerId": "v2:/c5c1797bfab2f64fd80ae1cf0570d1b86545954fec110ddcfc184c072d86bb8e",
                     "fulfillmentIds": [],
@@ -27202,6 +27094,114 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -8,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Jonesy The First for 800 MtxCurrency",
+                    "offerId": "v2:/59eeb9e63bfc7d77bc06bc1868e2090ff6da928c24966d21d91a45690361d9a5",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 800,
+                            "dynamicRegularPrice": 800,
+                            "finalPrice": 800,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 800
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_CID_883_M_ChOneJonesy.DAv2_CID_883_M_ChOneJonesy",
+                        "LayoutId": "ReloadSquads.98",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "ReloadSquads",
+                        "templateId": "AthenaCharacter:cid_883_athena_commando_m_chonejonesy",
+                        "color1": "#20eef8",
+                        "color2": "#139bCb",
+                        "color3": "#06499e",
+                        "textBackgroundColor": "#06499e",
+                        "inDate": "2024-08-12T00:00:00.000Z",
+                        "outDate": "2024-08-18T23:59:59.999Z",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_883_Athena_Commando_M_ChOneJonesy.DA_Featured_CID_883_Athena_Commando_M_ChOneJonesy"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaCharacter:cid_883_athena_commando_m_chonejonesy",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_CID_883_M_ChOneJonesy.DAv2_CID_883_M_ChOneJonesy"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "ReloadSquads.98"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "ReloadSquads"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaCharacter:cid_883_athena_commando_m_chonejonesy"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#20eef8"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#139bCb"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#06499e"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#06499e"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-08-12T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-08-18T23:59:59.999Z"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_883_Athena_Commando_M_ChOneJonesy.DA_Featured_CID_883_Athena_Commando_M_ChOneJonesy",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaCharacter:cid_883_athena_commando_m_chonejonesy",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -1,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -31627,294 +31627,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Chemergy, 1 x Chemergy, 1 x Chemergy, 1 x Chemergy, 1 x Chemergy, 1 x Chemergy, 1 x Chemergy, 1 x Chemergy, 1 x Chemergy, 1 x Chemergy, 1 x Chemergy, 1 x Chemergy, 1 x Chemergy for -1 MtxCurrency",
-                    "offerId": "v2:/b2bdb4f564bb1e63a2d34852cb66d39e9d8dd6109c0fceee916fb05e15e6175f",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [],
-                    "dynamicBundleInfo": {
-                        "discountedBasePrice": 0,
-                        "regularBasePrice": 0,
-                        "floorPrice": 0,
-                        "currencyType": "MtxCurrency",
-                        "currencySubType": "",
-                        "displayType": "AmountOff",
-                        "bundleItems": [
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 50,
-                                "discountedPrice": 50,
-                                "alreadyOwnedPriceReduction": 50,
-                                "item": {
-                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_none",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 50,
-                                "discountedPrice": 50,
-                                "alreadyOwnedPriceReduction": 50,
-                                "item": {
-                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_black",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 50,
-                                "discountedPrice": 50,
-                                "alreadyOwnedPriceReduction": 50,
-                                "item": {
-                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_titaniumwhite",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 50,
-                                "discountedPrice": 50,
-                                "alreadyOwnedPriceReduction": 50,
-                                "item": {
-                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_grey",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 0,
-                                "discountedPrice": 0,
-                                "alreadyOwnedPriceReduction": 0,
-                                "item": {
-                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_crimson",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 50,
-                                "discountedPrice": 50,
-                                "alreadyOwnedPriceReduction": 50,
-                                "item": {
-                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_cobalt",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 0,
-                                "discountedPrice": 0,
-                                "alreadyOwnedPriceReduction": 0,
-                                "item": {
-                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_skyblue",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 0,
-                                "discountedPrice": 0,
-                                "alreadyOwnedPriceReduction": 0,
-                                "item": {
-                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_burntsienna",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 0,
-                                "discountedPrice": 0,
-                                "alreadyOwnedPriceReduction": 0,
-                                "item": {
-                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_saffron",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 0,
-                                "discountedPrice": 0,
-                                "alreadyOwnedPriceReduction": 0,
-                                "item": {
-                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_lime",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 50,
-                                "discountedPrice": 50,
-                                "alreadyOwnedPriceReduction": 50,
-                                "item": {
-                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_forestgreen",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 50,
-                                "discountedPrice": 50,
-                                "alreadyOwnedPriceReduction": 50,
-                                "item": {
-                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_orange",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 50,
-                                "discountedPrice": 50,
-                                "alreadyOwnedPriceReduction": 50,
-                                "item": {
-                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_purple",
-                                    "quantity": 1
-                                }
-                            }
-                        ]
-                    },
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S31/DAv2_Bundle_Featured_Booster_PlasmaEnergy.DAv2_Bundle_Featured_Booster_PlasmaEnergy",
-                        "offertag": "boosts",
-                        "bundleId": "DynamicBundle:b_booster_plasmaenergy",
-                        "LayoutId": "WheelsAndBoosts.98",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "WheelsAndBoosts",
-                        "templateId": "DynamicBundle:b_booster_plasmaenergy",
-                        "color1": "#C44E00",
-                        "color2": "#2D0800",
-                        "tileBackgroundMaterial": "vehicle_item",
-                        "textBackgroundColor": "#2D0800",
-                        "inDate": "2024-08-16T00:00:00.000Z",
-                        "outDate": "2024-08-18T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [],
-                    "offerType": "DynamicBundle",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S31/DAv2_Bundle_Featured_Booster_PlasmaEnergy.DAv2_Bundle_Featured_Booster_PlasmaEnergy"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "boosts"
-                        },
-                        {
-                            "key": "bundleId",
-                            "value": "DynamicBundle:b_booster_plasmaenergy"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "WheelsAndBoosts.98"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "WheelsAndBoosts"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "DynamicBundle:b_booster_plasmaenergy"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#C44E00"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#2D0800"
-                        },
-                        {
-                            "key": "tileBackgroundMaterial",
-                            "value": "vehicle_item"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#2D0800"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-16T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-08-18T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_none",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_black",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_titaniumwhite",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_grey",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_crimson",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_cobalt",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_skyblue",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_burntsienna",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_saffron",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_lime",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_forestgreen",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_orange",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_purple",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -2,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x (Don't Fear) The Reaper for 500 MtxCurrency",
                     "offerId": "v2:/3cb6c00ef46c8b3bae89adc59494aff8d000a3198930230f26cf69d88ef79945",
                     "fulfillmentIds": [],
@@ -32185,6 +31897,294 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -115,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Chemergy, 1 x Chemergy, 1 x Chemergy, 1 x Chemergy, 1 x Chemergy, 1 x Chemergy, 1 x Chemergy, 1 x Chemergy, 1 x Chemergy, 1 x Chemergy, 1 x Chemergy, 1 x Chemergy, 1 x Chemergy for -1 MtxCurrency",
+                    "offerId": "v2:/b2bdb4f564bb1e63a2d34852cb66d39e9d8dd6109c0fceee916fb05e15e6175f",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [],
+                    "dynamicBundleInfo": {
+                        "discountedBasePrice": 0,
+                        "regularBasePrice": 0,
+                        "floorPrice": 0,
+                        "currencyType": "MtxCurrency",
+                        "currencySubType": "",
+                        "displayType": "AmountOff",
+                        "bundleItems": [
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 50,
+                                "discountedPrice": 50,
+                                "alreadyOwnedPriceReduction": 50,
+                                "item": {
+                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_none",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 50,
+                                "discountedPrice": 50,
+                                "alreadyOwnedPriceReduction": 50,
+                                "item": {
+                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_black",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 50,
+                                "discountedPrice": 50,
+                                "alreadyOwnedPriceReduction": 50,
+                                "item": {
+                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_titaniumwhite",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 50,
+                                "discountedPrice": 50,
+                                "alreadyOwnedPriceReduction": 50,
+                                "item": {
+                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_grey",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 0,
+                                "discountedPrice": 0,
+                                "alreadyOwnedPriceReduction": 0,
+                                "item": {
+                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_crimson",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 50,
+                                "discountedPrice": 50,
+                                "alreadyOwnedPriceReduction": 50,
+                                "item": {
+                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_cobalt",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 0,
+                                "discountedPrice": 0,
+                                "alreadyOwnedPriceReduction": 0,
+                                "item": {
+                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_skyblue",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 0,
+                                "discountedPrice": 0,
+                                "alreadyOwnedPriceReduction": 0,
+                                "item": {
+                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_burntsienna",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 0,
+                                "discountedPrice": 0,
+                                "alreadyOwnedPriceReduction": 0,
+                                "item": {
+                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_saffron",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 0,
+                                "discountedPrice": 0,
+                                "alreadyOwnedPriceReduction": 0,
+                                "item": {
+                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_lime",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 50,
+                                "discountedPrice": 50,
+                                "alreadyOwnedPriceReduction": 50,
+                                "item": {
+                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_forestgreen",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 50,
+                                "discountedPrice": 50,
+                                "alreadyOwnedPriceReduction": 50,
+                                "item": {
+                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_orange",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 50,
+                                "discountedPrice": 50,
+                                "alreadyOwnedPriceReduction": 50,
+                                "item": {
+                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_purple",
+                                    "quantity": 1
+                                }
+                            }
+                        ]
+                    },
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S31/DAv2_Bundle_Featured_Booster_PlasmaEnergy.DAv2_Bundle_Featured_Booster_PlasmaEnergy",
+                        "offertag": "boosts",
+                        "bundleId": "DynamicBundle:b_booster_plasmaenergy",
+                        "LayoutId": "WheelsAndBoosts.98",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "WheelsAndBoosts",
+                        "templateId": "DynamicBundle:b_booster_plasmaenergy",
+                        "color1": "#C44E00",
+                        "color2": "#2D0800",
+                        "tileBackgroundMaterial": "vehicle_item",
+                        "textBackgroundColor": "#2D0800",
+                        "inDate": "2024-08-16T00:00:00.000Z",
+                        "outDate": "2024-08-19T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [],
+                    "offerType": "DynamicBundle",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/S31/DAv2_Bundle_Featured_Booster_PlasmaEnergy.DAv2_Bundle_Featured_Booster_PlasmaEnergy"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "boosts"
+                        },
+                        {
+                            "key": "bundleId",
+                            "value": "DynamicBundle:b_booster_plasmaenergy"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "WheelsAndBoosts.98"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "WheelsAndBoosts"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "DynamicBundle:b_booster_plasmaenergy"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#C44E00"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#2D0800"
+                        },
+                        {
+                            "key": "tileBackgroundMaterial",
+                            "value": "vehicle_item"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#2D0800"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-08-16T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-08-19T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_none",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_black",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_titaniumwhite",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_grey",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_crimson",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_cobalt",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_skyblue",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_burntsienna",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_saffron",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_lime",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_forestgreen",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_orange",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_purple",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -2,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -34889,7 +34889,7 @@
                         "color3": "#8150d6",
                         "textBackgroundColor": "#8150d6",
                         "inDate": "2024-08-16T00:00:00.000Z",
-                        "outDate": "2024-08-24T23:59:59.999Z",
+                        "outDate": "2024-09-01T23:59:59.999Z",
                         "ViolatorTag": "New",
                         "ViolatorIntensity": "High"
                     },
@@ -34958,7 +34958,7 @@
                         },
                         {
                             "key": "outDate",
-                            "value": "2024-08-24T23:59:59.999Z"
+                            "value": "2024-09-01T23:59:59.999Z"
                         },
                         {
                             "key": "ViolatorTag",
@@ -35879,7 +35879,7 @@
                         "color3": "#8150d6",
                         "textBackgroundColor": "#8150d6",
                         "inDate": "2024-08-16T00:00:00.000Z",
-                        "outDate": "2024-08-24T23:59:59.999Z",
+                        "outDate": "2024-09-01T23:59:59.999Z",
                         "ViolatorTag": "New",
                         "ViolatorIntensity": "High"
                     },
@@ -35944,7 +35944,7 @@
                         },
                         {
                             "key": "outDate",
-                            "value": "2024-08-24T23:59:59.999Z"
+                            "value": "2024-09-01T23:59:59.999Z"
                         },
                         {
                             "key": "ViolatorTag",
