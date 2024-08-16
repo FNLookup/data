@@ -2,7 +2,7 @@ name: FN Page Data
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Runs every hour
+    - cron: '*/10 * * * *'  # Runs every 10 mins
 
 permissions: write-all
 
