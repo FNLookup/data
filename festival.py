@@ -100,6 +100,7 @@ def transform_data(input_data, output_file):
                 message = {
                     "content": os.getenv("UTP") + " **NEW JAM TRACKS PUBLISHED:** \n" + strnewjtrs
                 }
+                print('NEW JAM TRACKS!')
                 requests.post(wbhk, json=message)
         except Exception as e:
             print(f"Exception lol:{e}")
