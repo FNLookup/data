@@ -94,11 +94,11 @@ def transform_data(input_data, output_file):
                 # new jam tracks
                 set_old = json.loads(ogstuff)['tracks']
                 newjt = [item for item in json.loads(alltransform)['tracks'] if item not in set_old]
-                strnewjtrs = 'New Jam Tracks:\n'
+                strnewjtrs = 'New/Updated Jam Tracks:\n'
                 for t in newjt:
-                    strnewjtrs += t['artist'] + t['title'] + '\n'
+                    strnewjtrs += t['artist'] + ' - ' + t['title'] + '\n'
                 message = {
-                    "content": os.getenv("UTP") + " **NEW JAM TRACKS PUBLISHED:** \n" + strnewjtrs
+                    "content": os.getenv("UTP") + " **JAM TRACKS UPDATED:** \n" + strnewjtrs
                 }
                 print('NEW JAM TRACKS!')
                 requests.post(wbhk, json=message)
