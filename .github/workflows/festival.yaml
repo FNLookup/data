@@ -3,6 +3,7 @@ name: Get Jam Tracks - FN Content
 on:
     schedule:
       - cron: '*/10 * * * *'
+    workflow_dispatch:
 
 permissions: write-all
 
