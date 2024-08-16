@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2024-08-16T08:00:00.000Z",
+    "expiration": "2024-08-16T09:00:00.000Z",
     "storefronts": [
         {
             "name": "WinterQuest2019",
@@ -1071,114 +1071,6 @@
         {
             "name": "BRWeeklyStorefront",
             "catalogEntries": [
-                {
-                    "devName": "[VIRTUAL]1 x IG-11 for 1500 MtxCurrency",
-                    "offerId": "v2:/62883fdebc8af94d9fa2fdcbaac6bbb456ef7cfafee546b211b014c83083ba4a",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 1500,
-                            "dynamicRegularPrice": 1500,
-                            "finalPrice": 1500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 1500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Character_GallonBag.DAv2_Character_GallonBag",
-                        "LayoutId": "StarWars.98",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "StarWars",
-                        "templateId": "AthenaCharacter:character_gallonbag",
-                        "color1": "#1e57cc",
-                        "color2": "#1947a6",
-                        "color3": "#133680",
-                        "textBackgroundColor": "#133680",
-                        "inDate": "2024-08-13T00:00:00.000Z",
-                        "outDate": "2024-08-20T23:59:59.999Z",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Character_GallonBag.DA_Featured_Character_GallonBag"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaCharacter:character_gallonbag",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Character_GallonBag.DAv2_Character_GallonBag"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "StarWars.98"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "StarWars"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaCharacter:character_gallonbag"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#1e57cc"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#1947a6"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#133680"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#133680"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-13T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-08-20T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Character_GallonBag.DA_Featured_Character_GallonBag",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaCharacter:character_gallonbag",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -4,
-                    "catalogGroupPriority": 0
-                },
                 {
                     "devName": "[VIRTUAL]1 x Highway Tune for 500 MtxCurrency",
                     "offerId": "v2:/be63bff5be5aae63c9098320a9375541cc34c63c57e571c9dc0049c22e9acd9b",
@@ -5318,7 +5210,7 @@
                     ],
                     "meta": {
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Sparks_Bass_DriedSilk.DAv2_Sparks_Bass_DriedSilk",
-                        "LayoutId": "Deadpool&Wolverine.98",
+                        "LayoutId": "Deadpool&Wolverine.99",
                         "TileSize": "Size_1_x_1",
                         "AnalyticOfferGroupId": "Deadpool&Wolverine",
                         "templateId": "SparksBass:sparks_bass_driedsilk",
@@ -5357,7 +5249,7 @@
                         },
                         {
                             "key": "LayoutId",
-                            "value": "Deadpool&Wolverine.98"
+                            "value": "Deadpool&Wolverine.99"
                         },
                         {
                             "key": "TileSize",
@@ -14588,165 +14480,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Moff Gideon, 1 x Moff Gideon's Jetpack, 1 x Force Lance, 1 x Gideon's Wrath for -1 MtxCurrency",
-                    "offerId": "v2:/d8c71902bafaf693e02d285d37fc8445aa7443a4652bde3782634ca1a35b57a6",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [],
-                    "dynamicBundleInfo": {
-                        "discountedBasePrice": -700,
-                        "regularBasePrice": 0,
-                        "floorPrice": 300,
-                        "currencyType": "MtxCurrency",
-                        "currencySubType": "",
-                        "displayType": "AmountOff",
-                        "bundleItems": [
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 1500,
-                                "discountedPrice": 1500,
-                                "alreadyOwnedPriceReduction": 1500,
-                                "item": {
-                                    "templateId": "AthenaCharacter:character_tireswing",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 0,
-                                "discountedPrice": 0,
-                                "alreadyOwnedPriceReduction": 0,
-                                "item": {
-                                    "templateId": "AthenaBackpack:backpack_tireswing",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 1200,
-                                "discountedPrice": 1200,
-                                "alreadyOwnedPriceReduction": 1200,
-                                "item": {
-                                    "templateId": "AthenaPickaxe:pickaxe_tireswing",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 500,
-                                "discountedPrice": 500,
-                                "alreadyOwnedPriceReduction": 500,
-                                "item": {
-                                    "templateId": "AthenaItemWrap:wrap_tireswing",
-                                    "quantity": 1
-                                }
-                            }
-                        ]
-                    },
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_TireSwing.DAv2_Bundle_Featured_TireSwing",
-                        "bundleId": "DynamicBundle:b_tireswing",
-                        "LayoutId": "StarWars.98",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "StarWars",
-                        "templateId": "DynamicBundle:b_tireswing",
-                        "color1": "#1e57cc",
-                        "color2": "#1947a6",
-                        "color3": "#133680",
-                        "textBackgroundColor": "#133680",
-                        "inDate": "2024-08-15T00:00:00.000Z",
-                        "outDate": "2024-08-20T23:59:59.999Z",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_TireSwing_Bundle.DA_Featured_TireSwing_Bundle"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [],
-                    "offerType": "DynamicBundle",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_TireSwing.DAv2_Bundle_Featured_TireSwing"
-                        },
-                        {
-                            "key": "bundleId",
-                            "value": "DynamicBundle:b_tireswing"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "StarWars.98"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "StarWars"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "DynamicBundle:b_tireswing"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#1e57cc"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#1947a6"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#133680"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#133680"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-15T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-08-20T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_TireSwing_Bundle.DA_Featured_TireSwing_Bundle",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaCharacter:character_tireswing",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaBackpack:backpack_tireswing",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaPickaxe:pickaxe_tireswing",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaItemWrap:wrap_tireswing",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x P-5000 Power Loader Arm for 800 MtxCurrency",
                     "offerId": "v2:/c30a53385e00c82ac0e3065ac6b1ea0dcb640562bfdabd6e5ce7c05f89bdc998",
                     "fulfillmentIds": [],
@@ -20648,7 +20381,7 @@
                     "meta": {
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Pickaxe_TireSwing.DAv2_Pickaxe_TireSwing",
                         "LayoutId": "StarWars.98",
-                        "TileSize": "Size_1_x_1",
+                        "TileSize": "Size_2_x_1",
                         "AnalyticOfferGroupId": "StarWars",
                         "templateId": "AthenaPickaxe:pickaxe_tireswing",
                         "color1": "#1e57cc",
@@ -20688,7 +20421,7 @@
                         },
                         {
                             "key": "TileSize",
-                            "value": "Size_1_x_1"
+                            "value": "Size_2_x_1"
                         },
                         {
                             "key": "AnalyticOfferGroupId",
@@ -25898,7 +25631,7 @@
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_HatchBack.DAv2_Bundle_Featured_HatchBack",
                         "bundleId": "DynamicBundle:b_hatchback",
                         "LayoutId": "Deadpool&Wolverine.99",
-                        "TileSize": "Size_4_x_1",
+                        "TileSize": "Size_2_x_1",
                         "AnalyticOfferGroupId": "Deadpool&Wolverine",
                         "templateId": "DynamicBundle:b_hatchback",
                         "color1": "#c81614",
@@ -25938,7 +25671,7 @@
                         },
                         {
                             "key": "TileSize",
-                            "value": "Size_4_x_1"
+                            "value": "Size_2_x_1"
                         },
                         {
                             "key": "AnalyticOfferGroupId",
@@ -27723,7 +27456,7 @@
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_GallonBag.DAv2_Bundle_Featured_GallonBag",
                         "bundleId": "DynamicBundle:b_gallonbag",
                         "LayoutId": "StarWars.99",
-                        "TileSize": "Size_4_x_1",
+                        "TileSize": "Size_2_x_1",
                         "AnalyticOfferGroupId": "StarWars",
                         "templateId": "DynamicBundle:b_gallonbag",
                         "color1": "#1e57cc",
@@ -27761,7 +27494,7 @@
                         },
                         {
                             "key": "TileSize",
-                            "value": "Size_4_x_1"
+                            "value": "Size_2_x_1"
                         },
                         {
                             "key": "AnalyticOfferGroupId",
@@ -29079,7 +28812,7 @@
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_DriedSilk_Static.DAv2_Bundle_Featured_DriedSilk_Static",
                         "bundleId": "StaticBundle:b_driedsilk_static",
                         "LayoutId": "Deadpool&Wolverine.98",
-                        "TileSize": "Size_2_x_1",
+                        "TileSize": "Size_4_x_1",
                         "AnalyticOfferGroupId": "Deadpool&Wolverine",
                         "templateId": "StaticBundle:b_driedsilk_static",
                         "color1": "#c81614",
@@ -29145,7 +28878,7 @@
                         },
                         {
                             "key": "TileSize",
-                            "value": "Size_2_x_1"
+                            "value": "Size_4_x_1"
                         },
                         {
                             "key": "AnalyticOfferGroupId",
@@ -31523,7 +31256,7 @@
                     ],
                     "meta": {
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Glider_DriedSilk.DAv2_Glider_DriedSilk",
-                        "LayoutId": "Deadpool&Wolverine.98",
+                        "LayoutId": "Deadpool&Wolverine.99",
                         "TileSize": "Size_1_x_1",
                         "AnalyticOfferGroupId": "Deadpool&Wolverine",
                         "templateId": "AthenaGlider:glider_driedsilk",
@@ -31562,7 +31295,7 @@
                         },
                         {
                             "key": "LayoutId",
-                            "value": "Deadpool&Wolverine.98"
+                            "value": "Deadpool&Wolverine.99"
                         },
                         {
                             "key": "TileSize",
@@ -35628,6 +35361,114 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x IG-11 for 1500 MtxCurrency",
+                    "offerId": "v2:/731019c37b56c9b1ffed05de5234bca565b1629ebfb9d24f7be6fc4e37af6502",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 1500,
+                            "dynamicRegularPrice": 1500,
+                            "finalPrice": 1500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 1500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Character_GallonBag.DAv2_Character_GallonBag",
+                        "LayoutId": "StarWars.98",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "StarWars",
+                        "templateId": "AthenaCharacter:character_gallonbag",
+                        "color1": "#1e57cc",
+                        "color2": "#1947a6",
+                        "color3": "#133680",
+                        "textBackgroundColor": "#133680",
+                        "inDate": "2024-08-13T00:00:00.000Z",
+                        "outDate": "2024-08-20T23:59:59.999Z",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Character_GallonBag.DA_Featured_Character_GallonBag"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaCharacter:character_gallonbag",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Character_GallonBag.DAv2_Character_GallonBag"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "StarWars.98"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "StarWars"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaCharacter:character_gallonbag"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#1e57cc"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#1947a6"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#133680"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#133680"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-08-13T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-08-20T23:59:59.999Z"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Character_GallonBag.DA_Featured_Character_GallonBag",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaCharacter:character_gallonbag",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -1,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Ki-Scythe for 800 MtxCurrency",
                     "offerId": "v2:/c29f4ed10785f12142828bc2236503f5036a1cc0c0f26ff8b6d8444baa122e14",
                     "fulfillmentIds": [],
@@ -36620,6 +36461,165 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -3,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Moff Gideon, 1 x Moff Gideon's Jetpack, 1 x Force Lance, 1 x Gideon's Wrath for -1 MtxCurrency",
+                    "offerId": "v2:/3fe0ab3352838df100b9873bcabf99e91809ee1a65ed6dba9089a4ec99bf22b1",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [],
+                    "dynamicBundleInfo": {
+                        "discountedBasePrice": -700,
+                        "regularBasePrice": 0,
+                        "floorPrice": 300,
+                        "currencyType": "MtxCurrency",
+                        "currencySubType": "",
+                        "displayType": "AmountOff",
+                        "bundleItems": [
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 1500,
+                                "discountedPrice": 1500,
+                                "alreadyOwnedPriceReduction": 1500,
+                                "item": {
+                                    "templateId": "AthenaCharacter:character_tireswing",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 0,
+                                "discountedPrice": 0,
+                                "alreadyOwnedPriceReduction": 0,
+                                "item": {
+                                    "templateId": "AthenaBackpack:backpack_tireswing",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 1200,
+                                "discountedPrice": 1200,
+                                "alreadyOwnedPriceReduction": 1200,
+                                "item": {
+                                    "templateId": "AthenaPickaxe:pickaxe_tireswing",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 500,
+                                "discountedPrice": 500,
+                                "alreadyOwnedPriceReduction": 500,
+                                "item": {
+                                    "templateId": "AthenaItemWrap:wrap_tireswing",
+                                    "quantity": 1
+                                }
+                            }
+                        ]
+                    },
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_TireSwing.DAv2_Bundle_Featured_TireSwing",
+                        "bundleId": "DynamicBundle:b_tireswing",
+                        "LayoutId": "StarWars.99",
+                        "TileSize": "Size_2_x_1",
+                        "AnalyticOfferGroupId": "StarWars",
+                        "templateId": "DynamicBundle:b_tireswing",
+                        "color1": "#1e57cc",
+                        "color2": "#1947a6",
+                        "color3": "#133680",
+                        "textBackgroundColor": "#133680",
+                        "inDate": "2024-08-15T00:00:00.000Z",
+                        "outDate": "2024-08-20T23:59:59.999Z",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_TireSwing_Bundle.DA_Featured_TireSwing_Bundle"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [],
+                    "offerType": "DynamicBundle",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_TireSwing.DAv2_Bundle_Featured_TireSwing"
+                        },
+                        {
+                            "key": "bundleId",
+                            "value": "DynamicBundle:b_tireswing"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "StarWars.99"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_2_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "StarWars"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "DynamicBundle:b_tireswing"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#1e57cc"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#1947a6"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#133680"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#133680"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-08-15T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-08-20T23:59:59.999Z"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_TireSwing_Bundle.DA_Featured_TireSwing_Bundle",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaCharacter:character_tireswing",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaBackpack:backpack_tireswing",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaPickaxe:pickaxe_tireswing",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaItemWrap:wrap_tireswing",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -2,
                     "catalogGroupPriority": 0
                 },
                 {
