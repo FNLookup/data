@@ -23,6 +23,8 @@ jobs:
 
       - name: Save Jam Data
         run: python festival.py
+        env:
+            WKFL: ${{ secrets.TRACKWEBHOOK }}
 
       - name: Commit and push artifact
         run: |
