@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2024-08-17T01:00:00.000Z",
+    "expiration": "2024-08-17T02:00:00.000Z",
     "storefronts": [
         {
             "name": "WinterQuest2019",
@@ -142,71 +142,6 @@
         {
             "name": "CardPackStorePreroll",
             "catalogEntries": [
-                {
-                    "offerId": "D46EC225FA1149ADB00B4B17B2ABAB70",
-                    "devName": "RandomFree.FreePack.01",
-                    "offerType": "StaticPrice",
-                    "prices": [
-                        {
-                            "currencyType": "GameItem",
-                            "currencySubType": "AccountResource:currency_xrayllama",
-                            "regularPrice": 50,
-                            "dynamicRegularPrice": -1,
-                            "finalPrice": 0,
-                            "saleType": "Strikethrough",
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 0
-                        }
-                    ],
-                    "categories": [],
-                    "dailyLimit": 2,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "refundable": false,
-                    "appStoreId": [
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        ""
-                    ],
-                    "requirements": [],
-                    "metaInfo": [
-                        {
-                            "key": "ProfileId",
-                            "value": "campaign"
-                        },
-                        {
-                            "key": "Preroll",
-                            "value": "True"
-                        },
-                        {
-                            "key": "MaxConcurrentPurchases",
-                            "value": "1"
-                        }
-                    ],
-                    "catalogGroup": "Upgrade",
-                    "catalogGroupPriority": 10,
-                    "sortPriority": 0,
-                    "title": "Upgrade Llama (Seasonal Sale Freebie!)",
-                    "shortDescription": "",
-                    "description": "The old faithful llama, packed with a variety of goodies and upgrade materials. Contains at least 4 items, including a rare item or a hero! Has a high chance to upgrade.",
-                    "displayAssetPath": "/SaveTheWorld/Items/CardPacks/CardPack_Bronze.CardPack_Bronze",
-                    "itemGrants": [
-                        {
-                            "templateId": "CardPack:cardpack_bronze",
-                            "quantity": 1,
-                            "attributes": {}
-                        }
-                    ]
-                },
                 {
                     "offerId": "4D64CBE3618D41FBB5CAD0E472F4610A",
                     "devName": "Always.UpgradePack.01",
@@ -11772,128 +11707,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Darkerside for -1 MtxCurrency",
-                    "offerId": "v2:/2eefd5e4d329c1afffc09e41ea1003fc5d8ec5608ea51284ffe023461602b608",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [],
-                    "dynamicBundleInfo": {
-                        "discountedBasePrice": 0,
-                        "regularBasePrice": 0,
-                        "floorPrice": 0,
-                        "currencyType": "MtxCurrency",
-                        "currencySubType": "",
-                        "displayType": "AmountOff",
-                        "bundleItems": [
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 400,
-                                "discountedPrice": 400,
-                                "alreadyOwnedPriceReduction": 400,
-                                "item": {
-                                    "templateId": "VehicleCosmetics_Wheel:wheel_basicaw",
-                                    "quantity": 1
-                                }
-                            }
-                        ]
-                    },
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_Wheel_BasicAw.DAv2_Bundle_Featured_Wheel_BasicAw",
-                        "wheels": "promodesc106",
-                        "bundleId": "DynamicBundle:b_wheel_basicaw",
-                        "LayoutId": "AlanWalker.98",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "AlanWalker",
-                        "templateId": "DynamicBundle:b_wheel_basicaw",
-                        "color1": "#3C4F6E",
-                        "color2": "#101C28",
-                        "tileBackgroundMaterial": "vehicle_item",
-                        "textBackgroundColor": "#101C28",
-                        "inDate": "2024-08-08T00:00:00.000Z",
-                        "outDate": "2024-08-22T23:59:59.999Z",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Wheel_BasicAw_Bundle.DA_Featured_Wheel_BasicAw_Bundle"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [],
-                    "offerType": "DynamicBundle",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_Wheel_BasicAw.DAv2_Bundle_Featured_Wheel_BasicAw"
-                        },
-                        {
-                            "key": "wheels",
-                            "value": "promodesc106"
-                        },
-                        {
-                            "key": "bundleId",
-                            "value": "DynamicBundle:b_wheel_basicaw"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "AlanWalker.98"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "AlanWalker"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "DynamicBundle:b_wheel_basicaw"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#3C4F6E"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#101C28"
-                        },
-                        {
-                            "key": "tileBackgroundMaterial",
-                            "value": "vehicle_item"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#101C28"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-08T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-08-22T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Wheel_BasicAw_Bundle.DA_Featured_Wheel_BasicAw_Bundle",
-                    "itemGrants": [
-                        {
-                            "templateId": "VehicleCosmetics_Wheel:wheel_basicaw",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x Cheap Thrills for 500 MtxCurrency",
                     "offerId": "v2:/93149848216dc6799665d7ac58c5c8ef393f77e3143ab0fe8b51adccc07b04a3",
                     "fulfillmentIds": [],
@@ -12167,6 +11980,128 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x Darkerside for -1 MtxCurrency",
+                    "offerId": "v2:/2eefd5e4d329c1afffc09e41ea1003fc5d8ec5608ea51284ffe023461602b608",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [],
+                    "dynamicBundleInfo": {
+                        "discountedBasePrice": 0,
+                        "regularBasePrice": 0,
+                        "floorPrice": 0,
+                        "currencyType": "MtxCurrency",
+                        "currencySubType": "",
+                        "displayType": "AmountOff",
+                        "bundleItems": [
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 400,
+                                "discountedPrice": 400,
+                                "alreadyOwnedPriceReduction": 400,
+                                "item": {
+                                    "templateId": "VehicleCosmetics_Wheel:wheel_basicaw",
+                                    "quantity": 1
+                                }
+                            }
+                        ]
+                    },
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_Wheel_BasicAw.DAv2_Bundle_Featured_Wheel_BasicAw",
+                        "wheels": "promodesc106",
+                        "bundleId": "DynamicBundle:b_wheel_basicaw",
+                        "LayoutId": "AlanWalker.98",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "AlanWalker",
+                        "templateId": "DynamicBundle:b_wheel_basicaw",
+                        "color1": "#3C4F6E",
+                        "color2": "#101C28",
+                        "tileBackgroundMaterial": "vehicle_item",
+                        "textBackgroundColor": "#101C28",
+                        "inDate": "2024-08-08T00:00:00.000Z",
+                        "outDate": "2024-08-22T23:59:59.999Z",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Wheel_BasicAw_Bundle.DA_Featured_Wheel_BasicAw_Bundle"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [],
+                    "offerType": "DynamicBundle",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_Wheel_BasicAw.DAv2_Bundle_Featured_Wheel_BasicAw"
+                        },
+                        {
+                            "key": "wheels",
+                            "value": "promodesc106"
+                        },
+                        {
+                            "key": "bundleId",
+                            "value": "DynamicBundle:b_wheel_basicaw"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "AlanWalker.98"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "AlanWalker"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "DynamicBundle:b_wheel_basicaw"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#3C4F6E"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#101C28"
+                        },
+                        {
+                            "key": "tileBackgroundMaterial",
+                            "value": "vehicle_item"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#101C28"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-08-08T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-08-22T23:59:59.999Z"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Wheel_BasicAw_Bundle.DA_Featured_Wheel_BasicAw_Bundle",
+                    "itemGrants": [
+                        {
+                            "templateId": "VehicleCosmetics_Wheel:wheel_basicaw",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -1,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_21) for 500 MtxCurrency",
                     "offerId": "v2:/d77166d0793634954d1895b43b5b2b358e9de786ce13c74aa8665497198ba524",
                     "fulfillmentIds": [],
@@ -12346,6 +12281,97 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -153,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_237) for 500 MtxCurrency",
+                    "offerId": "v2:/ff70ea6a9d94332d76b537f6d8ef704e1049334233bad7379a4d566890346f4b",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_237",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "JamTracks0817.97",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "JamTracks0817",
+                        "templateId": "SparksSong:sid_placeholder_237",
+                        "inDate": "2024-06-20T00:00:00.000Z",
+                        "outDate": "2024-09-05T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_237",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_237"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "JamTracks0817.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "JamTracks0817"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksSong:sid_placeholder_237"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-06-20T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-09-05T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_237",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -171,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -12636,97 +12662,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_237) for 500 MtxCurrency",
-                    "offerId": "v2:/ff70ea6a9d94332d76b537f6d8ef704e1049334233bad7379a4d566890346f4b",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_237",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "JamTracks0817.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "JamTracks0817",
-                        "templateId": "SparksSong:sid_placeholder_237",
-                        "inDate": "2024-06-20T00:00:00.000Z",
-                        "outDate": "2024-09-05T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_237",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_237"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "JamTracks0817.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "JamTracks0817"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksSong:sid_placeholder_237"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-06-20T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-09-05T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_237",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -171,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -25151,123 +25086,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Beast Mode for -1 MtxCurrency",
-                    "offerId": "v2:/4c173b018b94af5c44fb65c6310a46654fe3ec5f4585ce1e0e14b9bfba5fb8ec",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [],
-                    "dynamicBundleInfo": {
-                        "discountedBasePrice": 0,
-                        "regularBasePrice": 0,
-                        "floorPrice": 400,
-                        "currencyType": "MtxCurrency",
-                        "currencySubType": "",
-                        "displayType": "AmountOff",
-                        "bundleItems": [
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 400,
-                                "discountedPrice": 400,
-                                "alreadyOwnedPriceReduction": 400,
-                                "item": {
-                                    "templateId": "VehicleCosmetics_Booster:id_booster_future",
-                                    "quantity": 1
-                                }
-                            }
-                        ]
-                    },
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_Booster_Future.DAv2_Bundle_Featured_Booster_Future",
-                        "bundleId": "DynamicBundle:b_booster_future_static",
-                        "LayoutId": "WheelsAndBoosts.98",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "WheelsAndBoosts",
-                        "templateId": "DynamicBundle:b_booster_future_static",
-                        "color1": "#C44E00",
-                        "color2": "#2D0800",
-                        "tileBackgroundMaterial": "vehicle_item",
-                        "textBackgroundColor": "#2D0800",
-                        "inDate": "2024-08-06T00:00:00.000Z",
-                        "outDate": "2024-08-19T23:59:59.999Z",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Booster_Future_Bundle.DA_Featured_Booster_Future_Bundle"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [],
-                    "offerType": "DynamicBundle",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_Booster_Future.DAv2_Bundle_Featured_Booster_Future"
-                        },
-                        {
-                            "key": "bundleId",
-                            "value": "DynamicBundle:b_booster_future_static"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "WheelsAndBoosts.98"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "WheelsAndBoosts"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "DynamicBundle:b_booster_future_static"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#C44E00"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#2D0800"
-                        },
-                        {
-                            "key": "tileBackgroundMaterial",
-                            "value": "vehicle_item"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#2D0800"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-06T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-08-19T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Booster_Future_Bundle.DA_Featured_Booster_Future_Bundle",
-                    "itemGrants": [
-                        {
-                            "templateId": "VehicleCosmetics_Booster:id_booster_future",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x Save Your Tears for 500 MtxCurrency",
                     "offerId": "v2:/f89e069ce9088c2733551d613c8a5035578f54ea7d79f9c714378f065a8b5e9b",
                     "fulfillmentIds": [],
@@ -25510,6 +25328,123 @@
                         },
                         {
                             "templateId": "AthenaCharacter:cid_887_athena_commando_m_chonespitfire",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -1,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Beast Mode for -1 MtxCurrency",
+                    "offerId": "v2:/4c173b018b94af5c44fb65c6310a46654fe3ec5f4585ce1e0e14b9bfba5fb8ec",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [],
+                    "dynamicBundleInfo": {
+                        "discountedBasePrice": 0,
+                        "regularBasePrice": 0,
+                        "floorPrice": 400,
+                        "currencyType": "MtxCurrency",
+                        "currencySubType": "",
+                        "displayType": "AmountOff",
+                        "bundleItems": [
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 400,
+                                "discountedPrice": 400,
+                                "alreadyOwnedPriceReduction": 400,
+                                "item": {
+                                    "templateId": "VehicleCosmetics_Booster:id_booster_future",
+                                    "quantity": 1
+                                }
+                            }
+                        ]
+                    },
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_Booster_Future.DAv2_Bundle_Featured_Booster_Future",
+                        "bundleId": "DynamicBundle:b_booster_future_static",
+                        "LayoutId": "WheelsAndBoosts.98",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "WheelsAndBoosts",
+                        "templateId": "DynamicBundle:b_booster_future_static",
+                        "color1": "#C44E00",
+                        "color2": "#2D0800",
+                        "tileBackgroundMaterial": "vehicle_item",
+                        "textBackgroundColor": "#2D0800",
+                        "inDate": "2024-08-06T00:00:00.000Z",
+                        "outDate": "2024-08-19T23:59:59.999Z",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Booster_Future_Bundle.DA_Featured_Booster_Future_Bundle"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [],
+                    "offerType": "DynamicBundle",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_Booster_Future.DAv2_Bundle_Featured_Booster_Future"
+                        },
+                        {
+                            "key": "bundleId",
+                            "value": "DynamicBundle:b_booster_future_static"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "WheelsAndBoosts.98"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "WheelsAndBoosts"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "DynamicBundle:b_booster_future_static"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#C44E00"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#2D0800"
+                        },
+                        {
+                            "key": "tileBackgroundMaterial",
+                            "value": "vehicle_item"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#2D0800"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-08-06T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-08-19T23:59:59.999Z"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Booster_Future_Bundle.DA_Featured_Booster_Future_Bundle",
+                    "itemGrants": [
+                        {
+                            "templateId": "VehicleCosmetics_Booster:id_booster_future",
                             "quantity": 1
                         }
                     ],
@@ -28406,294 +28341,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -89,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Chemergy, 1 x Chemergy, 1 x Chemergy, 1 x Chemergy, 1 x Chemergy, 1 x Chemergy, 1 x Chemergy, 1 x Chemergy, 1 x Chemergy, 1 x Chemergy, 1 x Chemergy, 1 x Chemergy, 1 x Chemergy for -1 MtxCurrency",
-                    "offerId": "v2:/b2bdb4f564bb1e63a2d34852cb66d39e9d8dd6109c0fceee916fb05e15e6175f",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [],
-                    "dynamicBundleInfo": {
-                        "discountedBasePrice": 0,
-                        "regularBasePrice": 0,
-                        "floorPrice": 0,
-                        "currencyType": "MtxCurrency",
-                        "currencySubType": "",
-                        "displayType": "AmountOff",
-                        "bundleItems": [
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 50,
-                                "discountedPrice": 50,
-                                "alreadyOwnedPriceReduction": 50,
-                                "item": {
-                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_none",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 50,
-                                "discountedPrice": 50,
-                                "alreadyOwnedPriceReduction": 50,
-                                "item": {
-                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_black",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 50,
-                                "discountedPrice": 50,
-                                "alreadyOwnedPriceReduction": 50,
-                                "item": {
-                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_titaniumwhite",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 50,
-                                "discountedPrice": 50,
-                                "alreadyOwnedPriceReduction": 50,
-                                "item": {
-                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_grey",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 0,
-                                "discountedPrice": 0,
-                                "alreadyOwnedPriceReduction": 0,
-                                "item": {
-                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_crimson",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 50,
-                                "discountedPrice": 50,
-                                "alreadyOwnedPriceReduction": 50,
-                                "item": {
-                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_cobalt",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 0,
-                                "discountedPrice": 0,
-                                "alreadyOwnedPriceReduction": 0,
-                                "item": {
-                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_skyblue",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 0,
-                                "discountedPrice": 0,
-                                "alreadyOwnedPriceReduction": 0,
-                                "item": {
-                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_burntsienna",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 0,
-                                "discountedPrice": 0,
-                                "alreadyOwnedPriceReduction": 0,
-                                "item": {
-                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_saffron",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 0,
-                                "discountedPrice": 0,
-                                "alreadyOwnedPriceReduction": 0,
-                                "item": {
-                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_lime",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 50,
-                                "discountedPrice": 50,
-                                "alreadyOwnedPriceReduction": 50,
-                                "item": {
-                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_forestgreen",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 50,
-                                "discountedPrice": 50,
-                                "alreadyOwnedPriceReduction": 50,
-                                "item": {
-                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_orange",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 50,
-                                "discountedPrice": 50,
-                                "alreadyOwnedPriceReduction": 50,
-                                "item": {
-                                    "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_purple",
-                                    "quantity": 1
-                                }
-                            }
-                        ]
-                    },
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S31/DAv2_Bundle_Featured_Booster_PlasmaEnergy.DAv2_Bundle_Featured_Booster_PlasmaEnergy",
-                        "offertag": "boosts",
-                        "bundleId": "DynamicBundle:b_booster_plasmaenergy",
-                        "LayoutId": "WheelsAndBoosts.98",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "WheelsAndBoosts",
-                        "templateId": "DynamicBundle:b_booster_plasmaenergy",
-                        "color1": "#C44E00",
-                        "color2": "#2D0800",
-                        "tileBackgroundMaterial": "vehicle_item",
-                        "textBackgroundColor": "#2D0800",
-                        "inDate": "2024-08-16T00:00:00.000Z",
-                        "outDate": "2024-08-19T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [],
-                    "offerType": "DynamicBundle",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S31/DAv2_Bundle_Featured_Booster_PlasmaEnergy.DAv2_Bundle_Featured_Booster_PlasmaEnergy"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "boosts"
-                        },
-                        {
-                            "key": "bundleId",
-                            "value": "DynamicBundle:b_booster_plasmaenergy"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "WheelsAndBoosts.98"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "WheelsAndBoosts"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "DynamicBundle:b_booster_plasmaenergy"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#C44E00"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#2D0800"
-                        },
-                        {
-                            "key": "tileBackgroundMaterial",
-                            "value": "vehicle_item"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#2D0800"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-16T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-08-19T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_none",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_black",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_titaniumwhite",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_grey",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_crimson",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_cobalt",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_skyblue",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_burntsienna",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_saffron",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_lime",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_forestgreen",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_orange",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "CosmeticVariantToken:vtid_booster_plasmaenergy_purple",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -2,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -32886,123 +32533,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Front Row for -1 MtxCurrency",
-                    "offerId": "v2:/cef3935ed33c73db3162b2a272d9933ded346696827f0725cdace7f029d2e6df",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [],
-                    "dynamicBundleInfo": {
-                        "discountedBasePrice": 0,
-                        "regularBasePrice": 0,
-                        "floorPrice": 0,
-                        "currencyType": "MtxCurrency",
-                        "currencySubType": "",
-                        "displayType": "AmountOff",
-                        "bundleItems": [
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 400,
-                                "discountedPrice": 400,
-                                "alreadyOwnedPriceReduction": 400,
-                                "item": {
-                                    "templateId": "VehicleCosmetics_Booster:id_booster_aw",
-                                    "quantity": 1
-                                }
-                            }
-                        ]
-                    },
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_Booster_Aw.DAv2_Bundle_Featured_Booster_Aw",
-                        "bundleId": "DynamicBundle:b_booster_aw",
-                        "LayoutId": "AlanWalker.98",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "AlanWalker",
-                        "templateId": "DynamicBundle:b_booster_aw",
-                        "color1": "#3C4F6E",
-                        "color2": "#101C28",
-                        "tileBackgroundMaterial": "vehicle_item",
-                        "textBackgroundColor": "#101C28",
-                        "inDate": "2024-08-08T00:00:00.000Z",
-                        "outDate": "2024-08-22T23:59:59.999Z",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Booster_Aw_Bundle.DA_Featured_Booster_Aw_Bundle"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [],
-                    "offerType": "DynamicBundle",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_Booster_Aw.DAv2_Bundle_Featured_Booster_Aw"
-                        },
-                        {
-                            "key": "bundleId",
-                            "value": "DynamicBundle:b_booster_aw"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "AlanWalker.98"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "AlanWalker"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "DynamicBundle:b_booster_aw"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#3C4F6E"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#101C28"
-                        },
-                        {
-                            "key": "tileBackgroundMaterial",
-                            "value": "vehicle_item"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#101C28"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-08T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-08-22T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Booster_Aw_Bundle.DA_Featured_Booster_Aw_Bundle",
-                    "itemGrants": [
-                        {
-                            "templateId": "VehicleCosmetics_Booster:id_booster_aw",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -3,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x Moff Gideon, 1 x Moff Gideon's Jetpack, 1 x Force Lance, 1 x Gideon's Wrath for -1 MtxCurrency",
                     "offerId": "v2:/3fe0ab3352838df100b9873bcabf99e91809ee1a65ed6dba9089a4ec99bf22b1",
                     "fulfillmentIds": [],
@@ -33159,6 +32689,123 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -2,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Front Row for -1 MtxCurrency",
+                    "offerId": "v2:/cef3935ed33c73db3162b2a272d9933ded346696827f0725cdace7f029d2e6df",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [],
+                    "dynamicBundleInfo": {
+                        "discountedBasePrice": 0,
+                        "regularBasePrice": 0,
+                        "floorPrice": 0,
+                        "currencyType": "MtxCurrency",
+                        "currencySubType": "",
+                        "displayType": "AmountOff",
+                        "bundleItems": [
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 400,
+                                "discountedPrice": 400,
+                                "alreadyOwnedPriceReduction": 400,
+                                "item": {
+                                    "templateId": "VehicleCosmetics_Booster:id_booster_aw",
+                                    "quantity": 1
+                                }
+                            }
+                        ]
+                    },
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_Booster_Aw.DAv2_Bundle_Featured_Booster_Aw",
+                        "bundleId": "DynamicBundle:b_booster_aw",
+                        "LayoutId": "AlanWalker.98",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "AlanWalker",
+                        "templateId": "DynamicBundle:b_booster_aw",
+                        "color1": "#3C4F6E",
+                        "color2": "#101C28",
+                        "tileBackgroundMaterial": "vehicle_item",
+                        "textBackgroundColor": "#101C28",
+                        "inDate": "2024-08-08T00:00:00.000Z",
+                        "outDate": "2024-08-22T23:59:59.999Z",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Booster_Aw_Bundle.DA_Featured_Booster_Aw_Bundle"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [],
+                    "offerType": "DynamicBundle",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Bundle_Featured_Booster_Aw.DAv2_Bundle_Featured_Booster_Aw"
+                        },
+                        {
+                            "key": "bundleId",
+                            "value": "DynamicBundle:b_booster_aw"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "AlanWalker.98"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "AlanWalker"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "DynamicBundle:b_booster_aw"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#3C4F6E"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#101C28"
+                        },
+                        {
+                            "key": "tileBackgroundMaterial",
+                            "value": "vehicle_item"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#101C28"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-08-08T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-08-22T23:59:59.999Z"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Booster_Aw_Bundle.DA_Featured_Booster_Aw_Bundle",
+                    "itemGrants": [
+                        {
+                            "templateId": "VehicleCosmetics_Booster:id_booster_aw",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -3,
                     "catalogGroupPriority": 0
                 },
                 {
