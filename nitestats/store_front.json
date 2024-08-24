@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2024-08-24T01:00:00.000Z",
+    "expiration": "2024-08-24T02:00:00.000Z",
     "storefronts": [
         {
             "name": "WinterQuest2019",
@@ -1178,6 +1178,97 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x i for 500 MtxCurrency",
+                    "offerId": "v2:/33658fdad5fb2909ffc05b9d7362079d8dc284038cc0d084ce5e3115e179d949",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_110",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "JamTracks0824.97",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "JamTracks0824",
+                        "templateId": "SparksSong:sid_placeholder_110",
+                        "inDate": "2024-07-04T00:00:00.000Z",
+                        "outDate": "2024-09-05T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_110",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_110"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "JamTracks0824.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "JamTracks0824"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksSong:sid_placeholder_110"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-07-04T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-09-05T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_110",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -6,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Iron Spider, 1 x Arachno-Arms, 1 x Iron Spider Gauntlets, 1 x Arachno-Jets, 1 x Spider Stroll, 1 x Iron Spider Webbing, 1 x Iron Spider for -1 MtxCurrency",
                     "offerId": "v2:/0cf61550193f31abb0c027823ac7533bd416f1f9d8a650d07e6a463f6d13571e",
                     "fulfillmentIds": [],
@@ -1381,97 +1472,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x i for 500 MtxCurrency",
-                    "offerId": "v2:/33658fdad5fb2909ffc05b9d7362079d8dc284038cc0d084ce5e3115e179d949",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_110",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "JamTracks0824.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "JamTracks0824",
-                        "templateId": "SparksSong:sid_placeholder_110",
-                        "inDate": "2024-07-04T00:00:00.000Z",
-                        "outDate": "2024-09-05T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_110",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_110"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "JamTracks0824.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "JamTracks0824"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksSong:sid_placeholder_110"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-07-04T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-09-05T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_110",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -6,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -4350,6 +4350,8 @@
                         "textBackgroundColor": "#784100",
                         "inDate": "2024-08-24T00:00:00.000Z",
                         "outDate": "2024-09-02T23:59:59.999Z",
+                        "ViolatorTag": "New",
+                        "ViolatorIntensity": "High",
                         "EncryptionKey": "5B7B9F3A14035E5B3984266770BD2CBA:9aCk7Ou+vDcwgqYaCZyvDFXNhizDGQhv5bkPfHk7oRo=:Sparks_Guitar_MiddleSock",
                         "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Sparks_Guitar_MiddleSock.DA_Featured_Sparks_Guitar_MiddleSock"
                     },
@@ -4415,6 +4417,14 @@
                         {
                             "key": "outDate",
                             "value": "2024-09-02T23:59:59.999Z"
+                        },
+                        {
+                            "key": "ViolatorTag",
+                            "value": "New"
+                        },
+                        {
+                            "key": "ViolatorIntensity",
+                            "value": "High"
                         },
                         {
                             "key": "EncryptionKey",
@@ -12276,6 +12286,8 @@
                         "textBackgroundColor": "#784100",
                         "inDate": "2024-08-24T00:00:00.000Z",
                         "outDate": "2024-09-02T23:59:59.999Z",
+                        "ViolatorTag": "New",
+                        "ViolatorIntensity": "High",
                         "EncryptionKey": "5B7B9F3A14035E5B3984266770BD2CBA:9aCk7Ou+vDcwgqYaCZyvDFXNhizDGQhv5bkPfHk7oRo=:Wrap_MiddleSock",
                         "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Wrap_MiddleSock.DA_Featured_Wrap_MiddleSock"
                     },
@@ -12341,6 +12353,14 @@
                         {
                             "key": "outDate",
                             "value": "2024-09-02T23:59:59.999Z"
+                        },
+                        {
+                            "key": "ViolatorTag",
+                            "value": "New"
+                        },
+                        {
+                            "key": "ViolatorIntensity",
+                            "value": "High"
                         },
                         {
                             "key": "EncryptionKey",
@@ -13426,6 +13446,8 @@
                         "textBackgroundColor": "#784100",
                         "inDate": "2024-08-24T00:00:00.000Z",
                         "outDate": "2024-09-02T23:59:59.999Z",
+                        "ViolatorTag": "New",
+                        "ViolatorIntensity": "High",
                         "EncryptionKey": "5B7B9F3A14035E5B3984266770BD2CBA:9aCk7Ou+vDcwgqYaCZyvDFXNhizDGQhv5bkPfHk7oRo=:EID_MiddleSock"
                     },
                     "matchFilter": "",
@@ -13490,6 +13512,14 @@
                         {
                             "key": "outDate",
                             "value": "2024-09-02T23:59:59.999Z"
+                        },
+                        {
+                            "key": "ViolatorTag",
+                            "value": "New"
+                        },
+                        {
+                            "key": "ViolatorIntensity",
+                            "value": "High"
                         },
                         {
                             "key": "EncryptionKey",
@@ -24952,6 +24982,8 @@
                         "textBackgroundColor": "#784100",
                         "inDate": "2024-08-24T00:00:00.000Z",
                         "outDate": "2024-09-02T23:59:59.999Z",
+                        "ViolatorTag": "New",
+                        "ViolatorIntensity": "High",
                         "EncryptionKey": "5B7B9F3A14035E5B3984266770BD2CBA:9aCk7Ou+vDcwgqYaCZyvDFXNhizDGQhv5bkPfHk7oRo=:Glider_MiddleSock",
                         "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_MiddleSock_Bundle.DA_Featured_MiddleSock_Bundle"
                     },
@@ -25036,6 +25068,14 @@
                         {
                             "key": "outDate",
                             "value": "2024-09-02T23:59:59.999Z"
+                        },
+                        {
+                            "key": "ViolatorTag",
+                            "value": "New"
+                        },
+                        {
+                            "key": "ViolatorIntensity",
+                            "value": "High"
                         },
                         {
                             "key": "EncryptionKey",
