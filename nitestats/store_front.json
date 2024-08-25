@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2024-08-25T01:00:00.000Z",
+    "expiration": "2024-08-25T03:00:00.000Z",
     "storefronts": [
         {
             "name": "WinterQuest2019",
@@ -11036,9 +11036,9 @@
                     ],
                     "meta": {
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S27/DAv2_EID_Hurrah.DAv2_EID_Hurrah",
-                        "LayoutId": "SignatureStyle.94",
+                        "LayoutId": "FortniteFlow.99",
                         "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "SignatureStyle",
+                        "AnalyticOfferGroupId": "FortniteFlow",
                         "templateId": "AthenaDance:eid_hurrah",
                         "color1": "#47fdfe",
                         "color2": "#2B6FA1",
@@ -11072,7 +11072,7 @@
                         },
                         {
                             "key": "LayoutId",
-                            "value": "SignatureStyle.94"
+                            "value": "FortniteFlow.99"
                         },
                         {
                             "key": "TileSize",
@@ -11080,7 +11080,7 @@
                         },
                         {
                             "key": "AnalyticOfferGroupId",
-                            "value": "SignatureStyle"
+                            "value": "FortniteFlow"
                         },
                         {
                             "key": "templateId",
@@ -13472,9 +13472,9 @@
                     ],
                     "meta": {
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S27/DAv2_EID_Reign.DAv2_EID_Reign",
-                        "LayoutId": "SignatureStyle.94",
+                        "LayoutId": "FortniteFlow.99",
                         "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "SignatureStyle",
+                        "AnalyticOfferGroupId": "FortniteFlow",
                         "templateId": "AthenaDance:eid_reign",
                         "color1": "#47fdfe",
                         "color2": "#2B6FA1",
@@ -13508,7 +13508,7 @@
                         },
                         {
                             "key": "LayoutId",
-                            "value": "SignatureStyle.94"
+                            "value": "FortniteFlow.99"
                         },
                         {
                             "key": "TileSize",
@@ -13516,7 +13516,7 @@
                         },
                         {
                             "key": "AnalyticOfferGroupId",
-                            "value": "SignatureStyle"
+                            "value": "FortniteFlow"
                         },
                         {
                             "key": "templateId",
@@ -14057,9 +14057,9 @@
                     ],
                     "meta": {
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_EID_Blaster.DAv2_EID_Blaster",
-                        "LayoutId": "SignatureStyle.94",
+                        "LayoutId": "FortniteFlow.99",
                         "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "SignatureStyle",
+                        "AnalyticOfferGroupId": "FortniteFlow",
                         "templateId": "AthenaDance:eid_blaster",
                         "color1": "#47fdfe",
                         "color2": "#2B6FA1",
@@ -14093,7 +14093,7 @@
                         },
                         {
                             "key": "LayoutId",
-                            "value": "SignatureStyle.94"
+                            "value": "FortniteFlow.99"
                         },
                         {
                             "key": "TileSize",
@@ -14101,7 +14101,7 @@
                         },
                         {
                             "key": "AnalyticOfferGroupId",
-                            "value": "SignatureStyle"
+                            "value": "FortniteFlow"
                         },
                         {
                             "key": "templateId",
@@ -28838,6 +28838,97 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_235) for 500 MtxCurrency",
+                    "offerId": "v2:/89ca8cb17c65e194cdb12bc108f33c601c89e91182952e9dd9551592c911384c",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_235",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "JamTracks0825.97",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "JamTracks0825",
+                        "templateId": "SparksSong:sid_placeholder_235",
+                        "inDate": "2024-06-20T00:00:00.000Z",
+                        "outDate": "2024-09-05T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_235",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_235"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "JamTracks0825.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "JamTracks0825"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksSong:sid_placeholder_235"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-06-20T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-09-05T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_235",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -173,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Mogul Master (GBR), 1 x Mogul Ski Bag (GBR) for 1500 MtxCurrency",
                     "offerId": "v2:/0f80da2a5e73caf2b7a8c9e34b86bf133e623a2386d3b1694c8fa9e69a3a0afb",
                     "fulfillmentIds": [],
@@ -28950,97 +29041,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -2,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_235) for 500 MtxCurrency",
-                    "offerId": "v2:/89ca8cb17c65e194cdb12bc108f33c601c89e91182952e9dd9551592c911384c",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_235",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "JamTracks0825.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "JamTracks0825",
-                        "templateId": "SparksSong:sid_placeholder_235",
-                        "inDate": "2024-06-20T00:00:00.000Z",
-                        "outDate": "2024-09-05T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_235",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_235"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "JamTracks0825.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "JamTracks0825"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksSong:sid_placeholder_235"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-06-20T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-09-05T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_235",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -173,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -33946,112 +33946,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Start it Up for 500 MtxCurrency",
-                    "offerId": "v2:/80cc5ccd3db968eb5a9634f638c5b1183f3786bd812280ba4a39e2e15fa53567",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S25/DAv2_EID_Jockey.DAv2_EID_Jockey",
-                        "LayoutId": "SignatureStyle.94",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "SignatureStyle",
-                        "templateId": "AthenaDance:eid_jockey",
-                        "color1": "#47fdfe",
-                        "color2": "#2B6FA1",
-                        "color3": "#011F22",
-                        "textBackgroundColor": "#011F22",
-                        "inDate": "2024-08-25T00:00:00.000Z",
-                        "outDate": "2024-08-27T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaDance:eid_jockey",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S25/DAv2_EID_Jockey.DAv2_EID_Jockey"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "SignatureStyle.94"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "SignatureStyle"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaDance:eid_jockey"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#47fdfe"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#2B6FA1"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#011F22"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#011F22"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-25T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-08-27T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaDance:eid_jockey",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_291) for 500 MtxCurrency",
                     "offerId": "v2:/46f065081eb755214bb4a3303beb71af0b05c7edcf9edc4d35176d5bb5955ab9",
                     "fulfillmentIds": [],
@@ -34140,6 +34034,112 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -208,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Start it Up for 500 MtxCurrency",
+                    "offerId": "v2:/80cc5ccd3db968eb5a9634f638c5b1183f3786bd812280ba4a39e2e15fa53567",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S25/DAv2_EID_Jockey.DAv2_EID_Jockey",
+                        "LayoutId": "FortniteFlow.99",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "FortniteFlow",
+                        "templateId": "AthenaDance:eid_jockey",
+                        "color1": "#47fdfe",
+                        "color2": "#2B6FA1",
+                        "color3": "#011F22",
+                        "textBackgroundColor": "#011F22",
+                        "inDate": "2024-08-25T00:00:00.000Z",
+                        "outDate": "2024-08-27T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaDance:eid_jockey",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/S25/DAv2_EID_Jockey.DAv2_EID_Jockey"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "FortniteFlow.99"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "FortniteFlow"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaDance:eid_jockey"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#47fdfe"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#2B6FA1"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#011F22"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#011F22"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-08-25T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-08-27T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaDance:eid_jockey",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -1,
                     "catalogGroupPriority": 0
                 },
                 {
