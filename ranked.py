@@ -23,8 +23,8 @@ try:
         url = f'{base_url}?lang={lang}'
 
         driver.get(url)
-        
-        timestamp = time.time()
+        time.sleep(15)
+    
         # timestamps[lang] = timestamp
 
         while (rankedpage < allpages):
