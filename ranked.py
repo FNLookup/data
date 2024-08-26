@@ -2,6 +2,7 @@ from selenium import webdriver
 import json
 import time
 import os
+import traceback
 
 # two times because it bugs out
 languages = ['en-US']
@@ -23,8 +24,8 @@ try:
         url = f'{base_url}?lang={lang}'
 
         driver.get(url)
-        time.sleep(15)
-    
+        
+        timestamp = time.time()
         # timestamps[lang] = timestamp
 
         while (rankedpage < allpages):
@@ -42,6 +43,7 @@ try:
         else:
             print('finished on page', rankedpage)
 except Exception as e:
+    traceback.print_exc()
     print("Error:", e)
 finally:
     driver.quit()
