@@ -29,11 +29,12 @@ try:
         # timestamps[lang] = timestamp
 
         while (rankedpage < allpages):
-            variable_data = json.loads(driver.execute_script(f'return fetch("https://www.fortnite.com/ranked/leaderboard?season=chapter-5-season-4&page={rankedpage + 1}lang=en-US&_data=routes%2Franked.leaderboard._index").then(r=>r.text())'))
+            result = driver.execute_script(f'return fetch("https://www.fortnite.com/ranked/leaderboard?season=chapter-5-season-4&page={rankedpage + 1}lang=en-US&_data=routes%2Franked.leaderboard._index").then(r=>r.text())')
+            print(result)
+            variable_data = json.loads(result)
             if variable_data:
                 allpages = variable_data['leaderboard']['totalPages']
                 time.sleep(2)
-                print(variable_data)
                 filename = f'{directory}/lb{rankedpage}.json'
                 with open(filename, 'w') as f:
                     json.dump(variable_data, f, indent=4)
