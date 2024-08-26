@@ -1,0 +1,39 @@
+name: FN Page Data (RANKED LB)
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'  # Runs every 30 mins
+
+permissions: write-all
+
+jobs:
+  open_web_browser:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: Install Selenium
+        run: |
+          pip install selenium
+
+      - name: Run script
+        run: |
+          python ranked.py
+
+      - name: Commit and push
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git pull
+          git add .
+          git commit -m "Update page files [Ranked]"
+          git push
