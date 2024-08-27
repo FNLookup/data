@@ -29,7 +29,7 @@ try:
         # timestamps[lang] = timestamp
 
         while (rankedpage < allpages):
-            result = str(driver.execute_script(f'let currentpagedata = fetch("https://www.fortnite.com/ranked/leaderboard?season=chapter-5-season-4&page={rankedpage + 1}lang=en-US&_data=routes%2Franked.leaderboard._index").then(r=>r.text()); return currentpagedata;'))
+            result = str(driver.execute_script('fetch("https://www.fortnite.com/ranked/leaderboard?season=chapter-5-season-4&page=' + (rankedpage + 1) + 'lang=en-US&_data=routes%2Franked.leaderboard._index").then(r=>r.text()).then(r => {return r});'))
             print(result)
             variable_data = json.loads(result)
             if variable_data:
