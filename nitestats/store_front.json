@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2024-08-28T01:00:00.000Z",
+    "expiration": "2024-08-28T03:00:00.000Z",
     "storefronts": [
         {
             "name": "WinterQuest2019",
@@ -1192,6 +1192,97 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x i for 500 MtxCurrency",
+                    "offerId": "v2:/33658fdad5fb2909ffc05b9d7362079d8dc284038cc0d084ce5e3115e179d949",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_110",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "JamTracks0828.97",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "JamTracks0828",
+                        "templateId": "SparksSong:sid_placeholder_110",
+                        "inDate": "2024-07-04T00:00:00.000Z",
+                        "outDate": "2024-09-19T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_110",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_110"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "JamTracks0828.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "JamTracks0828"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksSong:sid_placeholder_110"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-07-04T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-09-19T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_110",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -6,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Iron Spider, 1 x Arachno-Arms, 1 x Iron Spider Gauntlets, 1 x Arachno-Jets, 1 x Spider Stroll, 1 x Iron Spider Webbing, 1 x Iron Spider for -1 MtxCurrency",
                     "offerId": "v2:/0cf61550193f31abb0c027823ac7533bd416f1f9d8a650d07e6a463f6d13571e",
                     "fulfillmentIds": [],
@@ -1395,97 +1486,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x i for 500 MtxCurrency",
-                    "offerId": "v2:/33658fdad5fb2909ffc05b9d7362079d8dc284038cc0d084ce5e3115e179d949",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_110",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "JamTracks0828.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "JamTracks0828",
-                        "templateId": "SparksSong:sid_placeholder_110",
-                        "inDate": "2024-07-04T00:00:00.000Z",
-                        "outDate": "2024-09-19T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_110",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_110"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "JamTracks0828.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "JamTracks0828"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksSong:sid_placeholder_110"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-07-04T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-09-19T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_110",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -6,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -3704,6 +3704,97 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x Stressed Out for 500 MtxCurrency",
+                    "offerId": "v2:/15285c28fcd853fe5f8c2b3163430bb55b1459aa5b625d36322c679c0cbedf04",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_40",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "JamTracks0828.97",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "JamTracks0828",
+                        "templateId": "SparksSong:sid_placeholder_40",
+                        "inDate": "2024-08-16T00:00:00.000Z",
+                        "outDate": "2024-09-19T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_40",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_40"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "JamTracks0828.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "JamTracks0828"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksSong:sid_placeholder_40"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-08-16T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-09-19T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_40",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -146,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Click Click Flash for 500 MtxCurrency",
                     "offerId": "v2:/ff48643d816b72978cf272fb3773afc0dc93c432169063ccdbf8c9a03de6b77a",
                     "fulfillmentIds": [],
@@ -3807,97 +3898,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -2,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Stressed Out for 500 MtxCurrency",
-                    "offerId": "v2:/15285c28fcd853fe5f8c2b3163430bb55b1459aa5b625d36322c679c0cbedf04",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_40",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "JamTracks0828.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "JamTracks0828",
-                        "templateId": "SparksSong:sid_placeholder_40",
-                        "inDate": "2024-08-16T00:00:00.000Z",
-                        "outDate": "2024-09-19T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_40",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_40"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "JamTracks0828.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "JamTracks0828"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksSong:sid_placeholder_40"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-16T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-09-19T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_40",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -146,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -6341,126 +6341,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Inferno Skeleton Balvin, 1 x Zappy-Go-Backy for 1500 MtxCurrency",
-                    "offerId": "v2:/3e4f4439f5fb1948ff366113e700626be354e3e053834cd5ed4b2a567547d68a",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 1500,
-                            "dynamicRegularPrice": 1500,
-                            "finalPrice": 1500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 1500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S28/DAv2_Character_KeyChain.DAv2_Character_KeyChain",
-                        "LayoutId": "JBalvin.99",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "JBalvin",
-                        "templateId": "AthenaCharacter:character_keychain",
-                        "color1": "#2d2d2d",
-                        "color2": "#0C0C0C",
-                        "color3": "#000000",
-                        "textBackgroundColor": "#00021",
-                        "inDate": "2024-08-28T00:00:00.000Z",
-                        "outDate": "2024-08-31T23:59:59.999Z",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Character_KeyChain.DA_Featured_Character_KeyChain"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaCharacter:character_keychain",
-                            "minQuantity": 1
-                        },
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaBackpack:backpack_keychain",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S28/DAv2_Character_KeyChain.DAv2_Character_KeyChain"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "JBalvin.99"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "JBalvin"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaCharacter:character_keychain"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#2d2d2d"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#0C0C0C"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#000000"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#00021"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-28T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-08-31T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Character_KeyChain.DA_Featured_Character_KeyChain",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaCharacter:character_keychain",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaBackpack:backpack_keychain",
-                            "quantity": 1,
-                            "attributes": {
-                                "extra_grant": true
-                            }
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -2,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x My Songs Know What You Did In The Dark (Light Em Up) for 500 MtxCurrency",
                     "offerId": "v2:/b741d3f943799314f5b20f8bb138408eff56ae0e479e11acb162880baaebc84c",
                     "fulfillmentIds": [],
@@ -6545,6 +6425,126 @@
                         {
                             "templateId": "SparksSong:sid_placeholder_90",
                             "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -2,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Inferno Skeleton Balvin, 1 x Zappy-Go-Backy for 1500 MtxCurrency",
+                    "offerId": "v2:/3e4f4439f5fb1948ff366113e700626be354e3e053834cd5ed4b2a567547d68a",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 1500,
+                            "dynamicRegularPrice": 1500,
+                            "finalPrice": 1500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 1500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S28/DAv2_Character_KeyChain.DAv2_Character_KeyChain",
+                        "LayoutId": "JBalvin.99",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "JBalvin",
+                        "templateId": "AthenaCharacter:character_keychain",
+                        "color1": "#47fdfe",
+                        "color2": "#2B6FA1",
+                        "color3": "#011F22",
+                        "textBackgroundColor": "#011F22",
+                        "inDate": "2024-08-28T00:00:00.000Z",
+                        "outDate": "2024-08-31T23:59:59.999Z",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Character_KeyChain.DA_Featured_Character_KeyChain"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaCharacter:character_keychain",
+                            "minQuantity": 1
+                        },
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaBackpack:backpack_keychain",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/S28/DAv2_Character_KeyChain.DAv2_Character_KeyChain"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "JBalvin.99"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "JBalvin"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaCharacter:character_keychain"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#47fdfe"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#2B6FA1"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#011F22"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#011F22"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-08-28T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-08-31T23:59:59.999Z"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Character_KeyChain.DA_Featured_Character_KeyChain",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaCharacter:character_keychain",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaBackpack:backpack_keychain",
+                            "quantity": 1,
+                            "attributes": {
+                                "extra_grant": true
+                            }
                         }
                     ],
                     "additionalGrants": [],
@@ -25055,10 +25055,10 @@
                         "TileSize": "Size_2_x_1",
                         "AnalyticOfferGroupId": "JBalvin",
                         "templateId": "DynamicBundle:b_keychain",
-                        "color1": "#2d2d2d",
-                        "color2": "#0C0C0C",
-                        "color3": "#000000",
-                        "textBackgroundColor": "#00021",
+                        "color1": "#47fdfe",
+                        "color2": "#2B6FA1",
+                        "color3": "#011F22",
+                        "textBackgroundColor": "#011F22",
                         "inDate": "2024-08-28T00:00:00.000Z",
                         "outDate": "2024-08-31T23:59:59.999Z",
                         "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Keychain_Bundle.DA_Featured_Keychain_Bundle"
@@ -25102,19 +25102,19 @@
                         },
                         {
                             "key": "color1",
-                            "value": "#2d2d2d"
+                            "value": "#47fdfe"
                         },
                         {
                             "key": "color2",
-                            "value": "#0C0C0C"
+                            "value": "#2B6FA1"
                         },
                         {
                             "key": "color3",
-                            "value": "#000000"
+                            "value": "#011F22"
                         },
                         {
                             "key": "textBackgroundColor",
-                            "value": "#00021"
+                            "value": "#011F22"
                         },
                         {
                             "key": "inDate",
@@ -29374,117 +29374,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Mi Gente for 500 MtxCurrency",
-                    "offerId": "v2:/9386bd5bb960dec14b35cd6e2eb6de196b5b8d5d06d985a6fc4b1bb1c0268276",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_34",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "JBalvin.99",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "JBalvin",
-                        "templateId": "SparksSong:sid_placeholder_34",
-                        "color1": "#2d2d2d",
-                        "color2": "#0C0C0C",
-                        "color3": "#000000",
-                        "textBackgroundColor": "#00021",
-                        "inDate": "2024-08-16T00:00:00.000Z",
-                        "outDate": "2024-09-19T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_34",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_34"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "JBalvin.99"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "JBalvin"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksSong:sid_placeholder_34"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#2d2d2d"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#0C0C0C"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#000000"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#00021"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-16T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-09-19T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_34",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -3,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x MakeDamnSure for 500 MtxCurrency",
                     "offerId": "v2:/eebb9864a615b5194807902fbe346325dc933a56d951ac24ffdb6a56f3f50302",
                     "fulfillmentIds": [],
@@ -29664,6 +29553,117 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -172,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Mi Gente for 500 MtxCurrency",
+                    "offerId": "v2:/9386bd5bb960dec14b35cd6e2eb6de196b5b8d5d06d985a6fc4b1bb1c0268276",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_34",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "JBalvin.99",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "JBalvin",
+                        "templateId": "SparksSong:sid_placeholder_34",
+                        "color1": "#47fdfe",
+                        "color2": "#2B6FA1",
+                        "color3": "#011F22",
+                        "textBackgroundColor": "#011F22",
+                        "inDate": "2024-08-16T00:00:00.000Z",
+                        "outDate": "2024-09-19T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_34",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_34"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "JBalvin.99"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "JBalvin"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksSong:sid_placeholder_34"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#47fdfe"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#2B6FA1"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#011F22"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#011F22"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-08-16T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-09-19T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_34",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -3,
                     "catalogGroupPriority": 0
                 },
                 {
