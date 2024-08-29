@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2024-08-29T01:00:00.000Z",
+    "expiration": "2024-08-29T03:00:00.000Z",
     "storefronts": [
         {
             "name": "WinterQuest2019",
@@ -1072,6 +1072,119 @@
             "name": "BRWeeklyStorefront",
             "catalogEntries": [
                 {
+                    "devName": "[VIRTUAL]1 x Champion Siren for 800 MtxCurrency",
+                    "offerId": "v2:/934c8310ef049774a4736b248f2f0a099904fa93371287be0db057f32951e032",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 800,
+                            "dynamicRegularPrice": 800,
+                            "finalPrice": 800,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 800
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S29/DAv2_Character_HitmanFNCS.DAv2_Character_HitmanFNCS",
+                        "offertag": "fncs24",
+                        "LayoutId": "FNCS.99",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "FNCS",
+                        "templateId": "AthenaCharacter:character_hitmanfncs",
+                        "color1": "#FD6645",
+                        "color2": "#E93c28",
+                        "color3": "#d6110b",
+                        "textBackgroundColor": "#d6110b",
+                        "inDate": "2024-08-29T00:00:00.000Z",
+                        "outDate": "2024-09-11T23:59:59.999Z",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Character_Hitman_FNCS.DA_Featured_Character_Hitman_FNCS"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaCharacter:character_hitmanfncs",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/S29/DAv2_Character_HitmanFNCS.DAv2_Character_HitmanFNCS"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "fncs24"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "FNCS.99"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "FNCS"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaCharacter:character_hitmanfncs"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#FD6645"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#E93c28"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#d6110b"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#d6110b"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-08-29T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-09-11T23:59:59.999Z"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Character_Hitman_FNCS.DA_Featured_Character_Hitman_FNCS",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaCharacter:character_hitmanfncs",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -2,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x J Balvin Redux, 1 x Electro Grin Charger for 1500 MtxCurrency",
                     "offerId": "v2:/bde75c4e71ae944c17dafcfb80f464bb3d6751ef5224554a5713528330d144c1",
                     "fulfillmentIds": [],
@@ -1192,119 +1305,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Champion Siren for 800 MtxCurrency",
-                    "offerId": "v2:/934c8310ef049774a4736b248f2f0a099904fa93371287be0db057f32951e032",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 800,
-                            "dynamicRegularPrice": 800,
-                            "finalPrice": 800,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 800
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S29/DAv2_Character_HitmanFNCS.DAv2_Character_HitmanFNCS",
-                        "offertag": "fncs24",
-                        "LayoutId": "FNCS2.99",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "FNCS2",
-                        "templateId": "AthenaCharacter:character_hitmanfncs",
-                        "color1": "#FD6645",
-                        "color2": "#E93c28",
-                        "color3": "#d6110b",
-                        "textBackgroundColor": "#d6110b",
-                        "inDate": "2024-08-29T00:00:00.000Z",
-                        "outDate": "2024-09-11T23:59:59.999Z",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Character_Hitman_FNCS.DA_Featured_Character_Hitman_FNCS"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaCharacter:character_hitmanfncs",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S29/DAv2_Character_HitmanFNCS.DAv2_Character_HitmanFNCS"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "fncs24"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "FNCS2.99"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "FNCS2"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaCharacter:character_hitmanfncs"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#FD6645"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#E93c28"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#d6110b"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#d6110b"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-29T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-09-11T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Character_Hitman_FNCS.DA_Featured_Character_Hitman_FNCS",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaCharacter:character_hitmanfncs",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -2,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x Recoil Reactor for 500 MtxCurrency",
                     "offerId": "v2:/f62b8d08a29ad834f02a1a1c8e3a417faaad6a2f1804a83f4f49811ee217c95b",
                     "fulfillmentIds": [],
@@ -1325,7 +1325,7 @@
                     ],
                     "meta": {
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S26/DAv2_Wrap_Comp26.DAv2_Wrap_Comp26",
-                        "LayoutId": "FNCS.98",
+                        "LayoutId": "FNCS.96",
                         "TileSize": "Size_1_x_1",
                         "AnalyticOfferGroupId": "FNCS",
                         "templateId": "AthenaItemWrap:wrap_comp26",
@@ -1362,7 +1362,7 @@
                         },
                         {
                             "key": "LayoutId",
-                            "value": "FNCS.98"
+                            "value": "FNCS.96"
                         },
                         {
                             "key": "TileSize",
@@ -3441,9 +3441,9 @@
                     ],
                     "meta": {
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S29/DAv2_Wrap_Comp29.DAv2_Wrap_Comp29",
-                        "LayoutId": "FNCS2.98",
+                        "LayoutId": "FNCS.98",
                         "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "FNCS2",
+                        "AnalyticOfferGroupId": "FNCS",
                         "templateId": "AthenaItemWrap:wrap_comp29",
                         "color1": "#FD6645",
                         "color2": "#E93c28",
@@ -3478,7 +3478,7 @@
                         },
                         {
                             "key": "LayoutId",
-                            "value": "FNCS2.98"
+                            "value": "FNCS.98"
                         },
                         {
                             "key": "TileSize",
@@ -3486,7 +3486,7 @@
                         },
                         {
                             "key": "AnalyticOfferGroupId",
-                            "value": "FNCS2"
+                            "value": "FNCS"
                         },
                         {
                             "key": "templateId",
@@ -4643,7 +4643,7 @@
                     ],
                     "meta": {
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S26/DAv2_Character_StarWalkerFNCS.DAv2_Character_StarWalkerFNCS",
-                        "LayoutId": "FNCS.99",
+                        "LayoutId": "FNCS.97",
                         "TileSize": "Size_2_x_1",
                         "AnalyticOfferGroupId": "FNCS",
                         "templateId": "AthenaCharacter:character_starwalkerfncs",
@@ -4680,7 +4680,7 @@
                         },
                         {
                             "key": "LayoutId",
-                            "value": "FNCS.99"
+                            "value": "FNCS.97"
                         },
                         {
                             "key": "TileSize",
@@ -6930,10 +6930,10 @@
                         "TileSize": "Size_1_x_1",
                         "AnalyticOfferGroupId": "JBalvin",
                         "templateId": "AthenaCharacter:character_keychain",
-                        "color1": "#2d2d2d",
-                        "color2": "#0C0C0C",
-                        "color3": "#000000",
-                        "textBackgroundColor": "#00021",
+                        "color1": "#47fdfe",
+                        "color2": "#2B6FA1",
+                        "color3": "#011F22",
+                        "textBackgroundColor": "#011F22",
                         "inDate": "2024-08-28T00:00:00.000Z",
                         "outDate": "2024-08-31T23:59:59.999Z",
                         "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Character_KeyChain.DA_Featured_Character_KeyChain"
@@ -6984,19 +6984,19 @@
                         },
                         {
                             "key": "color1",
-                            "value": "#2d2d2d"
+                            "value": "#47fdfe"
                         },
                         {
                             "key": "color2",
-                            "value": "#0C0C0C"
+                            "value": "#2B6FA1"
                         },
                         {
                             "key": "color3",
-                            "value": "#000000"
+                            "value": "#011F22"
                         },
                         {
                             "key": "textBackgroundColor",
-                            "value": "#00021"
+                            "value": "#011F22"
                         },
                         {
                             "key": "inDate",
@@ -23549,7 +23549,7 @@
                     ],
                     "meta": {
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S26/DAv2_Backpack_FNCS26.DAv2_Backpack_FNCS26",
-                        "LayoutId": "FNCS.98",
+                        "LayoutId": "FNCS.96",
                         "TileSize": "Size_1_x_1",
                         "AnalyticOfferGroupId": "FNCS",
                         "templateId": "AthenaBackpack:backpack_fncs26",
@@ -23586,7 +23586,7 @@
                         },
                         {
                             "key": "LayoutId",
-                            "value": "FNCS.98"
+                            "value": "FNCS.96"
                         },
                         {
                             "key": "TileSize",
@@ -26010,9 +26010,9 @@
                     "meta": {
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S29/DAv2_Pickaxe_SpyMaleFNCS.DAv2_Pickaxe_SpyMaleFNCS",
                         "offertag": "fncs24",
-                        "LayoutId": "FNCS2.98",
+                        "LayoutId": "FNCS.98",
                         "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "FNCS2",
+                        "AnalyticOfferGroupId": "FNCS",
                         "templateId": "AthenaPickaxe:pickaxe_spymalefncs",
                         "color1": "#FD6645",
                         "color2": "#E93c28",
@@ -26051,7 +26051,7 @@
                         },
                         {
                             "key": "LayoutId",
-                            "value": "FNCS2.98"
+                            "value": "FNCS.98"
                         },
                         {
                             "key": "TileSize",
@@ -26059,7 +26059,7 @@
                         },
                         {
                             "key": "AnalyticOfferGroupId",
-                            "value": "FNCS2"
+                            "value": "FNCS"
                         },
                         {
                             "key": "templateId",
@@ -26652,9 +26652,9 @@
                     "meta": {
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S29/DAv2_Bundle_Featured_FNCS29.DAv2_Bundle_Featured_FNCS29",
                         "bundleId": "DynamicBundle:b_fncs29",
-                        "LayoutId": "FNCS2.99",
+                        "LayoutId": "FNCS.99",
                         "TileSize": "Size_3_x_1",
-                        "AnalyticOfferGroupId": "FNCS2",
+                        "AnalyticOfferGroupId": "FNCS",
                         "templateId": "DynamicBundle:b_fncs29",
                         "color1": "#FD6645",
                         "color2": "#E93c28",
@@ -26687,7 +26687,7 @@
                         },
                         {
                             "key": "LayoutId",
-                            "value": "FNCS2.99"
+                            "value": "FNCS.99"
                         },
                         {
                             "key": "TileSize",
@@ -26695,7 +26695,7 @@
                         },
                         {
                             "key": "AnalyticOfferGroupId",
-                            "value": "FNCS2"
+                            "value": "FNCS"
                         },
                         {
                             "key": "templateId",
@@ -27013,10 +27013,10 @@
                         "TileSize": "Size_2_x_1",
                         "AnalyticOfferGroupId": "JBalvin",
                         "templateId": "DynamicBundle:b_keychain",
-                        "color1": "#2d2d2d",
-                        "color2": "#0C0C0C",
-                        "color3": "#000000",
-                        "textBackgroundColor": "#00021",
+                        "color1": "#47fdfe",
+                        "color2": "#2B6FA1",
+                        "color3": "#011F22",
+                        "textBackgroundColor": "#011F22",
                         "inDate": "2024-08-28T00:00:00.000Z",
                         "outDate": "2024-08-31T23:59:59.999Z",
                         "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Keychain_Bundle.DA_Featured_Keychain_Bundle"
@@ -27060,19 +27060,19 @@
                         },
                         {
                             "key": "color1",
-                            "value": "#2d2d2d"
+                            "value": "#47fdfe"
                         },
                         {
                             "key": "color2",
-                            "value": "#0C0C0C"
+                            "value": "#2B6FA1"
                         },
                         {
                             "key": "color3",
-                            "value": "#000000"
+                            "value": "#011F22"
                         },
                         {
                             "key": "textBackgroundColor",
-                            "value": "#00021"
+                            "value": "#011F22"
                         },
                         {
                             "key": "inDate",
@@ -28929,7 +28929,7 @@
                     ],
                     "meta": {
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S26/DAv2_Pickaxe_SkeletonHunterFNCS.DAv2_Pickaxe_SkeletonHunterFNCS",
-                        "LayoutId": "FNCS.98",
+                        "LayoutId": "FNCS.96",
                         "TileSize": "Size_2_x_1",
                         "AnalyticOfferGroupId": "FNCS",
                         "templateId": "AthenaPickaxe:pickaxe_skeletonhunterfncs",
@@ -28966,7 +28966,7 @@
                         },
                         {
                             "key": "LayoutId",
-                            "value": "FNCS.98"
+                            "value": "FNCS.96"
                         },
                         {
                             "key": "TileSize",
@@ -29037,7 +29037,7 @@
                     ],
                     "meta": {
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S26/DAv2_Character_GreenJacketFNCS.DAv2_Character_GreenJacketFNCS",
-                        "LayoutId": "FNCS.99",
+                        "LayoutId": "FNCS.97",
                         "TileSize": "Size_2_x_1",
                         "AnalyticOfferGroupId": "FNCS",
                         "templateId": "AthenaCharacter:character_greenjacketfncs",
@@ -29074,7 +29074,7 @@
                         },
                         {
                             "key": "LayoutId",
-                            "value": "FNCS.99"
+                            "value": "FNCS.97"
                         },
                         {
                             "key": "TileSize",
@@ -31761,10 +31761,10 @@
                         "TileSize": "Size_1_x_1",
                         "AnalyticOfferGroupId": "JBalvin",
                         "templateId": "SparksSong:sid_placeholder_34",
-                        "color1": "#2d2d2d",
-                        "color2": "#0C0C0C",
-                        "color3": "#000000",
-                        "textBackgroundColor": "#00021",
+                        "color1": "#47fdfe",
+                        "color2": "#2B6FA1",
+                        "color3": "#011F22",
+                        "textBackgroundColor": "#011F22",
                         "inDate": "2024-08-16T00:00:00.000Z",
                         "outDate": "2024-09-19T23:59:59.999Z"
                     },
@@ -31813,19 +31813,19 @@
                         },
                         {
                             "key": "color1",
-                            "value": "#2d2d2d"
+                            "value": "#47fdfe"
                         },
                         {
                             "key": "color2",
-                            "value": "#0C0C0C"
+                            "value": "#2B6FA1"
                         },
                         {
                             "key": "color3",
-                            "value": "#000000"
+                            "value": "#011F22"
                         },
                         {
                             "key": "textBackgroundColor",
-                            "value": "#00021"
+                            "value": "#011F22"
                         },
                         {
                             "key": "inDate",
@@ -32888,9 +32888,9 @@
                     ],
                     "meta": {
                         "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S29/DAv2_Backpack_FNCS_S29.DAv2_Backpack_FNCS_S29",
-                        "LayoutId": "FNCS2.98",
+                        "LayoutId": "FNCS.98",
                         "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "FNCS2",
+                        "AnalyticOfferGroupId": "FNCS",
                         "templateId": "AthenaBackpack:backpack_fncs_s29",
                         "color1": "#FD6645",
                         "color2": "#E93c28",
@@ -32925,7 +32925,7 @@
                         },
                         {
                             "key": "LayoutId",
-                            "value": "FNCS2.98"
+                            "value": "FNCS.98"
                         },
                         {
                             "key": "TileSize",
@@ -32933,7 +32933,7 @@
                         },
                         {
                             "key": "AnalyticOfferGroupId",
-                            "value": "FNCS2"
+                            "value": "FNCS"
                         },
                         {
                             "key": "templateId",
@@ -34943,9 +34943,9 @@
                     "meta": {
                         "NewDisplayAssetPath": "sid_placeholder_199",
                         "offertag": "sparksjamloop",
-                        "LayoutId": "FNCS2.98",
+                        "LayoutId": "FNCS.98",
                         "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "FNCS2",
+                        "AnalyticOfferGroupId": "FNCS",
                         "templateId": "SparksSong:sid_placeholder_199",
                         "color1": "#FD6645",
                         "color2": "#E93c28",
@@ -34983,7 +34983,7 @@
                         },
                         {
                             "key": "LayoutId",
-                            "value": "FNCS2.98"
+                            "value": "FNCS.98"
                         },
                         {
                             "key": "TileSize",
@@ -34991,7 +34991,7 @@
                         },
                         {
                             "key": "AnalyticOfferGroupId",
-                            "value": "FNCS2"
+                            "value": "FNCS"
                         },
                         {
                             "key": "templateId",
