@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2024-09-02T01:00:00.000Z",
+    "expiration": "2024-09-02T03:00:00.000Z",
     "storefronts": [
         {
             "name": "WinterQuest2019",
@@ -8047,6 +8047,7 @@
                         "textBackgroundColor": "#000a2e",
                         "inDate": "2024-09-01T00:00:00.000Z",
                         "outDate": "2024-09-04T23:59:59.999Z",
+                        "SuppressRegularPrice": "true",
                         "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_MercurialStorm_Bundle.DA_Featured_MercurialStorm_Bundle"
                     },
                     "matchFilter": "",
@@ -8113,6 +8114,10 @@
                         {
                             "key": "outDate",
                             "value": "2024-09-04T23:59:59.999Z"
+                        },
+                        {
+                            "key": "SuppressRegularPrice",
+                            "value": "true"
                         }
                     ],
                     "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_MercurialStorm_Bundle.DA_Featured_MercurialStorm_Bundle",
@@ -22593,117 +22598,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_306) for 500 MtxCurrency",
-                    "offerId": "v2:/d9e8fc917fcc13253378bbac70f42cb469290216a1c7c5c83c076c9850fe5c07",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_306",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "KarolG.96",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "KarolG",
-                        "templateId": "SparksSong:sid_placeholder_306",
-                        "color1": "#F695BC",
-                        "color2": "#ce4d7a",
-                        "color3": "#8150d6",
-                        "textBackgroundColor": "#8150d6",
-                        "inDate": "2024-08-16T00:00:00.000Z",
-                        "outDate": "2024-11-01T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_306",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_306"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "KarolG.96"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "KarolG"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksSong:sid_placeholder_306"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#F695BC"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#ce4d7a"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#8150d6"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#8150d6"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-16T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-11-01T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_306",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -3,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x Donatello, 1 x Donnie's Bo Sheath, 1 x Donnie's Bo Staff for 1600 MtxCurrency",
                     "offerId": "v2:/2b1c358c4304655ba931f146b8642a8a4fa16fcc89422a02306abe264c89705f",
                     "fulfillmentIds": [],
@@ -22829,6 +22723,117 @@
                             "attributes": {
                                 "extra_grant": true
                             }
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -3,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_306) for 500 MtxCurrency",
+                    "offerId": "v2:/d9e8fc917fcc13253378bbac70f42cb469290216a1c7c5c83c076c9850fe5c07",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_306",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "KarolG.96",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "KarolG",
+                        "templateId": "SparksSong:sid_placeholder_306",
+                        "color1": "#F695BC",
+                        "color2": "#ce4d7a",
+                        "color3": "#8150d6",
+                        "textBackgroundColor": "#8150d6",
+                        "inDate": "2024-08-16T00:00:00.000Z",
+                        "outDate": "2024-11-01T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_306",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_306"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "KarolG.96"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "KarolG"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksSong:sid_placeholder_306"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#F695BC"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#ce4d7a"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#8150d6"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#8150d6"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-08-16T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-11-01T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_306",
+                            "quantity": 1
                         }
                     ],
                     "additionalGrants": [],
@@ -28524,6 +28529,124 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x Deadpool Dropper for 800 MtxCurrency",
+                    "offerId": "v2:/2890f38a0d2bbd2f6c4ef49c992b50848e03bdfea84fd0439c5af25bb2c1e30e",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 800,
+                            "dynamicRegularPrice": 800,
+                            "finalPrice": 800,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 800
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Glider_DriedSilk.DAv2_Glider_DriedSilk",
+                        "LayoutId": "Deadpool&Wolverine.99",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "Deadpool&Wolverine",
+                        "templateId": "AthenaGlider:glider_driedsilk",
+                        "color1": "#c81614",
+                        "color2": "#970e0d",
+                        "color3": "#660606",
+                        "tileBackgroundMaterial": "Streaks_Marvel",
+                        "textBackgroundColor": "#660606",
+                        "inDate": "2024-08-16T00:00:00.000Z",
+                        "outDate": "2024-09-30T23:59:59.999Z",
+                        "EncryptionKey": "DD660E9B181B4FB3D8A9D263E3FA4B36:AUWp89XbGF2UVGaWxF/6iF29PT4/axTl3zbkG/w8Pfo=:Glider_DriedSilk",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Glider_DriedSilk.DA_Featured_Glider_DriedSilk"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaGlider:glider_driedsilk",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Glider_DriedSilk.DAv2_Glider_DriedSilk"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "Deadpool&Wolverine.99"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "Deadpool&Wolverine"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaGlider:glider_driedsilk"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#c81614"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#970e0d"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#660606"
+                        },
+                        {
+                            "key": "tileBackgroundMaterial",
+                            "value": "Streaks_Marvel"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#660606"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-08-16T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-09-30T23:59:59.999Z"
+                        },
+                        {
+                            "key": "EncryptionKey",
+                            "value": "DD660E9B181B4FB3D8A9D263E3FA4B36:AUWp89XbGF2UVGaWxF/6iF29PT4/axTl3zbkG/w8Pfo=:Glider_DriedSilk"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Glider_DriedSilk.DA_Featured_Glider_DriedSilk",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaGlider:glider_driedsilk",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -3,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Scarlet Witch, 1 x Wanda's Cloak for 1500 MtxCurrency",
                     "offerId": "v2:/acae089496e7fe1d9222b71f192557dd6b50db0b021b62ee656ebf8996e6371b",
                     "fulfillmentIds": [],
@@ -28646,124 +28769,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -2,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Deadpool Dropper for 800 MtxCurrency",
-                    "offerId": "v2:/2890f38a0d2bbd2f6c4ef49c992b50848e03bdfea84fd0439c5af25bb2c1e30e",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 800,
-                            "dynamicRegularPrice": 800,
-                            "finalPrice": 800,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 800
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Glider_DriedSilk.DAv2_Glider_DriedSilk",
-                        "LayoutId": "Deadpool&Wolverine.99",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "Deadpool&Wolverine",
-                        "templateId": "AthenaGlider:glider_driedsilk",
-                        "color1": "#c81614",
-                        "color2": "#970e0d",
-                        "color3": "#660606",
-                        "tileBackgroundMaterial": "Streaks_Marvel",
-                        "textBackgroundColor": "#660606",
-                        "inDate": "2024-08-16T00:00:00.000Z",
-                        "outDate": "2024-09-30T23:59:59.999Z",
-                        "EncryptionKey": "DD660E9B181B4FB3D8A9D263E3FA4B36:AUWp89XbGF2UVGaWxF/6iF29PT4/axTl3zbkG/w8Pfo=:Glider_DriedSilk",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Glider_DriedSilk.DA_Featured_Glider_DriedSilk"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaGlider:glider_driedsilk",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S30/DAv2_Glider_DriedSilk.DAv2_Glider_DriedSilk"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "Deadpool&Wolverine.99"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "Deadpool&Wolverine"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaGlider:glider_driedsilk"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#c81614"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#970e0d"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#660606"
-                        },
-                        {
-                            "key": "tileBackgroundMaterial",
-                            "value": "Streaks_Marvel"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#660606"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-16T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-09-30T23:59:59.999Z"
-                        },
-                        {
-                            "key": "EncryptionKey",
-                            "value": "DD660E9B181B4FB3D8A9D263E3FA4B36:AUWp89XbGF2UVGaWxF/6iF29PT4/axTl3zbkG/w8Pfo=:Glider_DriedSilk"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Glider_DriedSilk.DA_Featured_Glider_DriedSilk",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaGlider:glider_driedsilk",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -3,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -30187,114 +30192,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Chaos Hand Axe for 800 MtxCurrency",
-                    "offerId": "v2:/033d0258a19c247dca8108e83bc2761da1cb9332875a8fe4877ef018aa67d2b5",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 800,
-                            "dynamicRegularPrice": 800,
-                            "finalPrice": 800,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 800
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_Pickaxe_ID_800_UltralightFemale.DAv2_Pickaxe_ID_800_UltralightFemale",
-                        "LayoutId": "Marvel.99",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "Marvel",
-                        "templateId": "AthenaPickaxe:pickaxe_id_800_ultralightfemale",
-                        "color1": "#004e66",
-                        "color2": "#00253d",
-                        "color3": "#000a2e",
-                        "textBackgroundColor": "#000a2e",
-                        "inDate": "2024-09-01T00:00:00.000Z",
-                        "outDate": "2024-09-04T23:59:59.999Z",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_800_UltralightFemale.DA_Featured_Pickaxe_ID_800_UltralightFemale"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaPickaxe:pickaxe_id_800_ultralightfemale",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_Pickaxe_ID_800_UltralightFemale.DAv2_Pickaxe_ID_800_UltralightFemale"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "Marvel.99"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "Marvel"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaPickaxe:pickaxe_id_800_ultralightfemale"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#004e66"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#00253d"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#000a2e"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#000a2e"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-09-01T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-09-04T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_800_UltralightFemale.DA_Featured_Pickaxe_ID_800_UltralightFemale",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaPickaxe:pickaxe_id_800_ultralightfemale",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -4,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x Seaport Style Bundle for 200 MtxCurrency",
                     "offerId": "v2:/428ca04358a9f294001050aca94a881f73d97560e3c0b9426b14f35fc5a5fe34",
                     "fulfillmentIds": [],
@@ -30400,6 +30297,114 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -1,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Chaos Hand Axe for 800 MtxCurrency",
+                    "offerId": "v2:/033d0258a19c247dca8108e83bc2761da1cb9332875a8fe4877ef018aa67d2b5",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 800,
+                            "dynamicRegularPrice": 800,
+                            "finalPrice": 800,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 800
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_Pickaxe_ID_800_UltralightFemale.DAv2_Pickaxe_ID_800_UltralightFemale",
+                        "LayoutId": "Marvel.99",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "Marvel",
+                        "templateId": "AthenaPickaxe:pickaxe_id_800_ultralightfemale",
+                        "color1": "#004e66",
+                        "color2": "#00253d",
+                        "color3": "#000a2e",
+                        "textBackgroundColor": "#000a2e",
+                        "inDate": "2024-09-01T00:00:00.000Z",
+                        "outDate": "2024-09-04T23:59:59.999Z",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_800_UltralightFemale.DA_Featured_Pickaxe_ID_800_UltralightFemale"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaPickaxe:pickaxe_id_800_ultralightfemale",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_Pickaxe_ID_800_UltralightFemale.DAv2_Pickaxe_ID_800_UltralightFemale"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "Marvel.99"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "Marvel"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaPickaxe:pickaxe_id_800_ultralightfemale"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#004e66"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#00253d"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#000a2e"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#000a2e"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-09-01T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-09-04T23:59:59.999Z"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Pickaxe_ID_800_UltralightFemale.DA_Featured_Pickaxe_ID_800_UltralightFemale",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaPickaxe:pickaxe_id_800_ultralightfemale",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -4,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -33714,6 +33719,97 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x Popular  for 500 MtxCurrency",
+                    "offerId": "v2:/85c8cf857733622ced08955098031f19ab3f1df38221595a29f89e93072f5621",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "SparksCMSVisualTest136",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "JamTracks0902.97",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "JamTracks0902",
+                        "templateId": "SparksSong:sid_placeholder_136",
+                        "inDate": "2024-08-16T00:00:00.000Z",
+                        "outDate": "2024-09-19T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_136",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "SparksCMSVisualTest136"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "JamTracks0902.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "JamTracks0902"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksSong:sid_placeholder_136"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-08-16T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-09-19T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_136",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -55,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Cairo for 500 MtxCurrency",
                     "offerId": "v2:/902ecd15bc14187ffeaed76a23edbdb94c8f29d8c8ea093de1a66519298a1589",
                     "fulfillmentIds": [],
@@ -33817,97 +33913,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -2,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Popular  for 500 MtxCurrency",
-                    "offerId": "v2:/85c8cf857733622ced08955098031f19ab3f1df38221595a29f89e93072f5621",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "SparksCMSVisualTest136",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "JamTracks0902.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "JamTracks0902",
-                        "templateId": "SparksSong:sid_placeholder_136",
-                        "inDate": "2024-08-16T00:00:00.000Z",
-                        "outDate": "2024-09-19T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_136",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "SparksCMSVisualTest136"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "JamTracks0902.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "JamTracks0902"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksSong:sid_placeholder_136"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-16T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-09-19T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_136",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -55,
                     "catalogGroupPriority": 0
                 },
                 {
