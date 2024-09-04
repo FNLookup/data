@@ -50,7 +50,8 @@ def transform_data(input_data, output_file):
             'bass': track_info['in'].get('ba', 0)
         }
         transformed_track['scale'] = track_info.get('mm', 'Minor')
-        transformed_track['album_image'] = track_info.get('au', '')        transformed_track['bpm'] = track_info['mt']
+        transformed_track['album_image'] = track_info.get('au', '')        
+        transformed_track['bpm'] = track_info.get('mt', 120)
         transformed_track['key'] = track_info.get('mk', 'A')
         transformed_track['event_id'] = track_info.get('su', None)
         transformed_track['isrc'] = track_info.get('isrc', "")
