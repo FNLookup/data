@@ -59,7 +59,7 @@ def transform_data(input_data, output_file):
 
         track_qi = json.loads(track_info.get("qi", '{"ph": 0, "lol": "epic why"}'))
 
-        transformed_track['preview_start'] = track_qi.get('preview').get("starttime", 123456)
+        transformed_track['preview_start'] = track_qi.get('preview', {ph: 0}).get("starttime", 123456)
 
         transformed_track['resources'] = [
             {
