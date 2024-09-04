@@ -21,17 +21,16 @@ def transform_data(input_data, output_file):
 
         transformed_track['lastModified'] = datetime.strptime(track_data["lastModified"], "%Y-%m-%dT%H:%M:%S.%fZ").timestamp()
         transformed_track['active'] = datetime.strptime(track_data["_activeDate"], "%Y-%m-%dT%H:%M:%S.%fZ").timestamp()
-        transformed_track['language'] = track_data["_locale"]
-
+        transformed_track['language'] = track_data.get("_locale", 'LOLCAT')
         track_info = track_data['track']
 
         transformed_track['id'] = track_id
-        transformed_track['title'] = track_info['tt']
-        transformed_track['artist'] = track_info['an']
+        transformed_track['title'] = track_info.get('tt', 'FNLOOKUP_NOTITLE')
+        transformed_track['artist'] = track_info.get('an', 'FNLOOKUP_NOARTIST')
         transformed_track['album'] = track_info.get('ab', "")
         transformed_track['genres'] = track_info.get('ge', [])
-        transformed_track['year'] = track_info['ry']
-        transformed_track['duration'] = track_info['dn']
+        transformed_track['year'] = track_info.get('ry', 2000)
+        transformed_track['duration'] = track_info.get('dn', 0)
         transformed_track['instrument_defaults'] = {
             'vocals': track_info.get('siv', ""),
             'bass': track_info.get('sib', ""),
@@ -50,21 +49,20 @@ def transform_data(input_data, output_file):
             'drums': track_info['in'].get('ds', 0),
             'bass': track_info['in'].get('ba', 0)
         }
-        transformed_track['scale'] = track_info['mm']
-        transformed_track['album_image'] = track_info['au']
-        transformed_track['bpm'] = track_info['mt']
-        transformed_track['key'] = track_info['mk']
-        transformed_track['event_id'] = track_info['su']
+        transformed_track['scale'] = track_info.get('mm', 'Minor')
+        transformed_track['album_image'] = track_info.get('au', '')        transformed_track['bpm'] = track_info['mt']
+        transformed_track['key'] = track_info.get('mk', 'A')
+        transformed_track['event_id'] = track_info.get('su', None)
         transformed_track['isrc'] = track_info.get('isrc', "")
         transformed_track['rating'] = track_info.get('ar', "") # ESRB
 
-        track_qi = json.loads(track_info["qi"])
+        track_qi = json.loads(track_info.get("qi", '{}')
 
-        transformed_track['preview_start'] = track_qi['preview']["starttime"]
+        transformed_track['preview_start'] = track_qi.get('preview').get("starttime", 123456)
 
         transformed_track['resources'] = [
             {
-                'url': track_info['mu'],
+                'url': track_info.get('mu', ''),
                 'type': 'Sparks_Encrypted_Midi'
             },
             {
@@ -72,11 +70,11 @@ def transform_data(input_data, output_file):
                 'type': 'Sparks_Lip_Sync'
             },
             {
-                'url': track_qi['sid'],
+                'url': track_qi.get('sid', ''),
                 'type': 'Pilgrim_Streaming_ID_Song'
             },
             {
-                'url': track_qi['pid'],
+                'url': track_qi.get('pid', ''),
                 'type': 'Pilgrim_Streaming_ID_Prev'
             }
         ]
