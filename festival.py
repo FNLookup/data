@@ -57,7 +57,7 @@ def transform_data(input_data, output_file):
         transformed_track['isrc'] = track_info.get('isrc', "")
         transformed_track['rating'] = track_info.get('ar', "") # ESRB
 
-        track_qi = json.loads(track_info.get("qi", '{}')
+        track_qi = json.loads(track_info.get("qi", '{}'))
 
         transformed_track['preview_start'] = track_qi.get('preview').get("starttime", 123456)
 
