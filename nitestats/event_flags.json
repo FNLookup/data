@@ -3,7 +3,7 @@
         "standalone-store": {
             "states": [
                 {
-                    "validFrom": "2024-09-04T08:13:57.420Z",
+                    "validFrom": "2024-09-04T08:27:27.544Z",
                     "activeEvents": [],
                     "state": {
                         "activePurchaseLimitingEventIds": [],
@@ -13,12 +13,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-09-04T10:13:57.420Z"
+            "cacheExpire": "2024-09-04T10:27:27.544Z"
         },
         "client-matchmaking": {
             "states": [
                 {
-                    "validFrom": "2024-09-04T08:13:57.420Z",
+                    "validFrom": "2024-09-04T08:27:27.544Z",
                     "activeEvents": [],
                     "state": {
                         "region": {
@@ -74,24 +74,24 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-09-04T10:13:57.420Z"
+            "cacheExpire": "2024-09-04T10:27:27.544Z"
         },
         "tk": {
             "states": [
                 {
-                    "validFrom": "2024-09-04T08:13:57.420Z",
+                    "validFrom": "2024-09-04T08:27:27.544Z",
                     "activeEvents": [],
                     "state": {
                         "k": []
                     }
                 }
             ],
-            "cacheExpire": "2024-09-04T10:13:57.420Z"
+            "cacheExpire": "2024-09-04T10:27:27.544Z"
         },
         "featured-islands": {
             "states": [
                 {
-                    "validFrom": "2024-09-04T08:13:57.420Z",
+                    "validFrom": "2024-09-04T08:27:27.544Z",
                     "activeEvents": [],
                     "state": {
                         "islandCodes": [],
@@ -101,12 +101,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-09-04T10:13:57.420Z"
+            "cacheExpire": "2024-09-04T10:27:27.544Z"
         },
         "community-votes": {
             "states": [
                 {
-                    "validFrom": "2024-09-04T08:13:57.420Z",
+                    "validFrom": "2024-09-04T08:27:27.544Z",
                     "activeEvents": [],
                     "state": {
                         "electionId": "",
@@ -116,12 +116,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-09-04T10:13:57.420Z"
+            "cacheExpire": "2024-09-04T10:27:27.544Z"
         },
         "client-events": {
             "states": [
                 {
-                    "validFrom": "2024-09-04T08:13:57.420Z",
+                    "validFrom": "2024-09-04T08:27:27.544Z",
                     "activeEvents": [
                         {
                             "eventType": "EventFlag.Event_DelMar_Season01_Dailies",
@@ -387,6 +387,11 @@
                             "eventType": "PilgrimSong.imawinner",
                             "activeUntil": "2024-09-29T13:00:00.000Z",
                             "activeSince": "2024-09-04T05:00:00.000Z"
+                        },
+                        {
+                            "eventType": "EventFlag.Event_ S31_FoundQuests_PB_P02",
+                            "activeUntil": "2024-11-03T01:00:00.000Z",
+                            "activeSince": "2024-09-04T08:00:00.000Z"
                         }
                     ],
                     "state": {
@@ -512,6 +517,14 @@
                                 "eventStart": "2024-08-29T23:00:00Z",
                                 "eventEnd": "2024-09-05T23:00:00Z",
                                 "eventType": "EventFlag.Event_SparksS05_Week03"
+                            },
+                            {
+                                "instanceId": "151ab16d9gp3uihcbmiv63brd7[2]0",
+                                "devName": "Event_S31_FoundQuests_PB_P02",
+                                "eventName": "CalendarEvent_S31_FoundQuests_PB_P02",
+                                "eventStart": "2024-09-04T08:00:00Z",
+                                "eventEnd": "2024-11-03T01:00:00Z",
+                                "eventType": "EventFlag.Event_S31_FoundQuests_PB_P02"
                             }
                         ],
                         "seasonNumber": 31,
@@ -530,9 +543,9 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-09-04T10:13:57.420Z"
+            "cacheExpire": "2024-09-04T10:27:27.544Z"
         }
     },
     "cacheIntervalMins": 15,
-    "currentTime": "2024-09-04T08:33:35.187Z"
+    "currentTime": "2024-09-04T08:46:01.204Z"
 }
