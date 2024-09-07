@@ -24,7 +24,8 @@ def transform_data(input_data, output_file):
         transformed_track['language'] = track_data.get("_locale", 'LOLCAT')
         track_info = track_data['track']
 
-        transformed_track['id'] = track_id
+        transformed_track['dict_id'] = track_id
+        transformed_track['id'] = track_info.get('sn', 'FNLOOKUP_NOSN') 
         transformed_track['title'] = track_info.get('tt', 'FNLOOKUP_NOTITLE')
         transformed_track['artist'] = track_info.get('an', 'FNLOOKUP_NOARTIST')
         transformed_track['album'] = track_info.get('ab', "")
