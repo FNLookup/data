@@ -13,7 +13,7 @@ As an example I have selected:
 Don't Fear The Reaper by Blue Oyster
 
 ## Step 2
-Extract sid (Song Streaming ID) from qi (for Preview use pid)
+Extract `sid` (Song Streaming ID) from `qi` (for Preview use `pid`)
 
 `aa4f6195-5070-42cc-afaf-55db3d61bba8` is our Song Streaming ID
 
@@ -26,7 +26,7 @@ When joined by `aa4f6195-5070-42cc-afaf-55db3d61bba8` we are resulted with:
 
 `https://cdn.qstv.on.epicgames.com/aa4f6195-5070-42cc-afaf-55db3d61bba8`
 
-This URL does not require Auth.
+This URL does not require Authentication.
 
 ## Step 4
 ### Obtaining Blurl (to obtain MPD directly skip to step 5)
@@ -41,9 +41,7 @@ In the content returned by `https://cdn.qstv.on.epicgames.com/aa4f6195-5070-42cc
 - `https://fortnite-vod.akamaized.net/yZUGFgMbTQzURFyVgh/1706206034/`
 - `https://pilgrim.qstv.on.epicgames.com/yZUGFgMbTQzURFyVgh/1706206034/`
 
-(Note: the pilgrim.qstv.on.epicgames.com URL, although based entirely around festival, due to its codename being Pilgrim somewhere, isn't present in this Jam Track anymore. What I mean by this is just ignore it.)
-
-Our interest is in the first URL as it does not require Auth, the other one is only used by the game client and requires Auth.
+(Note: these urls cycle a lot, most likely to avoid high loads on the servers)
 
 We can see `/1706206034/` is common across both.
 
@@ -64,11 +62,10 @@ We have now obtained our blurl.
 
 We can use the `playlist` value in the returned content by `https://cdn.qstv.on.epicgames.com/:sid` and decode it from base64 to get our MPD content directly, or...
 
-using our previously declared structure (`https://fortnite-vod.akamaized.net/:VUIDPath/:UnknownID/`) we join `main.mpd` to our URL.
+using our previously declared structure (`https://fortnite-vod.akamaized.net/:VUIDPath/:UnixDate/`) we join `main.mpd` to our URL.
 
 For our song this would be:
 
 `https://fortnite-vod.akamaized.net/yZUGFgMbTQzURFyVgh/1706206034/main.mpd`
 
 We have obtained our MPEG-Dash playlist.
-However, we may not be able to decrypt it without the blurl.
