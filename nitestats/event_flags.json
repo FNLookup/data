@@ -3,7 +3,7 @@
         "standalone-store": {
             "states": [
                 {
-                    "validFrom": "2024-09-17T07:49:22.393Z",
+                    "validFrom": "2024-09-17T08:12:21.301Z",
                     "activeEvents": [],
                     "state": {
                         "activePurchaseLimitingEventIds": [],
@@ -13,12 +13,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-09-17T09:49:22.393Z"
+            "cacheExpire": "2024-09-17T10:12:21.301Z"
         },
         "client-matchmaking": {
             "states": [
                 {
-                    "validFrom": "2024-09-17T07:49:22.393Z",
+                    "validFrom": "2024-09-17T08:12:21.301Z",
                     "activeEvents": [],
                     "state": {
                         "region": {
@@ -74,12 +74,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-09-17T09:49:22.393Z"
+            "cacheExpire": "2024-09-17T10:12:21.301Z"
         },
         "tk": {
             "states": [
                 {
-                    "validFrom": "2024-09-17T07:49:22.393Z",
+                    "validFrom": "2024-09-17T08:12:21.301Z",
                     "activeEvents": [],
                     "state": {
                         "k": [
@@ -89,12 +89,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-09-17T09:49:22.393Z"
+            "cacheExpire": "2024-09-17T10:12:21.301Z"
         },
         "featured-islands": {
             "states": [
                 {
-                    "validFrom": "2024-09-17T07:49:22.393Z",
+                    "validFrom": "2024-09-17T08:12:21.301Z",
                     "activeEvents": [],
                     "state": {
                         "islandCodes": [],
@@ -104,12 +104,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-09-17T09:49:22.393Z"
+            "cacheExpire": "2024-09-17T10:12:21.301Z"
         },
         "community-votes": {
             "states": [
                 {
-                    "validFrom": "2024-09-17T07:49:22.393Z",
+                    "validFrom": "2024-09-17T08:12:21.301Z",
                     "activeEvents": [],
                     "state": {
                         "electionId": "",
@@ -119,12 +119,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-09-17T09:49:22.393Z"
+            "cacheExpire": "2024-09-17T10:12:21.301Z"
         },
         "client-events": {
             "states": [
                 {
-                    "validFrom": "2024-09-17T07:49:22.393Z",
+                    "validFrom": "2024-09-17T08:12:21.301Z",
                     "activeEvents": [
                         {
                             "eventType": "EventFlag.Event_DelMar_Season01_Dailies",
@@ -327,6 +327,11 @@
                             "activeSince": "2024-09-13T11:00:00.000Z"
                         },
                         {
+                            "eventType": "EventFlag.Event_ButtercakePass",
+                            "activeUntil": "2024-10-11T06:00:00.000Z",
+                            "activeSince": "2024-09-16T13:00:00.000Z"
+                        },
+                        {
                             "eventType": "PilgrimSong.juicy",
                             "activeUntil": "2024-09-18T00:00:00.000Z",
                             "activeSince": "2024-09-17T00:00:00.000Z"
@@ -425,6 +430,11 @@
                             "eventType": "PilgrimSong.bornthisway",
                             "activeUntil": "2024-09-18T00:00:00.000Z",
                             "activeSince": "2024-09-17T00:00:00.000Z"
+                        },
+                        {
+                            "eventType": "EventFlag.Event_S31_FoundQuests_GreenTown",
+                            "activeUntil": "2024-11-02T06:00:00.000Z",
+                            "activeSince": "2024-09-17T08:00:00.000Z"
                         }
                     ],
                     "state": {
@@ -574,6 +584,22 @@
                                 "eventStart": "2024-09-13T11:00:00Z",
                                 "eventEnd": "2024-10-11T11:00:00Z",
                                 "eventType": "EventFlag.Event_DelMar_TimeTrials_02"
+                            },
+                            {
+                                "instanceId": "0b46hco2eo7emp4mtph1rn2c2p[2]0",
+                                "devName": "Juno Buttercake Pass",
+                                "eventName": "CalendarEvent_ButtercakePass",
+                                "eventStart": "2024-09-16T13:00:00Z",
+                                "eventEnd": "2024-10-11T06:00:00Z",
+                                "eventType": "EventFlag.Event_ButtercakePass"
+                            },
+                            {
+                                "instanceId": "65c9cb46elnencdbq70srlbtuu[2]0",
+                                "devName": "Event_S31_FoundQuests_GreenTown",
+                                "eventName": "CalendarEvent_S31_FoundQuests_GreenTown",
+                                "eventStart": "2024-09-17T08:00:00Z",
+                                "eventEnd": "2024-11-02T06:00:00Z",
+                                "eventType": "EventFlag.Event_S31_FoundQuests_GreenTown"
                             }
                         ],
                         "seasonNumber": 31,
@@ -592,9 +618,9 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-09-17T09:49:22.393Z"
+            "cacheExpire": "2024-09-17T10:12:21.301Z"
         }
     },
     "cacheIntervalMins": 15,
-    "currentTime": "2024-09-17T08:13:15.283Z"
+    "currentTime": "2024-09-17T08:34:01.174Z"
 }
