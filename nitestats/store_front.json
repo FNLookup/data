@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2024-09-20T01:00:00.000Z",
+    "expiration": "2024-09-20T03:00:00.000Z",
     "storefronts": [
         {
             "name": "WinterQuest2019",
@@ -2116,6 +2116,122 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x March Of The Pigs for 500 MtxCurrency",
+                    "offerId": "v2:/176b5bde741645e85f06c34b49bc2be9900314718c6b8038d196357a823b7d41",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_103",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "JamTracks0920.97",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "JamTracks0920",
+                        "templateId": "SparksSong:sid_placeholder_103",
+                        "webURL": "/item-shop/jam-tracks/march-of-the-pigs-3b4db995",
+                        "color1": "#2d2d2d",
+                        "color2": "#0C0C0C",
+                        "color3": "#000000",
+                        "textBackgroundColor": "#00021",
+                        "inDate": "2024-08-16T00:00:00.000Z",
+                        "outDate": "2024-10-10T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_103",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_103"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "JamTracks0920.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "JamTracks0920"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksSong:sid_placeholder_103"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/jam-tracks/march-of-the-pigs-3b4db995"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#2d2d2d"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#0C0C0C"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#000000"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#00021"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-08-16T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-10-10T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_103",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -129,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Ghost Ri-Durrr, 1 x Fryer Fire for 1500 MtxCurrency",
                     "offerId": "v2:/726ad3f97ee32313bf9b2ef487f958f1b7b62e3d8527b6dd8cf71c1ce9e17ba8",
                     "fulfillmentIds": [],
@@ -2238,122 +2354,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x March Of The Pigs for 500 MtxCurrency",
-                    "offerId": "v2:/176b5bde741645e85f06c34b49bc2be9900314718c6b8038d196357a823b7d41",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_103",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "JamTracks0920.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "JamTracks0920",
-                        "templateId": "SparksSong:sid_placeholder_103",
-                        "webURL": "/item-shop/jam-tracks/march-of-the-pigs-3b4db995",
-                        "color1": "#2d2d2d",
-                        "color2": "#0C0C0C",
-                        "color3": "#000000",
-                        "textBackgroundColor": "#00021",
-                        "inDate": "2024-08-16T00:00:00.000Z",
-                        "outDate": "2024-10-10T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_103",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_103"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "JamTracks0920.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "JamTracks0920"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksSong:sid_placeholder_103"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/jam-tracks/march-of-the-pigs-3b4db995"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#2d2d2d"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#0C0C0C"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#000000"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#00021"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-16T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-10-10T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_103",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -129,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -2755,7 +2755,7 @@
                         "LayoutId": "Tron.98",
                         "TileSize": "Size_1_x_1",
                         "AnalyticOfferGroupId": "Tron",
-                        "bundleId": "DynamicBundle:cid_a_020_athena_commando_f_mainframe_d_zhvem",
+                        "bundleId": "DynamicBundle:cid_a_020_athena_commando_f_mainframe_d_zhvem_f",
                         "webURL": "/item-shop/outfits/io-e7514c83",
                         "color1": "#007599",
                         "color2": "#054670",
@@ -2804,7 +2804,7 @@
                         },
                         {
                             "key": "bundleId",
-                            "value": "DynamicBundle:cid_a_020_athena_commando_f_mainframe_d_zhvem"
+                            "value": "DynamicBundle:cid_a_020_athena_commando_f_mainframe_d_zhvem_f"
                         },
                         {
                             "key": "webURL",
@@ -4187,6 +4187,122 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x We Like To Party! (The Vengabus) for 500 MtxCurrency",
+                    "offerId": "v2:/3ea54dcef54916e7fe617dc77279874d1208d1455cf3e48257885e6e2c13f121",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_253",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "JamTracks0920.97",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "JamTracks0920",
+                        "templateId": "SparksSong:sid_placeholder_253",
+                        "webURL": "/item-shop/jam-tracks/missing-all-translations-we-like-to-party-the-vengabus-c232654a",
+                        "color1": "#2d2d2d",
+                        "color2": "#0C0C0C",
+                        "color3": "#000000",
+                        "textBackgroundColor": "#00021",
+                        "inDate": "2024-06-28T00:00:00.000Z",
+                        "outDate": "2024-10-10T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_253",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_253"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "JamTracks0920.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "JamTracks0920"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksSong:sid_placeholder_253"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/jam-tracks/missing-all-translations-we-like-to-party-the-vengabus-c232654a"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#2d2d2d"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#0C0C0C"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#000000"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#00021"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-06-28T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-10-10T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_253",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -211,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Black Cat, 1 x Cat's Pack, 1 x Bad Luck Claws, 1 x Cat's Tracks, 1 x The Black Cat for -1 MtxCurrency",
                     "offerId": "v2:/221c730dc80ae80f8e29f21498891d07911ead4bf37b2999db1b185deee26a49",
                     "fulfillmentIds": [],
@@ -4365,122 +4481,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x We Like To Party! (The Vengabus) for 500 MtxCurrency",
-                    "offerId": "v2:/3ea54dcef54916e7fe617dc77279874d1208d1455cf3e48257885e6e2c13f121",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_253",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "JamTracks0920.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "JamTracks0920",
-                        "templateId": "SparksSong:sid_placeholder_253",
-                        "webURL": "/item-shop/jam-tracks/missing-all-translations-we-like-to-party-the-vengabus-c232654a",
-                        "color1": "#2d2d2d",
-                        "color2": "#0C0C0C",
-                        "color3": "#000000",
-                        "textBackgroundColor": "#00021",
-                        "inDate": "2024-06-28T00:00:00.000Z",
-                        "outDate": "2024-10-10T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_253",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_253"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "JamTracks0920.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "JamTracks0920"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksSong:sid_placeholder_253"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/jam-tracks/missing-all-translations-we-like-to-party-the-vengabus-c232654a"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#2d2d2d"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#0C0C0C"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#000000"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#00021"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-06-28T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-10-10T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_253",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -211,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x Heartbreaker for 500 MtxCurrency",
                     "offerId": "v2:/7f9d020f0dc3ccb3f9f24e8073b9bd55a0e8124559a3a1374a4ed4c5609dc95d",
                     "fulfillmentIds": [],
@@ -4652,7 +4652,7 @@
                         "LayoutId": "Tron.99",
                         "TileSize": "Size_1_x_1",
                         "AnalyticOfferGroupId": "Tron",
-                        "bundleId": "DynamicBundle:cid_a_019_athena_commando_f_mainframe_c_u5ri4",
+                        "bundleId": "DynamicBundle:cid_a_019_athena_commando_f_mainframe_c_u5ri4_f",
                         "webURL": "/item-shop/outfits/upload-37eb3d7e",
                         "color1": "#007599",
                         "color2": "#054670",
@@ -4701,7 +4701,7 @@
                         },
                         {
                             "key": "bundleId",
-                            "value": "DynamicBundle:cid_a_019_athena_commando_f_mainframe_c_u5ri4"
+                            "value": "DynamicBundle:cid_a_019_athena_commando_f_mainframe_c_u5ri4_f"
                         },
                         {
                             "key": "webURL",
@@ -5327,6 +5327,119 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x Bad Luck Claws for 800 MtxCurrency",
+                    "offerId": "v2:/eb247bbad1a09c46ae8fe8af5b89383e4ff141f29662d5112d2b90f74e6923af",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 800,
+                            "dynamicRegularPrice": 800,
+                            "finalPrice": 800,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 800
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S31/DAv2_Pickaxe_SweetLetter.DAv2_Pickaxe_SweetLetter",
+                        "LayoutId": "BlackCat.98",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "BlackCat",
+                        "templateId": "AthenaPickaxe:pickaxe_sweetletter",
+                        "webURL": "/item-shop/pickaxes/bad-luck-claws-6dfaf7d6",
+                        "color1": "#E1E7F3",
+                        "color2": "#858DAD",
+                        "textBackgroundColor": "#858DAD",
+                        "inDate": "2024-09-14T00:00:00.000Z",
+                        "outDate": "2024-09-20T23:59:59.999Z",
+                        "EncryptionKey": "664AE10E66BFDC167AE20432295E8F7F:MA5EHgSc3+WIzYlG5t0Mfc4sosVF5TnVDCTKcG5KyL0=:Pickaxe_SweetLetter",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Pickaxe_SweetLetter.DA_Featured_Pickaxe_SweetLetter"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaPickaxe:pickaxe_sweetletter",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/S31/DAv2_Pickaxe_SweetLetter.DAv2_Pickaxe_SweetLetter"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "BlackCat.98"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "BlackCat"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaPickaxe:pickaxe_sweetletter"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/pickaxes/bad-luck-claws-6dfaf7d6"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#E1E7F3"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#858DAD"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#858DAD"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-09-14T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-09-20T23:59:59.999Z"
+                        },
+                        {
+                            "key": "EncryptionKey",
+                            "value": "664AE10E66BFDC167AE20432295E8F7F:MA5EHgSc3+WIzYlG5t0Mfc4sosVF5TnVDCTKcG5KyL0=:Pickaxe_SweetLetter"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Pickaxe_SweetLetter.DA_Featured_Pickaxe_SweetLetter",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaPickaxe:pickaxe_sweetletter",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -2,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Say It Proud for 0 MtxCurrency",
                     "offerId": "v2:/7a7922cd46157d43c437ff50acbcf45988acb2b7aaf0f881cf312c3a178251f8",
                     "fulfillmentIds": [],
@@ -5440,119 +5553,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -4,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Bad Luck Claws for 800 MtxCurrency",
-                    "offerId": "v2:/eb247bbad1a09c46ae8fe8af5b89383e4ff141f29662d5112d2b90f74e6923af",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 800,
-                            "dynamicRegularPrice": 800,
-                            "finalPrice": 800,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 800
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S31/DAv2_Pickaxe_SweetLetter.DAv2_Pickaxe_SweetLetter",
-                        "LayoutId": "BlackCat.98",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "BlackCat",
-                        "templateId": "AthenaPickaxe:pickaxe_sweetletter",
-                        "webURL": "/item-shop/pickaxes/bad-luck-claws-6dfaf7d6",
-                        "color1": "#E1E7F3",
-                        "color2": "#858DAD",
-                        "textBackgroundColor": "#858DAD",
-                        "inDate": "2024-09-14T00:00:00.000Z",
-                        "outDate": "2024-09-20T23:59:59.999Z",
-                        "EncryptionKey": "664AE10E66BFDC167AE20432295E8F7F:MA5EHgSc3+WIzYlG5t0Mfc4sosVF5TnVDCTKcG5KyL0=:Pickaxe_SweetLetter",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Pickaxe_SweetLetter.DA_Featured_Pickaxe_SweetLetter"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaPickaxe:pickaxe_sweetletter",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S31/DAv2_Pickaxe_SweetLetter.DAv2_Pickaxe_SweetLetter"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "BlackCat.98"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "BlackCat"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaPickaxe:pickaxe_sweetletter"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/pickaxes/bad-luck-claws-6dfaf7d6"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#E1E7F3"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#858DAD"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#858DAD"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-09-14T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-09-20T23:59:59.999Z"
-                        },
-                        {
-                            "key": "EncryptionKey",
-                            "value": "664AE10E66BFDC167AE20432295E8F7F:MA5EHgSc3+WIzYlG5t0Mfc4sosVF5TnVDCTKcG5KyL0=:Pickaxe_SweetLetter"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Pickaxe_SweetLetter.DA_Featured_Pickaxe_SweetLetter",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaPickaxe:pickaxe_sweetletter",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -2,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -6145,6 +6145,8 @@
                         "color2": "#1eb076",
                         "color3": "#003659",
                         "textBackgroundColor": "#003659",
+                        "ViolatorTag": "New",
+                        "ViolatorIntensity": "High",
                         "inDate": "2024-09-20T00:00:00.000Z",
                         "outDate": "2024-09-26T23:59:59.999Z",
                         "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Character_SunnySquawk.DA_Featured_Character_SunnySquawk"
@@ -6212,6 +6214,14 @@
                         {
                             "key": "textBackgroundColor",
                             "value": "#003659"
+                        },
+                        {
+                            "key": "ViolatorTag",
+                            "value": "New"
+                        },
+                        {
+                            "key": "ViolatorIntensity",
+                            "value": "High"
                         },
                         {
                             "key": "inDate",
@@ -7746,161 +7756,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Cypher, 1 x Identity Disc, 1 x Identity Disc for -1 MtxCurrency",
-                    "offerId": "v2:/2f5e88355f13b1c0b9cdc2379794c4499eaa7efac7c116013807a0e827ea853c",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [],
-                    "dynamicBundleInfo": {
-                        "discountedBasePrice": 0,
-                        "regularBasePrice": 0,
-                        "floorPrice": 0,
-                        "currencyType": "MtxCurrency",
-                        "currencySubType": "",
-                        "displayType": "UndecoratedNewPrice",
-                        "bundleItems": [
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 800,
-                                "discountedPrice": 800,
-                                "alreadyOwnedPriceReduction": 800,
-                                "item": {
-                                    "templateId": "AthenaCharacter:cid_a_012_athena_commando_m_mainframe_v7q8r",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 0,
-                                "discountedPrice": 0,
-                                "alreadyOwnedPriceReduction": 0,
-                                "item": {
-                                    "templateId": "AthenaBackpack:bid_699_mainframemale_2w2m3",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 700,
-                                "discountedPrice": 700,
-                                "alreadyOwnedPriceReduction": 700,
-                                "item": {
-                                    "templateId": "AthenaPickaxe:pickaxe_id_546_mainframemale_xw9s6",
-                                    "quantity": 1
-                                }
-                            }
-                        ]
-                    },
-                    "meta": {
-                        "bSkipPurchaseHistoryCombining": "true",
-                        "offertag": "equipmainframe",
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_CID_A_012_M_Mainframe_V7Q8R.DAv2_CID_A_012_M_Mainframe_V7Q8R",
-                        "LayoutId": "Tron.98",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "Tron",
-                        "bundleId": "DynamicBundle:cid_a_012_athena_commando_m_mainframe_v7q8r",
-                        "webURL": "/item-shop/outfits/cypher-c18e4d16",
-                        "color1": "#007599",
-                        "color2": "#054670",
-                        "color3": "#091647",
-                        "textBackgroundColor": "#091647",
-                        "inDate": "2024-09-20T00:00:00.000Z",
-                        "outDate": "2024-09-21T23:59:59.999Z",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_A_012_Athena_Commando_M_Mainframe_V7Q8R.DA_Featured_CID_A_012_Athena_Commando_M_Mainframe_V7Q8R"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [],
-                    "offerType": "DynamicBundle",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "bSkipPurchaseHistoryCombining",
-                            "value": "true"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "equipmainframe"
-                        },
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_CID_A_012_M_Mainframe_V7Q8R.DAv2_CID_A_012_M_Mainframe_V7Q8R"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "Tron.98"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "Tron"
-                        },
-                        {
-                            "key": "bundleId",
-                            "value": "DynamicBundle:cid_a_012_athena_commando_m_mainframe_v7q8r"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/outfits/cypher-c18e4d16"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#007599"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#054670"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#091647"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#091647"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-09-20T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-09-21T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_A_012_Athena_Commando_M_Mainframe_V7Q8R.DA_Featured_CID_A_012_Athena_Commando_M_Mainframe_V7Q8R",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaCharacter:cid_a_012_athena_commando_m_mainframe_v7q8r",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaBackpack:bid_699_mainframemale_2w2m3",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaPickaxe:pickaxe_id_546_mainframemale_xw9s6",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -4,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x Carry on Wayward Son for 500 MtxCurrency",
                     "offerId": "v2:/739478e27c4f5e44e9ca64b91b8d17e05de506951c9f4caa888c30c8a09f96dc",
                     "fulfillmentIds": [],
@@ -8014,6 +7869,161 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -58,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Cypher, 1 x Identity Disc, 1 x Identity Disc for -1 MtxCurrency",
+                    "offerId": "v2:/2f5e88355f13b1c0b9cdc2379794c4499eaa7efac7c116013807a0e827ea853c",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [],
+                    "dynamicBundleInfo": {
+                        "discountedBasePrice": 0,
+                        "regularBasePrice": 0,
+                        "floorPrice": 0,
+                        "currencyType": "MtxCurrency",
+                        "currencySubType": "",
+                        "displayType": "UndecoratedNewPrice",
+                        "bundleItems": [
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 800,
+                                "discountedPrice": 800,
+                                "alreadyOwnedPriceReduction": 800,
+                                "item": {
+                                    "templateId": "AthenaCharacter:cid_a_012_athena_commando_m_mainframe_v7q8r",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 0,
+                                "discountedPrice": 0,
+                                "alreadyOwnedPriceReduction": 0,
+                                "item": {
+                                    "templateId": "AthenaBackpack:bid_699_mainframemale_2w2m3",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 700,
+                                "discountedPrice": 700,
+                                "alreadyOwnedPriceReduction": 700,
+                                "item": {
+                                    "templateId": "AthenaPickaxe:pickaxe_id_546_mainframemale_xw9s6",
+                                    "quantity": 1
+                                }
+                            }
+                        ]
+                    },
+                    "meta": {
+                        "bSkipPurchaseHistoryCombining": "true",
+                        "offertag": "equipmainframe",
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_CID_A_012_M_Mainframe_V7Q8R.DAv2_CID_A_012_M_Mainframe_V7Q8R",
+                        "LayoutId": "Tron.98",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "Tron",
+                        "bundleId": "DynamicBundle:cid_a_012_athena_commando_m_mainframe_v7q8r_f",
+                        "webURL": "/item-shop/outfits/cypher-c18e4d16",
+                        "color1": "#007599",
+                        "color2": "#054670",
+                        "color3": "#091647",
+                        "textBackgroundColor": "#091647",
+                        "inDate": "2024-09-20T00:00:00.000Z",
+                        "outDate": "2024-09-21T23:59:59.999Z",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_A_012_Athena_Commando_M_Mainframe_V7Q8R.DA_Featured_CID_A_012_Athena_Commando_M_Mainframe_V7Q8R"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [],
+                    "offerType": "DynamicBundle",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "bSkipPurchaseHistoryCombining",
+                            "value": "true"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "equipmainframe"
+                        },
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_CID_A_012_M_Mainframe_V7Q8R.DAv2_CID_A_012_M_Mainframe_V7Q8R"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "Tron.98"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "Tron"
+                        },
+                        {
+                            "key": "bundleId",
+                            "value": "DynamicBundle:cid_a_012_athena_commando_m_mainframe_v7q8r_f"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/outfits/cypher-c18e4d16"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#007599"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#054670"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#091647"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#091647"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-09-20T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-09-21T23:59:59.999Z"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_A_012_Athena_Commando_M_Mainframe_V7Q8R.DA_Featured_CID_A_012_Athena_Commando_M_Mainframe_V7Q8R",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaCharacter:cid_a_012_athena_commando_m_mainframe_v7q8r",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaBackpack:bid_699_mainframemale_2w2m3",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaPickaxe:pickaxe_id_546_mainframemale_xw9s6",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -4,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -8488,117 +8498,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x High Society Clasher for 500 MtxCurrency",
-                    "offerId": "v2:/d13e4ffd5ca6f24bc85f4645186b89a5911e4f4eea439f0dad2ce14c935c14c8",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S28/DAv2_Sparks_Drum_Society.DAv2_Sparks_Drum_Society",
-                        "LayoutId": "Sparksinstruments21.99",
-                        "TileSize": "Size_2_x_1",
-                        "AnalyticOfferGroupId": "Sparksinstruments21",
-                        "templateId": "SparksDrums:sparks_drum_ceremonialguard",
-                        "webURL": "/item-shop/drums/high-society-clasher-18a20fbd",
-                        "color1": "#990031",
-                        "color2": "#5c0020",
-                        "color3": "#330016",
-                        "textBackgroundColor": "#330016",
-                        "inDate": "2024-09-17T00:00:00.000Z",
-                        "outDate": "2024-09-20T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksDrums:sparks_drum_ceremonialguard",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S28/DAv2_Sparks_Drum_Society.DAv2_Sparks_Drum_Society"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "Sparksinstruments21.99"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_2_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "Sparksinstruments21"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksDrums:sparks_drum_ceremonialguard"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/drums/high-society-clasher-18a20fbd"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#990031"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#5c0020"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#330016"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#330016"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-09-17T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-09-20T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksDrums:sparks_drum_ceremonialguard",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x Espresso for 500 MtxCurrency",
                     "offerId": "v2:/285fca7465e797e865d1e8c8d0925853491078a94d64ab2ec5e89a460683c774",
                     "fulfillmentIds": [],
@@ -8712,6 +8611,117 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -73,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x High Society Clasher for 500 MtxCurrency",
+                    "offerId": "v2:/d13e4ffd5ca6f24bc85f4645186b89a5911e4f4eea439f0dad2ce14c935c14c8",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S28/DAv2_Sparks_Drum_Society.DAv2_Sparks_Drum_Society",
+                        "LayoutId": "Sparksinstruments21.99",
+                        "TileSize": "Size_2_x_1",
+                        "AnalyticOfferGroupId": "Sparksinstruments21",
+                        "templateId": "SparksDrums:sparks_drum_ceremonialguard",
+                        "webURL": "/item-shop/drums/high-society-clasher-18a20fbd",
+                        "color1": "#990031",
+                        "color2": "#5c0020",
+                        "color3": "#330016",
+                        "textBackgroundColor": "#330016",
+                        "inDate": "2024-09-17T00:00:00.000Z",
+                        "outDate": "2024-09-20T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksDrums:sparks_drum_ceremonialguard",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/S28/DAv2_Sparks_Drum_Society.DAv2_Sparks_Drum_Society"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "Sparksinstruments21.99"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_2_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "Sparksinstruments21"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksDrums:sparks_drum_ceremonialguard"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/drums/high-society-clasher-18a20fbd"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#990031"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#5c0020"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#330016"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#330016"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-09-17T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-09-20T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksDrums:sparks_drum_ceremonialguard",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -1,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -13066,7 +13076,7 @@
                         "LayoutId": "Tron.98",
                         "TileSize": "Size_1_x_1",
                         "AnalyticOfferGroupId": "Tron",
-                        "bundleId": "DynamicBundle:cid_a_017_athena_commando_f_mainframe_cyl17",
+                        "bundleId": "DynamicBundle:cid_a_017_athena_commando_f_mainframe_cyl17_f",
                         "webURL": "/item-shop/outfits/bitstream-c40bd30b",
                         "color1": "#007599",
                         "color2": "#054670",
@@ -13115,7 +13125,7 @@
                         },
                         {
                             "key": "bundleId",
-                            "value": "DynamicBundle:cid_a_017_athena_commando_f_mainframe_cyl17"
+                            "value": "DynamicBundle:cid_a_017_athena_commando_f_mainframe_cyl17_f"
                         },
                         {
                             "key": "webURL",
@@ -13862,6 +13872,122 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x 24K Magic for 500 MtxCurrency",
+                    "offerId": "v2:/8f398e21d74a9818d597d774506c7688d7b29397c0eba05c949a46aebe6c15d9",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_70",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "JamTracks0920.97",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "JamTracks0920",
+                        "templateId": "SparksSong:sid_placeholder_70",
+                        "webURL": "/item-shop/jam-tracks/missing-all-translations-24k-magic-f2ccfa30",
+                        "color1": "#2d2d2d",
+                        "color2": "#0C0C0C",
+                        "color3": "#000000",
+                        "textBackgroundColor": "#00021",
+                        "inDate": "2024-08-09T00:00:00.000Z",
+                        "outDate": "2024-10-10T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_70",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_70"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "JamTracks0920.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "JamTracks0920"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksSong:sid_placeholder_70"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/jam-tracks/missing-all-translations-24k-magic-f2ccfa30"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#2d2d2d"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#0C0C0C"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#000000"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#00021"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-08-09T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-10-10T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_70",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -10,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Deadpool Dropper for 800 MtxCurrency",
                     "offerId": "v2:/fc0b4232bfe10799779a3d2edd864b7f4ac1ca3cde6c0302030a754e7c140814",
                     "fulfillmentIds": [],
@@ -13982,122 +14108,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -2,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x 24K Magic for 500 MtxCurrency",
-                    "offerId": "v2:/8f398e21d74a9818d597d774506c7688d7b29397c0eba05c949a46aebe6c15d9",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_70",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "JamTracks0920.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "JamTracks0920",
-                        "templateId": "SparksSong:sid_placeholder_70",
-                        "webURL": "/item-shop/jam-tracks/missing-all-translations-24k-magic-f2ccfa30",
-                        "color1": "#2d2d2d",
-                        "color2": "#0C0C0C",
-                        "color3": "#000000",
-                        "textBackgroundColor": "#00021",
-                        "inDate": "2024-08-09T00:00:00.000Z",
-                        "outDate": "2024-10-10T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_70",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_70"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "JamTracks0920.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "JamTracks0920"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksSong:sid_placeholder_70"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/jam-tracks/missing-all-translations-24k-magic-f2ccfa30"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#2d2d2d"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#0C0C0C"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#000000"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#00021"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-09T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-10-10T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_70",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -10,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -14597,161 +14607,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Proxy, 1 x Identity Disc, 1 x Identity Disc for -1 MtxCurrency",
-                    "offerId": "v2:/0a98d1054c98401721e2ce2d4387b948fbee4993cc0950b70f921484fa2d4bd1",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [],
-                    "dynamicBundleInfo": {
-                        "discountedBasePrice": 0,
-                        "regularBasePrice": 0,
-                        "floorPrice": 0,
-                        "currencyType": "MtxCurrency",
-                        "currencySubType": "",
-                        "displayType": "UndecoratedNewPrice",
-                        "bundleItems": [
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 800,
-                                "discountedPrice": 800,
-                                "alreadyOwnedPriceReduction": 800,
-                                "item": {
-                                    "templateId": "AthenaCharacter:cid_a_014_athena_commando_m_mainframe_c_yvdol",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 0,
-                                "discountedPrice": 0,
-                                "alreadyOwnedPriceReduction": 0,
-                                "item": {
-                                    "templateId": "AthenaBackpack:bid_699_mainframemale_2w2m3",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 700,
-                                "discountedPrice": 700,
-                                "alreadyOwnedPriceReduction": 700,
-                                "item": {
-                                    "templateId": "AthenaPickaxe:pickaxe_id_546_mainframemale_xw9s6",
-                                    "quantity": 1
-                                }
-                            }
-                        ]
-                    },
-                    "meta": {
-                        "bSkipPurchaseHistoryCombining": "true",
-                        "offertag": "equipmainframe",
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_CID_A_014_M_Mainframe_C_YVDOL.DAv2_CID_A_014_M_Mainframe_C_YVDOL",
-                        "LayoutId": "Tron.99",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "Tron",
-                        "bundleId": "DynamicBundle:cid_a_014_athena_commando_m_mainframe_c_yvdol",
-                        "webURL": "/item-shop/outfits/proxy-a0266b9c",
-                        "color1": "#007599",
-                        "color2": "#054670",
-                        "color3": "#091647",
-                        "textBackgroundColor": "#091647",
-                        "inDate": "2024-09-20T00:00:00.000Z",
-                        "outDate": "2024-09-21T23:59:59.999Z",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_A_014_Athena_Commando_M_Mainframe_C_YVDOL.DA_Featured_CID_A_014_Athena_Commando_M_Mainframe_C_YVDOL"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [],
-                    "offerType": "DynamicBundle",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "bSkipPurchaseHistoryCombining",
-                            "value": "true"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "equipmainframe"
-                        },
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_CID_A_014_M_Mainframe_C_YVDOL.DAv2_CID_A_014_M_Mainframe_C_YVDOL"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "Tron.99"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "Tron"
-                        },
-                        {
-                            "key": "bundleId",
-                            "value": "DynamicBundle:cid_a_014_athena_commando_m_mainframe_c_yvdol"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/outfits/proxy-a0266b9c"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#007599"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#054670"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#091647"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#091647"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-09-20T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-09-21T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_A_014_Athena_Commando_M_Mainframe_C_YVDOL.DA_Featured_CID_A_014_Athena_Commando_M_Mainframe_C_YVDOL",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaCharacter:cid_a_014_athena_commando_m_mainframe_c_yvdol",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaBackpack:bid_699_mainframemale_2w2m3",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaPickaxe:pickaxe_id_546_mainframemale_xw9s6",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x Dog Days Are Over for 500 MtxCurrency",
                     "offerId": "v2:/07de73b3ec9073c224174b54dfb26cb02102382cbbe2e71d4075e0a9e9cb9222",
                     "fulfillmentIds": [],
@@ -14865,6 +14720,161 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -67,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Proxy, 1 x Identity Disc, 1 x Identity Disc for -1 MtxCurrency",
+                    "offerId": "v2:/0a98d1054c98401721e2ce2d4387b948fbee4993cc0950b70f921484fa2d4bd1",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [],
+                    "dynamicBundleInfo": {
+                        "discountedBasePrice": 0,
+                        "regularBasePrice": 0,
+                        "floorPrice": 0,
+                        "currencyType": "MtxCurrency",
+                        "currencySubType": "",
+                        "displayType": "UndecoratedNewPrice",
+                        "bundleItems": [
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 800,
+                                "discountedPrice": 800,
+                                "alreadyOwnedPriceReduction": 800,
+                                "item": {
+                                    "templateId": "AthenaCharacter:cid_a_014_athena_commando_m_mainframe_c_yvdol",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 0,
+                                "discountedPrice": 0,
+                                "alreadyOwnedPriceReduction": 0,
+                                "item": {
+                                    "templateId": "AthenaBackpack:bid_699_mainframemale_2w2m3",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 700,
+                                "discountedPrice": 700,
+                                "alreadyOwnedPriceReduction": 700,
+                                "item": {
+                                    "templateId": "AthenaPickaxe:pickaxe_id_546_mainframemale_xw9s6",
+                                    "quantity": 1
+                                }
+                            }
+                        ]
+                    },
+                    "meta": {
+                        "bSkipPurchaseHistoryCombining": "true",
+                        "offertag": "equipmainframe",
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_CID_A_014_M_Mainframe_C_YVDOL.DAv2_CID_A_014_M_Mainframe_C_YVDOL",
+                        "LayoutId": "Tron.99",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "Tron",
+                        "bundleId": "DynamicBundle:cid_a_014_athena_commando_m_mainframe_c_yvdol_f",
+                        "webURL": "/item-shop/outfits/proxy-a0266b9c",
+                        "color1": "#007599",
+                        "color2": "#054670",
+                        "color3": "#091647",
+                        "textBackgroundColor": "#091647",
+                        "inDate": "2024-09-20T00:00:00.000Z",
+                        "outDate": "2024-09-21T23:59:59.999Z",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_A_014_Athena_Commando_M_Mainframe_C_YVDOL.DA_Featured_CID_A_014_Athena_Commando_M_Mainframe_C_YVDOL"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [],
+                    "offerType": "DynamicBundle",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "bSkipPurchaseHistoryCombining",
+                            "value": "true"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "equipmainframe"
+                        },
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_CID_A_014_M_Mainframe_C_YVDOL.DAv2_CID_A_014_M_Mainframe_C_YVDOL"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "Tron.99"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "Tron"
+                        },
+                        {
+                            "key": "bundleId",
+                            "value": "DynamicBundle:cid_a_014_athena_commando_m_mainframe_c_yvdol_f"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/outfits/proxy-a0266b9c"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#007599"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#054670"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#091647"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#091647"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-09-20T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-09-21T23:59:59.999Z"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_A_014_Athena_Commando_M_Mainframe_C_YVDOL.DA_Featured_CID_A_014_Athena_Commando_M_Mainframe_C_YVDOL",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaCharacter:cid_a_014_athena_commando_m_mainframe_c_yvdol",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaBackpack:bid_699_mainframemale_2w2m3",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaPickaxe:pickaxe_id_546_mainframemale_xw9s6",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -1,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -17002,119 +17012,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Mephisto's Spatula for 800 MtxCurrency",
-                    "offerId": "v2:/814736c3877b6e62aa404f63d6951f06aa856d193f1edf350d224a1251b81fa9",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 800,
-                            "dynamicRegularPrice": 800,
-                            "finalPrice": 800,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 800
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S31/DAv2_Pickaxe_FreeDrive.DAv2_Pickaxe_FreeDrive",
-                        "LayoutId": "GhostRiDurrr.98",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "GhostRiDurrr",
-                        "templateId": "AthenaPickaxe:pickaxe_freedrive",
-                        "webURL": "/item-shop/pickaxes/mephistos-spatula-f6d9657b",
-                        "color1": "#290F07",
-                        "color2": "#824100",
-                        "textBackgroundColor": "#824100",
-                        "inDate": "2024-09-19T00:00:00.000Z",
-                        "outDate": "2024-09-25T23:59:59.999Z",
-                        "EncryptionKey": "E5DEC1C078C14E27A5FE8A9D0852A4C5:LigwbpAOIj6Fhmx26rH+b9j89G0/CDqk+4AiLiF+NLM=:Pickaxe_FreeDrive",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Pickaxe_FreeDrive.DA_Featured_Pickaxe_FreeDrive"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaPickaxe:pickaxe_freedrive",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/OfferCatalog/NewDisplayAssets/S31/DAv2_Pickaxe_FreeDrive.DAv2_Pickaxe_FreeDrive"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "GhostRiDurrr.98"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "GhostRiDurrr"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaPickaxe:pickaxe_freedrive"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/pickaxes/mephistos-spatula-f6d9657b"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#290F07"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#824100"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#824100"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-09-19T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-09-25T23:59:59.999Z"
-                        },
-                        {
-                            "key": "EncryptionKey",
-                            "value": "E5DEC1C078C14E27A5FE8A9D0852A4C5:LigwbpAOIj6Fhmx26rH+b9j89G0/CDqk+4AiLiF+NLM=:Pickaxe_FreeDrive"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Pickaxe_FreeDrive.DA_Featured_Pickaxe_FreeDrive",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaPickaxe:pickaxe_freedrive",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -2,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_280) for 500 MtxCurrency",
                     "offerId": "v2:/153800697e7e510cf9dd070a44bb3f6f8b093117663d7829a9a54ffb516cc324",
                     "fulfillmentIds": [],
@@ -17447,6 +17344,119 @@
                     "itemGrants": [
                         {
                             "templateId": "AthenaCharacter:character_garbagefncs",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -2,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Mephisto's Spatula for 800 MtxCurrency",
+                    "offerId": "v2:/814736c3877b6e62aa404f63d6951f06aa856d193f1edf350d224a1251b81fa9",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 800,
+                            "dynamicRegularPrice": 800,
+                            "finalPrice": 800,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 800
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S31/DAv2_Pickaxe_FreeDrive.DAv2_Pickaxe_FreeDrive",
+                        "LayoutId": "GhostRiDurrr.98",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "GhostRiDurrr",
+                        "templateId": "AthenaPickaxe:pickaxe_freedrive",
+                        "webURL": "/item-shop/pickaxes/mephistos-spatula-f6d9657b",
+                        "color1": "#290F07",
+                        "color2": "#824100",
+                        "textBackgroundColor": "#824100",
+                        "inDate": "2024-09-19T00:00:00.000Z",
+                        "outDate": "2024-09-25T23:59:59.999Z",
+                        "EncryptionKey": "E5DEC1C078C14E27A5FE8A9D0852A4C5:LigwbpAOIj6Fhmx26rH+b9j89G0/CDqk+4AiLiF+NLM=:Pickaxe_FreeDrive",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Pickaxe_FreeDrive.DA_Featured_Pickaxe_FreeDrive"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaPickaxe:pickaxe_freedrive",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/OfferCatalog/NewDisplayAssets/S31/DAv2_Pickaxe_FreeDrive.DAv2_Pickaxe_FreeDrive"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "GhostRiDurrr.98"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "GhostRiDurrr"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaPickaxe:pickaxe_freedrive"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/pickaxes/mephistos-spatula-f6d9657b"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#290F07"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#824100"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#824100"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-09-19T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-09-25T23:59:59.999Z"
+                        },
+                        {
+                            "key": "EncryptionKey",
+                            "value": "E5DEC1C078C14E27A5FE8A9D0852A4C5:LigwbpAOIj6Fhmx26rH+b9j89G0/CDqk+4AiLiF+NLM=:Pickaxe_FreeDrive"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Pickaxe_FreeDrive.DA_Featured_Pickaxe_FreeDrive",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaPickaxe:pickaxe_freedrive",
                             "quantity": 1
                         }
                     ],
@@ -18290,6 +18300,8 @@
                         "color2": "#1eb076",
                         "color3": "#003659",
                         "textBackgroundColor": "#003659",
+                        "ViolatorTag": "New",
+                        "ViolatorIntensity": "High",
                         "inDate": "2024-09-20T00:00:00.000Z",
                         "outDate": "2024-09-26T23:59:59.999Z",
                         "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Character_BuffBeak.DA_Featured_Character_BuffBeak"
@@ -18357,6 +18369,14 @@
                         {
                             "key": "textBackgroundColor",
                             "value": "#003659"
+                        },
+                        {
+                            "key": "ViolatorTag",
+                            "value": "New"
+                        },
+                        {
+                            "key": "ViolatorIntensity",
+                            "value": "High"
                         },
                         {
                             "key": "inDate",
@@ -18502,161 +18522,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Firewall, 1 x Identity Disc, 1 x Identity Disc for -1 MtxCurrency",
-                    "offerId": "v2:/64190b82bc6469ecc6db28331b6eb0ba4acb408d2c012c7e9603dd71070cf4b1",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [],
-                    "dynamicBundleInfo": {
-                        "discountedBasePrice": 0,
-                        "regularBasePrice": 0,
-                        "floorPrice": 0,
-                        "currencyType": "MtxCurrency",
-                        "currencySubType": "",
-                        "displayType": "UndecoratedNewPrice",
-                        "bundleItems": [
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 800,
-                                "discountedPrice": 800,
-                                "alreadyOwnedPriceReduction": 800,
-                                "item": {
-                                    "templateId": "AthenaCharacter:cid_a_013_athena_commando_m_mainframe_b_70z5m",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 0,
-                                "discountedPrice": 0,
-                                "alreadyOwnedPriceReduction": 0,
-                                "item": {
-                                    "templateId": "AthenaBackpack:bid_699_mainframemale_2w2m3",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 700,
-                                "discountedPrice": 700,
-                                "alreadyOwnedPriceReduction": 700,
-                                "item": {
-                                    "templateId": "AthenaPickaxe:pickaxe_id_546_mainframemale_xw9s6",
-                                    "quantity": 1
-                                }
-                            }
-                        ]
-                    },
-                    "meta": {
-                        "bSkipPurchaseHistoryCombining": "true",
-                        "offertag": "equipmainframe",
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_CID_A_013_M_Mainframe_B_70Z5M.DAv2_CID_A_013_M_Mainframe_B_70Z5M",
-                        "LayoutId": "Tron.99",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "Tron",
-                        "bundleId": "DynamicBundle:cid_a_013_athena_commando_m_mainframe_b_70z5m",
-                        "webURL": "/item-shop/outfits/firewall-d6f81c26",
-                        "color1": "#007599",
-                        "color2": "#054670",
-                        "color3": "#091647",
-                        "textBackgroundColor": "#091647",
-                        "inDate": "2024-09-20T00:00:00.000Z",
-                        "outDate": "2024-09-21T23:59:59.999Z",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_A_013_Athena_Commando_M_Mainframe_B_70Z5M.DA_Featured_CID_A_013_Athena_Commando_M_Mainframe_B_70Z5M"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [],
-                    "offerType": "DynamicBundle",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "bSkipPurchaseHistoryCombining",
-                            "value": "true"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "equipmainframe"
-                        },
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_CID_A_013_M_Mainframe_B_70Z5M.DAv2_CID_A_013_M_Mainframe_B_70Z5M"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "Tron.99"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "Tron"
-                        },
-                        {
-                            "key": "bundleId",
-                            "value": "DynamicBundle:cid_a_013_athena_commando_m_mainframe_b_70z5m"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/outfits/firewall-d6f81c26"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#007599"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#054670"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#091647"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#091647"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-09-20T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-09-21T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_A_013_Athena_Commando_M_Mainframe_B_70Z5M.DA_Featured_CID_A_013_Athena_Commando_M_Mainframe_B_70Z5M",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaCharacter:cid_a_013_athena_commando_m_mainframe_b_70z5m",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaBackpack:bid_699_mainframemale_2w2m3",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaPickaxe:pickaxe_id_546_mainframemale_xw9s6",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -3,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x Wild Rainbow for 0 MtxCurrency",
                     "offerId": "v2:/9106bcf7386fcaf75e089785911ad3b673dd19204b807f3ecedf3739131263a0",
                     "fulfillmentIds": [],
@@ -18762,6 +18627,161 @@
                     "itemGrants": [
                         {
                             "templateId": "AthenaItemWrap:wrap_143_rainbowstrike",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -3,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Firewall, 1 x Identity Disc, 1 x Identity Disc for -1 MtxCurrency",
+                    "offerId": "v2:/64190b82bc6469ecc6db28331b6eb0ba4acb408d2c012c7e9603dd71070cf4b1",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [],
+                    "dynamicBundleInfo": {
+                        "discountedBasePrice": 0,
+                        "regularBasePrice": 0,
+                        "floorPrice": 0,
+                        "currencyType": "MtxCurrency",
+                        "currencySubType": "",
+                        "displayType": "UndecoratedNewPrice",
+                        "bundleItems": [
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 800,
+                                "discountedPrice": 800,
+                                "alreadyOwnedPriceReduction": 800,
+                                "item": {
+                                    "templateId": "AthenaCharacter:cid_a_013_athena_commando_m_mainframe_b_70z5m",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 0,
+                                "discountedPrice": 0,
+                                "alreadyOwnedPriceReduction": 0,
+                                "item": {
+                                    "templateId": "AthenaBackpack:bid_699_mainframemale_2w2m3",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 700,
+                                "discountedPrice": 700,
+                                "alreadyOwnedPriceReduction": 700,
+                                "item": {
+                                    "templateId": "AthenaPickaxe:pickaxe_id_546_mainframemale_xw9s6",
+                                    "quantity": 1
+                                }
+                            }
+                        ]
+                    },
+                    "meta": {
+                        "bSkipPurchaseHistoryCombining": "true",
+                        "offertag": "equipmainframe",
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_CID_A_013_M_Mainframe_B_70Z5M.DAv2_CID_A_013_M_Mainframe_B_70Z5M",
+                        "LayoutId": "Tron.99",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "Tron",
+                        "bundleId": "DynamicBundle:cid_a_013_athena_commando_m_mainframe_b_70z5m_f",
+                        "webURL": "/item-shop/outfits/firewall-d6f81c26",
+                        "color1": "#007599",
+                        "color2": "#054670",
+                        "color3": "#091647",
+                        "textBackgroundColor": "#091647",
+                        "inDate": "2024-09-20T00:00:00.000Z",
+                        "outDate": "2024-09-21T23:59:59.999Z",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_A_013_Athena_Commando_M_Mainframe_B_70Z5M.DA_Featured_CID_A_013_Athena_Commando_M_Mainframe_B_70Z5M"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [],
+                    "offerType": "DynamicBundle",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "bSkipPurchaseHistoryCombining",
+                            "value": "true"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "equipmainframe"
+                        },
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_CID_A_013_M_Mainframe_B_70Z5M.DAv2_CID_A_013_M_Mainframe_B_70Z5M"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "Tron.99"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "Tron"
+                        },
+                        {
+                            "key": "bundleId",
+                            "value": "DynamicBundle:cid_a_013_athena_commando_m_mainframe_b_70z5m_f"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/outfits/firewall-d6f81c26"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#007599"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#054670"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#091647"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#091647"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-09-20T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-09-21T23:59:59.999Z"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_A_013_Athena_Commando_M_Mainframe_B_70Z5M.DA_Featured_CID_A_013_Athena_Commando_M_Mainframe_B_70Z5M",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaCharacter:cid_a_013_athena_commando_m_mainframe_b_70z5m",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaBackpack:bid_699_mainframemale_2w2m3",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaPickaxe:pickaxe_id_546_mainframemale_xw9s6",
                             "quantity": 1
                         }
                     ],
@@ -19144,6 +19164,8 @@
                         "color2": "#1eb076",
                         "color3": "#003659",
                         "textBackgroundColor": "#003659",
+                        "ViolatorTag": "New",
+                        "ViolatorIntensity": "High",
                         "inDate": "2024-09-20T00:00:00.000Z",
                         "outDate": "2024-09-26T23:59:59.999Z",
                         "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Wrap_ClawedRaven.DA_Featured_Wrap_ClawedRaven"
@@ -19206,6 +19228,14 @@
                         {
                             "key": "textBackgroundColor",
                             "value": "#003659"
+                        },
+                        {
+                            "key": "ViolatorTag",
+                            "value": "New"
+                        },
+                        {
+                            "key": "ViolatorIntensity",
+                            "value": "High"
                         },
                         {
                             "key": "inDate",
@@ -22556,119 +22586,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Flame Broiled for 500 MtxCurrency",
-                    "offerId": "v2:/2a5ccd8c6683e679288e2c1b7ebfdd1acec95693df1a7655fe73cfaee3b0ee31",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S31/DAv2_Wrap_FreeDrive.DAv2_Wrap_FreeDrive",
-                        "LayoutId": "GhostRiDurrr.98",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "GhostRiDurrr",
-                        "templateId": "AthenaItemWrap:wrap_freedrive",
-                        "webURL": "/item-shop/wraps/flame-broiled-0e81e11c",
-                        "color1": "#290F07",
-                        "color2": "#824100",
-                        "textBackgroundColor": "#824100",
-                        "inDate": "2024-09-19T00:00:00.000Z",
-                        "outDate": "2024-09-25T23:59:59.999Z",
-                        "EncryptionKey": "E5DEC1C078C14E27A5FE8A9D0852A4C5:LigwbpAOIj6Fhmx26rH+b9j89G0/CDqk+4AiLiF+NLM=:Wrap_FreeDrive",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Wrap_FreeDrive.DA_Featured_Wrap_FreeDrive"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaItemWrap:wrap_freedrive",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/OfferCatalog/NewDisplayAssets/S31/DAv2_Wrap_FreeDrive.DAv2_Wrap_FreeDrive"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "GhostRiDurrr.98"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "GhostRiDurrr"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaItemWrap:wrap_freedrive"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/wraps/flame-broiled-0e81e11c"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#290F07"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#824100"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#824100"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-09-19T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-09-25T23:59:59.999Z"
-                        },
-                        {
-                            "key": "EncryptionKey",
-                            "value": "E5DEC1C078C14E27A5FE8A9D0852A4C5:LigwbpAOIj6Fhmx26rH+b9j89G0/CDqk+4AiLiF+NLM=:Wrap_FreeDrive"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Wrap_FreeDrive.DA_Featured_Wrap_FreeDrive",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaItemWrap:wrap_freedrive",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -3,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x Breed for 500 MtxCurrency",
                     "offerId": "v2:/66ba2c0d86fcf4bb2f2709ac6ca39460ebc45450330147c43848083645b21c05",
                     "fulfillmentIds": [],
@@ -22782,6 +22699,119 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -7,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Flame Broiled for 500 MtxCurrency",
+                    "offerId": "v2:/2a5ccd8c6683e679288e2c1b7ebfdd1acec95693df1a7655fe73cfaee3b0ee31",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S31/DAv2_Wrap_FreeDrive.DAv2_Wrap_FreeDrive",
+                        "LayoutId": "GhostRiDurrr.98",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "GhostRiDurrr",
+                        "templateId": "AthenaItemWrap:wrap_freedrive",
+                        "webURL": "/item-shop/wraps/flame-broiled-0e81e11c",
+                        "color1": "#290F07",
+                        "color2": "#824100",
+                        "textBackgroundColor": "#824100",
+                        "inDate": "2024-09-19T00:00:00.000Z",
+                        "outDate": "2024-09-25T23:59:59.999Z",
+                        "EncryptionKey": "E5DEC1C078C14E27A5FE8A9D0852A4C5:LigwbpAOIj6Fhmx26rH+b9j89G0/CDqk+4AiLiF+NLM=:Wrap_FreeDrive",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Wrap_FreeDrive.DA_Featured_Wrap_FreeDrive"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaItemWrap:wrap_freedrive",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/OfferCatalog/NewDisplayAssets/S31/DAv2_Wrap_FreeDrive.DAv2_Wrap_FreeDrive"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "GhostRiDurrr.98"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "GhostRiDurrr"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaItemWrap:wrap_freedrive"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/wraps/flame-broiled-0e81e11c"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#290F07"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#824100"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#824100"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-09-19T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-09-25T23:59:59.999Z"
+                        },
+                        {
+                            "key": "EncryptionKey",
+                            "value": "E5DEC1C078C14E27A5FE8A9D0852A4C5:LigwbpAOIj6Fhmx26rH+b9j89G0/CDqk+4AiLiF+NLM=:Wrap_FreeDrive"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Wrap_FreeDrive.DA_Featured_Wrap_FreeDrive",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaItemWrap:wrap_freedrive",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -3,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -26496,6 +26526,119 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x Cat's Tracks for 500 MtxCurrency",
+                    "offerId": "v2:/06228bceb63a8d4e38abb07e2032aeea174ae3a7deb941707f76a5ec0f8da7a8",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S31/DAv2_Wrap_SweetLetter.DAv2_Wrap_SweetLetter",
+                        "LayoutId": "BlackCat.98",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "BlackCat",
+                        "templateId": "AthenaItemWrap:wrap_sweetletter",
+                        "webURL": "/item-shop/wraps/cats-tracks-12f69150",
+                        "color1": "#E1E7F3",
+                        "color2": "#858DAD",
+                        "textBackgroundColor": "#858DAD",
+                        "inDate": "2024-09-14T00:00:00.000Z",
+                        "outDate": "2024-09-20T23:59:59.999Z",
+                        "EncryptionKey": "664AE10E66BFDC167AE20432295E8F7F:MA5EHgSc3+WIzYlG5t0Mfc4sosVF5TnVDCTKcG5KyL0=:Wrap_SweetLetter",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Wrap_SweetLetter.DA_Featured_Wrap_SweetLetter"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaItemWrap:wrap_sweetletter",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/S31/DAv2_Wrap_SweetLetter.DAv2_Wrap_SweetLetter"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "BlackCat.98"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "BlackCat"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaItemWrap:wrap_sweetletter"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/wraps/cats-tracks-12f69150"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#E1E7F3"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#858DAD"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#858DAD"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-09-14T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-09-20T23:59:59.999Z"
+                        },
+                        {
+                            "key": "EncryptionKey",
+                            "value": "664AE10E66BFDC167AE20432295E8F7F:MA5EHgSc3+WIzYlG5t0Mfc4sosVF5TnVDCTKcG5KyL0=:Wrap_SweetLetter"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Wrap_SweetLetter.DA_Featured_Wrap_SweetLetter",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaItemWrap:wrap_sweetletter",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -3,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Shiver, 1 x Ice Wings for 1500 MtxCurrency",
                     "offerId": "v2:/a5a202eb63d4655e3987221f146ff60a5b2432902722111b218f4fcb180fb801",
                     "fulfillmentIds": [],
@@ -26613,119 +26756,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Cat's Tracks for 500 MtxCurrency",
-                    "offerId": "v2:/06228bceb63a8d4e38abb07e2032aeea174ae3a7deb941707f76a5ec0f8da7a8",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S31/DAv2_Wrap_SweetLetter.DAv2_Wrap_SweetLetter",
-                        "LayoutId": "BlackCat.98",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "BlackCat",
-                        "templateId": "AthenaItemWrap:wrap_sweetletter",
-                        "webURL": "/item-shop/wraps/cats-tracks-12f69150",
-                        "color1": "#E1E7F3",
-                        "color2": "#858DAD",
-                        "textBackgroundColor": "#858DAD",
-                        "inDate": "2024-09-14T00:00:00.000Z",
-                        "outDate": "2024-09-20T23:59:59.999Z",
-                        "EncryptionKey": "664AE10E66BFDC167AE20432295E8F7F:MA5EHgSc3+WIzYlG5t0Mfc4sosVF5TnVDCTKcG5KyL0=:Wrap_SweetLetter",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Wrap_SweetLetter.DA_Featured_Wrap_SweetLetter"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaItemWrap:wrap_sweetletter",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S31/DAv2_Wrap_SweetLetter.DAv2_Wrap_SweetLetter"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "BlackCat.98"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "BlackCat"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaItemWrap:wrap_sweetletter"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/wraps/cats-tracks-12f69150"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#E1E7F3"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#858DAD"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#858DAD"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-09-14T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-09-20T23:59:59.999Z"
-                        },
-                        {
-                            "key": "EncryptionKey",
-                            "value": "664AE10E66BFDC167AE20432295E8F7F:MA5EHgSc3+WIzYlG5t0Mfc4sosVF5TnVDCTKcG5KyL0=:Wrap_SweetLetter"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Wrap_SweetLetter.DA_Featured_Wrap_SweetLetter",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaItemWrap:wrap_sweetletter",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -3,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -26907,7 +26937,7 @@
                         "LayoutId": "Tron.98",
                         "TileSize": "Size_1_x_1",
                         "AnalyticOfferGroupId": "Tron",
-                        "bundleId": "DynamicBundle:cid_a_016_athena_commando_m_mainframe_e_kpzjl",
+                        "bundleId": "DynamicBundle:cid_a_016_athena_commando_m_mainframe_e_kpzjl_f",
                         "webURL": "/item-shop/outfits/packet-735153c5",
                         "color1": "#007599",
                         "color2": "#054670",
@@ -26956,7 +26986,7 @@
                         },
                         {
                             "key": "bundleId",
-                            "value": "DynamicBundle:cid_a_016_athena_commando_m_mainframe_e_kpzjl"
+                            "value": "DynamicBundle:cid_a_016_athena_commando_m_mainframe_e_kpzjl_f"
                         },
                         {
                             "key": "webURL",
@@ -30143,6 +30173,8 @@
                         "color2": "#1eb076",
                         "color3": "#003659",
                         "textBackgroundColor": "#003659",
+                        "ViolatorTag": "New",
+                        "ViolatorIntensity": "High",
                         "inDate": "2024-09-20T00:00:00.000Z",
                         "outDate": "2024-09-26T23:59:59.999Z",
                         "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Character_ClawedRaven.DA_Featured_Character_ClawedRaven"
@@ -30210,6 +30242,14 @@
                         {
                             "key": "textBackgroundColor",
                             "value": "#003659"
+                        },
+                        {
+                            "key": "ViolatorTag",
+                            "value": "New"
+                        },
+                        {
+                            "key": "ViolatorIntensity",
+                            "value": "High"
                         },
                         {
                             "key": "inDate",
@@ -34743,119 +34783,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Googly Plume for 500 MtxCurrency",
-                    "offerId": "v2:/5e93a4604584294b168c7798d422c48fae203ad33744d2c20b8dcdc5296068c5",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S31/DAv2_Wrap_SunnySquawk.DAv2_Wrap_SunnySquawk",
-                        "LayoutId": "FlockedTogether.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "FlockedTogether",
-                        "templateId": "AthenaItemWrap:wrap_sunnysquawk",
-                        "webURL": "/item-shop/wraps/googly-plume-6f74f672",
-                        "color1": "#00bace",
-                        "color2": "#1eb076",
-                        "color3": "#003659",
-                        "textBackgroundColor": "#003659",
-                        "inDate": "2024-09-20T00:00:00.000Z",
-                        "outDate": "2024-09-26T23:59:59.999Z",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Wrap_SunnySquawk.DA_Featured_Wrap_SunnySquawk"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaItemWrap:wrap_sunnysquawk",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/OfferCatalog/NewDisplayAssets/S31/DAv2_Wrap_SunnySquawk.DAv2_Wrap_SunnySquawk"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "FlockedTogether.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "FlockedTogether"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaItemWrap:wrap_sunnysquawk"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/wraps/googly-plume-6f74f672"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#00bace"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#1eb076"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#003659"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#003659"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-09-20T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-09-26T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Wrap_SunnySquawk.DA_Featured_Wrap_SunnySquawk",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaItemWrap:wrap_sunnysquawk",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -2,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x The Hills for 500 MtxCurrency",
                     "offerId": "v2:/6738a7a9a1874730673c7a9997434e97a30ede22a38508d56ec962e983f1cee8",
                     "fulfillmentIds": [],
@@ -34969,6 +34896,129 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -193,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Googly Plume for 500 MtxCurrency",
+                    "offerId": "v2:/5e93a4604584294b168c7798d422c48fae203ad33744d2c20b8dcdc5296068c5",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S31/DAv2_Wrap_SunnySquawk.DAv2_Wrap_SunnySquawk",
+                        "LayoutId": "FlockedTogether.97",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "FlockedTogether",
+                        "templateId": "AthenaItemWrap:wrap_sunnysquawk",
+                        "webURL": "/item-shop/wraps/googly-plume-6f74f672",
+                        "color1": "#00bace",
+                        "color2": "#1eb076",
+                        "color3": "#003659",
+                        "textBackgroundColor": "#003659",
+                        "ViolatorTag": "New",
+                        "ViolatorIntensity": "High",
+                        "inDate": "2024-09-20T00:00:00.000Z",
+                        "outDate": "2024-09-26T23:59:59.999Z",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Wrap_SunnySquawk.DA_Featured_Wrap_SunnySquawk"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaItemWrap:wrap_sunnysquawk",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/OfferCatalog/NewDisplayAssets/S31/DAv2_Wrap_SunnySquawk.DAv2_Wrap_SunnySquawk"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "FlockedTogether.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "FlockedTogether"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaItemWrap:wrap_sunnysquawk"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/wraps/googly-plume-6f74f672"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#00bace"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#1eb076"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#003659"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#003659"
+                        },
+                        {
+                            "key": "ViolatorTag",
+                            "value": "New"
+                        },
+                        {
+                            "key": "ViolatorIntensity",
+                            "value": "High"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-09-20T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-09-26T23:59:59.999Z"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Wrap_SunnySquawk.DA_Featured_Wrap_SunnySquawk",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaItemWrap:wrap_sunnysquawk",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -2,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -36248,117 +36298,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Rainbow Royale 2021 for 0 MtxCurrency",
-                    "offerId": "v2:/18ca14ee28e37d5c37af0cdff6999e239602c2f72c52b5c821f352f2de0383e9",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 0,
-                            "dynamicRegularPrice": 0,
-                            "finalPrice": 0,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 0
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_LSID_478_RainbowRoyale_Art.DAv2_LSID_478_RainbowRoyale_Art",
-                        "LayoutId": "RainbowRoyale.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "RainbowRoyale",
-                        "templateId": "AthenaLoadingScreen:lsid_478_rainbowroyale_art",
-                        "webURL": "/item-shop/loading-screens/rainbow-royale-2021-d917f95f",
-                        "color1": "#710094",
-                        "color2": "#4e006e",
-                        "color3": "#2d004a",
-                        "textBackgroundColor": "#2d004a",
-                        "inDate": "2024-09-18T00:00:00.000Z",
-                        "outDate": "2024-09-24T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaLoadingScreen:lsid_478_rainbowroyale_art",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_LSID_478_RainbowRoyale_Art.DAv2_LSID_478_RainbowRoyale_Art"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "RainbowRoyale.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "RainbowRoyale"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaLoadingScreen:lsid_478_rainbowroyale_art"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/loading-screens/rainbow-royale-2021-d917f95f"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#710094"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#4e006e"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#2d004a"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#2d004a"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-09-18T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-09-24T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaLoadingScreen:lsid_478_rainbowroyale_art",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -2,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x When I Come Around for 500 MtxCurrency",
                     "offerId": "v2:/f073b13406dae46cf4ada5d00a0926ad879eeb90fa81f9486ae8b030fd846a6f",
                     "fulfillmentIds": [],
@@ -36472,6 +36411,117 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -220,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Rainbow Royale 2021 for 0 MtxCurrency",
+                    "offerId": "v2:/18ca14ee28e37d5c37af0cdff6999e239602c2f72c52b5c821f352f2de0383e9",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 0,
+                            "dynamicRegularPrice": 0,
+                            "finalPrice": 0,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 0
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_LSID_478_RainbowRoyale_Art.DAv2_LSID_478_RainbowRoyale_Art",
+                        "LayoutId": "RainbowRoyale.97",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "RainbowRoyale",
+                        "templateId": "AthenaLoadingScreen:lsid_478_rainbowroyale_art",
+                        "webURL": "/item-shop/loading-screens/rainbow-royale-2021-d917f95f",
+                        "color1": "#710094",
+                        "color2": "#4e006e",
+                        "color3": "#2d004a",
+                        "textBackgroundColor": "#2d004a",
+                        "inDate": "2024-09-18T00:00:00.000Z",
+                        "outDate": "2024-09-24T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaLoadingScreen:lsid_478_rainbowroyale_art",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_LSID_478_RainbowRoyale_Art.DAv2_LSID_478_RainbowRoyale_Art"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "RainbowRoyale.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "RainbowRoyale"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaLoadingScreen:lsid_478_rainbowroyale_art"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/loading-screens/rainbow-royale-2021-d917f95f"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#710094"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#4e006e"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#2d004a"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#2d004a"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-09-18T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-09-24T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaLoadingScreen:lsid_478_rainbowroyale_art",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -2,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -38494,240 +38544,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Paulie Featherface, 1 x Captain Talon, 1 x Corvus, 1 x Parrot Packer, 1 x Aerie's Attach\u00e9, 1 x Ravening Roostbag, 1 x Polly Pointybeak, 1 x Googly Plume, 1 x Bleakest Pinfeathers for -1 MtxCurrency",
-                    "offerId": "v2:/43046e49280fe83f844e85621917913a89fafce7a6ab7f42ca724aedda643921",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [],
-                    "dynamicBundleInfo": {
-                        "discountedBasePrice": -2400,
-                        "regularBasePrice": 0,
-                        "floorPrice": 200,
-                        "currencyType": "MtxCurrency",
-                        "currencySubType": "",
-                        "displayType": "AmountOff",
-                        "bundleItems": [
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 1200,
-                                "discountedPrice": 1200,
-                                "alreadyOwnedPriceReduction": 1200,
-                                "item": {
-                                    "templateId": "AthenaCharacter:character_sunnysquawk",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 1200,
-                                "discountedPrice": 1200,
-                                "alreadyOwnedPriceReduction": 1200,
-                                "item": {
-                                    "templateId": "AthenaCharacter:character_buffbeak",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 1200,
-                                "discountedPrice": 1200,
-                                "alreadyOwnedPriceReduction": 1200,
-                                "item": {
-                                    "templateId": "AthenaCharacter:character_clawedraven",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 0,
-                                "discountedPrice": 0,
-                                "alreadyOwnedPriceReduction": 0,
-                                "item": {
-                                    "templateId": "AthenaBackpack:backpack_sunnysquawk",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 0,
-                                "discountedPrice": 0,
-                                "alreadyOwnedPriceReduction": 0,
-                                "item": {
-                                    "templateId": "AthenaBackpack:backpack_buffbeak",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 0,
-                                "discountedPrice": 0,
-                                "alreadyOwnedPriceReduction": 0,
-                                "item": {
-                                    "templateId": "AthenaBackpack:backpack_clawedraven",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 800,
-                                "discountedPrice": 800,
-                                "alreadyOwnedPriceReduction": 800,
-                                "item": {
-                                    "templateId": "AthenaPickaxe:pickaxe_sunnysquawk",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 500,
-                                "discountedPrice": 500,
-                                "alreadyOwnedPriceReduction": 500,
-                                "item": {
-                                    "templateId": "AthenaItemWrap:wrap_sunnysquawk",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 500,
-                                "discountedPrice": 500,
-                                "alreadyOwnedPriceReduction": 500,
-                                "item": {
-                                    "templateId": "AthenaItemWrap:wrap_clawedraven",
-                                    "quantity": 1
-                                }
-                            }
-                        ]
-                    },
-                    "meta": {
-                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S31/DAv2_Bundle_Featured_Flocked.DAv2_Bundle_Featured_Flocked",
-                        "bundleId": "DynamicBundle:b_flocked",
-                        "LayoutId": "FlockedTogether.99",
-                        "TileSize": "Size_4_x_1",
-                        "AnalyticOfferGroupId": "FlockedTogether",
-                        "templateId": "DynamicBundle:b_flocked",
-                        "webURL": "/item-shop/bundles/flocked-together-bundle-a3df3c57",
-                        "color1": "#00bace",
-                        "color2": "#1eb076",
-                        "color3": "#003659",
-                        "textBackgroundColor": "#003659",
-                        "inDate": "2024-09-20T00:00:00.000Z",
-                        "outDate": "2024-09-26T23:59:59.999Z",
-                        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_Flocked_Bundle.DA_Featured_Flocked_Bundle"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [],
-                    "offerType": "DynamicBundle",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/OfferCatalog/NewDisplayAssets/S31/DAv2_Bundle_Featured_Flocked.DAv2_Bundle_Featured_Flocked"
-                        },
-                        {
-                            "key": "bundleId",
-                            "value": "DynamicBundle:b_flocked"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "FlockedTogether.99"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_4_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "FlockedTogether"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "DynamicBundle:b_flocked"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/bundles/flocked-together-bundle-a3df3c57"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#00bace"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#1eb076"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#003659"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#003659"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-09-20T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-09-26T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_Flocked_Bundle.DA_Featured_Flocked_Bundle",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaCharacter:character_sunnysquawk",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaCharacter:character_buffbeak",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaCharacter:character_clawedraven",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaBackpack:backpack_sunnysquawk",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaBackpack:backpack_buffbeak",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaBackpack:backpack_clawedraven",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaPickaxe:pickaxe_sunnysquawk",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaItemWrap:wrap_sunnysquawk",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaItemWrap:wrap_clawedraven",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x Feel Good Inc for 500 MtxCurrency",
                     "offerId": "v2:/2c79db0a78b5522a5dd390a68178cc93b5f7be6b1928ab69b1cfa6d34e768cb3",
                     "fulfillmentIds": [],
@@ -39073,6 +38889,250 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -142,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Paulie Featherface, 1 x Captain Talon, 1 x Corvus, 1 x Parrot Packer, 1 x Aerie's Attach\u00e9, 1 x Ravening Roostbag, 1 x Polly Pointybeak, 1 x Googly Plume, 1 x Bleakest Pinfeathers for -1 MtxCurrency",
+                    "offerId": "v2:/43046e49280fe83f844e85621917913a89fafce7a6ab7f42ca724aedda643921",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [],
+                    "dynamicBundleInfo": {
+                        "discountedBasePrice": -2400,
+                        "regularBasePrice": 0,
+                        "floorPrice": 200,
+                        "currencyType": "MtxCurrency",
+                        "currencySubType": "",
+                        "displayType": "AmountOff",
+                        "bundleItems": [
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 1200,
+                                "discountedPrice": 1200,
+                                "alreadyOwnedPriceReduction": 1200,
+                                "item": {
+                                    "templateId": "AthenaCharacter:character_sunnysquawk",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 1200,
+                                "discountedPrice": 1200,
+                                "alreadyOwnedPriceReduction": 1200,
+                                "item": {
+                                    "templateId": "AthenaCharacter:character_buffbeak",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 1200,
+                                "discountedPrice": 1200,
+                                "alreadyOwnedPriceReduction": 1200,
+                                "item": {
+                                    "templateId": "AthenaCharacter:character_clawedraven",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 0,
+                                "discountedPrice": 0,
+                                "alreadyOwnedPriceReduction": 0,
+                                "item": {
+                                    "templateId": "AthenaBackpack:backpack_sunnysquawk",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 0,
+                                "discountedPrice": 0,
+                                "alreadyOwnedPriceReduction": 0,
+                                "item": {
+                                    "templateId": "AthenaBackpack:backpack_buffbeak",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 0,
+                                "discountedPrice": 0,
+                                "alreadyOwnedPriceReduction": 0,
+                                "item": {
+                                    "templateId": "AthenaBackpack:backpack_clawedraven",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 800,
+                                "discountedPrice": 800,
+                                "alreadyOwnedPriceReduction": 800,
+                                "item": {
+                                    "templateId": "AthenaPickaxe:pickaxe_sunnysquawk",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 500,
+                                "discountedPrice": 500,
+                                "alreadyOwnedPriceReduction": 500,
+                                "item": {
+                                    "templateId": "AthenaItemWrap:wrap_sunnysquawk",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 500,
+                                "discountedPrice": 500,
+                                "alreadyOwnedPriceReduction": 500,
+                                "item": {
+                                    "templateId": "AthenaItemWrap:wrap_clawedraven",
+                                    "quantity": 1
+                                }
+                            }
+                        ]
+                    },
+                    "meta": {
+                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S31/DAv2_Bundle_Featured_Flocked.DAv2_Bundle_Featured_Flocked",
+                        "bundleId": "DynamicBundle:b_flocked",
+                        "LayoutId": "FlockedTogether.99",
+                        "TileSize": "Size_4_x_1",
+                        "AnalyticOfferGroupId": "FlockedTogether",
+                        "templateId": "DynamicBundle:b_flocked",
+                        "webURL": "/item-shop/bundles/flocked-together-bundle-a3df3c57",
+                        "color1": "#00bace",
+                        "color2": "#1eb076",
+                        "color3": "#003659",
+                        "textBackgroundColor": "#003659",
+                        "ViolatorTag": "New",
+                        "ViolatorIntensity": "High",
+                        "inDate": "2024-09-20T00:00:00.000Z",
+                        "outDate": "2024-09-26T23:59:59.999Z",
+                        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_Flocked_Bundle.DA_Featured_Flocked_Bundle"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [],
+                    "offerType": "DynamicBundle",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/OfferCatalog/NewDisplayAssets/S31/DAv2_Bundle_Featured_Flocked.DAv2_Bundle_Featured_Flocked"
+                        },
+                        {
+                            "key": "bundleId",
+                            "value": "DynamicBundle:b_flocked"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "FlockedTogether.99"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_4_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "FlockedTogether"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "DynamicBundle:b_flocked"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/bundles/flocked-together-bundle-a3df3c57"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#00bace"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#1eb076"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#003659"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#003659"
+                        },
+                        {
+                            "key": "ViolatorTag",
+                            "value": "New"
+                        },
+                        {
+                            "key": "ViolatorIntensity",
+                            "value": "High"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-09-20T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-09-26T23:59:59.999Z"
+                        }
+                    ],
+                    "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_Flocked_Bundle.DA_Featured_Flocked_Bundle",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaCharacter:character_sunnysquawk",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaCharacter:character_buffbeak",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaCharacter:character_clawedraven",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaBackpack:backpack_sunnysquawk",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaBackpack:backpack_buffbeak",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaBackpack:backpack_clawedraven",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaPickaxe:pickaxe_sunnysquawk",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaItemWrap:wrap_sunnysquawk",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaItemWrap:wrap_clawedraven",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -1,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -40759,7 +40819,7 @@
                         "LayoutId": "Tron.99",
                         "TileSize": "Size_1_x_1",
                         "AnalyticOfferGroupId": "Tron",
-                        "bundleId": "DynamicBundle:cid_a_018_athena_commando_f_mainframe_b_t6gy4",
+                        "bundleId": "DynamicBundle:cid_a_018_athena_commando_f_mainframe_b_t6gy4_f",
                         "webURL": "/item-shop/outfits/commandline-3f1d2084",
                         "color1": "#007599",
                         "color2": "#054670",
@@ -40808,7 +40868,7 @@
                         },
                         {
                             "key": "bundleId",
-                            "value": "DynamicBundle:cid_a_018_athena_commando_f_mainframe_b_t6gy4"
+                            "value": "DynamicBundle:cid_a_018_athena_commando_f_mainframe_b_t6gy4_f"
                         },
                         {
                             "key": "webURL",
@@ -42803,6 +42863,8 @@
                         "color2": "#1eb076",
                         "color3": "#003659",
                         "textBackgroundColor": "#003659",
+                        "ViolatorTag": "New",
+                        "ViolatorIntensity": "High",
                         "inDate": "2024-09-20T00:00:00.000Z",
                         "outDate": "2024-09-26T23:59:59.999Z",
                         "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Pickaxe_SunnySquawk.DA_Featured_Pickaxe_SunnySquawk"
@@ -42865,6 +42927,14 @@
                         {
                             "key": "textBackgroundColor",
                             "value": "#003659"
+                        },
+                        {
+                            "key": "ViolatorTag",
+                            "value": "New"
+                        },
+                        {
+                            "key": "ViolatorIntensity",
+                            "value": "High"
                         },
                         {
                             "key": "inDate",
