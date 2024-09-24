@@ -3,7 +3,7 @@
         "standalone-store": {
             "states": [
                 {
-                    "validFrom": "2024-09-24T13:07:57.702Z",
+                    "validFrom": "2024-09-24T13:29:04.634Z",
                     "activeEvents": [],
                     "state": {
                         "activePurchaseLimitingEventIds": [],
@@ -13,12 +13,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-09-24T15:07:57.702Z"
+            "cacheExpire": "2024-09-24T15:29:04.634Z"
         },
         "client-matchmaking": {
             "states": [
                 {
-                    "validFrom": "2024-09-24T13:07:57.702Z",
+                    "validFrom": "2024-09-24T13:29:04.634Z",
                     "activeEvents": [],
                     "state": {
                         "region": {
@@ -164,24 +164,24 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-09-24T15:07:57.702Z"
+            "cacheExpire": "2024-09-24T15:29:04.634Z"
         },
         "tk": {
             "states": [
                 {
-                    "validFrom": "2024-09-24T13:07:57.702Z",
+                    "validFrom": "2024-09-24T13:29:04.634Z",
                     "activeEvents": [],
                     "state": {
                         "k": []
                     }
                 }
             ],
-            "cacheExpire": "2024-09-24T15:07:57.702Z"
+            "cacheExpire": "2024-09-24T15:29:04.634Z"
         },
         "featured-islands": {
             "states": [
                 {
-                    "validFrom": "2024-09-24T13:07:57.702Z",
+                    "validFrom": "2024-09-24T13:29:04.634Z",
                     "activeEvents": [],
                     "state": {
                         "islandCodes": [],
@@ -191,12 +191,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-09-24T15:07:57.702Z"
+            "cacheExpire": "2024-09-24T15:29:04.634Z"
         },
         "community-votes": {
             "states": [
                 {
-                    "validFrom": "2024-09-24T13:07:57.702Z",
+                    "validFrom": "2024-09-24T13:29:04.634Z",
                     "activeEvents": [],
                     "state": {
                         "electionId": "",
@@ -206,12 +206,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-09-24T15:07:57.702Z"
+            "cacheExpire": "2024-09-24T15:29:04.634Z"
         },
         "client-events": {
             "states": [
                 {
-                    "validFrom": "2024-09-24T13:07:57.702Z",
+                    "validFrom": "2024-09-24T13:29:04.634Z",
                     "activeEvents": [
                         {
                             "eventType": "EventFlag.Event_DelMar_Season01_Dailies",
@@ -232,6 +232,11 @@
                             "eventType": "EventFlag.Event_Juno_FTUE_V2",
                             "activeUntil": "2025-07-22T08:00:00.000Z",
                             "activeSince": "2024-06-22T05:00:00.000Z"
+                        },
+                        {
+                            "eventType": "EventFlag.Event_S30_BlastBerryQuests",
+                            "activeUntil": "2024-12-02T07:00:00.000Z",
+                            "activeSince": "2024-06-22T18:05:00.000Z"
                         },
                         {
                             "eventType": "EventFlag.Event_DelMar_Inferno",
@@ -410,8 +415,8 @@
                         },
                         {
                             "eventType": "EventFlag.Event_S31_ToadJam",
-                            "activeUntil": "2024-10-04T14:00:00.000Z",
-                            "activeSince": "2024-09-17T13:00:00.000Z"
+                            "activeUntil": "2024-10-04T13:00:00.000Z",
+                            "activeSince": "2024-09-17T12:00:00.000Z"
                         },
                         {
                             "eventType": "EventFlag.Season11.Fortnitemares.Quests.Phase2",
@@ -535,6 +540,11 @@
                         },
                         {
                             "eventType": "EventFlag.Event_S31_RankedScythe",
+                            "activeUntil": "2024-12-09T14:00:00.000Z",
+                            "activeSince": "2024-09-24T13:00:00.000Z"
+                        },
+                        {
+                            "eventType": "EventFlag.Event_S31_RankedScytheGranter ",
                             "activeUntil": "2024-11-11T14:00:00.000Z",
                             "activeSince": "2024-09-24T13:00:00.000Z"
                         }
@@ -574,6 +584,14 @@
                                 "eventStart": "2024-06-22T05:00:00Z",
                                 "eventEnd": "2025-07-22T08:00:00Z",
                                 "eventType": "EventFlag.Event_Juno_FTUE_V2"
+                            },
+                            {
+                                "instanceId": "17rlku68mhoujagmm03qbrmivc[2]0",
+                                "devName": "Event_S30_BlastBerryQuests",
+                                "eventName": "CalendarEvent_S30_BlastBerryQuests",
+                                "eventStart": "2024-06-22T18:05:00Z",
+                                "eventEnd": "2024-12-02T07:00:00Z",
+                                "eventType": "EventFlag.Event_S30_BlastBerryQuests"
                             },
                             {
                                 "instanceId": "78dienc5559ave48k2v4htfujr[2]0",
@@ -683,8 +701,8 @@
                                 "instanceId": "7ndajeil9kqkedm0tkaidiq379[2]0",
                                 "devName": "Event_S31_ToadJam",
                                 "eventName": "CalendarEvent_S31_ToadJam",
-                                "eventStart": "2024-09-17T13:00:00Z",
-                                "eventEnd": "2024-10-04T14:00:00Z",
+                                "eventStart": "2024-09-17T12:00:00Z",
+                                "eventEnd": "2024-10-04T13:00:00Z",
                                 "eventType": "EventFlag.Event_S31_ToadJam"
                             },
                             {
@@ -704,12 +722,20 @@
                                 "eventType": "EventFlag.Event_S31_Birthday"
                             },
                             {
-                                "instanceId": "653est4evkgtmq7jgr9ercgbn4[2]0",
+                                "instanceId": "67nj2k1dcjcksc362m2rhbkmeh[2]0",
                                 "devName": "Event_S31_RankedScythe",
                                 "eventName": "CalendarEvent_S31_RankedScythe",
                                 "eventStart": "2024-09-24T13:00:00Z",
-                                "eventEnd": "2024-11-11T14:00:00Z",
+                                "eventEnd": "2024-12-09T14:00:00Z",
                                 "eventType": "EventFlag.Event_S31_RankedScythe"
+                            },
+                            {
+                                "instanceId": "653est4evkgtmq7jgr9ercgbn4[2]0",
+                                "devName": "Event_S31_RankedScytheGranter",
+                                "eventName": "CalendarEvent_S31_RankedScytheGranter ",
+                                "eventStart": "2024-09-24T13:00:00Z",
+                                "eventEnd": "2024-11-11T14:00:00Z",
+                                "eventType": "EventFlag.Event_S31_RankedScytheGranter "
                             }
                         ],
                         "seasonNumber": 31,
@@ -728,9 +754,9 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-09-24T15:07:57.702Z"
+            "cacheExpire": "2024-09-24T15:29:04.634Z"
         }
     },
     "cacheIntervalMins": 15,
-    "currentTime": "2024-09-24T13:36:15.237Z"
+    "currentTime": "2024-09-24T13:44:31.045Z"
 }
