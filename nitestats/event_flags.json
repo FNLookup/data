@@ -3,7 +3,7 @@
         "standalone-store": {
             "states": [
                 {
-                    "validFrom": "2024-09-24T20:29:03.012Z",
+                    "validFrom": "2024-09-24T20:44:15.880Z",
                     "activeEvents": [],
                     "state": {
                         "activePurchaseLimitingEventIds": [],
@@ -13,12 +13,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-09-24T22:29:03.012Z"
+            "cacheExpire": "2024-09-24T22:44:15.880Z"
         },
         "client-matchmaking": {
             "states": [
                 {
-                    "validFrom": "2024-09-24T20:29:03.012Z",
+                    "validFrom": "2024-09-24T20:44:15.880Z",
                     "activeEvents": [],
                     "state": {
                         "region": {
@@ -92,24 +92,24 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-09-24T22:29:03.012Z"
+            "cacheExpire": "2024-09-24T22:44:15.880Z"
         },
         "tk": {
             "states": [
                 {
-                    "validFrom": "2024-09-24T20:29:03.012Z",
+                    "validFrom": "2024-09-24T20:44:15.880Z",
                     "activeEvents": [],
                     "state": {
                         "k": []
                     }
                 }
             ],
-            "cacheExpire": "2024-09-24T22:29:03.012Z"
+            "cacheExpire": "2024-09-24T22:44:15.880Z"
         },
         "featured-islands": {
             "states": [
                 {
-                    "validFrom": "2024-09-24T20:29:03.012Z",
+                    "validFrom": "2024-09-24T20:44:15.880Z",
                     "activeEvents": [],
                     "state": {
                         "islandCodes": [],
@@ -119,12 +119,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-09-24T22:29:03.012Z"
+            "cacheExpire": "2024-09-24T22:44:15.880Z"
         },
         "community-votes": {
             "states": [
                 {
-                    "validFrom": "2024-09-24T20:29:03.012Z",
+                    "validFrom": "2024-09-24T20:44:15.880Z",
                     "activeEvents": [],
                     "state": {
                         "electionId": "",
@@ -134,12 +134,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-09-24T22:29:03.012Z"
+            "cacheExpire": "2024-09-24T22:44:15.880Z"
         },
         "client-events": {
             "states": [
                 {
-                    "validFrom": "2024-09-24T20:29:03.012Z",
+                    "validFrom": "2024-09-24T20:44:15.880Z",
                     "activeEvents": [
                         {
                             "eventType": "EventFlag.Event_DelMar_Season01_Dailies",
@@ -475,6 +475,11 @@
                             "eventType": "EventFlag.Event_S31_RankedScytheGranter ",
                             "activeUntil": "2024-11-11T14:00:00.000Z",
                             "activeSince": "2024-09-24T13:00:00.000Z"
+                        },
+                        {
+                            "eventType": "EventFlag.Event_S31_RankedScytheGranter_DuplicateFix",
+                            "activeUntil": "2024-11-11T14:00:00.000Z",
+                            "activeSince": "2024-09-24T13:00:00.000Z"
                         }
                     ],
                     "state": {
@@ -664,6 +669,14 @@
                                 "eventStart": "2024-09-24T13:00:00Z",
                                 "eventEnd": "2024-11-11T14:00:00Z",
                                 "eventType": "EventFlag.Event_S31_RankedScytheGranter "
+                            },
+                            {
+                                "instanceId": "1edeabr2gbnf3ghej3bkrt5kmu[2]0",
+                                "devName": "Event_S31_RankedScytheGranter_DuplicateFix",
+                                "eventName": "CalendarEvent_S31_RankedScytheGranterDuplicateFix",
+                                "eventStart": "2024-09-24T13:00:00Z",
+                                "eventEnd": "2024-11-11T14:00:00Z",
+                                "eventType": "EventFlag.Event_S31_RankedScytheGranterDuplicateFix"
                             }
                         ],
                         "seasonNumber": 31,
@@ -682,9 +695,9 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-09-24T22:29:03.012Z"
+            "cacheExpire": "2024-09-24T22:44:15.880Z"
         }
     },
     "cacheIntervalMins": 15,
-    "currentTime": "2024-09-24T20:54:01.228Z"
+    "currentTime": "2024-09-24T21:08:31.161Z"
 }
