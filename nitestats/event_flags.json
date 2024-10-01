@@ -3,7 +3,7 @@
         "standalone-store": {
             "states": [
                 {
-                    "validFrom": "2024-10-01T08:07:06.256Z",
+                    "validFrom": "2024-10-01T08:31:51.878Z",
                     "activeEvents": [],
                     "state": {
                         "activePurchaseLimitingEventIds": [],
@@ -13,12 +13,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-10-01T10:07:06.256Z"
+            "cacheExpire": "2024-10-01T10:31:51.878Z"
         },
         "client-matchmaking": {
             "states": [
                 {
-                    "validFrom": "2024-10-01T08:07:06.256Z",
+                    "validFrom": "2024-10-01T08:31:51.878Z",
                     "activeEvents": [],
                     "state": {
                         "region": {
@@ -90,24 +90,24 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-10-01T10:07:06.256Z"
+            "cacheExpire": "2024-10-01T10:31:51.878Z"
         },
         "tk": {
             "states": [
                 {
-                    "validFrom": "2024-10-01T08:07:06.256Z",
+                    "validFrom": "2024-10-01T08:31:51.878Z",
                     "activeEvents": [],
                     "state": {
                         "k": []
                     }
                 }
             ],
-            "cacheExpire": "2024-10-01T10:07:06.256Z"
+            "cacheExpire": "2024-10-01T10:31:51.878Z"
         },
         "featured-islands": {
             "states": [
                 {
-                    "validFrom": "2024-10-01T08:07:06.256Z",
+                    "validFrom": "2024-10-01T08:31:51.878Z",
                     "activeEvents": [],
                     "state": {
                         "islandCodes": [],
@@ -117,12 +117,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-10-01T10:07:06.256Z"
+            "cacheExpire": "2024-10-01T10:31:51.878Z"
         },
         "community-votes": {
             "states": [
                 {
-                    "validFrom": "2024-10-01T08:07:06.256Z",
+                    "validFrom": "2024-10-01T08:31:51.878Z",
                     "activeEvents": [],
                     "state": {
                         "electionId": "",
@@ -132,12 +132,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-10-01T10:07:06.256Z"
+            "cacheExpire": "2024-10-01T10:31:51.878Z"
         },
         "client-events": {
             "states": [
                 {
-                    "validFrom": "2024-10-01T08:07:06.256Z",
+                    "validFrom": "2024-10-01T08:31:51.878Z",
                     "activeEvents": [
                         {
                             "eventType": "EventFlag.Event_DelMar_Season01_Dailies",
@@ -453,6 +453,11 @@
                             "eventType": "PilgrimSong.espresso",
                             "activeUntil": "2024-10-02T00:00:00.000Z",
                             "activeSince": "2024-10-01T00:00:00.000Z"
+                        },
+                        {
+                            "eventType": "EventFlag.Event_S31_FoundQuests_TroutWrist",
+                            "activeUntil": "2024-10-05T17:00:00.000Z",
+                            "activeSince": "2024-10-01T08:00:00.000Z"
                         }
                     ],
                     "state": {
@@ -634,6 +639,14 @@
                                 "eventStart": "2024-09-26T23:00:00Z",
                                 "eventEnd": "2024-10-03T23:00:00Z",
                                 "eventType": "EventFlag.Event_SparksS05_Week07"
+                            },
+                            {
+                                "instanceId": "799v75iuk5235jlrhtmvcqi6bs[2]0",
+                                "devName": "Event_S31_FoundQuests_TroutWrist",
+                                "eventName": "CalendarEvent_S31_FoundQuests_TroutWrist",
+                                "eventStart": "2024-10-01T08:00:00Z",
+                                "eventEnd": "2024-10-05T17:00:00Z",
+                                "eventType": "EventFlag.Event_S31_FoundQuests_TroutWrist"
                             }
                         ],
                         "seasonNumber": 31,
@@ -652,9 +665,9 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-10-01T10:07:06.256Z"
+            "cacheExpire": "2024-10-01T10:31:51.878Z"
         }
     },
     "cacheIntervalMins": 15,
-    "currentTime": "2024-10-01T08:36:15.240Z"
+    "currentTime": "2024-10-01T08:48:55.258Z"
 }
