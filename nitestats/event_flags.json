@@ -3,7 +3,7 @@
         "standalone-store": {
             "states": [
                 {
-                    "validFrom": "2024-10-01T02:05:53.073Z",
+                    "validFrom": "2024-10-01T02:51:27.682Z",
                     "activeEvents": [],
                     "state": {
                         "activePurchaseLimitingEventIds": [],
@@ -13,12 +13,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-10-01T04:05:53.073Z"
+            "cacheExpire": "2024-10-01T04:51:27.682Z"
         },
         "client-matchmaking": {
             "states": [
                 {
-                    "validFrom": "2024-10-01T02:05:53.073Z",
+                    "validFrom": "2024-10-01T02:51:27.682Z",
                     "activeEvents": [],
                     "state": {
                         "region": {
@@ -166,26 +166,100 @@
                             }
                         }
                     }
+                },
+                {
+                    "validFrom": "2024-10-01T05:00:00.000Z",
+                    "activeEvents": [],
+                    "state": {
+                        "region": {
+                            "EU": {
+                                "eventFlagsForcedOn": [
+                                    "playlist_toadjam_sm",
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "BR": {
+                                "eventFlagsForcedOn": [
+                                    "playlist_toadjam_sm"
+                                ],
+                                "eventFlagsForcedOff": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "OCE": {
+                                "eventFlagsForcedOn": [
+                                    "playlist_toadjam_sm",
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "ASIA": {
+                                "eventFlagsForcedOn": [
+                                    "playlist_toadjam_sm"
+                                ],
+                                "eventFlagsForcedOff": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "NA": {
+                                "eventFlagsForcedOn": [
+                                    "playlist_toadjam_sm"
+                                ]
+                            },
+                            "ME": {
+                                "eventFlagsForcedOn": [
+                                    "playlist_toadjam_sm"
+                                ],
+                                "eventFlagsForcedOff": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "NAE": {
+                                "eventFlagsForcedOn": [
+                                    "playlist_toadjam_sm",
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "NAW": {
+                                "eventFlagsForcedOn": [
+                                    "playlist_toadjam_sm",
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "NAC": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            }
+                        }
+                    }
                 }
             ],
-            "cacheExpire": "2024-10-01T04:05:53.073Z"
+            "cacheExpire": "2024-10-01T04:51:27.682Z"
         },
         "tk": {
             "states": [
                 {
-                    "validFrom": "2024-10-01T02:05:53.073Z",
+                    "validFrom": "2024-10-01T02:51:27.682Z",
                     "activeEvents": [],
                     "state": {
                         "k": []
                     }
                 }
             ],
-            "cacheExpire": "2024-10-01T04:05:53.073Z"
+            "cacheExpire": "2024-10-01T04:51:27.682Z"
         },
         "featured-islands": {
             "states": [
                 {
-                    "validFrom": "2024-10-01T02:05:53.073Z",
+                    "validFrom": "2024-10-01T02:51:27.682Z",
                     "activeEvents": [],
                     "state": {
                         "islandCodes": [],
@@ -195,12 +269,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-10-01T04:05:53.073Z"
+            "cacheExpire": "2024-10-01T04:51:27.682Z"
         },
         "community-votes": {
             "states": [
                 {
-                    "validFrom": "2024-10-01T02:05:53.073Z",
+                    "validFrom": "2024-10-01T02:51:27.682Z",
                     "activeEvents": [],
                     "state": {
                         "electionId": "",
@@ -210,12 +284,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-10-01T04:05:53.073Z"
+            "cacheExpire": "2024-10-01T04:51:27.682Z"
         },
         "client-events": {
             "states": [
                 {
-                    "validFrom": "2024-10-01T02:05:53.073Z",
+                    "validFrom": "2024-10-01T02:51:27.682Z",
                     "activeEvents": [
                         {
                             "eventType": "EventFlag.Event_DelMar_Season01_Dailies",
@@ -1276,9 +1350,9 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-10-01T04:05:53.073Z"
+            "cacheExpire": "2024-10-01T04:51:27.682Z"
         }
     },
     "cacheIntervalMins": 15,
-    "currentTime": "2024-10-01T02:21:31.115Z"
+    "currentTime": "2024-10-01T03:09:01.165Z"
 }
