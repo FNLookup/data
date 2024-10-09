@@ -3,7 +3,7 @@
         "standalone-store": {
             "states": [
                 {
-                    "validFrom": "2024-10-09T13:35:34.861Z",
+                    "validFrom": "2024-10-09T13:41:25.585Z",
                     "activeEvents": [],
                     "state": {
                         "activePurchaseLimitingEventIds": [],
@@ -13,12 +13,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-10-09T15:35:34.861Z"
+            "cacheExpire": "2024-10-09T15:41:25.585Z"
         },
         "client-matchmaking": {
             "states": [
                 {
-                    "validFrom": "2024-10-09T13:35:34.861Z",
+                    "validFrom": "2024-10-09T13:41:25.585Z",
                     "activeEvents": [],
                     "state": {
                         "region": {
@@ -130,12 +130,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-10-09T15:35:34.861Z"
+            "cacheExpire": "2024-10-09T15:41:25.585Z"
         },
         "tk": {
             "states": [
                 {
-                    "validFrom": "2024-10-09T13:35:34.861Z",
+                    "validFrom": "2024-10-09T13:41:25.585Z",
                     "activeEvents": [],
                     "state": {
                         "k": [
@@ -146,12 +146,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-10-09T15:35:34.861Z"
+            "cacheExpire": "2024-10-09T15:41:25.585Z"
         },
         "featured-islands": {
             "states": [
                 {
-                    "validFrom": "2024-10-09T13:35:34.861Z",
+                    "validFrom": "2024-10-09T13:41:25.585Z",
                     "activeEvents": [],
                     "state": {
                         "islandCodes": [],
@@ -161,12 +161,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-10-09T15:35:34.861Z"
+            "cacheExpire": "2024-10-09T15:41:25.585Z"
         },
         "community-votes": {
             "states": [
                 {
-                    "validFrom": "2024-10-09T13:35:34.861Z",
+                    "validFrom": "2024-10-09T13:41:25.585Z",
                     "activeEvents": [],
                     "state": {
                         "electionId": "",
@@ -176,12 +176,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-10-09T15:35:34.861Z"
+            "cacheExpire": "2024-10-09T15:41:25.585Z"
         },
         "client-events": {
             "states": [
                 {
-                    "validFrom": "2024-10-09T13:35:34.861Z",
+                    "validFrom": "2024-10-09T13:41:25.585Z",
                     "activeEvents": [
                         {
                             "eventType": "EventFlag.Event_DelMar_Season01_Dailies",
@@ -205,7 +205,7 @@
                         },
                         {
                             "eventType": "EventFlag.Event_S30_BlastBerryQuests",
-                            "activeUntil": "2024-12-02T07:00:00.000Z",
+                            "activeUntil": "2024-11-02T06:00:00.000Z",
                             "activeSince": "2024-06-22T18:05:00.000Z"
                         },
                         {
@@ -244,13 +244,13 @@
                             "activeSince": "2024-08-16T06:15:00.000Z"
                         },
                         {
-                            "eventType": "EventFlag.Event_S31_MobileQuests",
-                            "activeUntil": "2024-11-02T07:00:00.000Z",
+                            "eventType": "EventFlag.Event_S31_UISeasonEnd",
+                            "activeUntil": "2024-11-02T06:00:00.000Z",
                             "activeSince": "2024-08-16T08:00:00.000Z"
                         },
                         {
-                            "eventType": "EventFlag.Event_S31_UISeasonEnd",
-                            "activeUntil": "2024-11-02T06:00:00.000Z",
+                            "eventType": "EventFlag.Event_S31_MobileQuests",
+                            "activeUntil": "2024-12-10T08:00:00.000Z",
                             "activeSince": "2024-08-16T08:00:00.000Z"
                         },
                         {
@@ -545,7 +545,7 @@
                                 "devName": "Event_S30_BlastBerryQuests",
                                 "eventName": "CalendarEvent_S30_BlastBerryQuests",
                                 "eventStart": "2024-06-22T18:05:00Z",
-                                "eventEnd": "2024-12-02T07:00:00Z",
+                                "eventEnd": "2024-11-02T06:00:00Z",
                                 "eventType": "EventFlag.Event_S30_BlastBerryQuests"
                             },
                             {
@@ -597,20 +597,20 @@
                                 "eventType": "EventFlag.Event_S31_BlastBerryQuests"
                             },
                             {
-                                "instanceId": "159dvva3jhg1p8nen38svrj2o4[2]0",
-                                "devName": "Event_S31_MobileQuests",
-                                "eventName": "CalendarEvent_S31_MobileQuests",
-                                "eventStart": "2024-08-16T08:00:00Z",
-                                "eventEnd": "2024-11-02T07:00:00Z",
-                                "eventType": "EventFlag.Event_S31_MobileQuests"
-                            },
-                            {
                                 "instanceId": "58f28mue2p8g3b9q5am6pp643d[2]0",
                                 "devName": "Event_S31_UISeasonEnd",
                                 "eventName": "CalendarEvent_S31_UISeasonEnd",
                                 "eventStart": "2024-08-16T08:00:00Z",
                                 "eventEnd": "2024-11-02T06:00:00Z",
                                 "eventType": "EventFlag.Event_S31_UISeasonEnd"
+                            },
+                            {
+                                "instanceId": "159dvva3jhg1p8nen38svrj2o4[2]0",
+                                "devName": "Event_S31_MobileQuests",
+                                "eventName": "CalendarEvent_S31_MobileQuests",
+                                "eventStart": "2024-08-16T08:00:00Z",
+                                "eventEnd": "2024-12-10T08:00:00Z",
+                                "eventType": "EventFlag.Event_S31_MobileQuests"
                             },
                             {
                                 "instanceId": "151ab16d9gp3uihcbmiv63brd7[2]0",
@@ -709,9 +709,9 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-10-09T15:35:34.861Z"
+            "cacheExpire": "2024-10-09T15:41:25.585Z"
         }
     },
     "cacheIntervalMins": 15,
-    "currentTime": "2024-10-09T13:52:05.248Z"
+    "currentTime": "2024-10-09T14:09:20.322Z"
 }
