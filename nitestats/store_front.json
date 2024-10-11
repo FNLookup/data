@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2024-10-11T10:00:00.000Z",
+    "expiration": "2024-10-11T11:00:00.000Z",
     "storefronts": [
         {
             "name": "WinterQuest2019",
@@ -35451,134 +35451,7 @@
         },
         {
             "name": "JunoButtercakePass",
-            "catalogEntries": [
-                {
-                    "offerId": "13676B7A4D0814FB9127639AD97C25F6",
-                    "devName": "Juno.Event.ButtercakePass.Premium",
-                    "offerType": "StaticPrice",
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 1400,
-                            "dynamicRegularPrice": -1,
-                            "finalPrice": 1400,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 1400
-                        }
-                    ],
-                    "categories": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "refundable": false,
-                    "appStoreId": [
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        ""
-                    ],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnFulfillment",
-                            "requiredId": "08E427BA49E5CB07372BFAB06A589242",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "metaInfo": [
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "BattlePassCrew.1"
-                        },
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S31/DAv2_JunoButtercake_Premium.DAv2_JunoButtercake_Premium"
-                        }
-                    ],
-                    "catalogGroup": "",
-                    "catalogGroupPriority": 0,
-                    "sortPriority": -10,
-                    "title": "",
-                    "shortDescription": "",
-                    "description": "",
-                    "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_JunoButtercake_Premium.DA_JunoButtercake_Premium",
-                    "itemGrants": [
-                        {
-                            "templateId": "Token:junobuttercakequests_eventpremiumtrackpurchasetoken",
-                            "quantity": 1,
-                            "attributes": {}
-                        },
-                        {
-                            "templateId": "AthenaCharacter:character_bananacake",
-                            "quantity": 1,
-                            "attributes": {}
-                        }
-                    ]
-                },
-                {
-                    "offerId": "58678C5D4056A61E48B77CA0A87880F4",
-                    "devName": "Juno.Event.ButtercakePass.Singlelevel",
-                    "offerType": "StaticPrice",
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 150,
-                            "dynamicRegularPrice": -1,
-                            "finalPrice": 150,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 150
-                        }
-                    ],
-                    "categories": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "refundable": false,
-                    "appStoreId": [
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        ""
-                    ],
-                    "requirements": [],
-                    "metaInfo": [],
-                    "catalogGroup": "",
-                    "catalogGroupPriority": 0,
-                    "sortPriority": 0,
-                    "title": "",
-                    "shortDescription": "",
-                    "description": "",
-                    "displayAssetPath": "",
-                    "itemGrants": [
-                        {
-                            "templateId": "AccountResource:junobuttercakequests_eventcurrency_granter",
-                            "quantity": 1000,
-                            "attributes": {}
-                        }
-                    ]
-                }
-            ]
+            "catalogEntries": []
         },
         {
             "name": "STWSpecialEventStorefront",
