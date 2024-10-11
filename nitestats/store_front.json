@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2024-10-11T01:00:00.000Z",
+    "expiration": "2024-10-11T03:00:00.000Z",
     "storefronts": [
         {
             "name": "WinterQuest2019",
@@ -16281,6 +16281,8 @@
                         "textBackgroundColor": "#8150d6",
                         "inDate": "2024-10-11T00:00:00.000Z",
                         "outDate": "2024-10-15T23:59:59.999Z",
+                        "ViolatorTag": "New",
+                        "ViolatorIntensity": "High",
                         "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Sparks_Drum_HuskinGlee.DA_Featured_Sparks_Drum_HuskinGlee"
                     },
                     "matchFilter": "",
@@ -16349,6 +16351,14 @@
                         {
                             "key": "outDate",
                             "value": "2024-10-15T23:59:59.999Z"
+                        },
+                        {
+                            "key": "ViolatorTag",
+                            "value": "New"
+                        },
+                        {
+                            "key": "ViolatorIntensity",
+                            "value": "High"
                         }
                     ],
                     "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Sparks_Drum_HuskinGlee.DA_Featured_Sparks_Drum_HuskinGlee",
@@ -22250,6 +22260,102 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x Next Semester for 500 MtxCurrency",
+                    "offerId": "v2:/6b44e30d96cd19ba602b1caa05d5c821a115f3d0113061c4686851b3c5f88cf9",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_221",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "JamTracks1011.97",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "JamTracks1011",
+                        "templateId": "SparksSong:sid_placeholder_221",
+                        "webURL": "/item-shop/jam-tracks/missing-all-translations-next-semester-c1a4f50b",
+                        "inDate": "2024-06-24T00:00:00.000Z",
+                        "outDate": "2024-11-28T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_221",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_221"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "JamTracks1011.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "JamTracks1011"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksSong:sid_placeholder_221"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/jam-tracks/missing-all-translations-next-semester-c1a4f50b"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-06-24T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-11-28T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_221",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -240,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Billy's Tricycle for 500 MtxCurrency",
                     "offerId": "v2:/253d60753e473a92ec3de31713428ab9b695b0bdec88b3b1b95878201e2e6953",
                     "fulfillmentIds": [],
@@ -22363,102 +22469,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -3,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Next Semester for 500 MtxCurrency",
-                    "offerId": "v2:/6b44e30d96cd19ba602b1caa05d5c821a115f3d0113061c4686851b3c5f88cf9",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_221",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "JamTracks1011.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "JamTracks1011",
-                        "templateId": "SparksSong:sid_placeholder_221",
-                        "webURL": "/item-shop/jam-tracks/missing-all-translations-next-semester-c1a4f50b",
-                        "inDate": "2024-06-24T00:00:00.000Z",
-                        "outDate": "2024-11-28T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_221",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_221"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "JamTracks1011.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "JamTracks1011"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksSong:sid_placeholder_221"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/jam-tracks/missing-all-translations-next-semester-c1a4f50b"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-06-24T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-11-28T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_221",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -240,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -23010,136 +23020,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Billy, 1 x Trap Television for 1500 MtxCurrency",
-                    "offerId": "v2:/9783971b4645e73d8528b875dd94abfd79db9d7eb9e87f863ae1175e6c9a26b7",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 1500,
-                            "dynamicRegularPrice": 1500,
-                            "finalPrice": 1500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 1500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S31/DAv2_Character_CraneAnchor.DAv2_Character_CraneAnchor",
-                        "LayoutId": "BillySpotlight.98",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "BillySpotlight",
-                        "templateId": "AthenaCharacter:character_craneanchor",
-                        "webURL": "/item-shop/outfits/billy-efe129f2",
-                        "color1": "#2d2d2d",
-                        "color2": "#0C0C0C",
-                        "color3": "#000000",
-                        "textBackgroundColor": "#00021",
-                        "inDate": "2024-10-09T00:00:00.000Z",
-                        "outDate": "2024-10-15T23:59:59.999Z",
-                        "EncryptionKey": "CB7BF49198C9D5695AC69EDCE2448EF6:cWw+A9cc01w3ewCXbGg8L7ECPnUk6ky//jW0kDvE1B8=:Backpack_CraneAnchor",
-                        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_Character_CraneAnchor.DA_Featured_Character_CraneAnchor"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaCharacter:character_craneanchor",
-                            "minQuantity": 1
-                        },
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaBackpack:backpack_craneanchor",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/OfferCatalog/NewDisplayAssets/S31/DAv2_Character_CraneAnchor.DAv2_Character_CraneAnchor"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "BillySpotlight.98"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "BillySpotlight"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaCharacter:character_craneanchor"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/outfits/billy-efe129f2"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#2d2d2d"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#0C0C0C"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#000000"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#00021"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-10-09T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-10-15T23:59:59.999Z"
-                        },
-                        {
-                            "key": "EncryptionKey",
-                            "value": "CB7BF49198C9D5695AC69EDCE2448EF6:cWw+A9cc01w3ewCXbGg8L7ECPnUk6ky//jW0kDvE1B8=:Backpack_CraneAnchor"
-                        }
-                    ],
-                    "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_Character_CraneAnchor.DA_Featured_Character_CraneAnchor",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaCharacter:character_craneanchor",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaBackpack:backpack_craneanchor",
-                            "quantity": 1,
-                            "attributes": {
-                                "extra_grant": true
-                            }
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x September for 500 MtxCurrency",
                     "offerId": "v2:/5e54318646a77ed40e7f91c6b97f3937749961e746c660cb55979b075e90c195",
                     "fulfillmentIds": [],
@@ -23329,6 +23209,136 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -76,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Billy, 1 x Trap Television for 1500 MtxCurrency",
+                    "offerId": "v2:/9783971b4645e73d8528b875dd94abfd79db9d7eb9e87f863ae1175e6c9a26b7",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 1500,
+                            "dynamicRegularPrice": 1500,
+                            "finalPrice": 1500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 1500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S31/DAv2_Character_CraneAnchor.DAv2_Character_CraneAnchor",
+                        "LayoutId": "BillySpotlight.98",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "BillySpotlight",
+                        "templateId": "AthenaCharacter:character_craneanchor",
+                        "webURL": "/item-shop/outfits/billy-efe129f2",
+                        "color1": "#2d2d2d",
+                        "color2": "#0C0C0C",
+                        "color3": "#000000",
+                        "textBackgroundColor": "#00021",
+                        "inDate": "2024-10-09T00:00:00.000Z",
+                        "outDate": "2024-10-15T23:59:59.999Z",
+                        "EncryptionKey": "CB7BF49198C9D5695AC69EDCE2448EF6:cWw+A9cc01w3ewCXbGg8L7ECPnUk6ky//jW0kDvE1B8=:Backpack_CraneAnchor",
+                        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_Character_CraneAnchor.DA_Featured_Character_CraneAnchor"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaCharacter:character_craneanchor",
+                            "minQuantity": 1
+                        },
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaBackpack:backpack_craneanchor",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/OfferCatalog/NewDisplayAssets/S31/DAv2_Character_CraneAnchor.DAv2_Character_CraneAnchor"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "BillySpotlight.98"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "BillySpotlight"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaCharacter:character_craneanchor"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/outfits/billy-efe129f2"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#2d2d2d"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#0C0C0C"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#000000"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#00021"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-10-09T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-10-15T23:59:59.999Z"
+                        },
+                        {
+                            "key": "EncryptionKey",
+                            "value": "CB7BF49198C9D5695AC69EDCE2448EF6:cWw+A9cc01w3ewCXbGg8L7ECPnUk6ky//jW0kDvE1B8=:Backpack_CraneAnchor"
+                        }
+                    ],
+                    "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_Character_CraneAnchor.DA_Featured_Character_CraneAnchor",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaCharacter:character_craneanchor",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaBackpack:backpack_craneanchor",
+                            "quantity": 1,
+                            "attributes": {
+                                "extra_grant": true
+                            }
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -1,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -27916,6 +27926,102 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x HOT TO GO! for 500 MtxCurrency",
+                    "offerId": "v2:/0a54ee3f3dd3bee4cf48b74d7f84482230d8516d8a63b5ac36e99507f810d111",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_330",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "JamTracks1011.97",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "JamTracks1011",
+                        "templateId": "SparksSong:sid_placeholder_330",
+                        "webURL": "/item-shop/jam-tracks/missing-all-translations-hot-to-go-5cf3aff9",
+                        "inDate": "2024-09-06T00:00:00.000Z",
+                        "outDate": "2024-11-28T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_330",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_330"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "JamTracks1011.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "JamTracks1011"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksSong:sid_placeholder_330"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/jam-tracks/missing-all-translations-hot-to-go-5cf3aff9"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-09-06T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-11-28T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_330",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -209,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Battle Bus Bedroom for 200 MtxCurrency",
                     "offerId": "v2:/8e6f5371161959f0f853a5d2531f14c957d377aac71f20f8252e22cb5f8e85ca",
                     "fulfillmentIds": [],
@@ -28021,102 +28127,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -2,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x HOT TO GO! for 500 MtxCurrency",
-                    "offerId": "v2:/0a54ee3f3dd3bee4cf48b74d7f84482230d8516d8a63b5ac36e99507f810d111",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_330",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "JamTracks1011.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "JamTracks1011",
-                        "templateId": "SparksSong:sid_placeholder_330",
-                        "webURL": "/item-shop/jam-tracks/missing-all-translations-hot-to-go-5cf3aff9",
-                        "inDate": "2024-09-06T00:00:00.000Z",
-                        "outDate": "2024-11-28T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_330",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_330"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "JamTracks1011.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "JamTracks1011"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksSong:sid_placeholder_330"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/jam-tracks/missing-all-translations-hot-to-go-5cf3aff9"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-09-06T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-11-28T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_330",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -209,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -32476,6 +32486,8 @@
                         "textBackgroundColor": "#8150d6",
                         "inDate": "2024-10-11T00:00:00.000Z",
                         "outDate": "2024-10-15T23:59:59.999Z",
+                        "ViolatorTag": "New",
+                        "ViolatorIntensity": "High",
                         "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Sparks_Guitar_BandageTime.DA_Featured_Sparks_Guitar_BandageTime"
                     },
                     "matchFilter": "",
@@ -32544,6 +32556,14 @@
                         {
                             "key": "outDate",
                             "value": "2024-10-15T23:59:59.999Z"
+                        },
+                        {
+                            "key": "ViolatorTag",
+                            "value": "New"
+                        },
+                        {
+                            "key": "ViolatorIntensity",
+                            "value": "High"
                         }
                     ],
                     "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Sparks_Guitar_BandageTime.DA_Featured_Sparks_Guitar_BandageTime",
