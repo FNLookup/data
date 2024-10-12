@@ -3,7 +3,7 @@
         "standalone-store": {
             "states": [
                 {
-                    "validFrom": "2024-10-12T06:12:37.101Z",
+                    "validFrom": "2024-10-12T06:29:21.364Z",
                     "activeEvents": [],
                     "state": {
                         "activePurchaseLimitingEventIds": [],
@@ -13,12 +13,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-10-12T08:12:37.101Z"
+            "cacheExpire": "2024-10-12T08:29:21.364Z"
         },
         "client-matchmaking": {
             "states": [
                 {
-                    "validFrom": "2024-10-12T06:12:37.101Z",
+                    "validFrom": "2024-10-12T06:29:21.364Z",
                     "activeEvents": [],
                     "state": {
                         "region": {
@@ -130,12 +130,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-10-12T08:12:37.101Z"
+            "cacheExpire": "2024-10-12T08:29:21.364Z"
         },
         "tk": {
             "states": [
                 {
-                    "validFrom": "2024-10-12T06:12:37.101Z",
+                    "validFrom": "2024-10-12T06:29:21.364Z",
                     "activeEvents": [],
                     "state": {
                         "k": [
@@ -146,12 +146,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-10-12T08:12:37.101Z"
+            "cacheExpire": "2024-10-12T08:29:21.364Z"
         },
         "featured-islands": {
             "states": [
                 {
-                    "validFrom": "2024-10-12T06:12:37.101Z",
+                    "validFrom": "2024-10-12T06:29:21.364Z",
                     "activeEvents": [],
                     "state": {
                         "islandCodes": [],
@@ -161,12 +161,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-10-12T08:12:37.101Z"
+            "cacheExpire": "2024-10-12T08:29:21.364Z"
         },
         "community-votes": {
             "states": [
                 {
-                    "validFrom": "2024-10-12T06:12:37.101Z",
+                    "validFrom": "2024-10-12T06:29:21.364Z",
                     "activeEvents": [],
                     "state": {
                         "electionId": "",
@@ -176,12 +176,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-10-12T08:12:37.101Z"
+            "cacheExpire": "2024-10-12T08:29:21.364Z"
         },
         "client-events": {
             "states": [
                 {
-                    "validFrom": "2024-10-12T06:12:37.101Z",
+                    "validFrom": "2024-10-12T06:29:21.364Z",
                     "activeEvents": [
                         {
                             "eventType": "EventFlag.Event_DelMar_Season01_Dailies",
@@ -379,8 +379,23 @@
                             "activeSince": "2024-10-03T00:00:00.000Z"
                         },
                         {
+                            "eventType": "EventFlag.Event_S31_NearAcorn",
+                            "activeUntil": "2024-11-02T06:00:00.000Z",
+                            "activeSince": "2024-10-10T13:00:00.000Z"
+                        },
+                        {
                             "eventType": "EventFlag.FNM",
                             "activeUntil": "2024-11-02T06:00:00.000Z",
+                            "activeSince": "2024-10-10T13:00:00.000Z"
+                        },
+                        {
+                            "eventType": "EventFlag.Event_S31_Mash",
+                            "activeUntil": "2024-11-02T06:00:00.000Z",
+                            "activeSince": "2024-10-10T13:00:00.000Z"
+                        },
+                        {
+                            "eventType": "EventFlag.Event_SpooktacularPass",
+                            "activeUntil": "2024-12-10T08:00:00.000Z",
                             "activeSince": "2024-10-10T13:00:00.000Z"
                         },
                         {
@@ -648,6 +663,30 @@
                                 "eventType": "EventFlag.Event_S31_QuestDeckBed"
                             },
                             {
+                                "instanceId": "7351bir92vdk9pg6vk1amluu5f[2]0",
+                                "devName": "Event_S31_NearAcorn",
+                                "eventName": "CalendarEvent_S31_NearAcorn",
+                                "eventStart": "2024-10-10T13:00:00Z",
+                                "eventEnd": "2024-11-02T06:00:00Z",
+                                "eventType": "EventFlag.Event_S31_NearAcorn"
+                            },
+                            {
+                                "instanceId": "5l2944fdhv9ec8mtkti7n401ig[2]0",
+                                "devName": "Event_S31_Mash",
+                                "eventName": "CalendarEvent_S31_Mash",
+                                "eventStart": "2024-10-10T13:00:00Z",
+                                "eventEnd": "2024-11-02T06:00:00Z",
+                                "eventType": "EventFlag.Event_S31_Mash"
+                            },
+                            {
+                                "instanceId": "6lk31tisojmv58j3lqqu21sdrp[2]0",
+                                "devName": "Juno Spooktacular Pass",
+                                "eventName": "CalendarEvent_SpooktacularPass",
+                                "eventStart": "2024-10-10T13:00:00Z",
+                                "eventEnd": "2024-12-10T08:00:00Z",
+                                "eventType": "EventFlag.Event_SpooktacularPass"
+                            },
+                            {
                                 "instanceId": "4rhgn2gbsl9mti41nentrj2mq9[2]0",
                                 "devName": "Event_SparksS05_Week09",
                                 "eventName": "CalendarEvent_SparksS05_Week09",
@@ -870,8 +909,23 @@
                             "activeSince": "2024-10-03T00:00:00.000Z"
                         },
                         {
+                            "eventType": "EventFlag.Event_S31_NearAcorn",
+                            "activeUntil": "2024-11-02T06:00:00.000Z",
+                            "activeSince": "2024-10-10T13:00:00.000Z"
+                        },
+                        {
                             "eventType": "EventFlag.FNM",
                             "activeUntil": "2024-11-02T06:00:00.000Z",
+                            "activeSince": "2024-10-10T13:00:00.000Z"
+                        },
+                        {
+                            "eventType": "EventFlag.Event_S31_Mash",
+                            "activeUntil": "2024-11-02T06:00:00.000Z",
+                            "activeSince": "2024-10-10T13:00:00.000Z"
+                        },
+                        {
+                            "eventType": "EventFlag.Event_SpooktacularPass",
+                            "activeUntil": "2024-12-10T08:00:00.000Z",
                             "activeSince": "2024-10-10T13:00:00.000Z"
                         },
                         {
@@ -1149,6 +1203,30 @@
                                 "eventType": "EventFlag.Event_S31_QuestDeckBed"
                             },
                             {
+                                "instanceId": "7351bir92vdk9pg6vk1amluu5f[2]0",
+                                "devName": "Event_S31_NearAcorn",
+                                "eventName": "CalendarEvent_S31_NearAcorn",
+                                "eventStart": "2024-10-10T13:00:00Z",
+                                "eventEnd": "2024-11-02T06:00:00Z",
+                                "eventType": "EventFlag.Event_S31_NearAcorn"
+                            },
+                            {
+                                "instanceId": "5l2944fdhv9ec8mtkti7n401ig[2]0",
+                                "devName": "Event_S31_Mash",
+                                "eventName": "CalendarEvent_S31_Mash",
+                                "eventStart": "2024-10-10T13:00:00Z",
+                                "eventEnd": "2024-11-02T06:00:00Z",
+                                "eventType": "EventFlag.Event_S31_Mash"
+                            },
+                            {
+                                "instanceId": "6lk31tisojmv58j3lqqu21sdrp[2]0",
+                                "devName": "Juno Spooktacular Pass",
+                                "eventName": "CalendarEvent_SpooktacularPass",
+                                "eventStart": "2024-10-10T13:00:00Z",
+                                "eventEnd": "2024-12-10T08:00:00Z",
+                                "eventType": "EventFlag.Event_SpooktacularPass"
+                            },
+                            {
                                 "instanceId": "4rhgn2gbsl9mti41nentrj2mq9[2]0",
                                 "devName": "Event_SparksS05_Week09",
                                 "eventName": "CalendarEvent_SparksS05_Week09",
@@ -1189,9 +1267,9 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-10-12T08:12:37.101Z"
+            "cacheExpire": "2024-10-12T08:29:21.364Z"
         }
     },
     "cacheIntervalMins": 15,
-    "currentTime": "2024-10-12T06:34:30.968Z"
+    "currentTime": "2024-10-12T06:45:20.197Z"
 }
