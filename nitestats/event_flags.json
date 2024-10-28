@@ -3,7 +3,7 @@
         "standalone-store": {
             "states": [
                 {
-                    "validFrom": "2024-10-28T18:56:27.349Z",
+                    "validFrom": "2024-10-28T19:10:54.975Z",
                     "activeEvents": [],
                     "state": {
                         "activePurchaseLimitingEventIds": [],
@@ -13,68 +13,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-10-28T20:56:27.349Z"
+            "cacheExpire": "2024-10-28T21:10:54.975Z"
         },
         "client-matchmaking": {
             "states": [
                 {
-                    "validFrom": "2024-10-28T18:56:27.349Z",
-                    "activeEvents": [],
-                    "state": {
-                        "region": {
-                            "NAE": {
-                                "eventFlagsForcedOn": [
-                                    "Playlist_NoBuildBR_Habanero_Solo",
-                                    "Playlist_NoBuildBR_Habanero_Squad"
-                                ]
-                            },
-                            "NAW": {
-                                "eventFlagsForcedOn": [
-                                    "Playlist_NoBuildBR_Habanero_Solo",
-                                    "Playlist_NoBuildBR_Habanero_Squad"
-                                ]
-                            },
-                            "NAC": {
-                                "eventFlagsForcedOn": [
-                                    "Playlist_NoBuildBR_Habanero_Solo",
-                                    "Playlist_NoBuildBR_Habanero_Squad"
-                                ]
-                            },
-                            "EU": {
-                                "eventFlagsForcedOn": [
-                                    "Playlist_NoBuildBR_Habanero_Solo",
-                                    "Playlist_NoBuildBR_Habanero_Squad"
-                                ]
-                            },
-                            "ME": {
-                                "eventFlagsForcedOn": [
-                                    "Playlist_NoBuildBR_Habanero_Solo",
-                                    "Playlist_NoBuildBR_Habanero_Squad"
-                                ]
-                            },
-                            "OCE": {
-                                "eventFlagsForcedOff": [
-                                    "Playlist_NoBuildBR_Habanero_Solo",
-                                    "Playlist_NoBuildBR_Habanero_Squad"
-                                ]
-                            },
-                            "ASIA": {
-                                "eventFlagsForcedOff": [
-                                    "Playlist_NoBuildBR_Habanero_Solo",
-                                    "Playlist_NoBuildBR_Habanero_Squad"
-                                ]
-                            },
-                            "BR": {
-                                "eventFlagsForcedOn": [
-                                    "Playlist_NoBuildBR_Habanero_Solo",
-                                    "Playlist_NoBuildBR_Habanero_Squad"
-                                ]
-                            }
-                        }
-                    }
-                },
-                {
-                    "validFrom": "2024-10-28T19:00:00.000Z",
+                    "validFrom": "2024-10-28T19:10:54.975Z",
                     "activeEvents": [],
                     "state": {
                         "region": {
@@ -130,12 +74,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-10-28T20:56:27.349Z"
+            "cacheExpire": "2024-10-28T21:10:54.975Z"
         },
         "tk": {
             "states": [
                 {
-                    "validFrom": "2024-10-28T18:56:27.349Z",
+                    "validFrom": "2024-10-28T19:10:54.975Z",
                     "activeEvents": [],
                     "state": {
                         "k": [
@@ -146,12 +90,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-10-28T20:56:27.349Z"
+            "cacheExpire": "2024-10-28T21:10:54.975Z"
         },
         "featured-islands": {
             "states": [
                 {
-                    "validFrom": "2024-10-28T18:56:27.349Z",
+                    "validFrom": "2024-10-28T19:10:54.975Z",
                     "activeEvents": [],
                     "state": {
                         "islandCodes": [],
@@ -161,12 +105,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-10-28T20:56:27.349Z"
+            "cacheExpire": "2024-10-28T21:10:54.975Z"
         },
         "community-votes": {
             "states": [
                 {
-                    "validFrom": "2024-10-28T18:56:27.349Z",
+                    "validFrom": "2024-10-28T19:10:54.975Z",
                     "activeEvents": [],
                     "state": {
                         "electionId": "",
@@ -176,12 +120,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-10-28T20:56:27.349Z"
+            "cacheExpire": "2024-10-28T21:10:54.975Z"
         },
         "client-events": {
             "states": [
                 {
-                    "validFrom": "2024-10-28T18:56:27.349Z",
+                    "validFrom": "2024-10-28T19:10:54.975Z",
                     "activeEvents": [
                         {
                             "eventType": "EventFlag.Event_DelMar_Season01_Dailies",
@@ -362,6 +306,11 @@
                             "eventType": "EventFlag.Event_S31_LevelUpPass",
                             "activeUntil": "2024-11-02T06:00:00.000Z",
                             "activeSince": "2024-10-01T13:00:00.000Z"
+                        },
+                        {
+                            "eventType": "EventFlag.Event_S31_QuestDeckBed",
+                            "activeUntil": "2024-11-02T18:00:00.000Z",
+                            "activeSince": "2024-10-01T18:00:00.000Z"
                         },
                         {
                             "eventType": "EventFlag.Season11.Fortnitemares.Quests.Phase3",
@@ -715,6 +664,14 @@
                                 "eventType": "EventFlag.Event_S31_LevelUpPass"
                             },
                             {
+                                "instanceId": "6jcd8rqqmihnnins8loes6l1tf[2]0",
+                                "devName": "Event_S31_QuestDeckBed",
+                                "eventName": "CalendarEvent_S31_QuestDeckBed",
+                                "eventStart": "2024-10-01T18:00:00Z",
+                                "eventEnd": "2024-11-02T18:00:00Z",
+                                "eventType": "EventFlag.Event_S31_QuestDeckBed"
+                            },
+                            {
                                 "instanceId": "7351bir92vdk9pg6vk1amluu5f[2]0",
                                 "devName": "Event_S31_NearAcorn",
                                 "eventName": "CalendarEvent_S31_NearAcorn",
@@ -795,9 +752,9 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-10-28T20:56:27.349Z"
+            "cacheExpire": "2024-10-28T21:10:54.975Z"
         }
     },
     "cacheIntervalMins": 15,
-    "currentTime": "2024-10-28T19:21:31.100Z"
+    "currentTime": "2024-10-28T19:33:01.250Z"
 }
