@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2024-11-02T11:00:00.000Z",
+    "expiration": "2024-11-02T12:00:00.000Z",
     "storefronts": [
         {
             "name": "WinterQuest2019",
@@ -3256,6 +3256,112 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -42,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_265) for 500 MtxCurrency",
+                    "offerId": "v2:/b36849e96f4dadad09a648e9aafc44248d754fe70934e80587358a97221bb55b",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_265",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "JamTracks1102.97",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "JamTracks1102",
+                        "templateId": "SparksSong:sid_placeholder_265",
+                        "webURL": "/item-shop/jam-tracks/missing-all-translations-tbd-sidplaceholder265-94b621e5",
+                        "inDate": "2024-11-02T00:00:00.000Z",
+                        "outDate": "2025-01-05T23:59:59.999Z",
+                        "ViolatorTag": "New",
+                        "ViolatorIntensity": "High"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_265",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_265"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "JamTracks1102.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "JamTracks1102"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksSong:sid_placeholder_265"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/jam-tracks/missing-all-translations-tbd-sidplaceholder265-94b621e5"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-11-02T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2025-01-05T23:59:59.999Z"
+                        },
+                        {
+                            "key": "ViolatorTag",
+                            "value": "New"
+                        },
+                        {
+                            "key": "ViolatorIntensity",
+                            "value": "High"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_265",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -252,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -32792,7 +32898,7 @@
                         "templateId": "SparksSong:sid_placeholder_265",
                         "webURL": "/item-shop/jam-tracks/missing-all-translations-tbd-sidplaceholder265-94b621e5",
                         "inDate": "2024-11-02T00:00:00.000Z",
-                        "outDate": "2024-11-07T23:59:59.999Z",
+                        "outDate": "2025-01-05T23:59:59.999Z",
                         "ViolatorTag": "New",
                         "ViolatorIntensity": "High"
                     },
@@ -32849,7 +32955,7 @@
                         },
                         {
                             "key": "outDate",
-                            "value": "2024-11-07T23:59:59.999Z"
+                            "value": "2025-01-05T23:59:59.999Z"
                         },
                         {
                             "key": "ViolatorTag",
