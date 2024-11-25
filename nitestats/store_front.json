@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2024-11-25T01:00:00.000Z",
+    "expiration": "2024-11-25T03:00:00.000Z",
     "storefronts": [
         {
             "name": "WinterQuest2019",
@@ -6863,6 +6863,170 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x Champion Drake, 1 x Champion's Snapsword, 1 x Drake's Drip, 1 x Expert's Emblem for -1 MtxCurrency",
+                    "offerId": "v2:/cdc62e9edc8c75c78304991406f382ba28dcc098d16dcaf7a2238a0cd1ba992e",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [],
+                    "dynamicBundleInfo": {
+                        "discountedBasePrice": -600,
+                        "regularBasePrice": 0,
+                        "floorPrice": 100,
+                        "currencyType": "MtxCurrency",
+                        "currencySubType": "",
+                        "displayType": "UndecoratedNewPrice",
+                        "bundleItems": [
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 1000,
+                                "discountedPrice": 1000,
+                                "alreadyOwnedPriceReduction": 1000,
+                                "item": {
+                                    "templateId": "AthenaCharacter:character_mallardvantagefncs",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 500,
+                                "discountedPrice": 500,
+                                "alreadyOwnedPriceReduction": 500,
+                                "item": {
+                                    "templateId": "AthenaPickaxe:pickaxe_bariumfncs",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 500,
+                                "discountedPrice": 500,
+                                "alreadyOwnedPriceReduction": 500,
+                                "item": {
+                                    "templateId": "AthenaItemWrap:wrap_comp32",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 200,
+                                "discountedPrice": 200,
+                                "alreadyOwnedPriceReduction": 200,
+                                "item": {
+                                    "templateId": "AthenaBackpack:backpack_fncs_s32",
+                                    "quantity": 1
+                                }
+                            }
+                        ]
+                    },
+                    "meta": {
+                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S32/DAv2_Bundle_Featured_FNCS32.DAv2_Bundle_Featured_FNCS32",
+                        "bundleId": "DynamicBundle:b_fncs32",
+                        "LayoutId": "FNCSDrake.99",
+                        "TileSize": "Size_4_x_1",
+                        "AnalyticOfferGroupId": "FNCSDrake",
+                        "templateId": "DynamicBundle:b_fncs32",
+                        "webURL": "/item-shop/bundles/champion-drake-bundle-bdcab30a",
+                        "color1": "#975bed",
+                        "color2": "#5ecfde",
+                        "color3": "#66d5c3",
+                        "textBackgroundColor": "#5ecfde",
+                        "inDate": "2024-11-23T00:00:00.000Z",
+                        "outDate": "2024-11-29T23:59:59.999Z",
+                        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_FNCS32_Bundle.DA_Featured_FNCS32_Bundle"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [],
+                    "offerType": "DynamicBundle",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/OfferCatalog/NewDisplayAssets/S32/DAv2_Bundle_Featured_FNCS32.DAv2_Bundle_Featured_FNCS32"
+                        },
+                        {
+                            "key": "bundleId",
+                            "value": "DynamicBundle:b_fncs32"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "FNCSDrake.99"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_4_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "FNCSDrake"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "DynamicBundle:b_fncs32"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/bundles/champion-drake-bundle-bdcab30a"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#975bed"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#5ecfde"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#66d5c3"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#5ecfde"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-11-23T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-11-29T23:59:59.999Z"
+                        }
+                    ],
+                    "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_FNCS32_Bundle.DA_Featured_FNCS32_Bundle",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaCharacter:character_mallardvantagefncs",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaPickaxe:pickaxe_bariumfncs",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaItemWrap:wrap_comp32",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaBackpack:backpack_fncs_s32",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -1,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_350) for 500 MtxCurrency",
                     "offerId": "v2:/b1004f2a7045ee37a2b53a5b4c44e241a1840813e0ac3d6abec77ff73b02afcd",
                     "fulfillmentIds": [],
@@ -7727,117 +7891,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Air Jordan 4 Retro 'Manila' for 1000 MtxCurrency",
-                    "offerId": "v2:/054c1e1ebbaf6bb4401afbc7da404decf5ecf3d2c68a0a4d376e15ce5e31d506",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 1000,
-                            "dynamicRegularPrice": 1000,
-                            "finalPrice": 1000,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 1000
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S32/DAv2_Shoes_BreathTaleFreesia.DAv2_Shoes_BreathTaleFreesia",
-                        "LayoutId": "Shoes2.98",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "Shoes2",
-                        "templateId": "CosmeticShoes:shoes_breathtalefreesia",
-                        "webURL": "/item-shop/kicks/air-jordan-4-retro-manila-ec2af552",
-                        "color1": "#9D99BD",
-                        "color2": "#63559D",
-                        "textBackgroundColor": "#63559D",
-                        "inDate": "2024-11-23T00:00:00.000Z",
-                        "outDate": "2024-11-26T23:59:59.999Z",
-                        "EncryptionKey": "9CDC09A892C78780B6DF32091970A6E8:FLVM+9t9Iz18CutCTIaHONqsMCwfERIpJu14nXIUTHc=:Shoes_BreathTaleFreesia"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "CosmeticShoes:shoes_breathtalefreesia",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/OfferCatalog/NewDisplayAssets/S32/DAv2_Shoes_BreathTaleFreesia.DAv2_Shoes_BreathTaleFreesia"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "Shoes2.98"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "Shoes2"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "CosmeticShoes:shoes_breathtalefreesia"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/kicks/air-jordan-4-retro-manila-ec2af552"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#9D99BD"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#63559D"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#63559D"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-11-23T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-11-26T23:59:59.999Z"
-                        },
-                        {
-                            "key": "EncryptionKey",
-                            "value": "9CDC09A892C78780B6DF32091970A6E8:FLVM+9t9Iz18CutCTIaHONqsMCwfERIpJu14nXIUTHc=:Shoes_BreathTaleFreesia"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "CosmeticShoes:shoes_breathtalefreesia",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -2,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x Carry on Wayward Son for 500 MtxCurrency",
                     "offerId": "v2:/550ddfcd4876492d08e9b5b4861fb13cdd76e2f560ac8e22d990941bfe1e288b",
                     "fulfillmentIds": [],
@@ -8027,6 +8080,117 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -3,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Air Jordan 4 Retro 'Manila' for 1000 MtxCurrency",
+                    "offerId": "v2:/054c1e1ebbaf6bb4401afbc7da404decf5ecf3d2c68a0a4d376e15ce5e31d506",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 1000,
+                            "dynamicRegularPrice": 1000,
+                            "finalPrice": 1000,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 1000
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S32/DAv2_Shoes_BreathTaleFreesia.DAv2_Shoes_BreathTaleFreesia",
+                        "LayoutId": "Shoes2.98",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "Shoes2",
+                        "templateId": "CosmeticShoes:shoes_breathtalefreesia",
+                        "webURL": "/item-shop/kicks/air-jordan-4-retro-manila-ec2af552",
+                        "color1": "#9D99BD",
+                        "color2": "#63559D",
+                        "textBackgroundColor": "#63559D",
+                        "inDate": "2024-11-23T00:00:00.000Z",
+                        "outDate": "2024-11-26T23:59:59.999Z",
+                        "EncryptionKey": "9CDC09A892C78780B6DF32091970A6E8:FLVM+9t9Iz18CutCTIaHONqsMCwfERIpJu14nXIUTHc=:Shoes_BreathTaleFreesia"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "CosmeticShoes:shoes_breathtalefreesia",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/OfferCatalog/NewDisplayAssets/S32/DAv2_Shoes_BreathTaleFreesia.DAv2_Shoes_BreathTaleFreesia"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "Shoes2.98"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "Shoes2"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "CosmeticShoes:shoes_breathtalefreesia"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/kicks/air-jordan-4-retro-manila-ec2af552"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#9D99BD"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#63559D"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#63559D"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-11-23T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-11-26T23:59:59.999Z"
+                        },
+                        {
+                            "key": "EncryptionKey",
+                            "value": "9CDC09A892C78780B6DF32091970A6E8:FLVM+9t9Iz18CutCTIaHONqsMCwfERIpJu14nXIUTHc=:Shoes_BreathTaleFreesia"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "CosmeticShoes:shoes_breathtalefreesia",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -2,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -8414,117 +8578,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Air Jordan 3 'Black Cement-Gray' for 1000 MtxCurrency",
-                    "offerId": "v2:/18618f1cf35d9423365fcaaa39cdc76f01eabd169359162f3d295f894365ff43",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 1000,
-                            "dynamicRegularPrice": 1000,
-                            "finalPrice": 1000,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 1000
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S32/DAv2_Shoes_BreathTaleCrocus.DAv2_Shoes_BreathTaleCrocus",
-                        "LayoutId": "Shoes2.98",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "Shoes2",
-                        "templateId": "CosmeticShoes:shoes_breathtalecrocus",
-                        "webURL": "/item-shop/kicks/air-jordan-3-black-cementgray-8c5dc320",
-                        "color1": "#9D99BD",
-                        "color2": "#63559D",
-                        "textBackgroundColor": "#63559D",
-                        "inDate": "2024-11-23T00:00:00.000Z",
-                        "outDate": "2024-11-26T23:59:59.999Z",
-                        "EncryptionKey": "9CDC09A892C78780B6DF32091970A6E8:FLVM+9t9Iz18CutCTIaHONqsMCwfERIpJu14nXIUTHc=:Shoes_BreathTaleCrocus"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "CosmeticShoes:shoes_breathtalecrocus",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/OfferCatalog/NewDisplayAssets/S32/DAv2_Shoes_BreathTaleCrocus.DAv2_Shoes_BreathTaleCrocus"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "Shoes2.98"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "Shoes2"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "CosmeticShoes:shoes_breathtalecrocus"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/kicks/air-jordan-3-black-cementgray-8c5dc320"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#9D99BD"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#63559D"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#63559D"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-11-23T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-11-26T23:59:59.999Z"
-                        },
-                        {
-                            "key": "EncryptionKey",
-                            "value": "9CDC09A892C78780B6DF32091970A6E8:FLVM+9t9Iz18CutCTIaHONqsMCwfERIpJu14nXIUTHc=:Shoes_BreathTaleCrocus"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "CosmeticShoes:shoes_breathtalecrocus",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -4,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x Chomp Stompers for 600 MtxCurrency",
                     "offerId": "v2:/e757cb67fbb48b2824f2aaeebd0907ed856809014a100b39577d0d60a35da1c4",
                     "fulfillmentIds": [],
@@ -8729,6 +8782,117 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -242,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Air Jordan 3 'Black Cement-Gray' for 1000 MtxCurrency",
+                    "offerId": "v2:/18618f1cf35d9423365fcaaa39cdc76f01eabd169359162f3d295f894365ff43",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 1000,
+                            "dynamicRegularPrice": 1000,
+                            "finalPrice": 1000,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 1000
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S32/DAv2_Shoes_BreathTaleCrocus.DAv2_Shoes_BreathTaleCrocus",
+                        "LayoutId": "Shoes2.98",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "Shoes2",
+                        "templateId": "CosmeticShoes:shoes_breathtalecrocus",
+                        "webURL": "/item-shop/kicks/air-jordan-3-black-cementgray-8c5dc320",
+                        "color1": "#9D99BD",
+                        "color2": "#63559D",
+                        "textBackgroundColor": "#63559D",
+                        "inDate": "2024-11-23T00:00:00.000Z",
+                        "outDate": "2024-11-26T23:59:59.999Z",
+                        "EncryptionKey": "9CDC09A892C78780B6DF32091970A6E8:FLVM+9t9Iz18CutCTIaHONqsMCwfERIpJu14nXIUTHc=:Shoes_BreathTaleCrocus"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "CosmeticShoes:shoes_breathtalecrocus",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/OfferCatalog/NewDisplayAssets/S32/DAv2_Shoes_BreathTaleCrocus.DAv2_Shoes_BreathTaleCrocus"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "Shoes2.98"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "Shoes2"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "CosmeticShoes:shoes_breathtalecrocus"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/kicks/air-jordan-3-black-cementgray-8c5dc320"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#9D99BD"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#63559D"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#63559D"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-11-23T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-11-26T23:59:59.999Z"
+                        },
+                        {
+                            "key": "EncryptionKey",
+                            "value": "9CDC09A892C78780B6DF32091970A6E8:FLVM+9t9Iz18CutCTIaHONqsMCwfERIpJu14nXIUTHc=:Shoes_BreathTaleCrocus"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "CosmeticShoes:shoes_breathtalecrocus",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -4,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -31168,170 +31332,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Champion Drake, 1 x Champion's Snapsword, 1 x Drake's Drip, 1 x Expert's Emblem for -1 MtxCurrency",
-                    "offerId": "v2:/311ae1abd1b888bb76236b9264bd88c1de66678234c784f3280cf07ac2bf94f1",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [],
-                    "dynamicBundleInfo": {
-                        "discountedBasePrice": -600,
-                        "regularBasePrice": 0,
-                        "floorPrice": 100,
-                        "currencyType": "MtxCurrency",
-                        "currencySubType": "",
-                        "displayType": "AmountOff",
-                        "bundleItems": [
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 1000,
-                                "discountedPrice": 1000,
-                                "alreadyOwnedPriceReduction": 1000,
-                                "item": {
-                                    "templateId": "AthenaCharacter:character_mallardvantagefncs",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 500,
-                                "discountedPrice": 500,
-                                "alreadyOwnedPriceReduction": 500,
-                                "item": {
-                                    "templateId": "AthenaPickaxe:pickaxe_bariumfncs",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 500,
-                                "discountedPrice": 500,
-                                "alreadyOwnedPriceReduction": 500,
-                                "item": {
-                                    "templateId": "AthenaItemWrap:wrap_comp32",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 200,
-                                "discountedPrice": 200,
-                                "alreadyOwnedPriceReduction": 200,
-                                "item": {
-                                    "templateId": "AthenaBackpack:backpack_fncs_s32",
-                                    "quantity": 1
-                                }
-                            }
-                        ]
-                    },
-                    "meta": {
-                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S32/DAv2_Bundle_Featured_FNCS32.DAv2_Bundle_Featured_FNCS32",
-                        "bundleId": "DynamicBundle:b_fncs32",
-                        "LayoutId": "FNCSDrake.99",
-                        "TileSize": "Size_4_x_1",
-                        "AnalyticOfferGroupId": "FNCSDrake",
-                        "templateId": "DynamicBundle:b_fncs32",
-                        "webURL": "/item-shop/bundles/champion-drake-bundle-bdcab30a",
-                        "color1": "#975bed",
-                        "color2": "#5ecfde",
-                        "color3": "#66d5c3",
-                        "textBackgroundColor": "#5ecfde",
-                        "inDate": "2024-11-23T00:00:00.000Z",
-                        "outDate": "2024-11-29T23:59:59.999Z",
-                        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_FNCS32_Bundle.DA_Featured_FNCS32_Bundle"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [],
-                    "offerType": "DynamicBundle",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/OfferCatalog/NewDisplayAssets/S32/DAv2_Bundle_Featured_FNCS32.DAv2_Bundle_Featured_FNCS32"
-                        },
-                        {
-                            "key": "bundleId",
-                            "value": "DynamicBundle:b_fncs32"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "FNCSDrake.99"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_4_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "FNCSDrake"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "DynamicBundle:b_fncs32"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/bundles/champion-drake-bundle-bdcab30a"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#975bed"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#5ecfde"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#66d5c3"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#5ecfde"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-11-23T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-11-29T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_FNCS32_Bundle.DA_Featured_FNCS32_Bundle",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaCharacter:character_mallardvantagefncs",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaPickaxe:pickaxe_bariumfncs",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaItemWrap:wrap_comp32",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaBackpack:backpack_fncs_s32",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_340) for 500 MtxCurrency",
                     "offerId": "v2:/4548120b7cb1ed795a13555e4592b189ec455ce3c97a5ad2e163f2131bf12030",
                     "fulfillmentIds": [],
@@ -33528,6 +33528,102 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x Lovin On Me for 500 MtxCurrency",
+                    "offerId": "v2:/d7656631b55a4c43615e98146f321bca66d56e141c763470bf78577a241aca1d",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_223",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "JamTracks1125.97",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "JamTracks1125",
+                        "templateId": "SparksSong:sid_placeholder_223",
+                        "webURL": "/item-shop/jam-tracks/missing-all-translations-lovin-on-me-365e0fb3",
+                        "inDate": "2024-08-16T00:00:00.000Z",
+                        "outDate": "2025-01-15T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_223",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_223"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "JamTracks1125.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "JamTracks1125"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksSong:sid_placeholder_223"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/jam-tracks/missing-all-translations-lovin-on-me-365e0fb3"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-08-16T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2025-01-15T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_223",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -2,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Bugha, 1 x Zoey Trophy, 1 x Bugha Blades, 1 x Bring it around for -1 MtxCurrency",
                     "offerId": "v2:/81ac98493b31890074848c8a136fc61d53c9ef65dc06197392c334a2b15b28f7",
                     "fulfillmentIds": [],
@@ -33694,102 +33790,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Lovin On Me for 500 MtxCurrency",
-                    "offerId": "v2:/d7656631b55a4c43615e98146f321bca66d56e141c763470bf78577a241aca1d",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_223",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "JamTracks1125.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "JamTracks1125",
-                        "templateId": "SparksSong:sid_placeholder_223",
-                        "webURL": "/item-shop/jam-tracks/missing-all-translations-lovin-on-me-365e0fb3",
-                        "inDate": "2024-08-16T00:00:00.000Z",
-                        "outDate": "2025-01-15T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_223",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_223"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "JamTracks1125.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "JamTracks1125"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksSong:sid_placeholder_223"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/jam-tracks/missing-all-translations-lovin-on-me-365e0fb3"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-16T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2025-01-15T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_223",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -2,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -39431,117 +39431,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Air Jordan 11 'Black/Gym Red' for 1000 MtxCurrency",
-                    "offerId": "v2:/cfebe27be26403c678471420be60991ccfc24bcfb6b8fbb1316a2a0742ec8e89",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 1000,
-                            "dynamicRegularPrice": 1000,
-                            "finalPrice": 1000,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 1000
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S32/DAv2_Shoes_BreathTaleLinea.DAv2_Shoes_BreathTaleLinea",
-                        "LayoutId": "Shoes2.98",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "Shoes2",
-                        "templateId": "CosmeticShoes:shoes_breathtalelinea",
-                        "webURL": "/item-shop/kicks/air-jordan-11-blackgym-red-29a570d2",
-                        "color1": "#9D99BD",
-                        "color2": "#63559D",
-                        "textBackgroundColor": "#63559D",
-                        "inDate": "2024-11-23T00:00:00.000Z",
-                        "outDate": "2024-11-26T23:59:59.999Z",
-                        "EncryptionKey": "9CDC09A892C78780B6DF32091970A6E8:FLVM+9t9Iz18CutCTIaHONqsMCwfERIpJu14nXIUTHc=:Shoes_BreathTaleLinea"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "CosmeticShoes:shoes_breathtalelinea",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/OfferCatalog/NewDisplayAssets/S32/DAv2_Shoes_BreathTaleLinea.DAv2_Shoes_BreathTaleLinea"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "Shoes2.98"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "Shoes2"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "CosmeticShoes:shoes_breathtalelinea"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/kicks/air-jordan-11-blackgym-red-29a570d2"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#9D99BD"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#63559D"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#63559D"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-11-23T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-11-26T23:59:59.999Z"
-                        },
-                        {
-                            "key": "EncryptionKey",
-                            "value": "9CDC09A892C78780B6DF32091970A6E8:FLVM+9t9Iz18CutCTIaHONqsMCwfERIpJu14nXIUTHc=:Shoes_BreathTaleLinea"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "CosmeticShoes:shoes_breathtalelinea",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x Changes for 500 MtxCurrency",
                     "offerId": "v2:/2a051560bbf2779d254d7edd7780d3d67d236aa36a0e54d8ed8c4e1b04439a25",
                     "fulfillmentIds": [],
@@ -39731,6 +39620,117 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -112,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Air Jordan 11 'Black/Gym Red' for 1000 MtxCurrency",
+                    "offerId": "v2:/cfebe27be26403c678471420be60991ccfc24bcfb6b8fbb1316a2a0742ec8e89",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 1000,
+                            "dynamicRegularPrice": 1000,
+                            "finalPrice": 1000,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 1000
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S32/DAv2_Shoes_BreathTaleLinea.DAv2_Shoes_BreathTaleLinea",
+                        "LayoutId": "Shoes2.98",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "Shoes2",
+                        "templateId": "CosmeticShoes:shoes_breathtalelinea",
+                        "webURL": "/item-shop/kicks/air-jordan-11-blackgym-red-29a570d2",
+                        "color1": "#9D99BD",
+                        "color2": "#63559D",
+                        "textBackgroundColor": "#63559D",
+                        "inDate": "2024-11-23T00:00:00.000Z",
+                        "outDate": "2024-11-26T23:59:59.999Z",
+                        "EncryptionKey": "9CDC09A892C78780B6DF32091970A6E8:FLVM+9t9Iz18CutCTIaHONqsMCwfERIpJu14nXIUTHc=:Shoes_BreathTaleLinea"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "CosmeticShoes:shoes_breathtalelinea",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/OfferCatalog/NewDisplayAssets/S32/DAv2_Shoes_BreathTaleLinea.DAv2_Shoes_BreathTaleLinea"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "Shoes2.98"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "Shoes2"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "CosmeticShoes:shoes_breathtalelinea"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/kicks/air-jordan-11-blackgym-red-29a570d2"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#9D99BD"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#63559D"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#63559D"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-11-23T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-11-26T23:59:59.999Z"
+                        },
+                        {
+                            "key": "EncryptionKey",
+                            "value": "9CDC09A892C78780B6DF32091970A6E8:FLVM+9t9Iz18CutCTIaHONqsMCwfERIpJu14nXIUTHc=:Shoes_BreathTaleLinea"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "CosmeticShoes:shoes_breathtalelinea",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -1,
                     "catalogGroupPriority": 0
                 },
                 {
