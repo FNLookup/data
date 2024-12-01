@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2024-12-01T05:00:00.000Z",
+    "expiration": "2024-12-01T06:00:00.000Z",
     "storefronts": [
         {
             "name": "WinterQuest2019",
@@ -5824,102 +5824,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_430) for 500 MtxCurrency",
-                    "offerId": "v2:/540bb73f38467074688d55b83d42c61f61fbafe4376a2978c323b86381084c6a",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_430",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "JamTracks1201.99",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "JamTracks1201",
-                        "templateId": "SparksSong:sid_placeholder_430",
-                        "webURL": "/item-shop/jam-tracks/missing-all-translations-tbd-sidplaceholder430-3aeea994",
-                        "inDate": "2024-12-01T00:00:00.000Z",
-                        "outDate": "2025-01-03T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_430",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_430"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "JamTracks1201.99"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "JamTracks1201"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksSong:sid_placeholder_430"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/jam-tracks/missing-all-translations-tbd-sidplaceholder430-3aeea994"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-12-01T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2025-01-03T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_430",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -4,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x Beggin' for 500 MtxCurrency",
                     "offerId": "v2:/04ace1950e30be0ee4d0d2e776aabc1d89e5f0c6c663cf98ae428dd86664b53c",
                     "fulfillmentIds": [],
@@ -6013,6 +5917,112 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -20,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_430) for 500 MtxCurrency",
+                    "offerId": "v2:/540bb73f38467074688d55b83d42c61f61fbafe4376a2978c323b86381084c6a",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_430",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "JamTracks1201.99",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "JamTracks1201",
+                        "templateId": "SparksSong:sid_placeholder_430",
+                        "webURL": "/item-shop/jam-tracks/missing-all-translations-tbd-sidplaceholder430-3aeea994",
+                        "inDate": "2024-12-01T00:00:00.000Z",
+                        "outDate": "2025-01-03T23:59:59.999Z",
+                        "ViolatorTag": "New",
+                        "ViolatorIntensity": "High"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_430",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_430"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "JamTracks1201.99"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "JamTracks1201"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksSong:sid_placeholder_430"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/jam-tracks/missing-all-translations-tbd-sidplaceholder430-3aeea994"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-12-01T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2025-01-03T23:59:59.999Z"
+                        },
+                        {
+                            "key": "ViolatorTag",
+                            "value": "New"
+                        },
+                        {
+                            "key": "ViolatorIntensity",
+                            "value": "High"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_430",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -4,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -11367,6 +11377,8 @@
                         "textBackgroundColor": "#8780D1",
                         "inDate": "2024-12-01T00:00:00.000Z",
                         "outDate": "2024-12-05T23:59:59.999Z",
+                        "ViolatorTag": "New",
+                        "ViolatorIntensity": "High",
                         "EncryptionKey": "C98E633AA0E95A61566731B2BC1572E5:U3KV1F5+UkJ8qi/LAVWSLD4tsoVRezxZonZPRU+oJA8=:Contrail_KelpLinen",
                         "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_KelpLinenDance_Bundle.DA_Featured_KelpLinenDance_Bundle"
                     },
@@ -11430,6 +11442,14 @@
                         {
                             "key": "outDate",
                             "value": "2024-12-05T23:59:59.999Z"
+                        },
+                        {
+                            "key": "ViolatorTag",
+                            "value": "New"
+                        },
+                        {
+                            "key": "ViolatorIntensity",
+                            "value": "High"
                         },
                         {
                             "key": "EncryptionKey",
@@ -12354,6 +12374,102 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x Circles for 500 MtxCurrency",
+                    "offerId": "v2:/999c090b5faa8395d5642681205e32d3d6b2457dd85906a31c4b12fe9dd2e007",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_205",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "JamTracks1201.97",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "JamTracks1201",
+                        "templateId": "SparksSong:sid_placeholder_205",
+                        "webURL": "/item-shop/jam-tracks/circles-d0f9ade9",
+                        "inDate": "2024-06-24T00:00:00.000Z",
+                        "outDate": "2025-01-15T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_205",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_205"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "JamTracks1201.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "JamTracks1201"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksSong:sid_placeholder_205"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/jam-tracks/circles-d0f9ade9"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-06-24T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2025-01-15T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_205",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -8,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Nike Pegasus 41 'Hot Punch' for 800 MtxCurrency",
                     "offerId": "v2:/9bf278fe70e92ce6d9fe0ad8cabfd3d146739c4057a2a084632e672aa3042320",
                     "fulfillmentIds": [],
@@ -12457,102 +12573,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Circles for 500 MtxCurrency",
-                    "offerId": "v2:/999c090b5faa8395d5642681205e32d3d6b2457dd85906a31c4b12fe9dd2e007",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_205",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "JamTracks1201.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "JamTracks1201",
-                        "templateId": "SparksSong:sid_placeholder_205",
-                        "webURL": "/item-shop/jam-tracks/circles-d0f9ade9",
-                        "inDate": "2024-06-24T00:00:00.000Z",
-                        "outDate": "2025-01-15T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_205",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_205"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "JamTracks1201.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "JamTracks1201"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksSong:sid_placeholder_205"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/jam-tracks/circles-d0f9ade9"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-06-24T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2025-01-15T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_205",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -8,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -17397,6 +17417,8 @@
                         "textBackgroundColor": "#8780D1",
                         "inDate": "2024-12-01T00:00:00.000Z",
                         "outDate": "2024-12-05T23:59:59.999Z",
+                        "ViolatorTag": "New",
+                        "ViolatorIntensity": "High",
                         "EncryptionKey": "C98E633AA0E95A61566731B2BC1572E5:U3KV1F5+UkJ8qi/LAVWSLD4tsoVRezxZonZPRU+oJA8=:EID_Kelplinen_Calcium"
                     },
                     "matchFilter": "",
@@ -17461,6 +17483,14 @@
                         {
                             "key": "outDate",
                             "value": "2024-12-05T23:59:59.999Z"
+                        },
+                        {
+                            "key": "ViolatorTag",
+                            "value": "New"
+                        },
+                        {
+                            "key": "ViolatorIntensity",
+                            "value": "High"
                         },
                         {
                             "key": "EncryptionKey",
@@ -21388,6 +21418,102 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x Gimme The Light for 500 MtxCurrency",
+                    "offerId": "v2:/ee9e01ecb4d5ffa4b95f69de9b63aac93868e06124ae697cc677e98d1cbb87ba",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_262",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "JamTracks1201.97",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "JamTracks1201",
+                        "templateId": "SparksSong:sid_placeholder_262",
+                        "webURL": "/item-shop/jam-tracks/missing-all-translations-gimme-the-light-f3e09a1a",
+                        "inDate": "2024-09-20T00:00:00.000Z",
+                        "outDate": "2025-01-15T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_262",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_262"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "JamTracks1201.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "JamTracks1201"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksSong:sid_placeholder_262"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/jam-tracks/missing-all-translations-gimme-the-light-f3e09a1a"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-09-20T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2025-01-15T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_262",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -98,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Snoop Dogg, 1 x Dogg House for 1800 MtxCurrency",
                     "offerId": "v2:/def63a7423ad7f63c11ea9bc9f17eef0169ec7984f57ab70ef6284d8db5c20ed",
                     "fulfillmentIds": [],
@@ -21508,102 +21634,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Gimme The Light for 500 MtxCurrency",
-                    "offerId": "v2:/ee9e01ecb4d5ffa4b95f69de9b63aac93868e06124ae697cc677e98d1cbb87ba",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_262",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "JamTracks1201.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "JamTracks1201",
-                        "templateId": "SparksSong:sid_placeholder_262",
-                        "webURL": "/item-shop/jam-tracks/missing-all-translations-gimme-the-light-f3e09a1a",
-                        "inDate": "2024-09-20T00:00:00.000Z",
-                        "outDate": "2025-01-15T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_262",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_262"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "JamTracks1201.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "JamTracks1201"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksSong:sid_placeholder_262"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/jam-tracks/missing-all-translations-gimme-the-light-f3e09a1a"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-09-20T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2025-01-15T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_262",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -98,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -22629,6 +22659,8 @@
                         "textBackgroundColor": "#8780D1",
                         "inDate": "2024-12-01T00:00:00.000Z",
                         "outDate": "2024-12-05T23:59:59.999Z",
+                        "ViolatorTag": "New",
+                        "ViolatorIntensity": "High",
                         "EncryptionKey": "C98E633AA0E95A61566731B2BC1572E5:U3KV1F5+UkJ8qi/LAVWSLD4tsoVRezxZonZPRU+oJA8=:Contrail_KelpLinen",
                         "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Contrail_KelpLinen.DA_Featured_Contrail_KelpLinen"
                     },
@@ -22694,6 +22726,14 @@
                         {
                             "key": "outDate",
                             "value": "2024-12-05T23:59:59.999Z"
+                        },
+                        {
+                            "key": "ViolatorTag",
+                            "value": "New"
+                        },
+                        {
+                            "key": "ViolatorIntensity",
+                            "value": "High"
                         },
                         {
                             "key": "EncryptionKey",
@@ -27061,102 +27101,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_431) for 500 MtxCurrency",
-                    "offerId": "v2:/16476f368a2506b0ca23f9a6f6cce1a3dea8a234ed73740fce41019555ab98cf",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_431",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "JamTracks1201.99",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "JamTracks1201",
-                        "templateId": "SparksSong:sid_placeholder_431",
-                        "webURL": "/item-shop/jam-tracks/missing-all-translations-tbd-sidplaceholder431-0f6f9120",
-                        "inDate": "2024-11-28T00:00:00.000Z",
-                        "outDate": "2025-01-03T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_431",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_431"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "JamTracks1201.99"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "JamTracks1201"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksSong:sid_placeholder_431"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/jam-tracks/missing-all-translations-tbd-sidplaceholder431-0f6f9120"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-11-28T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2025-01-03T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_431",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -2,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x Suddenly I See for 500 MtxCurrency",
                     "offerId": "v2:/4a8068bd93d59ea7b984e8558ca598a07dcb9d46b6e49bed5980de2032df1c1e",
                     "fulfillmentIds": [],
@@ -27250,6 +27194,102 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -209,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_431) for 500 MtxCurrency",
+                    "offerId": "v2:/16476f368a2506b0ca23f9a6f6cce1a3dea8a234ed73740fce41019555ab98cf",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_431",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "JamTracks1201.99",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "JamTracks1201",
+                        "templateId": "SparksSong:sid_placeholder_431",
+                        "webURL": "/item-shop/jam-tracks/missing-all-translations-tbd-sidplaceholder431-0f6f9120",
+                        "inDate": "2024-11-28T00:00:00.000Z",
+                        "outDate": "2025-01-03T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_431",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_431"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "JamTracks1201.99"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "JamTracks1201"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksSong:sid_placeholder_431"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/jam-tracks/missing-all-translations-tbd-sidplaceholder431-0f6f9120"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-11-28T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2025-01-03T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_431",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -2,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -30584,117 +30624,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Chain-Sword for 800 MtxCurrency",
-                    "offerId": "v2:/78d18ae3ae2c9cf0dcb6733bce810896c634e1353717e8bab33a5a771be138c6",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 800,
-                            "dynamicRegularPrice": 800,
-                            "finalPrice": 800,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 800
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S32/DAv2_Pickaxe_ClayPlug.DAv2_Pickaxe_ClayPlug",
-                        "LayoutId": "Eminem.98",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "Eminem",
-                        "templateId": "AthenaPickaxe:pickaxe_clayplug",
-                        "webURL": "/item-shop/pickaxes/chainsword-77c4a299",
-                        "color1": "#44464a",
-                        "color2": "#2f3033",
-                        "color3": "#0c0c0d",
-                        "textBackgroundColor": "#0c0c0d",
-                        "inDate": "2024-11-29T00:00:00.000Z",
-                        "outDate": "2024-12-05T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaPickaxe:pickaxe_clayplug",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/OfferCatalog/NewDisplayAssets/S32/DAv2_Pickaxe_ClayPlug.DAv2_Pickaxe_ClayPlug"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "Eminem.98"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "Eminem"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaPickaxe:pickaxe_clayplug"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/pickaxes/chainsword-77c4a299"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#44464a"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#2f3033"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#0c0c0d"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#0c0c0d"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-11-29T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-12-05T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaPickaxe:pickaxe_clayplug",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -3,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x Bulls On Parade for 500 MtxCurrency",
                     "offerId": "v2:/0bb8c72e946e338caefe97ac36ebd571f6b0b7ec1af2d518231f826422232b53",
                     "fulfillmentIds": [],
@@ -30884,6 +30813,117 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -240,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Chain-Sword for 800 MtxCurrency",
+                    "offerId": "v2:/78d18ae3ae2c9cf0dcb6733bce810896c634e1353717e8bab33a5a771be138c6",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 800,
+                            "dynamicRegularPrice": 800,
+                            "finalPrice": 800,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 800
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S32/DAv2_Pickaxe_ClayPlug.DAv2_Pickaxe_ClayPlug",
+                        "LayoutId": "Eminem.98",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "Eminem",
+                        "templateId": "AthenaPickaxe:pickaxe_clayplug",
+                        "webURL": "/item-shop/pickaxes/chainsword-77c4a299",
+                        "color1": "#44464a",
+                        "color2": "#2f3033",
+                        "color3": "#0c0c0d",
+                        "textBackgroundColor": "#0c0c0d",
+                        "inDate": "2024-11-29T00:00:00.000Z",
+                        "outDate": "2024-12-05T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaPickaxe:pickaxe_clayplug",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/OfferCatalog/NewDisplayAssets/S32/DAv2_Pickaxe_ClayPlug.DAv2_Pickaxe_ClayPlug"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "Eminem.98"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "Eminem"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaPickaxe:pickaxe_clayplug"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/pickaxes/chainsword-77c4a299"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#44464a"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#2f3033"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#0c0c0d"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#0c0c0d"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-11-29T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-12-05T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaPickaxe:pickaxe_clayplug",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -3,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -35349,6 +35389,102 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x In The End for 500 MtxCurrency",
+                    "offerId": "v2:/31a4d3a1845b70640287e2103cbfecba52cd8c40137bb3107b8f8d5e42d73a56",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_298",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "JamTracks1201.97",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "JamTracks1201",
+                        "templateId": "SparksSong:sid_placeholder_298",
+                        "webURL": "/item-shop/jam-tracks/missing-all-translations-in-the-end-f58cd55e",
+                        "inDate": "2024-08-30T00:00:00.000Z",
+                        "outDate": "2025-01-15T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_298",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_298"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "JamTracks1201.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "JamTracks1201"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksSong:sid_placeholder_298"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/jam-tracks/missing-all-translations-in-the-end-f58cd55e"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-08-30T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2025-01-15T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_298",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -127,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Nike Mercurial Superfly 10 Elite 'Mad Voltage' for 800 MtxCurrency",
                     "offerId": "v2:/ab6bc85111219bf8b4afc3ad344342e759c5ef8312c6a065cfd98a08f36eb9de",
                     "fulfillmentIds": [],
@@ -35452,102 +35588,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -3,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x In The End for 500 MtxCurrency",
-                    "offerId": "v2:/31a4d3a1845b70640287e2103cbfecba52cd8c40137bb3107b8f8d5e42d73a56",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_298",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "JamTracks1201.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "JamTracks1201",
-                        "templateId": "SparksSong:sid_placeholder_298",
-                        "webURL": "/item-shop/jam-tracks/missing-all-translations-in-the-end-f58cd55e",
-                        "inDate": "2024-08-30T00:00:00.000Z",
-                        "outDate": "2025-01-15T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_298",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_298"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "JamTracks1201.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "JamTracks1201"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksSong:sid_placeholder_298"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/jam-tracks/missing-all-translations-in-the-end-f58cd55e"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-30T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2025-01-15T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_298",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -127,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -36501,7 +36541,9 @@
                         "color2": "#8780D1",
                         "textBackgroundColor": "#8780D1",
                         "inDate": "2024-12-01T00:00:00.000Z",
-                        "outDate": "2025-01-03T23:59:59.999Z"
+                        "outDate": "2025-01-03T23:59:59.999Z",
+                        "ViolatorTag": "New",
+                        "ViolatorIntensity": "High"
                     },
                     "matchFilter": "",
                     "filterWeight": 0.0,
@@ -36569,6 +36611,14 @@
                         {
                             "key": "outDate",
                             "value": "2025-01-03T23:59:59.999Z"
+                        },
+                        {
+                            "key": "ViolatorTag",
+                            "value": "New"
+                        },
+                        {
+                            "key": "ViolatorIntensity",
+                            "value": "High"
                         }
                     ],
                     "itemGrants": [
@@ -39467,6 +39517,102 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x Killing In The Name for 500 MtxCurrency",
+                    "offerId": "v2:/9532c729ef612fb99dca4abae89580138e6e2d0ae02a3df34f848c66c58d8319",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_202",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "JamTracks1201.97",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "JamTracks1201",
+                        "templateId": "SparksSong:sid_placeholder_202",
+                        "webURL": "/item-shop/jam-tracks/missing-all-translations-killing-in-the-name-f5721bb2",
+                        "inDate": "2024-08-09T00:00:00.000Z",
+                        "outDate": "2025-01-15T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_202",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_202"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "JamTracks1201.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "JamTracks1201"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksSong:sid_placeholder_202"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/jam-tracks/missing-all-translations-killing-in-the-name-f5721bb2"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-08-09T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2025-01-15T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_202",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -133,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Houdini for 500 MtxCurrency",
                     "offerId": "v2:/bd94d0be5c636c882db2fe6048138bb06fa6f0b2acc19476bfe2eff00b6bc707",
                     "fulfillmentIds": [],
@@ -39575,102 +39721,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -4,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Killing In The Name for 500 MtxCurrency",
-                    "offerId": "v2:/9532c729ef612fb99dca4abae89580138e6e2d0ae02a3df34f848c66c58d8319",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_202",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "JamTracks1201.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "JamTracks1201",
-                        "templateId": "SparksSong:sid_placeholder_202",
-                        "webURL": "/item-shop/jam-tracks/missing-all-translations-killing-in-the-name-f5721bb2",
-                        "inDate": "2024-08-09T00:00:00.000Z",
-                        "outDate": "2025-01-15T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_202",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_202"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "JamTracks1201.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "JamTracks1201"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksSong:sid_placeholder_202"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/jam-tracks/missing-all-translations-killing-in-the-name-f5721bb2"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-08-09T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2025-01-15T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_202",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -133,
                     "catalogGroupPriority": 0
                 },
                 {
