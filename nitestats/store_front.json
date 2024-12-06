@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2024-12-06T14:00:00.000Z",
+    "expiration": "2024-12-06T15:00:00.000Z",
     "storefronts": [
         {
             "name": "WinterQuest2019",
@@ -41134,7 +41134,211 @@
         },
         {
             "name": "FigmentS01",
-            "catalogEntries": []
+            "catalogEntries": [
+                {
+                    "offerId": "7AB8B49347120F6DD88E3981872CAC6F",
+                    "devName": "Figment.S01.Pass.01",
+                    "offerType": "StaticPrice",
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 1000,
+                            "dynamicRegularPrice": -1,
+                            "finalPrice": 1000,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 1000
+                        }
+                    ],
+                    "categories": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "refundable": false,
+                    "appStoreId": [
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnFulfillment",
+                            "requiredId": "2B4A820946101D9B350E4D9E50089D19",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "metaInfo": [
+                        {
+                            "key": "bShowInItemShop",
+                            "value": "true"
+                        },
+                        {
+                            "key": "sectionPriority",
+                            "value": "1000"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_4_x_2"
+                        },
+                        {
+                            "key": "Preroll",
+                            "value": "False"
+                        },
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/S33/DAv2_Figment_S01_FigmentPass.DAv2_Figment_S01_FigmentPass"
+                        },
+                        {
+                            "key": "ShouldShowBattlePassPurchase",
+                            "value": "true"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "BattlePassCrew.2"
+                        },
+                        {
+                            "key": "IsBattlePass",
+                            "value": "true"
+                        }
+                    ],
+                    "catalogGroup": "",
+                    "catalogGroupPriority": 0,
+                    "sortPriority": 500,
+                    "title": "",
+                    "shortDescription": "",
+                    "description": "",
+                    "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Figment_Season01_FigmentPass.DA_Figment_Season01_FigmentPass",
+                    "itemGrants": []
+                },
+                {
+                    "offerId": "DC541CC545AF31BC2BD590939C734404",
+                    "devName": "Figment.S01.SingleLevel.01",
+                    "offerType": "StaticPrice",
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 150,
+                            "dynamicRegularPrice": -1,
+                            "finalPrice": 150,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 150
+                        }
+                    ],
+                    "categories": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "refundable": false,
+                    "appStoreId": [
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "requirements": [],
+                    "metaInfo": [
+                        {
+                            "key": "Preroll",
+                            "value": "False"
+                        }
+                    ],
+                    "catalogGroup": "",
+                    "catalogGroupPriority": 0,
+                    "sortPriority": 0,
+                    "title": "",
+                    "shortDescription": "",
+                    "description": "",
+                    "displayAssetPath": "",
+                    "itemGrants": []
+                },
+                {
+                    "offerId": "BFD75AA0424A73F369CB8D9F460A8414",
+                    "devName": "Figment.Season01.FigmentPassGift.01",
+                    "offerType": "StaticPrice",
+                    "prices": [
+                        {
+                            "currencyType": "GameItem",
+                            "currencySubType": "Token:figmentpassgift",
+                            "regularPrice": 1,
+                            "dynamicRegularPrice": -1,
+                            "finalPrice": 1,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 1
+                        }
+                    ],
+                    "categories": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "refundable": false,
+                    "appStoreId": [
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnFulfillment",
+                            "requiredId": "2B4A820946101D9B350E4D9E50089D19",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "metaInfo": [
+                        {
+                            "key": "Preroll",
+                            "value": "False"
+                        },
+                        {
+                            "key": "BannerOverride",
+                            "value": "GiftOnly"
+                        },
+                        {
+                            "key": "SeasonGift",
+                            "value": "true"
+                        }
+                    ],
+                    "catalogGroup": "",
+                    "catalogGroupPriority": 0,
+                    "sortPriority": 0,
+                    "title": "",
+                    "shortDescription": "",
+                    "description": "",
+                    "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Figment_Season01_FigmentPass.DA_Figment_Season01_FigmentPass",
+                    "itemGrants": [],
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": []
+                    }
+                }
+            ]
         },
         {
             "name": "DebugSeasonPass",
