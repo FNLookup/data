@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2024-12-10T09:00:00.000Z",
+    "expiration": "2024-12-10T10:00:00.000Z",
     "storefronts": [
         {
             "name": "WinterQuest2019",
@@ -39403,134 +39403,7 @@
         },
         {
             "name": "JunoSpooktacularPass",
-            "catalogEntries": [
-                {
-                    "offerId": "0DF3F55F4C8A535D57B9368775D55950",
-                    "devName": "Juno.Event.SpooktacularPass.Singlelevel",
-                    "offerType": "StaticPrice",
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 150,
-                            "dynamicRegularPrice": -1,
-                            "finalPrice": 150,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 150
-                        }
-                    ],
-                    "categories": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "refundable": false,
-                    "appStoreId": [
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        ""
-                    ],
-                    "requirements": [],
-                    "metaInfo": [],
-                    "catalogGroup": "",
-                    "catalogGroupPriority": 0,
-                    "sortPriority": 0,
-                    "title": "",
-                    "shortDescription": "",
-                    "description": "",
-                    "displayAssetPath": "",
-                    "itemGrants": [
-                        {
-                            "templateId": "AccountResource:junospooktacularengagementquests_eventcurrency_granter",
-                            "quantity": 80000,
-                            "attributes": {}
-                        }
-                    ]
-                },
-                {
-                    "offerId": "E7EAB3BE4AF430070D115EB4E85006F4",
-                    "devName": "Juno.Event.SpooktacularPass.Premium",
-                    "offerType": "StaticPrice",
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 1400,
-                            "dynamicRegularPrice": -1,
-                            "finalPrice": 1400,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 1400
-                        }
-                    ],
-                    "categories": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "refundable": false,
-                    "appStoreId": [
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        ""
-                    ],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnFulfillment",
-                            "requiredId": "36E5025E444C5FCF1B98FDA20C3A75E9",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "metaInfo": [
-                        {
-                            "key": "TileSize",
-                            "value": "Size_4_x_2"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "BattlePassCrew.4"
-                        },
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/OfferCatalog/NewDisplayAssets/S31/DAv2_JunoSpooktacular_Premium.DAv2_JunoSpooktacular_Premium"
-                        }
-                    ],
-                    "catalogGroup": "",
-                    "catalogGroupPriority": 0,
-                    "sortPriority": -10,
-                    "title": "",
-                    "shortDescription": "",
-                    "description": "",
-                    "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_JunoSpooktacular_Premium.DA_JunoSpooktacular_Premium",
-                    "itemGrants": [
-                        {
-                            "templateId": "Token:junospooktacularengagementquests_eventpremiumtrackpurchasetoken",
-                            "quantity": 1,
-                            "attributes": {}
-                        },
-                        {
-                            "templateId": "AthenaCharacter:character_kobolobo",
-                            "quantity": 1,
-                            "attributes": {}
-                        }
-                    ]
-                }
-            ]
+            "catalogEntries": []
         },
         {
             "name": "BRSeason11",
