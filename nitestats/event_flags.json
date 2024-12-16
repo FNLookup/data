@@ -3,7 +3,7 @@
         "standalone-store": {
             "states": [
                 {
-                    "validFrom": "2024-12-16T16:44:30.393Z",
+                    "validFrom": "2024-12-16T17:08:55.341Z",
                     "activeEvents": [],
                     "state": {
                         "activePurchaseLimitingEventIds": [],
@@ -13,12 +13,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-12-16T18:44:30.393Z"
+            "cacheExpire": "2024-12-16T19:08:55.341Z"
         },
         "client-matchmaking": {
             "states": [
                 {
-                    "validFrom": "2024-12-16T16:44:30.393Z",
+                    "validFrom": "2024-12-16T17:08:55.341Z",
                     "activeEvents": [],
                     "state": {
                         "region": {
@@ -72,26 +72,82 @@
                             }
                         }
                     }
+                },
+                {
+                    "validFrom": "2024-12-16T19:00:00.000Z",
+                    "activeEvents": [],
+                    "state": {
+                        "region": {
+                            "NAE": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "NAW": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "NAC": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "EU": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "OCE": {
+                                "eventFlagsForcedOff": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "ASIA": {
+                                "eventFlagsForcedOff": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "BR": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "ME": {
+                                "eventFlagsForcedOff": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            }
+                        }
+                    }
                 }
             ],
-            "cacheExpire": "2024-12-16T18:44:30.393Z"
+            "cacheExpire": "2024-12-16T19:08:55.341Z"
         },
         "tk": {
             "states": [
                 {
-                    "validFrom": "2024-12-16T16:44:30.393Z",
+                    "validFrom": "2024-12-16T17:08:55.341Z",
                     "activeEvents": [],
                     "state": {
                         "k": []
                     }
                 }
             ],
-            "cacheExpire": "2024-12-16T18:44:30.393Z"
+            "cacheExpire": "2024-12-16T19:08:55.341Z"
         },
         "featured-islands": {
             "states": [
                 {
-                    "validFrom": "2024-12-16T16:44:30.393Z",
+                    "validFrom": "2024-12-16T17:08:55.341Z",
                     "activeEvents": [],
                     "state": {
                         "islandCodes": [],
@@ -101,12 +157,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-12-16T18:44:30.393Z"
+            "cacheExpire": "2024-12-16T19:08:55.341Z"
         },
         "community-votes": {
             "states": [
                 {
-                    "validFrom": "2024-12-16T16:44:30.393Z",
+                    "validFrom": "2024-12-16T17:08:55.341Z",
                     "activeEvents": [],
                     "state": {
                         "electionId": "",
@@ -116,12 +172,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-12-16T18:44:30.393Z"
+            "cacheExpire": "2024-12-16T19:08:55.341Z"
         },
         "client-events": {
             "states": [
                 {
-                    "validFrom": "2024-12-16T16:44:30.393Z",
+                    "validFrom": "2024-12-16T17:08:55.341Z",
                     "activeEvents": [
                         {
                             "eventType": "EventFlag.Event_DelMar_Season01_Dailies",
@@ -355,7 +411,7 @@
                         },
                         {
                             "eventType": "EventFlag.Event_S33_FeralLoginReward",
-                            "activeUntil": "2024-12-26T02:00:00.000Z",
+                            "activeUntil": "2024-12-26T04:00:00.000Z",
                             "activeSince": "2024-12-14T14:00:00.000Z"
                         },
                         {
@@ -710,7 +766,7 @@
                                 "devName": "Event_S33_FeralLoginReward",
                                 "eventName": "CalendarEvent_S33_FeralLoginReward",
                                 "eventStart": "2024-12-14T14:00:00Z",
-                                "eventEnd": "2024-12-26T02:00:00Z",
+                                "eventEnd": "2024-12-26T04:00:00Z",
                                 "eventType": "EventFlag.Event_S33_FeralLoginReward"
                             }
                         ],
@@ -730,9 +786,9 @@
                     }
                 }
             ],
-            "cacheExpire": "2024-12-16T18:44:30.393Z"
+            "cacheExpire": "2024-12-16T19:08:55.341Z"
         }
     },
     "cacheIntervalMins": 15,
-    "currentTime": "2024-12-16T17:09:40.368Z"
+    "currentTime": "2024-12-16T17:27:40.255Z"
 }
