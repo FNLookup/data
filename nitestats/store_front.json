@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2024-12-25T21:00:00.000Z",
+    "expiration": "2024-12-25T22:00:00.000Z",
     "storefronts": [
         {
             "name": "WinterQuest2019",
@@ -2726,6 +2726,124 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x Nog Ops for 800 MtxCurrency",
+                    "offerId": "v2:/552b29ef4294ce9e80d5c452621079b7f703879a0c69e241488f2092ecb2ff62",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 800,
+                            "dynamicRegularPrice": 800,
+                            "finalPrice": 800,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 800
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_CID_046_F_HolidaySweater.DAv2_CID_046_F_HolidaySweater",
+                        "LayoutId": "Winterfest1225-C.95",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "Winterfest1225-C",
+                        "templateId": "AthenaCharacter:cid_046_athena_commando_f_holidaysweater",
+                        "webURL": "/item-shop/outfits/nog-ops-e5a66231",
+                        "color1": "#F1E0AB",
+                        "color2": "#C6A25E",
+                        "color3": "#453921",
+                        "tileBackgroundMaterial": "Wrapper_WF25",
+                        "textBackgroundColor": "#453921",
+                        "inDate": "2024-12-23T00:00:00.000Z",
+                        "outDate": "2024-12-26T23:59:59.999Z",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_SFemaleHID046.DA_Featured_SFemaleHID046"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaCharacter:cid_046_athena_commando_f_holidaysweater",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_CID_046_F_HolidaySweater.DAv2_CID_046_F_HolidaySweater"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "Winterfest1225-C.95"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "Winterfest1225-C"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaCharacter:cid_046_athena_commando_f_holidaysweater"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/outfits/nog-ops-e5a66231"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#F1E0AB"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#C6A25E"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#453921"
+                        },
+                        {
+                            "key": "tileBackgroundMaterial",
+                            "value": "Wrapper_WF25"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#453921"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-12-23T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2024-12-26T23:59:59.999Z"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_SFemaleHID046.DA_Featured_SFemaleHID046",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaCharacter:cid_046_athena_commando_f_holidaysweater",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -2,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Plungerman's Plunger for 800 MtxCurrency",
                     "offerId": "v2:/eb9cf3da403ee91379cb0c841c984102fb67e747f7555864d9baace98c6c14fb",
                     "fulfillmentIds": [],
@@ -2839,124 +2957,6 @@
                     "itemGrants": [
                         {
                             "templateId": "AthenaPickaxe:pickaxe_pagetruffle",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -2,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Nog Ops for 800 MtxCurrency",
-                    "offerId": "v2:/552b29ef4294ce9e80d5c452621079b7f703879a0c69e241488f2092ecb2ff62",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 800,
-                            "dynamicRegularPrice": 800,
-                            "finalPrice": 800,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 800
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/DAv2_CID_046_F_HolidaySweater.DAv2_CID_046_F_HolidaySweater",
-                        "LayoutId": "Winterfest1225-C.95",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "Winterfest1225-C",
-                        "templateId": "AthenaCharacter:cid_046_athena_commando_f_holidaysweater",
-                        "webURL": "/item-shop/outfits/nog-ops-e5a66231",
-                        "color1": "#F1E0AB",
-                        "color2": "#C6A25E",
-                        "color3": "#453921",
-                        "tileBackgroundMaterial": "Wrapper_WF25",
-                        "textBackgroundColor": "#453921",
-                        "inDate": "2024-12-23T00:00:00.000Z",
-                        "outDate": "2024-12-26T23:59:59.999Z",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_SFemaleHID046.DA_Featured_SFemaleHID046"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaCharacter:cid_046_athena_commando_f_holidaysweater",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/DAv2_CID_046_F_HolidaySweater.DAv2_CID_046_F_HolidaySweater"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "Winterfest1225-C.95"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "Winterfest1225-C"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaCharacter:cid_046_athena_commando_f_holidaysweater"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/outfits/nog-ops-e5a66231"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#F1E0AB"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#C6A25E"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#453921"
-                        },
-                        {
-                            "key": "tileBackgroundMaterial",
-                            "value": "Wrapper_WF25"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#453921"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-12-23T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2024-12-26T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_SFemaleHID046.DA_Featured_SFemaleHID046",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaCharacter:cid_046_athena_commando_f_holidaysweater",
                             "quantity": 1
                         }
                     ],
@@ -14907,6 +14907,127 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_75) for 500 MtxCurrency",
+                    "offerId": "v2:/991801b56b58743f85379ecf532e7983d67800647cd35680e444925bb0b14c29",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_75",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "JamTracks1225-C.98",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "JamTracks1225-C",
+                        "templateId": "SparksSong:sid_placeholder_75",
+                        "webURL": "/item-shop/jam-tracks/missing-all-translations-tbd-sidplaceholder75-85444808",
+                        "color1": "#F1E0AB",
+                        "color2": "#C6A25E",
+                        "color3": "#453921",
+                        "tileBackgroundMaterial": "Wrapper_WF25",
+                        "textBackgroundColor": "#453921",
+                        "inDate": "2024-12-20T00:00:00.000Z",
+                        "outDate": "2025-01-28T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_75",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_75"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "JamTracks1225-C.98"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "JamTracks1225-C"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksSong:sid_placeholder_75"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/jam-tracks/missing-all-translations-tbd-sidplaceholder75-85444808"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#F1E0AB"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#C6A25E"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#453921"
+                        },
+                        {
+                            "key": "tileBackgroundMaterial",
+                            "value": "Wrapper_WF25"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#453921"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-12-20T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2025-01-28T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_75",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -2,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Paradise City for 500 MtxCurrency",
                     "offerId": "v2:/cc9a3a2a7960735ab7ee4171818c80739eaeec70f2d8993a731eb4c0890da9ff",
                     "fulfillmentIds": [],
@@ -17190,127 +17311,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_451) for 500 MtxCurrency",
-                    "offerId": "v2:/42ea4127c876baba891f3ab74d9cc5feddc73266c6579d50367f610a7952554b",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_451",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "JamTracks1225-C.98",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "JamTracks1225-C",
-                        "templateId": "SparksSong:sid_placeholder_451",
-                        "webURL": "/item-shop/jam-tracks/missing-all-translations-tbd-sidplaceholder451-85444808",
-                        "color1": "#F1E0AB",
-                        "color2": "#C6A25E",
-                        "color3": "#453921",
-                        "tileBackgroundMaterial": "Wrapper_WF25",
-                        "textBackgroundColor": "#453921",
-                        "inDate": "2024-12-20T00:00:00.000Z",
-                        "outDate": "2025-01-28T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_451",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_451"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "JamTracks1225-C.98"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "JamTracks1225-C"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksSong:sid_placeholder_451"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/jam-tracks/missing-all-translations-tbd-sidplaceholder451-85444808"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#F1E0AB"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#C6A25E"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#453921"
-                        },
-                        {
-                            "key": "tileBackgroundMaterial",
-                            "value": "Wrapper_WF25"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#453921"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-12-20T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2025-01-28T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_451",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -2,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_472) for 500 MtxCurrency",
                     "offerId": "v2:/5aad7868980fab8c973b9c184fcf629c0df814216515ec91c684a00c67414c40",
                     "fulfillmentIds": [],
@@ -19473,6 +19473,301 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -4,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Lustrum X10, 1 x Lustrum X10, 1 x Lustrum X10, 1 x Lustrum X10, 1 x Lustrum X10, 1 x Lustrum X10, 1 x Lustrum X10, 1 x Lustrum X10, 1 x Lustrum X10, 1 x Lustrum X10, 1 x Lustrum X10, 1 x Lustrum X10, 1 x Lustrum X10 for -1 MtxCurrency",
+                    "offerId": "v2:/12a2e09b99891700531292f001b132b02a9469e45a071d57016cd119f306ce64",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [],
+                    "dynamicBundleInfo": {
+                        "discountedBasePrice": 0,
+                        "regularBasePrice": 0,
+                        "floorPrice": 50,
+                        "currencyType": "MtxCurrency",
+                        "currencySubType": "",
+                        "displayType": "AmountOff",
+                        "bundleItems": [
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 50,
+                                "discountedPrice": 50,
+                                "alreadyOwnedPriceReduction": 50,
+                                "item": {
+                                    "templateId": "CosmeticVariantToken:carwheel_furniss_none",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 50,
+                                "discountedPrice": 50,
+                                "alreadyOwnedPriceReduction": 50,
+                                "item": {
+                                    "templateId": "CosmeticVariantToken:carwheel_furniss_black",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 50,
+                                "discountedPrice": 50,
+                                "alreadyOwnedPriceReduction": 50,
+                                "item": {
+                                    "templateId": "CosmeticVariantToken:carwheel_furniss_titaniumwhite",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 50,
+                                "discountedPrice": 50,
+                                "alreadyOwnedPriceReduction": 50,
+                                "item": {
+                                    "templateId": "CosmeticVariantToken:carwheel_furniss_grey",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 50,
+                                "discountedPrice": 50,
+                                "alreadyOwnedPriceReduction": 50,
+                                "item": {
+                                    "templateId": "CosmeticVariantToken:carwheel_furniss_pink",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 50,
+                                "discountedPrice": 50,
+                                "alreadyOwnedPriceReduction": 50,
+                                "item": {
+                                    "templateId": "CosmeticVariantToken:carwheel_furniss_cobalt",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 0,
+                                "discountedPrice": 0,
+                                "alreadyOwnedPriceReduction": 0,
+                                "item": {
+                                    "templateId": "CosmeticVariantToken:carwheel_furniss_skyblue",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 0,
+                                "discountedPrice": 0,
+                                "alreadyOwnedPriceReduction": 0,
+                                "item": {
+                                    "templateId": "CosmeticVariantToken:carwheel_furniss_burntsienna",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 0,
+                                "discountedPrice": 0,
+                                "alreadyOwnedPriceReduction": 0,
+                                "item": {
+                                    "templateId": "CosmeticVariantToken:carwheel_furniss_saffron",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 0,
+                                "discountedPrice": 0,
+                                "alreadyOwnedPriceReduction": 0,
+                                "item": {
+                                    "templateId": "CosmeticVariantToken:carwheel_furniss_lime",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 0,
+                                "discountedPrice": 0,
+                                "alreadyOwnedPriceReduction": 0,
+                                "item": {
+                                    "templateId": "CosmeticVariantToken:carwheel_furniss_forestgreen",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 0,
+                                "discountedPrice": 0,
+                                "alreadyOwnedPriceReduction": 0,
+                                "item": {
+                                    "templateId": "CosmeticVariantToken:carwheel_furniss_orange",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 0,
+                                "discountedPrice": 0,
+                                "alreadyOwnedPriceReduction": 0,
+                                "item": {
+                                    "templateId": "CosmeticVariantToken:carwheel_furniss_purple",
+                                    "quantity": 1
+                                }
+                            }
+                        ]
+                    },
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S28/DAv2_Bundle_Featured_Wheel_Furniss.DAv2_Bundle_Featured_Wheel_Furniss",
+                        "bundleId": "DynamicBundle:b_wheel_furniss",
+                        "LayoutId": "HolidayAstro-C.99",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "HolidayAstro-C",
+                        "templateId": "DynamicBundle:b_wheel_furniss",
+                        "webURL": "/item-shop/bundles/lustrum-x10-d8d52e93",
+                        "color1": "#F1E0AB",
+                        "color2": "#C6A25E",
+                        "color3": "#453921",
+                        "tileBackgroundMaterial": "Wrapper_WF25",
+                        "textBackgroundColor": "#453921",
+                        "inDate": "2024-12-19T00:00:00.000Z",
+                        "outDate": "2025-01-01T23:59:59.999Z",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Wheel_Furniss_Bundle.DA_Featured_Wheel_Furniss_Bundle"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [],
+                    "offerType": "DynamicBundle",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/S28/DAv2_Bundle_Featured_Wheel_Furniss.DAv2_Bundle_Featured_Wheel_Furniss"
+                        },
+                        {
+                            "key": "bundleId",
+                            "value": "DynamicBundle:b_wheel_furniss"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "HolidayAstro-C.99"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "HolidayAstro-C"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "DynamicBundle:b_wheel_furniss"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/bundles/lustrum-x10-d8d52e93"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#F1E0AB"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#C6A25E"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#453921"
+                        },
+                        {
+                            "key": "tileBackgroundMaterial",
+                            "value": "Wrapper_WF25"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#453921"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-12-19T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2025-01-01T23:59:59.999Z"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Wheel_Furniss_Bundle.DA_Featured_Wheel_Furniss_Bundle",
+                    "itemGrants": [
+                        {
+                            "templateId": "CosmeticVariantToken:carwheel_furniss_none",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "CosmeticVariantToken:carwheel_furniss_black",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "CosmeticVariantToken:carwheel_furniss_titaniumwhite",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "CosmeticVariantToken:carwheel_furniss_grey",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "CosmeticVariantToken:carwheel_furniss_pink",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "CosmeticVariantToken:carwheel_furniss_cobalt",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "CosmeticVariantToken:carwheel_furniss_skyblue",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "CosmeticVariantToken:carwheel_furniss_burntsienna",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "CosmeticVariantToken:carwheel_furniss_saffron",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "CosmeticVariantToken:carwheel_furniss_lime",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "CosmeticVariantToken:carwheel_furniss_forestgreen",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "CosmeticVariantToken:carwheel_furniss_orange",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "CosmeticVariantToken:carwheel_furniss_purple",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -3,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -38283,7 +38578,7 @@
                         "offertag": "wheels",
                         "bundleId": "DynamicBundle:b_wheel_peppermint",
                         "LayoutId": "HolidayAstro-C.99",
-                        "TileSize": "Size_2_x_1",
+                        "TileSize": "Size_1_x_1",
                         "AnalyticOfferGroupId": "HolidayAstro-C",
                         "templateId": "DynamicBundle:b_wheel_peppermint",
                         "webURL": "/item-shop/bundles/peppermint-wheel-6cea106b",
@@ -38327,7 +38622,7 @@
                         },
                         {
                             "key": "TileSize",
-                            "value": "Size_2_x_1"
+                            "value": "Size_1_x_1"
                         },
                         {
                             "key": "AnalyticOfferGroupId",
