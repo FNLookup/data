@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2024-12-30T10:00:00.000Z",
+    "expiration": "2024-12-30T11:00:00.000Z",
     "storefronts": [
         {
             "name": "WinterQuest2019",
@@ -257,8 +257,8 @@
             "name": "CardPackStorePreroll",
             "catalogEntries": [
                 {
-                    "offerId": "D46EC225FA1149ADB00B4B17B2ABAB70",
-                    "devName": "RandomFree.FreePack.01",
+                    "offerId": "4D64CBE3618D41FBB5CAD0E472F4610A",
+                    "devName": "Always.UpgradePack.01",
                     "offerType": "StaticPrice",
                     "prices": [
                         {
@@ -266,14 +266,13 @@
                             "currencySubType": "AccountResource:currency_xrayllama",
                             "regularPrice": 50,
                             "dynamicRegularPrice": -1,
-                            "finalPrice": 0,
-                            "saleType": "Strikethrough",
+                            "finalPrice": 50,
                             "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 0
+                            "basePrice": 50
                         }
                     ],
                     "categories": [],
-                    "dailyLimit": 2,
+                    "dailyLimit": 50,
                     "weeklyLimit": -1,
                     "monthlyLimit": -1,
                     "refundable": false,
@@ -291,8 +290,22 @@
                         "",
                         ""
                     ],
-                    "requirements": [],
+                    "requirements": [
+                        {
+                            "requirementType": "RequireFulfillment",
+                            "requiredId": "63BE689248CAF1251C84B4B3574F90EF",
+                            "minQuantity": 1
+                        }
+                    ],
                     "metaInfo": [
+                        {
+                            "key": "SharedDisplayPriority",
+                            "value": "1"
+                        },
+                        {
+                            "key": "bUseUpgradeDisplay",
+                            "value": "True"
+                        },
                         {
                             "key": "ProfileId",
                             "value": "campaign"
@@ -304,12 +317,16 @@
                         {
                             "key": "MaxConcurrentPurchases",
                             "value": "1"
+                        },
+                        {
+                            "key": "LinkedPrerollOffer",
+                            "value": "OfferId:D2E08EFA731D437B85B7340EB51A5E1D"
                         }
                     ],
                     "catalogGroup": "Upgrade",
-                    "catalogGroupPriority": 10,
+                    "catalogGroupPriority": 1,
                     "sortPriority": 0,
-                    "title": "Upgrade Llama (Seasonal Sale Freebie!)",
+                    "title": "Upgrade Llama",
                     "shortDescription": "",
                     "description": "The old faithful llama, packed with a variety of goodies and upgrade materials. Contains at least 4 items, including a rare item or a hero! Has a high chance to upgrade.",
                     "displayAssetPath": "/SaveTheWorld/Items/CardPacks/CardPack_Bronze.CardPack_Bronze",
@@ -379,6 +396,88 @@
                     ],
                     "catalogGroup": "Upgrade",
                     "catalogGroupPriority": 999,
+                    "sortPriority": 0,
+                    "title": "Upgrade Llama",
+                    "shortDescription": "",
+                    "description": "The old faithful llama, packed with a variety of goodies and upgrade materials. Contains at least 4 items, including a rare item or a hero! Has a high chance to upgrade.",
+                    "displayAssetPath": "/SaveTheWorld/Items/CardPacks/CardPack_Bronze.CardPack_Bronze",
+                    "itemGrants": [
+                        {
+                            "templateId": "CardPack:cardpack_bronze",
+                            "quantity": 1,
+                            "attributes": {}
+                        }
+                    ]
+                },
+                {
+                    "offerId": "D2E08EFA731D437B85B7340EB51A5E1D",
+                    "devName": "Always.UpgradePack.02",
+                    "offerType": "StaticPrice",
+                    "prices": [
+                        {
+                            "currencyType": "GameItem",
+                            "currencySubType": "AccountResource:voucher_cardpack_bronze",
+                            "regularPrice": 1,
+                            "dynamicRegularPrice": -1,
+                            "finalPrice": 1,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 1
+                        }
+                    ],
+                    "categories": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "refundable": false,
+                    "appStoreId": [
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "requirements": [
+                        {
+                            "requirementType": "RequireFulfillment",
+                            "requiredId": "63BE689248CAF1251C84B4B3574F90EF",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "metaInfo": [
+                        {
+                            "key": "SharedDisplayPriority",
+                            "value": "2"
+                        },
+                        {
+                            "key": "bUseUpgradeDisplay",
+                            "value": "True"
+                        },
+                        {
+                            "key": "ProfileId",
+                            "value": "campaign"
+                        },
+                        {
+                            "key": "Preroll",
+                            "value": "True"
+                        },
+                        {
+                            "key": "MaxConcurrentPurchases",
+                            "value": "1"
+                        },
+                        {
+                            "key": "LinkedPrerollOffer",
+                            "value": "OfferId:4D64CBE3618D41FBB5CAD0E472F4610A"
+                        }
+                    ],
+                    "catalogGroup": "Upgrade",
+                    "catalogGroupPriority": 2,
                     "sortPriority": 0,
                     "title": "Upgrade Llama",
                     "shortDescription": "",
@@ -523,170 +622,6 @@
                     "catalogGroup": "Shared",
                     "catalogGroupPriority": 3,
                     "fulfillmentClass": "com.epicgames.fortnite.core.game.fulfillments.PrerollFulfillment"
-                },
-                {
-                    "offerId": "4D64CBE3618D41FBB5CAD0E472F4610A",
-                    "devName": "Always.UpgradePack.01",
-                    "offerType": "StaticPrice",
-                    "prices": [
-                        {
-                            "currencyType": "GameItem",
-                            "currencySubType": "AccountResource:currency_xrayllama",
-                            "regularPrice": 50,
-                            "dynamicRegularPrice": -1,
-                            "finalPrice": 50,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 50
-                        }
-                    ],
-                    "categories": [],
-                    "dailyLimit": 50,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "refundable": false,
-                    "appStoreId": [
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        ""
-                    ],
-                    "requirements": [
-                        {
-                            "requirementType": "RequireFulfillment",
-                            "requiredId": "63BE689248CAF1251C84B4B3574F90EF",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "metaInfo": [
-                        {
-                            "key": "SharedDisplayPriority",
-                            "value": "1"
-                        },
-                        {
-                            "key": "bUseUpgradeDisplay",
-                            "value": "True"
-                        },
-                        {
-                            "key": "ProfileId",
-                            "value": "campaign"
-                        },
-                        {
-                            "key": "Preroll",
-                            "value": "True"
-                        },
-                        {
-                            "key": "MaxConcurrentPurchases",
-                            "value": "1"
-                        },
-                        {
-                            "key": "LinkedPrerollOffer",
-                            "value": "OfferId:D2E08EFA731D437B85B7340EB51A5E1D"
-                        }
-                    ],
-                    "catalogGroup": "Upgrade",
-                    "catalogGroupPriority": 1,
-                    "sortPriority": 0,
-                    "title": "Upgrade Llama",
-                    "shortDescription": "",
-                    "description": "The old faithful llama, packed with a variety of goodies and upgrade materials. Contains at least 4 items, including a rare item or a hero! Has a high chance to upgrade.",
-                    "displayAssetPath": "/SaveTheWorld/Items/CardPacks/CardPack_Bronze.CardPack_Bronze",
-                    "itemGrants": [
-                        {
-                            "templateId": "CardPack:cardpack_bronze",
-                            "quantity": 1,
-                            "attributes": {}
-                        }
-                    ]
-                },
-                {
-                    "offerId": "D2E08EFA731D437B85B7340EB51A5E1D",
-                    "devName": "Always.UpgradePack.02",
-                    "offerType": "StaticPrice",
-                    "prices": [
-                        {
-                            "currencyType": "GameItem",
-                            "currencySubType": "AccountResource:voucher_cardpack_bronze",
-                            "regularPrice": 1,
-                            "dynamicRegularPrice": -1,
-                            "finalPrice": 1,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 1
-                        }
-                    ],
-                    "categories": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "refundable": false,
-                    "appStoreId": [
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        "",
-                        ""
-                    ],
-                    "requirements": [
-                        {
-                            "requirementType": "RequireFulfillment",
-                            "requiredId": "63BE689248CAF1251C84B4B3574F90EF",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "metaInfo": [
-                        {
-                            "key": "SharedDisplayPriority",
-                            "value": "2"
-                        },
-                        {
-                            "key": "bUseUpgradeDisplay",
-                            "value": "True"
-                        },
-                        {
-                            "key": "ProfileId",
-                            "value": "campaign"
-                        },
-                        {
-                            "key": "Preroll",
-                            "value": "True"
-                        },
-                        {
-                            "key": "MaxConcurrentPurchases",
-                            "value": "1"
-                        },
-                        {
-                            "key": "LinkedPrerollOffer",
-                            "value": "OfferId:4D64CBE3618D41FBB5CAD0E472F4610A"
-                        }
-                    ],
-                    "catalogGroup": "Upgrade",
-                    "catalogGroupPriority": 2,
-                    "sortPriority": 0,
-                    "title": "Upgrade Llama",
-                    "shortDescription": "",
-                    "description": "The old faithful llama, packed with a variety of goodies and upgrade materials. Contains at least 4 items, including a rare item or a hero! Has a high chance to upgrade.",
-                    "displayAssetPath": "/SaveTheWorld/Items/CardPacks/CardPack_Bronze.CardPack_Bronze",
-                    "itemGrants": [
-                        {
-                            "templateId": "CardPack:cardpack_bronze",
-                            "quantity": 1,
-                            "attributes": {}
-                        }
-                    ]
                 },
                 {
                     "offerId": "8339003D26B24F70878EE280B70C340D",
