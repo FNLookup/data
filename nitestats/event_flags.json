@@ -3,7 +3,7 @@
         "standalone-store": {
             "states": [
                 {
-                    "validFrom": "2025-01-07T20:35:34.760Z",
+                    "validFrom": "2025-01-07T20:50:13.931Z",
                     "activeEvents": [],
                     "state": {
                         "activePurchaseLimitingEventIds": [],
@@ -13,12 +13,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-01-07T22:35:34.760Z"
+            "cacheExpire": "2025-01-07T22:50:13.931Z"
         },
         "client-matchmaking": {
             "states": [
                 {
-                    "validFrom": "2025-01-07T20:35:34.760Z",
+                    "validFrom": "2025-01-07T20:50:13.931Z",
                     "activeEvents": [],
                     "state": {
                         "region": {
@@ -74,12 +74,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-01-07T22:35:34.760Z"
+            "cacheExpire": "2025-01-07T22:50:13.931Z"
         },
         "tk": {
             "states": [
                 {
-                    "validFrom": "2025-01-07T20:35:34.760Z",
+                    "validFrom": "2025-01-07T20:50:13.931Z",
                     "activeEvents": [],
                     "state": {
                         "k": [
@@ -88,12 +88,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-01-07T22:35:34.760Z"
+            "cacheExpire": "2025-01-07T22:50:13.931Z"
         },
         "featured-islands": {
             "states": [
                 {
-                    "validFrom": "2025-01-07T20:35:34.760Z",
+                    "validFrom": "2025-01-07T20:50:13.931Z",
                     "activeEvents": [],
                     "state": {
                         "islandCodes": [],
@@ -103,12 +103,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-01-07T22:35:34.760Z"
+            "cacheExpire": "2025-01-07T22:50:13.931Z"
         },
         "community-votes": {
             "states": [
                 {
-                    "validFrom": "2025-01-07T20:35:34.760Z",
+                    "validFrom": "2025-01-07T20:50:13.931Z",
                     "activeEvents": [],
                     "state": {
                         "electionId": "",
@@ -118,12 +118,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-01-07T22:35:34.760Z"
+            "cacheExpire": "2025-01-07T22:50:13.931Z"
         },
         "client-events": {
             "states": [
                 {
-                    "validFrom": "2025-01-07T20:35:34.760Z",
+                    "validFrom": "2025-01-07T20:50:13.931Z",
                     "activeEvents": [
                         {
                             "eventType": "EventFlag.Event_DelMar_Season01_Dailies",
@@ -707,14 +707,6 @@
                                 "eventType": "EventFlag.Event_SproutQuestDaily"
                             },
                             {
-                                "instanceId": "0q14fhr2ram7d1uk94281f1cch[2]0",
-                                "devName": "Sprout Quest Dailies",
-                                "eventName": "CalendarEvent_SproutQuestDaily",
-                                "eventStart": "2024-12-12T07:00:00Z",
-                                "eventEnd": "2025-02-21T09:00:00Z",
-                                "eventType": "EventFlag.Event_SproutQuestDaily"
-                            },
-                            {
                                 "instanceId": "02chokbor61lnhpvts79sham4f[2]0",
                                 "devName": "Event_S33_MobileSproutQuests",
                                 "eventName": "CalendarEvent_S33_MobileSproutQuests",
@@ -758,13 +750,14 @@
                         "stwEventStoreEnd": "2025-01-23T00:00:00.000Z",
                         "stwWeeklyStoreEnd": "2025-01-09T00:00:00.000Z",
                         "sectionStoreEnds": [],
-                        "rmtPromotion": ""
+                        "rmtPromotion": "",
+                        "dailyStoreEnd": "2025-01-08T00:00:00Z"
                     }
                 }
             ],
-            "cacheExpire": "2025-01-07T22:35:34.760Z"
+            "cacheExpire": "2025-01-07T22:50:13.931Z"
         }
     },
     "cacheIntervalMins": 15,
-    "currentTime": "2025-01-07T20:52:15.269Z"
+    "currentTime": "2025-01-07T21:09:20.345Z"
 }

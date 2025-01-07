@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2025-01-07T21:00:00.000Z",
+    "expiration": "2025-01-07T22:00:00.000Z",
     "storefronts": [
         {
             "name": "WinterQuest2019",
@@ -4262,7 +4262,7 @@
                         "textBackgroundColor": "#000000",
                         "inDate": "2025-01-05T00:00:00.000Z",
                         "outDate": "2025-01-13T23:59:59.999Z",
-                        "ViolatorTag": "BonusDecal",
+                        "ViolatorTag": "Placeholder7",
                         "ViolatorIntensity": "High",
                         "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_MoonFlaxSUV_Bundle.DA_Featured_MoonFlaxSUV_Bundle"
                     },
@@ -4333,7 +4333,7 @@
                         },
                         {
                             "key": "ViolatorTag",
-                            "value": "BonusDecal"
+                            "value": "Placeholder7"
                         },
                         {
                             "key": "ViolatorIntensity",
@@ -40231,6 +40231,117 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x Boosting Ki for 400 MtxCurrency",
+                    "offerId": "v2:/b9b1464f76d190b2abd3f0fedc465fc3df723938a70a705f8c181a826b5f56e5",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 400,
+                            "dynamicRegularPrice": 400,
+                            "finalPrice": 400,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 400
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S23/DAv2_EID_EnergizeStoic.DAv2_EID_EnergizeStoic",
+                        "LayoutId": "DragonBallZ12-1.95",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "DragonBallZ12-1",
+                        "templateId": "AthenaDance:eid_energizestoic",
+                        "webURL": "/item-shop/emotes/boosting-ki-2298700d",
+                        "color1": "#008b91",
+                        "color2": "#004c66",
+                        "color3": "#002452",
+                        "textBackgroundColor": "#002452",
+                        "inDate": "2025-01-06T00:00:00.000Z",
+                        "outDate": "2025-01-08T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaDance:eid_energizestoic",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/Game/Catalog/NewDisplayAssets/S23/DAv2_EID_EnergizeStoic.DAv2_EID_EnergizeStoic"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "DragonBallZ12-1.95"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "DragonBallZ12-1"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaDance:eid_energizestoic"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/emotes/boosting-ki-2298700d"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#008b91"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#004c66"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#002452"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#002452"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2025-01-06T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2025-01-08T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaDance:eid_energizestoic",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -4,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Rubius, 1 x Wilson, 1 x Moon Flame, 1 x Flamitas de Kevin, 1 x ASMR Keys  for -1 MtxCurrency",
                     "offerId": "v2:/221a8a02deff8da4f39b56e5851c0bc1ef8bde60499851f8d96957523a24c540",
                     "fulfillmentIds": [],
@@ -40401,117 +40512,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Boosting Ki for 400 MtxCurrency",
-                    "offerId": "v2:/b9b1464f76d190b2abd3f0fedc465fc3df723938a70a705f8c181a826b5f56e5",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 400,
-                            "dynamicRegularPrice": 400,
-                            "finalPrice": 400,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 400
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/Game/Catalog/NewDisplayAssets/S23/DAv2_EID_EnergizeStoic.DAv2_EID_EnergizeStoic",
-                        "LayoutId": "DragonBallZ12-1.95",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "DragonBallZ12-1",
-                        "templateId": "AthenaDance:eid_energizestoic",
-                        "webURL": "/item-shop/emotes/boosting-ki-2298700d",
-                        "color1": "#008b91",
-                        "color2": "#004c66",
-                        "color3": "#002452",
-                        "textBackgroundColor": "#002452",
-                        "inDate": "2025-01-06T00:00:00.000Z",
-                        "outDate": "2025-01-08T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaDance:eid_energizestoic",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/Game/Catalog/NewDisplayAssets/S23/DAv2_EID_EnergizeStoic.DAv2_EID_EnergizeStoic"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "DragonBallZ12-1.95"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "DragonBallZ12-1"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaDance:eid_energizestoic"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/emotes/boosting-ki-2298700d"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#008b91"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#004c66"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#002452"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#002452"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2025-01-06T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2025-01-08T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaDance:eid_energizestoic",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -4,
                     "catalogGroupPriority": 0
                 },
                 {
