@@ -4,6 +4,7 @@ Jam Track Event IDs are the common Event IDs used in the Events Service. Their s
 
 `season00x_su`
 
+- Replace `x` with the current season number
 - For Festival Season 1, instead of `season00x` it is `evergreen`.
 - `su` is the `su` field found in a Jam Track's Metadata.
 
