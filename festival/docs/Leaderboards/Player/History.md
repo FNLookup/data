@@ -37,10 +37,9 @@ Auth Required: Yes (`{gameId}:profile:{accountId}:commands READ`)
             ]
         },
         "pendingPayouts": [
-"season003_fc739d6a-98cc-4936-9626-594dcd09be1b:fc739d6a-98cc-4936-9626-594dcd09be1b_Solo_Guitar",
+            "season003_fc739d6a-98cc-4936-9626-594dcd09be1b:fc739d6a-98cc-4936-9626-594dcd09be1b_Solo_Guitar",
             "season006_912f6323-5761-422e-85b8-42f1058d8d5a:912f6323-5761-422e-85b8-42f1058d8d5a_Band_Duets",
-            "season004_89067ea3-c4f7-48a9-9cc2-0fb7faff7c28:89067ea3-c4f7-48a9-9cc2-0fb7faff7c28_Solo_PeripheralGuitar",
-            "season005_dfaca2ec-ca61-4321-a5f3-76a63742841a:dfaca2ec-ca61-4321-a5f3-76a63742841a_Solo_PeripheralBass"
+            "evergreen_e8553a7c-d608-465d-8750-aa90a15cbec2:e8553a7c-d608-465d-8750-aa90a15cbec2_Solo_Drums"
         ],
         "pendingPenalties": {},
         "persistentScores": {},
