@@ -30,7 +30,7 @@ Auth Required: Yes (`{gameId}:profile:{accountId}:commands READ`)
                 "3554e7171c554bdc8b38edb226fe6b0f"
             ],
             "season006_912f6323-5761-422e-85b8-42f1058d8d5a:912f6323-5761-422e-85b8-42f1058d8d5a_Band_Duets": [
-                "1cfe5f58eded49bfad008b1e98d51551:3554e7171c554bdc8b38edb226fe6b0f"
+                "3554e7171c554bdc8b38edb226fe6b0f"
             ],
             "evergreen_e8553a7c-d608-465d-8750-aa90a15cbec2:e8553a7c-d608-465d-8750-aa90a15cbec2_Solo_Drums": [
                 "3554e7171c554bdc8b38edb226fe6b0f"
