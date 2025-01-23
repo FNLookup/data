@@ -1,11 +1,7 @@
-# Festival documentations
+# Fortnite Festival API documentation
 
-Find documentations for Festival here.
+Find documentations for Fortnite Festival's various APIs.
 
-First of all, this repository isn't hosted on GitHub Pages. You can rely on GitHub Raw instead.
+## Authentication
 
-## Guides and documentations:
-
-- [BLURL/MPD](https://github.com/FNLookup/data/blob/main/festival/docs/blurl.md)
-- [Leaderboards](https://github.com/FNLookup/data/blob/main/festival/docs/leaderboards.md)
-- [Stems](https://github.com/FNLookup/data/blob/main/festival/docs/stems.md)
+Some endpoints require you to authenticate, refer to [this guide](https://github.com/LeleDerGrasshalmi/FortniteEndpointsDocumentation/blob/main/EpicGames/AccountService/Authentication/README.md#getting-started) for more information.
