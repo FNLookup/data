@@ -28,3 +28,13 @@ Jam Track Event Window IDs are the common Event Window IDs used in the Events Se
 - `Band_Duets`: Band entries of 2 band members
 - `Band_Trios`: Band entries of 3 band members
 - `Band_Quad`: Band entries of 4 band members
+
+## All Time Leaderboards
+
+A new type of Event ID and Event Window ID was introduced in Season 7:
+
+Event ID: `alltime_su_type` <br/>
+Event Window ID: `alltime`
+
+Querying this Event ID and Event Window ID will allow up to 100 pages of entries. This type of Event ID and Event Window ID currently only works on Season 7 songs.
+
