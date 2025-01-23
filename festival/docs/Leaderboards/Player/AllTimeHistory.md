@@ -1,7 +1,7 @@
 ## Player History - All Event Windows Ever Played
 
 URL: https://events-public-service-live.ol.epicgames.com/api/v1/events/:gameId/download/:accountId \
-Method: GET
+Method: GET \
 Auth Required: Yes (`{gameId}:profile:{accountId}:commands READ`)
 
 ## Path Parameters
