@@ -3,7 +3,7 @@
         "standalone-store": {
             "states": [
                 {
-                    "validFrom": "2025-01-30T15:33:29.257Z",
+                    "validFrom": "2025-01-30T15:48:37.853Z",
                     "activeEvents": [],
                     "state": {
                         "activePurchaseLimitingEventIds": [],
@@ -13,12 +13,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-01-30T17:33:29.257Z"
+            "cacheExpire": "2025-01-30T17:48:37.853Z"
         },
         "client-matchmaking": {
             "states": [
                 {
-                    "validFrom": "2025-01-30T15:33:29.257Z",
+                    "validFrom": "2025-01-30T15:48:37.853Z",
                     "activeEvents": [],
                     "state": {
                         "region": {
@@ -130,24 +130,24 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-01-30T17:33:29.257Z"
+            "cacheExpire": "2025-01-30T17:48:37.853Z"
         },
         "tk": {
             "states": [
                 {
-                    "validFrom": "2025-01-30T15:33:29.257Z",
+                    "validFrom": "2025-01-30T15:48:37.853Z",
                     "activeEvents": [],
                     "state": {
                         "k": []
                     }
                 }
             ],
-            "cacheExpire": "2025-01-30T17:33:29.257Z"
+            "cacheExpire": "2025-01-30T17:48:37.853Z"
         },
         "featured-islands": {
             "states": [
                 {
-                    "validFrom": "2025-01-30T15:33:29.257Z",
+                    "validFrom": "2025-01-30T15:48:37.853Z",
                     "activeEvents": [],
                     "state": {
                         "islandCodes": [],
@@ -157,12 +157,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-01-30T17:33:29.257Z"
+            "cacheExpire": "2025-01-30T17:48:37.853Z"
         },
         "community-votes": {
             "states": [
                 {
-                    "validFrom": "2025-01-30T15:33:29.257Z",
+                    "validFrom": "2025-01-30T15:48:37.853Z",
                     "activeEvents": [],
                     "state": {
                         "electionId": "",
@@ -172,12 +172,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-01-30T17:33:29.257Z"
+            "cacheExpire": "2025-01-30T17:48:37.853Z"
         },
         "client-events": {
             "states": [
                 {
-                    "validFrom": "2025-01-30T15:33:29.257Z",
+                    "validFrom": "2025-01-30T15:48:37.853Z",
                     "activeEvents": [
                         {
                             "eventType": "EventFlag.Event_DelMar_Season01_Dailies",
@@ -250,11 +250,6 @@
                             "activeSince": "2024-12-06T14:00:00.000Z"
                         },
                         {
-                            "eventType": "EventFlag.Event_ReloadQuests_Ch06_MapDiscovery",
-                            "activeUntil": "2025-11-28T14:00:00.000Z",
-                            "activeSince": "2024-12-06T14:00:00.000Z"
-                        },
-                        {
                             "eventType": "EventFlag.Event_FigmentQuests_S01",
                             "activeUntil": "2025-01-31T09:00:00.000Z",
                             "activeSince": "2024-12-06T14:00:00.000Z"
@@ -262,6 +257,11 @@
                         {
                             "eventType": "EventFlag.Event_FigmentPass",
                             "activeUntil": "2025-01-31T07:00:00.000Z",
+                            "activeSince": "2024-12-06T14:00:00.000Z"
+                        },
+                        {
+                            "eventType": "EventFlag.Event_ReloadQuests_Ch06_MapDiscovery",
+                            "activeUntil": "2025-11-28T14:00:00.000Z",
                             "activeSince": "2024-12-06T14:00:00.000Z"
                         },
                         {
@@ -709,14 +709,6 @@
                                 "eventType": "EventFlag.Event_FigmentQuests_Evergreen"
                             },
                             {
-                                "instanceId": "7f2r4flm3237k352umm2df7k5s[2]0",
-                                "devName": "Event_ReloadQuests_Ch06_MapDiscovery",
-                                "eventName": "CalendarEvent_ReloadQuests_Ch06_MapDiscovery",
-                                "eventStart": "2024-12-06T14:00:00Z",
-                                "eventEnd": "2025-11-28T14:00:00Z",
-                                "eventType": "EventFlag.Event_ReloadQuests_Ch06_MapDiscovery"
-                            },
-                            {
                                 "instanceId": "0231bfr3ku5hg8r6ouoikoqa7h[2]0",
                                 "devName": "Event_FigmentQuests_S01",
                                 "eventName": "CalendarEvent_FigmentQuests_S01",
@@ -731,6 +723,14 @@
                                 "eventStart": "2024-12-06T14:00:00Z",
                                 "eventEnd": "2025-01-31T07:00:00Z",
                                 "eventType": "EventFlag.Event_FigmentPass"
+                            },
+                            {
+                                "instanceId": "7f2r4flm3237k352umm2df7k5s[2]0",
+                                "devName": "Event_ReloadQuests_Ch06_MapDiscovery",
+                                "eventName": "CalendarEvent_ReloadQuests_Ch06_MapDiscovery",
+                                "eventStart": "2024-12-06T14:00:00Z",
+                                "eventEnd": "2025-11-28T14:00:00Z",
+                                "eventType": "EventFlag.Event_ReloadQuests_Ch06_MapDiscovery"
                             },
                             {
                                 "instanceId": "4tkjaot4scor6pujihbbetj9ui[2]0",
@@ -829,9 +829,9 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-01-30T17:33:29.257Z"
+            "cacheExpire": "2025-01-30T17:48:37.853Z"
         }
     },
     "cacheIntervalMins": 15,
-    "currentTime": "2025-01-30T15:52:01.303Z"
+    "currentTime": "2025-01-30T16:12:01.338Z"
 }
