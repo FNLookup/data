@@ -3,7 +3,7 @@
         "standalone-store": {
             "states": [
                 {
-                    "validFrom": "2025-01-31T10:23:51.031Z",
+                    "validFrom": "2025-01-31T10:51:05.256Z",
                     "activeEvents": [],
                     "state": {
                         "activePurchaseLimitingEventIds": [],
@@ -13,12 +13,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-01-31T12:23:51.031Z"
+            "cacheExpire": "2025-01-31T12:51:05.256Z"
         },
         "client-matchmaking": {
             "states": [
                 {
-                    "validFrom": "2025-01-31T10:23:51.031Z",
+                    "validFrom": "2025-01-31T10:51:05.256Z",
                     "activeEvents": [],
                     "state": {
                         "region": {
@@ -130,24 +130,24 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-01-31T12:23:51.031Z"
+            "cacheExpire": "2025-01-31T12:51:05.256Z"
         },
         "tk": {
             "states": [
                 {
-                    "validFrom": "2025-01-31T10:23:51.031Z",
+                    "validFrom": "2025-01-31T10:51:05.256Z",
                     "activeEvents": [],
                     "state": {
                         "k": []
                     }
                 }
             ],
-            "cacheExpire": "2025-01-31T12:23:51.031Z"
+            "cacheExpire": "2025-01-31T12:51:05.256Z"
         },
         "featured-islands": {
             "states": [
                 {
-                    "validFrom": "2025-01-31T10:23:51.031Z",
+                    "validFrom": "2025-01-31T10:51:05.256Z",
                     "activeEvents": [],
                     "state": {
                         "islandCodes": [],
@@ -157,12 +157,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-01-31T12:23:51.031Z"
+            "cacheExpire": "2025-01-31T12:51:05.256Z"
         },
         "community-votes": {
             "states": [
                 {
-                    "validFrom": "2025-01-31T10:23:51.031Z",
+                    "validFrom": "2025-01-31T10:51:05.256Z",
                     "activeEvents": [],
                     "state": {
                         "electionId": "",
@@ -172,12 +172,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-01-31T12:23:51.031Z"
+            "cacheExpire": "2025-01-31T12:51:05.256Z"
         },
         "client-events": {
             "states": [
                 {
-                    "validFrom": "2025-01-31T10:23:51.031Z",
+                    "validFrom": "2025-01-31T10:51:05.256Z",
                     "activeEvents": [
                         {
                             "eventType": "EventFlag.Event_DelMar_Season01_Dailies",
@@ -573,6 +573,11 @@
                             "eventType": "PilgrimSong.partylikearockstar",
                             "activeUntil": "2025-02-07T00:00:00.000Z",
                             "activeSince": "2025-01-31T00:00:00.000Z"
+                        },
+                        {
+                            "eventType": "EventFlag.Event_FigmentPassS02",
+                            "activeUntil": "2025-03-25T09:00:00.000Z",
+                            "activeSince": "2025-01-31T10:00:00.000Z"
                         }
                     ],
                     "state": {
@@ -746,6 +751,14 @@
                                 "eventStart": "2025-01-30T14:00:00Z",
                                 "eventEnd": "2025-03-25T08:00:00Z",
                                 "eventType": "EventFlag.Event_FigmentQuests_S02"
+                            },
+                            {
+                                "instanceId": "5g8afhobk01depl7dpvakk3tq4[2]0",
+                                "devName": "Figment Pass S02",
+                                "eventName": "CalendarEvent_FigmentPassS02",
+                                "eventStart": "2025-01-31T10:00:00Z",
+                                "eventEnd": "2025-03-25T09:00:00Z",
+                                "eventType": "EventFlag.Event_FigmentPassS02"
                             }
                         ],
                         "seasonNumber": 33,
@@ -764,9 +777,9 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-01-31T12:23:51.031Z"
+            "cacheExpire": "2025-01-31T12:51:05.256Z"
         }
     },
     "cacheIntervalMins": 15,
-    "currentTime": "2025-01-31T10:52:01.277Z"
+    "currentTime": "2025-01-31T11:08:01.404Z"
 }
