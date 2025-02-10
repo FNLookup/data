@@ -3,7 +3,7 @@
         "standalone-store": {
             "states": [
                 {
-                    "validFrom": "2025-02-10T14:48:33.929Z",
+                    "validFrom": "2025-02-10T15:13:51.209Z",
                     "activeEvents": [],
                     "state": {
                         "activePurchaseLimitingEventIds": [],
@@ -13,68 +13,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-02-10T16:48:33.929Z"
+            "cacheExpire": "2025-02-10T17:13:51.209Z"
         },
         "client-matchmaking": {
             "states": [
                 {
-                    "validFrom": "2025-02-10T14:48:33.929Z",
-                    "activeEvents": [],
-                    "state": {
-                        "region": {
-                            "NAE": {
-                                "eventFlagsForcedOn": [
-                                    "Playlist_NoBuildBR_Habanero_Solo",
-                                    "Playlist_NoBuildBR_Habanero_Squad"
-                                ]
-                            },
-                            "NAW": {
-                                "eventFlagsForcedOn": [
-                                    "Playlist_NoBuildBR_Habanero_Solo",
-                                    "Playlist_NoBuildBR_Habanero_Squad"
-                                ]
-                            },
-                            "NAC": {
-                                "eventFlagsForcedOn": [
-                                    "Playlist_NoBuildBR_Habanero_Solo",
-                                    "Playlist_NoBuildBR_Habanero_Squad"
-                                ]
-                            },
-                            "EU": {
-                                "eventFlagsForcedOn": [
-                                    "Playlist_NoBuildBR_Habanero_Solo",
-                                    "Playlist_NoBuildBR_Habanero_Squad"
-                                ]
-                            },
-                            "BR": {
-                                "eventFlagsForcedOff": [
-                                    "Playlist_NoBuildBR_Habanero_Solo",
-                                    "Playlist_NoBuildBR_Habanero_Squad"
-                                ]
-                            },
-                            "ASIA": {
-                                "eventFlagsForcedOn": [
-                                    "Playlist_NoBuildBR_Habanero_Solo",
-                                    "Playlist_NoBuildBR_Habanero_Squad"
-                                ]
-                            },
-                            "ME": {
-                                "eventFlagsForcedOn": [
-                                    "Playlist_NoBuildBR_Habanero_Solo",
-                                    "Playlist_NoBuildBR_Habanero_Squad"
-                                ]
-                            },
-                            "OCE": {
-                                "eventFlagsForcedOff": [
-                                    "Playlist_NoBuildBR_Habanero_Solo",
-                                    "Playlist_NoBuildBR_Habanero_Squad"
-                                ]
-                            }
-                        }
-                    }
-                },
-                {
-                    "validFrom": "2025-02-10T15:00:00.000Z",
+                    "validFrom": "2025-02-10T15:13:51.209Z",
                     "activeEvents": [],
                     "state": {
                         "region": {
@@ -186,12 +130,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-02-10T16:48:33.929Z"
+            "cacheExpire": "2025-02-10T17:13:51.209Z"
         },
         "tk": {
             "states": [
                 {
-                    "validFrom": "2025-02-10T14:48:33.929Z",
+                    "validFrom": "2025-02-10T15:13:51.209Z",
                     "activeEvents": [],
                     "state": {
                         "k": [
@@ -201,12 +145,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-02-10T16:48:33.929Z"
+            "cacheExpire": "2025-02-10T17:13:51.209Z"
         },
         "featured-islands": {
             "states": [
                 {
-                    "validFrom": "2025-02-10T14:48:33.929Z",
+                    "validFrom": "2025-02-10T15:13:51.209Z",
                     "activeEvents": [],
                     "state": {
                         "islandCodes": [],
@@ -216,12 +160,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-02-10T16:48:33.929Z"
+            "cacheExpire": "2025-02-10T17:13:51.209Z"
         },
         "community-votes": {
             "states": [
                 {
-                    "validFrom": "2025-02-10T14:48:33.929Z",
+                    "validFrom": "2025-02-10T15:13:51.209Z",
                     "activeEvents": [],
                     "state": {
                         "electionId": "",
@@ -231,12 +175,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-02-10T16:48:33.929Z"
+            "cacheExpire": "2025-02-10T17:13:51.209Z"
         },
         "client-events": {
             "states": [
                 {
-                    "validFrom": "2025-02-10T14:48:33.929Z",
+                    "validFrom": "2025-02-10T15:13:51.209Z",
                     "activeEvents": [
                         {
                             "eventType": "EventFlag.Event_DelMar_Season01_Dailies",
@@ -279,13 +223,13 @@
                             "activeSince": "2024-12-01T07:00:00.000Z"
                         },
                         {
-                            "eventType": "EventFlag.Event_S33_UISeasonEnd",
-                            "activeUntil": "2025-02-22T07:00:00.000Z",
+                            "eventType": "EventFlag.Event_BR_Ch06_MapDiscovery",
+                            "activeUntil": "2025-12-01T07:00:00.000Z",
                             "activeSince": "2024-12-01T09:00:00.000Z"
                         },
                         {
-                            "eventType": "EventFlag.Event_BR_Ch06_MapDiscovery",
-                            "activeUntil": "2025-12-01T07:00:00.000Z",
+                            "eventType": "EventFlag.Event_S33_UISeasonEnd",
+                            "activeUntil": "2025-02-21T07:00:00.000Z",
                             "activeSince": "2024-12-01T09:00:00.000Z"
                         },
                         {
@@ -710,20 +654,20 @@
                                 "eventType": "EventFlag.Event_Evergreen_DailyQuests"
                             },
                             {
-                                "instanceId": "6i6uh1mbhukk9sofdkohovm3q3[2]0",
-                                "devName": "Event_S33_UISeasonEnd",
-                                "eventName": "CalendarEvent_S33_UISeasonEnd",
-                                "eventStart": "2024-12-01T09:00:00Z",
-                                "eventEnd": "2025-02-22T07:00:00Z",
-                                "eventType": "EventFlag.Event_S33_UISeasonEnd"
-                            },
-                            {
                                 "instanceId": "0pv4fafp3844uu621d1k9gr7fq[2]0",
                                 "devName": "Event_BR_Ch06_MapDiscovery",
                                 "eventName": "CalendarEvent_BR_Ch06_MapDiscovery",
                                 "eventStart": "2024-12-01T09:00:00Z",
                                 "eventEnd": "2025-12-01T07:00:00Z",
                                 "eventType": "EventFlag.Event_BR_Ch06_MapDiscovery"
+                            },
+                            {
+                                "instanceId": "6i6uh1mbhukk9sofdkohovm3q3[2]0",
+                                "devName": "Event_S33_UISeasonEnd",
+                                "eventName": "CalendarEvent_S33_UISeasonEnd",
+                                "eventStart": "2024-12-01T09:00:00Z",
+                                "eventEnd": "2025-02-21T07:00:00Z",
+                                "eventType": "EventFlag.Event_S33_UISeasonEnd"
                             },
                             {
                                 "instanceId": "0go4mau51t6pqm8r509pq4p7ic[2]0",
@@ -854,9 +798,9 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-02-10T16:48:33.929Z"
+            "cacheExpire": "2025-02-10T17:13:51.209Z"
         }
     },
     "cacheIntervalMins": 15,
-    "currentTime": "2025-02-10T15:11:05.271Z"
+    "currentTime": "2025-02-10T15:30:40.257Z"
 }
