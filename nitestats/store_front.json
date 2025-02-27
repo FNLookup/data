@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2025-02-27T03:00:00.000Z",
+    "expiration": "2025-02-27T04:00:00.000Z",
     "storefronts": [
         {
             "name": "WinterQuest2019",
@@ -126,175 +126,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -2,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Harley Quinn, 1 x Punchline, 1 x Harley Hitter, 1 x Harley Quinn Quests for -1 MtxCurrency",
-                    "offerId": "v2:/3b3ffa11a79f38b62ae6fcc395e2ade05a3702de789f749e73f312983f5b7045",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [],
-                    "dynamicBundleInfo": {
-                        "discountedBasePrice": -1100,
-                        "regularBasePrice": 0,
-                        "floorPrice": 400,
-                        "currencyType": "MtxCurrency",
-                        "currencySubType": "",
-                        "displayType": "AmountOff",
-                        "bundleItems": [
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 1500,
-                                "discountedPrice": 1500,
-                                "alreadyOwnedPriceReduction": 1500,
-                                "item": {
-                                    "templateId": "AthenaCharacter:cid_704_athena_commando_f_lollipoptrickster",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 800,
-                                "discountedPrice": 800,
-                                "alreadyOwnedPriceReduction": 800,
-                                "item": {
-                                    "templateId": "AthenaPickaxe:pickaxe_id_362_lollipopfemale",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 800,
-                                "discountedPrice": 800,
-                                "alreadyOwnedPriceReduction": 800,
-                                "item": {
-                                    "templateId": "AthenaPickaxe:pickaxe_id_363_lollipoptricksterfemale",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 0,
-                                "discountedPrice": 0,
-                                "alreadyOwnedPriceReduction": 0,
-                                "item": {
-                                    "templateId": "ChallengeBundleSchedule:bundleschedule_styles_lollipop",
-                                    "quantity": 1
-                                }
-                            }
-                        ]
-                    },
-                    "meta": {
-                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/DAv2_Bundle_Featured_LollipopTrickster.DAv2_Bundle_Featured_LollipopTrickster",
-                        "bundleId": "DynamicBundle:b_cid_704_lollipopbundle",
-                        "LayoutId": "HarleyBatman.99",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "HarleyBatman",
-                        "templateId": "DynamicBundle:b_cid_704_lollipopbundle",
-                        "webURL": "/item-shop/bundles/harley-quinn-bundle-f446b3b9",
-                        "color1": "#106EF0",
-                        "color2": "#06275D",
-                        "color3": "#1c2f54",
-                        "tileBackgroundMaterial": "Clouds_DC",
-                        "textBackgroundColor": "#1c2f54",
-                        "inDate": "2025-02-27T00:00:00.000Z",
-                        "outDate": "2025-03-02T23:59:59.999Z",
-                        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_LollipopBundle.DA_Featured_LollipopBundle"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [],
-                    "offerType": "DynamicBundle",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/OfferCatalog/NewDisplayAssets/DAv2_Bundle_Featured_LollipopTrickster.DAv2_Bundle_Featured_LollipopTrickster"
-                        },
-                        {
-                            "key": "bundleId",
-                            "value": "DynamicBundle:b_cid_704_lollipopbundle"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "HarleyBatman.99"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "HarleyBatman"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "DynamicBundle:b_cid_704_lollipopbundle"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/bundles/harley-quinn-bundle-f446b3b9"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#106EF0"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#06275D"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#1c2f54"
-                        },
-                        {
-                            "key": "tileBackgroundMaterial",
-                            "value": "Clouds_DC"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#1c2f54"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2025-02-27T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2025-03-02T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_LollipopBundle.DA_Featured_LollipopBundle",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaCharacter:cid_704_athena_commando_f_lollipoptrickster",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaPickaxe:pickaxe_id_362_lollipopfemale",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaPickaxe:pickaxe_id_363_lollipoptricksterfemale",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "ChallengeBundleSchedule:bundleschedule_styles_lollipop",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -1,
                     "catalogGroupPriority": 0
                 }
             ]
@@ -9367,6 +9198,112 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x Miku Light for 600 MtxCurrency",
+                    "offerId": "v2:/038f0a06e75c7519ee331619d9581e74c68fdef94e9c655fc9639f62c73334cf",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 600,
+                            "dynamicRegularPrice": 600,
+                            "finalPrice": 600,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 600
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S33/DAv2_Contrail_JadeTowel.DAv2_Contrail_JadeTowel",
+                        "LayoutId": "Hatsune.97",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "Hatsune",
+                        "templateId": "AthenaSkyDiveContrail:contrail_jadetowel",
+                        "webURL": "/item-shop/contrails/miku-light-8b61c427",
+                        "color1": "#F242A4",
+                        "color2": "#5F0738",
+                        "textBackgroundColor": "#5F0738",
+                        "inDate": "2025-01-14T00:00:00.000Z",
+                        "outDate": "2025-04-08T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaSkyDiveContrail:contrail_jadetowel",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/OfferCatalog/NewDisplayAssets/S33/DAv2_Contrail_JadeTowel.DAv2_Contrail_JadeTowel"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "Hatsune.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "Hatsune"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaSkyDiveContrail:contrail_jadetowel"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/contrails/miku-light-8b61c427"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#F242A4"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#5F0738"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#5F0738"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2025-01-14T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2025-04-08T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaSkyDiveContrail:contrail_jadetowel",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -1,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Thunder for 500 MtxCurrency",
                     "offerId": "v2:/002dd9f63a6a132ecd48959eaf848d03c795a853da483bbd8b701593400a8dc3",
                     "fulfillmentIds": [],
@@ -9480,112 +9417,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -3,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Miku Light for 600 MtxCurrency",
-                    "offerId": "v2:/038f0a06e75c7519ee331619d9581e74c68fdef94e9c655fc9639f62c73334cf",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 600,
-                            "dynamicRegularPrice": 600,
-                            "finalPrice": 600,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 600
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S33/DAv2_Contrail_JadeTowel.DAv2_Contrail_JadeTowel",
-                        "LayoutId": "Hatsune.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "Hatsune",
-                        "templateId": "AthenaSkyDiveContrail:contrail_jadetowel",
-                        "webURL": "/item-shop/contrails/miku-light-8b61c427",
-                        "color1": "#F242A4",
-                        "color2": "#5F0738",
-                        "textBackgroundColor": "#5F0738",
-                        "inDate": "2025-01-14T00:00:00.000Z",
-                        "outDate": "2025-04-08T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaSkyDiveContrail:contrail_jadetowel",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/OfferCatalog/NewDisplayAssets/S33/DAv2_Contrail_JadeTowel.DAv2_Contrail_JadeTowel"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "Hatsune.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "Hatsune"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaSkyDiveContrail:contrail_jadetowel"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/contrails/miku-light-8b61c427"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#F242A4"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#5F0738"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#5F0738"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2025-01-14T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2025-04-08T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaSkyDiveContrail:contrail_jadetowel",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -1,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -49517,6 +49348,161 @@
                             "attributes": {
                                 "extra_grant": true
                             }
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -1,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Harley Quinn, 1 x Punchline, 1 x Harley Hitter for -1 MtxCurrency",
+                    "offerId": "v2:/228d2eb349125429ebb10a8781c16158812453c228a7692774cf8cca98d2a694",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [],
+                    "dynamicBundleInfo": {
+                        "discountedBasePrice": -1100,
+                        "regularBasePrice": 0,
+                        "floorPrice": 400,
+                        "currencyType": "MtxCurrency",
+                        "currencySubType": "",
+                        "displayType": "AmountOff",
+                        "bundleItems": [
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 1500,
+                                "discountedPrice": 1500,
+                                "alreadyOwnedPriceReduction": 1500,
+                                "item": {
+                                    "templateId": "AthenaCharacter:cid_704_athena_commando_f_lollipoptrickster",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 800,
+                                "discountedPrice": 800,
+                                "alreadyOwnedPriceReduction": 800,
+                                "item": {
+                                    "templateId": "AthenaPickaxe:pickaxe_id_362_lollipopfemale",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 800,
+                                "discountedPrice": 800,
+                                "alreadyOwnedPriceReduction": 800,
+                                "item": {
+                                    "templateId": "AthenaPickaxe:pickaxe_id_363_lollipoptricksterfemale",
+                                    "quantity": 1
+                                }
+                            }
+                        ]
+                    },
+                    "meta": {
+                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/DAv2_Bundle_Featured_LollipopTrickster.DAv2_Bundle_Featured_LollipopTrickster",
+                        "bundleId": "DynamicBundle:b_cid_704_lollipopbundle_f",
+                        "LayoutId": "HarleyBatman.99",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "HarleyBatman",
+                        "templateId": "DynamicBundle:b_cid_704_lollipopbundle",
+                        "webURL": "/item-shop/bundles/harley-quinn-bundle-f446b3b9",
+                        "color1": "#106EF0",
+                        "color2": "#06275D",
+                        "color3": "#1c2f54",
+                        "tileBackgroundMaterial": "Clouds_DC",
+                        "textBackgroundColor": "#1c2f54",
+                        "inDate": "2025-02-27T00:00:00.000Z",
+                        "outDate": "2025-03-02T23:59:59.999Z",
+                        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_LollipopBundle.DA_Featured_LollipopBundle"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [],
+                    "offerType": "DynamicBundle",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/OfferCatalog/NewDisplayAssets/DAv2_Bundle_Featured_LollipopTrickster.DAv2_Bundle_Featured_LollipopTrickster"
+                        },
+                        {
+                            "key": "bundleId",
+                            "value": "DynamicBundle:b_cid_704_lollipopbundle_f"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "HarleyBatman.99"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "HarleyBatman"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "DynamicBundle:b_cid_704_lollipopbundle"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/bundles/harley-quinn-bundle-f446b3b9"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#106EF0"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#06275D"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#1c2f54"
+                        },
+                        {
+                            "key": "tileBackgroundMaterial",
+                            "value": "Clouds_DC"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#1c2f54"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2025-02-27T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2025-03-02T23:59:59.999Z"
+                        }
+                    ],
+                    "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_LollipopBundle.DA_Featured_LollipopBundle",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaCharacter:cid_704_athena_commando_f_lollipoptrickster",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaPickaxe:pickaxe_id_362_lollipopfemale",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaPickaxe:pickaxe_id_363_lollipoptricksterfemale",
+                            "quantity": 1
                         }
                     ],
                     "additionalGrants": [],
