@@ -3,7 +3,7 @@
         "standalone-store": {
             "states": [
                 {
-                    "validFrom": "2025-03-13T00:26:16.327Z",
+                    "validFrom": "2025-03-13T02:02:27.000Z",
                     "activeEvents": [],
                     "state": {
                         "activePurchaseLimitingEventIds": [],
@@ -13,12 +13,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-03-13T02:26:16.327Z"
+            "cacheExpire": "2025-03-13T04:02:27.000Z"
         },
         "client-matchmaking": {
             "states": [
                 {
-                    "validFrom": "2025-03-13T00:26:16.327Z",
+                    "validFrom": "2025-03-13T02:02:27.000Z",
                     "activeEvents": [],
                     "state": {
                         "region": {
@@ -90,26 +90,98 @@
                             }
                         }
                     }
+                },
+                {
+                    "validFrom": "2025-03-13T03:00:00.000Z",
+                    "activeEvents": [],
+                    "state": {
+                        "region": {
+                            "OCE": {
+                                "eventFlagsForcedOff": [
+                                    "Playlist_Habanero_NoBuild_Figment_Duo",
+                                    "Playlist_Habanero_NoBuild_Figment_Solo",
+                                    "Playlist_Habanero_NoBuild_Figment_Squad",
+                                    "Playlist_Habanero_NoBuild_Figment_Trio",
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "BR": {
+                                "eventFlagsForcedOff": [
+                                    "Playlist_Habanero_NoBuild_Figment_Duo",
+                                    "Playlist_Habanero_NoBuild_Figment_Solo",
+                                    "Playlist_Habanero_NoBuild_Figment_Squad",
+                                    "Playlist_Habanero_NoBuild_Figment_Trio",
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "ASIA": {
+                                "eventFlagsForcedOff": [
+                                    "Playlist_Habanero_NoBuild_Figment_Duo",
+                                    "Playlist_Habanero_NoBuild_Figment_Solo",
+                                    "Playlist_Habanero_NoBuild_Figment_Squad",
+                                    "Playlist_Habanero_NoBuild_Figment_Trio",
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "ME": {
+                                "eventFlagsForcedOff": [
+                                    "Playlist_Habanero_NoBuild_Figment_Duo",
+                                    "Playlist_Habanero_NoBuild_Figment_Solo",
+                                    "Playlist_Habanero_NoBuild_Figment_Squad",
+                                    "Playlist_Habanero_NoBuild_Figment_Trio",
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "NAE": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "NAW": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "NAC": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "EU": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            }
+                        }
+                    }
                 }
             ],
-            "cacheExpire": "2025-03-13T02:26:16.327Z"
+            "cacheExpire": "2025-03-13T04:02:27.000Z"
         },
         "tk": {
             "states": [
                 {
-                    "validFrom": "2025-03-13T00:26:16.327Z",
+                    "validFrom": "2025-03-13T02:02:27.000Z",
                     "activeEvents": [],
                     "state": {
                         "k": []
                     }
                 }
             ],
-            "cacheExpire": "2025-03-13T02:26:16.327Z"
+            "cacheExpire": "2025-03-13T04:02:27.000Z"
         },
         "featured-islands": {
             "states": [
                 {
-                    "validFrom": "2025-03-13T00:26:16.327Z",
+                    "validFrom": "2025-03-13T02:02:27.000Z",
                     "activeEvents": [],
                     "state": {
                         "islandCodes": [],
@@ -119,12 +191,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-03-13T02:26:16.327Z"
+            "cacheExpire": "2025-03-13T04:02:27.000Z"
         },
         "community-votes": {
             "states": [
                 {
-                    "validFrom": "2025-03-13T00:26:16.327Z",
+                    "validFrom": "2025-03-13T02:02:27.000Z",
                     "activeEvents": [],
                     "state": {
                         "electionId": "",
@@ -134,12 +206,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-03-13T02:26:16.327Z"
+            "cacheExpire": "2025-03-13T04:02:27.000Z"
         },
         "client-events": {
             "states": [
                 {
-                    "validFrom": "2025-03-13T00:26:16.327Z",
+                    "validFrom": "2025-03-13T02:02:27.000Z",
                     "activeEvents": [
                         {
                             "eventType": "EventFlag.Event_DelMar_Season01_Dailies",
@@ -307,11 +379,6 @@
                             "activeSince": "2025-01-30T14:00:00.000Z"
                         },
                         {
-                            "eventType": "EventFlag.Event_FigmentPassS02",
-                            "activeUntil": "2025-03-25T09:00:00.000Z",
-                            "activeSince": "2025-01-31T10:00:00.000Z"
-                        },
-                        {
                             "eventType": "EventFlag.Event_ReloadQuests_Boost_R01",
                             "activeUntil": "2025-04-15T13:00:00.000Z",
                             "activeSince": "2025-02-11T14:00:00.000Z"
@@ -377,19 +444,9 @@
                             "activeSince": "2025-03-07T14:00:00.000Z"
                         },
                         {
-                            "eventType": "EventFlag.Event_S34_Bling",
-                            "activeUntil": "2025-03-31T13:00:00.000Z",
-                            "activeSince": "2025-03-10T13:00:00.000Z"
-                        },
-                        {
                             "eventType": "EventFlag.Event_JunoSeason2Pass",
                             "activeUntil": "2025-05-02T09:00:00.000Z",
                             "activeSince": "2025-03-11T08:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.Event_S34_Grant3410NarrativeLoadingScreen",
-                            "activeUntil": "2025-03-18T13:00:00.000Z",
-                            "activeSince": "2025-03-11T13:00:00.000Z"
                         },
                         {
                             "eventType": "PilgrimSong.luxaeterna",
@@ -715,14 +772,6 @@
                                 "eventType": "EventFlag.Event_FigmentQuests_S02"
                             },
                             {
-                                "instanceId": "5g8afhobk01depl7dpvakk3tq4[2]0",
-                                "devName": "Figment Pass S02",
-                                "eventName": "CalendarEvent_FigmentPassS02",
-                                "eventStart": "2025-01-31T10:00:00Z",
-                                "eventEnd": "2025-03-25T09:00:00Z",
-                                "eventType": "EventFlag.Event_FigmentPassS02"
-                            },
-                            {
                                 "instanceId": "6jij6i7pco95gisioabgbi6ke0[2]0",
                                 "devName": "Event_ReloadQuests_Boost_R01",
                                 "eventName": "CalendarEvent_ReloadQuests_Boost_R01",
@@ -779,28 +828,12 @@
                                 "eventType": "EventFlag.Event_S34_BaronEscalation"
                             },
                             {
-                                "instanceId": "6btl2vvc8df52hscotddn9229g[2]0",
-                                "devName": "Event_S34_Bling",
-                                "eventName": "CalendarEvent_S34_Bling",
-                                "eventStart": "2025-03-10T13:00:00Z",
-                                "eventEnd": "2025-03-31T13:00:00Z",
-                                "eventType": "EventFlag.Event_S34_Bling"
-                            },
-                            {
                                 "instanceId": "1pdo3jl2mee1rtbjrfnp3l6lbv[2]0",
                                 "devName": "Juno Season 2 Pass",
                                 "eventName": "CalendarEvent_JunoSeason2Pass",
                                 "eventStart": "2025-03-11T08:00:00Z",
                                 "eventEnd": "2025-05-02T09:00:00Z",
                                 "eventType": "EventFlag.Event_JunoSeason2Pass"
-                            },
-                            {
-                                "instanceId": "006lmu0d0hl2nhpuocnmb7n9lq[2]0",
-                                "devName": "Event_S34_Grant3410NarrativeLoadingScreen",
-                                "eventName": "CalendarEvent_S34_Grant3410NarrativeLoadingScreen",
-                                "eventStart": "2025-03-11T13:00:00Z",
-                                "eventEnd": "2025-03-18T13:00:00Z",
-                                "eventType": "EventFlag.Event_S34_Grant3410NarrativeLoadingScreen"
                             }
                         ],
                         "seasonNumber": 34,
@@ -819,9 +852,9 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-03-13T02:26:16.327Z"
+            "cacheExpire": "2025-03-13T04:02:27.000Z"
         }
     },
     "cacheIntervalMins": 15,
-    "currentTime": "2025-03-13T00:51:50.278Z"
+    "currentTime": "2025-03-13T02:18:35.239Z"
 }
