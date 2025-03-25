@@ -3,7 +3,7 @@
         "standalone-store": {
             "states": [
                 {
-                    "validFrom": "2025-03-25T07:30:35.563Z",
+                    "validFrom": "2025-03-25T07:58:49.128Z",
                     "activeEvents": [],
                     "state": {
                         "activePurchaseLimitingEventIds": [],
@@ -13,12 +13,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-03-25T09:30:35.563Z"
+            "cacheExpire": "2025-03-25T09:58:49.128Z"
         },
         "client-matchmaking": {
             "states": [
                 {
-                    "validFrom": "2025-03-25T07:30:35.563Z",
+                    "validFrom": "2025-03-25T07:58:49.128Z",
                     "activeEvents": [],
                     "state": {
                         "region": {
@@ -94,24 +94,24 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-03-25T09:30:35.563Z"
+            "cacheExpire": "2025-03-25T09:58:49.128Z"
         },
         "tk": {
             "states": [
                 {
-                    "validFrom": "2025-03-25T07:30:35.563Z",
+                    "validFrom": "2025-03-25T07:58:49.128Z",
                     "activeEvents": [],
                     "state": {
                         "k": []
                     }
                 }
             ],
-            "cacheExpire": "2025-03-25T09:30:35.563Z"
+            "cacheExpire": "2025-03-25T09:58:49.128Z"
         },
         "featured-islands": {
             "states": [
                 {
-                    "validFrom": "2025-03-25T07:30:35.563Z",
+                    "validFrom": "2025-03-25T07:58:49.128Z",
                     "activeEvents": [],
                     "state": {
                         "islandCodes": [],
@@ -121,12 +121,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-03-25T09:30:35.563Z"
+            "cacheExpire": "2025-03-25T09:58:49.128Z"
         },
         "community-votes": {
             "states": [
                 {
-                    "validFrom": "2025-03-25T07:30:35.563Z",
+                    "validFrom": "2025-03-25T07:58:49.128Z",
                     "activeEvents": [],
                     "state": {
                         "electionId": "",
@@ -136,12 +136,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-03-25T09:30:35.563Z"
+            "cacheExpire": "2025-03-25T09:58:49.128Z"
         },
         "client-events": {
             "states": [
                 {
-                    "validFrom": "2025-03-25T07:30:35.563Z",
+                    "validFrom": "2025-03-25T07:58:49.128Z",
                     "activeEvents": [
                         {
                             "eventType": "EventFlag.Event_DelMar_Season01_Dailies",
@@ -309,11 +309,6 @@
                             "activeSince": "2025-01-30T14:00:00.000Z"
                         },
                         {
-                            "eventType": "EventFlag.Event_FigmentPassS02",
-                            "activeUntil": "2025-03-25T09:00:00.000Z",
-                            "activeSince": "2025-01-31T10:00:00.000Z"
-                        },
-                        {
                             "eventType": "EventFlag.Event_ReloadQuests_Boost_R01",
                             "activeUntil": "2025-04-15T13:00:00.000Z",
                             "activeSince": "2025-02-11T14:00:00.000Z"
@@ -422,6 +417,11 @@
                             "eventType": "PilgrimSong.miserybusiness",
                             "activeUntil": "2025-03-28T00:00:00.000Z",
                             "activeSince": "2025-03-22T00:00:00.000Z"
+                        },
+                        {
+                            "eventType": "EventFlag.Event_FigmentQuests_S03",
+                            "activeUntil": "2025-06-08T09:00:00.000Z",
+                            "activeSince": "2025-03-24T13:00:00.000Z"
                         },
                         {
                             "eventType": "PilgrimSong.carryonwaywardson",
@@ -757,14 +757,6 @@
                                 "eventType": "EventFlag.Event_FigmentQuests_S02"
                             },
                             {
-                                "instanceId": "5g8afhobk01depl7dpvakk3tq4[2]0",
-                                "devName": "Figment Pass S02",
-                                "eventName": "CalendarEvent_FigmentPassS02",
-                                "eventStart": "2025-01-31T10:00:00Z",
-                                "eventEnd": "2025-03-25T09:00:00Z",
-                                "eventType": "EventFlag.Event_FigmentPassS02"
-                            },
-                            {
                                 "instanceId": "6jij6i7pco95gisioabgbi6ke0[2]0",
                                 "devName": "Event_ReloadQuests_Boost_R01",
                                 "eventName": "CalendarEvent_ReloadQuests_Boost_R01",
@@ -835,6 +827,14 @@
                                 "eventStart": "2025-03-14T13:00:00Z",
                                 "eventEnd": "2025-03-31T13:00:00Z",
                                 "eventType": "EventFlag.Event_S34_SummerRoadtrip_Quests"
+                            },
+                            {
+                                "instanceId": "32u5aq8cm08o32e7qggn2167be[2]0",
+                                "devName": "Event_FigmentQuests_S03",
+                                "eventName": "CalendarEvent_FigmentQuests_S03",
+                                "eventStart": "2025-03-24T13:00:00Z",
+                                "eventEnd": "2025-06-08T09:00:00Z",
+                                "eventType": "EventFlag.Event_FigmentQuests_S03"
                             }
                         ],
                         "seasonNumber": 34,
@@ -1016,11 +1016,6 @@
                             "activeSince": "2025-01-24T00:00:00.000Z"
                         },
                         {
-                            "eventType": "EventFlag.Event_FigmentPassS02",
-                            "activeUntil": "2025-03-25T09:00:00.000Z",
-                            "activeSince": "2025-01-31T10:00:00.000Z"
-                        },
-                        {
                             "eventType": "EventFlag.Event_ReloadQuests_Boost_R01",
                             "activeUntil": "2025-04-15T13:00:00.000Z",
                             "activeSince": "2025-02-11T14:00:00.000Z"
@@ -1129,6 +1124,11 @@
                             "eventType": "PilgrimSong.miserybusiness",
                             "activeUntil": "2025-03-28T00:00:00.000Z",
                             "activeSince": "2025-03-22T00:00:00.000Z"
+                        },
+                        {
+                            "eventType": "EventFlag.Event_FigmentQuests_S03",
+                            "activeUntil": "2025-06-08T09:00:00.000Z",
+                            "activeSince": "2025-03-24T13:00:00.000Z"
                         },
                         {
                             "eventType": "PilgrimSong.carryonwaywardson",
@@ -1329,6 +1329,11 @@
                             "eventType": "PilgrimSong.overcompensate",
                             "activeUntil": "2025-03-26T00:00:00.000Z",
                             "activeSince": "2025-03-25T00:00:00.000Z"
+                        },
+                        {
+                            "eventType": "EventFlag.Event_S34_DiamondBootCamp",
+                            "activeUntil": "2025-05-02T08:00:00.000Z",
+                            "activeSince": "2025-03-25T08:00:00.000Z"
                         }
                     ],
                     "state": {
@@ -1456,14 +1461,6 @@
                                 "eventType": "EventFlag.Event_SparksS07_WeeklyQuests"
                             },
                             {
-                                "instanceId": "5g8afhobk01depl7dpvakk3tq4[2]0",
-                                "devName": "Figment Pass S02",
-                                "eventName": "CalendarEvent_FigmentPassS02",
-                                "eventStart": "2025-01-31T10:00:00Z",
-                                "eventEnd": "2025-03-25T09:00:00Z",
-                                "eventType": "EventFlag.Event_FigmentPassS02"
-                            },
-                            {
                                 "instanceId": "6jij6i7pco95gisioabgbi6ke0[2]0",
                                 "devName": "Event_ReloadQuests_Boost_R01",
                                 "eventName": "CalendarEvent_ReloadQuests_Boost_R01",
@@ -1534,6 +1531,22 @@
                                 "eventStart": "2025-03-14T13:00:00Z",
                                 "eventEnd": "2025-03-31T13:00:00Z",
                                 "eventType": "EventFlag.Event_S34_SummerRoadtrip_Quests"
+                            },
+                            {
+                                "instanceId": "32u5aq8cm08o32e7qggn2167be[2]0",
+                                "devName": "Event_FigmentQuests_S03",
+                                "eventName": "CalendarEvent_FigmentQuests_S03",
+                                "eventStart": "2025-03-24T13:00:00Z",
+                                "eventEnd": "2025-06-08T09:00:00Z",
+                                "eventType": "EventFlag.Event_FigmentQuests_S03"
+                            },
+                            {
+                                "instanceId": "06j4vpv6pbkufqgi16a7rhn6jk[2]0",
+                                "devName": "Event_S34_DiamondBootCamp",
+                                "eventName": "CalendarEvent_S34_DiamondBootCamp",
+                                "eventStart": "2025-03-25T08:00:00Z",
+                                "eventEnd": "2025-05-02T08:00:00Z",
+                                "eventType": "EventFlag.Event_S34_DiamondBootCamp"
                             }
                         ],
                         "seasonNumber": 34,
@@ -1825,6 +1838,11 @@
                             "activeSince": "2025-03-22T00:00:00.000Z"
                         },
                         {
+                            "eventType": "EventFlag.Event_FigmentQuests_S03",
+                            "activeUntil": "2025-06-08T09:00:00.000Z",
+                            "activeSince": "2025-03-24T13:00:00.000Z"
+                        },
+                        {
                             "eventType": "PilgrimSong.carryonwaywardson",
                             "activeUntil": "2025-03-26T00:00:00.000Z",
                             "activeSince": "2025-03-25T00:00:00.000Z"
@@ -2023,6 +2041,16 @@
                             "eventType": "PilgrimSong.overcompensate",
                             "activeUntil": "2025-03-26T00:00:00.000Z",
                             "activeSince": "2025-03-25T00:00:00.000Z"
+                        },
+                        {
+                            "eventType": "EventFlag.Event_S34_DiamondBootCamp",
+                            "activeUntil": "2025-05-02T08:00:00.000Z",
+                            "activeSince": "2025-03-25T08:00:00.000Z"
+                        },
+                        {
+                            "eventType": "EventFlag.Event_FigmentPassS03",
+                            "activeUntil": "2025-06-08T09:00:00.000Z",
+                            "activeSince": "2025-03-25T09:00:00.000Z"
                         }
                     ],
                     "state": {
@@ -2220,6 +2248,30 @@
                                 "eventStart": "2025-03-14T13:00:00Z",
                                 "eventEnd": "2025-03-31T13:00:00Z",
                                 "eventType": "EventFlag.Event_S34_SummerRoadtrip_Quests"
+                            },
+                            {
+                                "instanceId": "32u5aq8cm08o32e7qggn2167be[2]0",
+                                "devName": "Event_FigmentQuests_S03",
+                                "eventName": "CalendarEvent_FigmentQuests_S03",
+                                "eventStart": "2025-03-24T13:00:00Z",
+                                "eventEnd": "2025-06-08T09:00:00Z",
+                                "eventType": "EventFlag.Event_FigmentQuests_S03"
+                            },
+                            {
+                                "instanceId": "06j4vpv6pbkufqgi16a7rhn6jk[2]0",
+                                "devName": "Event_S34_DiamondBootCamp",
+                                "eventName": "CalendarEvent_S34_DiamondBootCamp",
+                                "eventStart": "2025-03-25T08:00:00Z",
+                                "eventEnd": "2025-05-02T08:00:00Z",
+                                "eventType": "EventFlag.Event_S34_DiamondBootCamp"
+                            },
+                            {
+                                "instanceId": "5i762gi8ahgj67j8ljbdj92vgs[2]0",
+                                "devName": "Figment Pass S03",
+                                "eventName": "CalendarEvent_FigmentPassS03",
+                                "eventStart": "2025-03-25T09:00:00Z",
+                                "eventEnd": "2025-06-08T09:00:00Z",
+                                "eventType": "EventFlag.Event_FigmentPassS03"
                             }
                         ],
                         "seasonNumber": 34,
@@ -2238,9 +2290,9 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-03-25T09:30:35.563Z"
+            "cacheExpire": "2025-03-25T09:58:49.128Z"
         }
     },
     "cacheIntervalMins": 15,
-    "currentTime": "2025-03-25T07:52:34.495Z"
+    "currentTime": "2025-03-25T08:14:45.655Z"
 }
