@@ -1,7 +1,7 @@
 {
     "refreshIntervalHrs": 1,
     "dailyPurchaseHrs": 24,
-    "expiration": "2025-03-25T18:00:00.000Z",
+    "expiration": "2025-03-25T19:00:00.000Z",
     "storefronts": [
         {
             "name": "WinterQuest2019",
@@ -346,6 +346,72 @@
         {
             "name": "CardPackStorePreroll",
             "catalogEntries": [
+                {
+                    "offerId": "D46EC225FA1149ADB00B4B17B2ABAB70",
+                    "devName": "RandomFree.FreePack.01",
+                    "offerType": "StaticPrice",
+                    "prices": [
+                        {
+                            "currencyType": "GameItem",
+                            "currencySubType": "AccountResource:currency_xrayllama",
+                            "regularPrice": 50,
+                            "dynamicRegularPrice": -1,
+                            "finalPrice": 0,
+                            "saleType": "Strikethrough",
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 0
+                        }
+                    ],
+                    "categories": [],
+                    "dailyLimit": 2,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "refundable": false,
+                    "appStoreId": [
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "requirements": [],
+                    "metaInfo": [
+                        {
+                            "key": "ProfileId",
+                            "value": "campaign"
+                        },
+                        {
+                            "key": "Preroll",
+                            "value": "True"
+                        },
+                        {
+                            "key": "MaxConcurrentPurchases",
+                            "value": "1"
+                        }
+                    ],
+                    "catalogGroup": "Upgrade",
+                    "catalogGroupPriority": 10,
+                    "sortPriority": 0,
+                    "title": "Upgrade Llama (Seasonal Sale Freebie!)",
+                    "shortDescription": "",
+                    "description": "The old faithful llama, packed with a variety of goodies and upgrade materials. Contains at least 4 items, including a rare item or a hero! Has a high chance to upgrade.",
+                    "displayAssetPath": "/SaveTheWorld/Items/CardPacks/CardPack_Bronze.CardPack_Bronze",
+                    "itemGrants": [
+                        {
+                            "templateId": "CardPack:cardpack_bronze",
+                            "quantity": 1,
+                            "attributes": {}
+                        }
+                    ]
+                },
                 {
                     "offerId": "4D64CBE3618D41FBB5CAD0E472F4610A",
                     "devName": "Always.UpgradePack.01",
@@ -3355,7 +3421,7 @@
                         "AnalyticOfferGroupId": "Jamtracks0323",
                         "templateId": "SparksSong:sid_placeholder_155",
                         "webURL": "/item-shop/jam-tracks/surround-sound-aac03151",
-                        "inDate": "2024-10-24T00:00:00.000Z",
+                        "inDate": "2024-09-26T00:00:00.000Z",
                         "outDate": "2025-03-29T23:59:59.999Z"
                     },
                     "matchFilter": "",
@@ -3407,7 +3473,7 @@
                         },
                         {
                             "key": "inDate",
-                            "value": "2024-10-24T00:00:00.000Z"
+                            "value": "2024-09-26T00:00:00.000Z"
                         },
                         {
                             "key": "outDate",
@@ -3422,6 +3488,126 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -15,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Beef Boss, 1 x Deep Fried for 1500 MtxCurrency",
+                    "offerId": "v2:/de91843d8f2790642ce34cc011fccb85abe113a69246d0640746e8741f63c5a4",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 1500,
+                            "dynamicRegularPrice": 1500,
+                            "finalPrice": 1500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 1500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/DAv2_CID_185_M_DurrburgerHero.DAv2_CID_185_M_DurrburgerHero",
+                        "LayoutId": "OGMascots.98",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "OGMascots",
+                        "templateId": "AthenaCharacter:cid_185_athena_commando_m_durrburgerhero",
+                        "webURL": "/item-shop/outfits/beef-boss-193a77e5",
+                        "color1": "#565e64",
+                        "color2": "#1b1b1b",
+                        "textBackgroundColor": "#1b1b1b",
+                        "inDate": "2025-03-23T00:00:00.000Z",
+                        "outDate": "2025-03-25T23:59:59.999Z",
+                        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_CID_185_Athena_Commando_M_DurrburgerHero.DA_Featured_CID_185_Athena_Commando_M_DurrburgerHero"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaCharacter:cid_185_athena_commando_m_durrburgerhero",
+                            "minQuantity": 1
+                        },
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaBackpack:bid_091_durrrburgerhero",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/OfferCatalog/NewDisplayAssets/DAv2_CID_185_M_DurrburgerHero.DAv2_CID_185_M_DurrburgerHero"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "OGMascots.98"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "OGMascots"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaCharacter:cid_185_athena_commando_m_durrburgerhero"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/outfits/beef-boss-193a77e5"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#565e64"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#1b1b1b"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#1b1b1b"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2025-03-23T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2025-03-25T23:59:59.999Z"
+                        }
+                    ],
+                    "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_CID_185_Athena_Commando_M_DurrburgerHero.DA_Featured_CID_185_Athena_Commando_M_DurrburgerHero",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaCharacter:cid_185_athena_commando_m_durrburgerhero",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaBackpack:bid_091_durrrburgerhero",
+                            "quantity": 1,
+                            "attributes": {
+                                "extra_grant": true
+                            }
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -2,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -3550,222 +3736,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Beef Boss, 1 x Deep Fried for 1500 MtxCurrency",
-                    "offerId": "v2:/de91843d8f2790642ce34cc011fccb85abe113a69246d0640746e8741f63c5a4",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 1500,
-                            "dynamicRegularPrice": 1500,
-                            "finalPrice": 1500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 1500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/DAv2_CID_185_M_DurrburgerHero.DAv2_CID_185_M_DurrburgerHero",
-                        "LayoutId": "OGMascots.98",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "OGMascots",
-                        "templateId": "AthenaCharacter:cid_185_athena_commando_m_durrburgerhero",
-                        "webURL": "/item-shop/outfits/beef-boss-193a77e5",
-                        "color1": "#565e64",
-                        "color2": "#1b1b1b",
-                        "textBackgroundColor": "#1b1b1b",
-                        "inDate": "2025-03-23T00:00:00.000Z",
-                        "outDate": "2025-03-25T23:59:59.999Z",
-                        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_CID_185_Athena_Commando_M_DurrburgerHero.DA_Featured_CID_185_Athena_Commando_M_DurrburgerHero"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaCharacter:cid_185_athena_commando_m_durrburgerhero",
-                            "minQuantity": 1
-                        },
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaBackpack:bid_091_durrrburgerhero",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/OfferCatalog/NewDisplayAssets/DAv2_CID_185_M_DurrburgerHero.DAv2_CID_185_M_DurrburgerHero"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "OGMascots.98"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "OGMascots"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaCharacter:cid_185_athena_commando_m_durrburgerhero"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/outfits/beef-boss-193a77e5"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#565e64"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#1b1b1b"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#1b1b1b"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2025-03-23T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2025-03-25T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_CID_185_Athena_Commando_M_DurrburgerHero.DA_Featured_CID_185_Athena_Commando_M_DurrburgerHero",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaCharacter:cid_185_athena_commando_m_durrburgerhero",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaBackpack:bid_091_durrrburgerhero",
-                            "quantity": 1,
-                            "attributes": {
-                                "extra_grant": true
-                            }
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -2,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x i for 500 MtxCurrency",
-                    "offerId": "v2:/f219d94f7cb0de2f5d70b1b9c11b78f4a783abcfbae2fc8c89e6153fe64a5e5f",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_110",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "Jamtracks0323.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "Jamtracks0323",
-                        "templateId": "SparksSong:sid_placeholder_110",
-                        "webURL": "/item-shop/jam-tracks/i-c7e5e295",
-                        "inDate": "2024-10-24T00:00:00.000Z",
-                        "outDate": "2025-03-29T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_110",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_110"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "Jamtracks0323.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "Jamtracks0323"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksSong:sid_placeholder_110"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/jam-tracks/i-c7e5e295"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-10-24T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2025-03-29T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_110",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x good 4 u for 500 MtxCurrency",
                     "offerId": "v2:/dd9cdb2783d402c5a0cc0496a37a4b780a102bf708c0b951dbb6330d4f77b704",
                     "fulfillmentIds": [],
@@ -3792,7 +3762,7 @@
                         "AnalyticOfferGroupId": "Jamtracks0323",
                         "templateId": "SparksSong:sid_placeholder_08",
                         "webURL": "/item-shop/jam-tracks/good-4-u-4e64a817",
-                        "inDate": "2024-10-24T00:00:00.000Z",
+                        "inDate": "2024-09-26T00:00:00.000Z",
                         "outDate": "2025-03-29T23:59:59.999Z"
                     },
                     "matchFilter": "",
@@ -3844,7 +3814,7 @@
                         },
                         {
                             "key": "inDate",
-                            "value": "2024-10-24T00:00:00.000Z"
+                            "value": "2024-09-26T00:00:00.000Z"
                         },
                         {
                             "key": "outDate",
@@ -3859,6 +3829,102 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -13,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x i for 500 MtxCurrency",
+                    "offerId": "v2:/f219d94f7cb0de2f5d70b1b9c11b78f4a783abcfbae2fc8c89e6153fe64a5e5f",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_110",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "Jamtracks0323.97",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "Jamtracks0323",
+                        "templateId": "SparksSong:sid_placeholder_110",
+                        "webURL": "/item-shop/jam-tracks/i-c7e5e295",
+                        "inDate": "2024-09-26T00:00:00.000Z",
+                        "outDate": "2025-03-29T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_110",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_110"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "Jamtracks0323.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "Jamtracks0323"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksSong:sid_placeholder_110"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/jam-tracks/i-c7e5e295"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-09-26T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2025-03-29T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_110",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -1,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -4338,7 +4404,7 @@
                         "AnalyticOfferGroupId": "Jamtracks0323",
                         "templateId": "SparksSong:sid_placeholder_176",
                         "webURL": "/item-shop/jam-tracks/dont-you-worry-child-79b75a75",
-                        "inDate": "2024-10-24T00:00:00.000Z",
+                        "inDate": "2024-09-26T00:00:00.000Z",
                         "outDate": "2025-03-29T23:59:59.999Z"
                     },
                     "matchFilter": "",
@@ -4390,7 +4456,7 @@
                         },
                         {
                             "key": "inDate",
-                            "value": "2024-10-24T00:00:00.000Z"
+                            "value": "2024-09-26T00:00:00.000Z"
                         },
                         {
                             "key": "outDate",
@@ -4516,146 +4582,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -2,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Power Ballad, 1 x Power Ballad, 1 x Power Ballad for 500 MtxCurrency",
-                    "offerId": "v2:/caab813dcbff8668deab4e7a545b49185a462aa243cfbb0dc7256f40fe27c601",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S34/DAv2_Sparks_Mic_NewSchool.DAv2_Sparks_Mic_NewSchool",
-                        "GiftBoxIgnoreItemTypes": "AthenaBackpack:backpack_newschool_mic,AthenaPickaxe:pickaxe_newschool_mic",
-                        "LayoutId": "SparksInstruments65.99",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "SparksInstruments65",
-                        "templateId": "SparksMicrophone:sparks_mic_newschool",
-                        "webURL": "/item-shop/microphones/missing-all-translations-power-ballad-23848aa2",
-                        "color1": "#AB58C2",
-                        "color2": "#7D2E93",
-                        "color3": "#500565",
-                        "textBackgroundColor": "#500565",
-                        "inDate": "2025-03-23T00:00:00.000Z",
-                        "outDate": "2025-03-26T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksMicrophone:sparks_mic_newschool",
-                            "minQuantity": 1
-                        },
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaBackpack:backpack_newschool_mic",
-                            "minQuantity": 1
-                        },
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaPickaxe:pickaxe_newschool_mic",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/OfferCatalog/NewDisplayAssets/S34/DAv2_Sparks_Mic_NewSchool.DAv2_Sparks_Mic_NewSchool"
-                        },
-                        {
-                            "key": "GiftBoxIgnoreItemTypes",
-                            "value": "AthenaBackpack:backpack_newschool_mic,AthenaPickaxe:pickaxe_newschool_mic"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "SparksInstruments65.99"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "SparksInstruments65"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksMicrophone:sparks_mic_newschool"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/microphones/missing-all-translations-power-ballad-23848aa2"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#AB58C2"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#7D2E93"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#500565"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#500565"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2025-03-23T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2025-03-26T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksMicrophone:sparks_mic_newschool",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaBackpack:backpack_newschool_mic",
-                            "quantity": 1,
-                            "attributes": {
-                                "extra_grant": true
-                            }
-                        },
-                        {
-                            "templateId": "AthenaPickaxe:pickaxe_newschool_mic",
-                            "quantity": 1,
-                            "attributes": {
-                                "extra_grant": true
-                            }
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -3,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -4809,6 +4735,146 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x Power Ballad, 1 x Power Ballad, 1 x Power Ballad for 500 MtxCurrency",
+                    "offerId": "v2:/caab813dcbff8668deab4e7a545b49185a462aa243cfbb0dc7256f40fe27c601",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S34/DAv2_Sparks_Mic_NewSchool.DAv2_Sparks_Mic_NewSchool",
+                        "GiftBoxIgnoreItemTypes": "AthenaBackpack:backpack_newschool_mic,AthenaPickaxe:pickaxe_newschool_mic",
+                        "LayoutId": "SparksInstruments65.99",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "SparksInstruments65",
+                        "templateId": "SparksMicrophone:sparks_mic_newschool",
+                        "webURL": "/item-shop/microphones/missing-all-translations-power-ballad-23848aa2",
+                        "color1": "#AB58C2",
+                        "color2": "#7D2E93",
+                        "color3": "#500565",
+                        "textBackgroundColor": "#500565",
+                        "inDate": "2025-03-23T00:00:00.000Z",
+                        "outDate": "2025-03-26T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksMicrophone:sparks_mic_newschool",
+                            "minQuantity": 1
+                        },
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaBackpack:backpack_newschool_mic",
+                            "minQuantity": 1
+                        },
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaPickaxe:pickaxe_newschool_mic",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/OfferCatalog/NewDisplayAssets/S34/DAv2_Sparks_Mic_NewSchool.DAv2_Sparks_Mic_NewSchool"
+                        },
+                        {
+                            "key": "GiftBoxIgnoreItemTypes",
+                            "value": "AthenaBackpack:backpack_newschool_mic,AthenaPickaxe:pickaxe_newschool_mic"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "SparksInstruments65.99"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "SparksInstruments65"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksMicrophone:sparks_mic_newschool"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/microphones/missing-all-translations-power-ballad-23848aa2"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#AB58C2"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#7D2E93"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#500565"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#500565"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2025-03-23T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2025-03-26T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksMicrophone:sparks_mic_newschool",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaBackpack:backpack_newschool_mic",
+                            "quantity": 1,
+                            "attributes": {
+                                "extra_grant": true
+                            }
+                        },
+                        {
+                            "templateId": "AthenaPickaxe:pickaxe_newschool_mic",
+                            "quantity": 1,
+                            "attributes": {
+                                "extra_grant": true
+                            }
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -3,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Africa for 500 MtxCurrency",
                     "offerId": "v2:/6aeb63a111a4be32357393e453cacd80963cc1bbb948a943369b50d4ce7f85ce",
                     "fulfillmentIds": [],
@@ -4902,6 +4968,119 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -8,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Rebirth Harley Quinn for 1200 MtxCurrency",
+                    "offerId": "v2:/96f7818dbfff8e40f3505d9a622c5734e18e589224f41b2f66c885d408c8269d",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 1200,
+                            "dynamicRegularPrice": 1200,
+                            "finalPrice": 1200,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 1200
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/DAv2_CID_A_063_F_CottonCandy.DAv2_CID_A_063_F_CottonCandy",
+                        "LayoutId": "Rebirth.99",
+                        "TileSize": "Size_2_x_1",
+                        "AnalyticOfferGroupId": "Rebirth",
+                        "templateId": "AthenaCharacter:cid_a_063_athena_commando_f_cottoncandy",
+                        "webURL": "/item-shop/outfits/rebirth-harley-quinn-33932369",
+                        "color1": "#990031",
+                        "color2": "#5c0020",
+                        "color3": "#330016",
+                        "textBackgroundColor": "#330016",
+                        "inDate": "2025-03-24T00:00:00.000Z",
+                        "outDate": "2025-03-26T23:59:59.999Z",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_A_063_Athena_Commando_F_CottonCandy.DA_Featured_CID_A_063_Athena_Commando_F_CottonCandy"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaCharacter:cid_a_063_athena_commando_f_cottoncandy",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/OfferCatalog/NewDisplayAssets/DAv2_CID_A_063_F_CottonCandy.DAv2_CID_A_063_F_CottonCandy"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "Rebirth.99"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_2_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "Rebirth"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaCharacter:cid_a_063_athena_commando_f_cottoncandy"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/outfits/rebirth-harley-quinn-33932369"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#990031"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#5c0020"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#330016"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#330016"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2025-03-24T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2025-03-26T23:59:59.999Z"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_A_063_Athena_Commando_F_CottonCandy.DA_Featured_CID_A_063_Athena_Commando_F_CottonCandy",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaCharacter:cid_a_063_athena_commando_f_cottoncandy",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -1,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -5035,119 +5214,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Rebirth Harley Quinn for 1200 MtxCurrency",
-                    "offerId": "v2:/96f7818dbfff8e40f3505d9a622c5734e18e589224f41b2f66c885d408c8269d",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 1200,
-                            "dynamicRegularPrice": 1200,
-                            "finalPrice": 1200,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 1200
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/DAv2_CID_A_063_F_CottonCandy.DAv2_CID_A_063_F_CottonCandy",
-                        "LayoutId": "Rebirth.99",
-                        "TileSize": "Size_2_x_1",
-                        "AnalyticOfferGroupId": "Rebirth",
-                        "templateId": "AthenaCharacter:cid_a_063_athena_commando_f_cottoncandy",
-                        "webURL": "/item-shop/outfits/rebirth-harley-quinn-33932369",
-                        "color1": "#990031",
-                        "color2": "#5c0020",
-                        "color3": "#330016",
-                        "textBackgroundColor": "#330016",
-                        "inDate": "2025-03-24T00:00:00.000Z",
-                        "outDate": "2025-03-26T23:59:59.999Z",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_A_063_Athena_Commando_F_CottonCandy.DA_Featured_CID_A_063_Athena_Commando_F_CottonCandy"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaCharacter:cid_a_063_athena_commando_f_cottoncandy",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/OfferCatalog/NewDisplayAssets/DAv2_CID_A_063_F_CottonCandy.DAv2_CID_A_063_F_CottonCandy"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "Rebirth.99"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_2_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "Rebirth"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaCharacter:cid_a_063_athena_commando_f_cottoncandy"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/outfits/rebirth-harley-quinn-33932369"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#990031"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#5c0020"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#330016"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#330016"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2025-03-24T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2025-03-26T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_CID_A_063_Athena_Commando_F_CottonCandy.DA_Featured_CID_A_063_Athena_Commando_F_CottonCandy",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaCharacter:cid_a_063_athena_commando_f_cottoncandy",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x Synapse, 1 x Holo-pack for 1500 MtxCurrency",
                     "offerId": "v2:/fa533cb82fc74ac38463027a50386583030be606f1c316fdd9c9370149c7a7d8",
                     "fulfillmentIds": [],
@@ -5273,6 +5339,117 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x In Ha Mood for 500 MtxCurrency",
+                    "offerId": "v2:/2b8589deb5b513ef59c58c166ff04783bf8d082e24f2481d4c69e4bd01d0e83f",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S32/DAv2_EID_BerryTart.DAv2_EID_BerryTart",
+                        "LayoutId": "FortniteFlow0324.99",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "FortniteFlow0324",
+                        "templateId": "AthenaDance:eid_berrytart",
+                        "webURL": "/item-shop/emotes/in-ha-mood-810ebd8b",
+                        "color1": "#47fdfe",
+                        "color2": "#2B6FA1",
+                        "color3": "#011F22",
+                        "textBackgroundColor": "#011F22",
+                        "inDate": "2025-03-24T00:00:00.000Z",
+                        "outDate": "2025-03-27T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaDance:eid_berrytart",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/OfferCatalog/NewDisplayAssets/S32/DAv2_EID_BerryTart.DAv2_EID_BerryTart"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "FortniteFlow0324.99"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "FortniteFlow0324"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaDance:eid_berrytart"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/emotes/in-ha-mood-810ebd8b"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#47fdfe"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#2B6FA1"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#011F22"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#011F22"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2025-03-24T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2025-03-27T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaDance:eid_berrytart",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -2,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x The Edge of Glory for 500 MtxCurrency",
                     "offerId": "v2:/c5302a289eccf779b78fa963ac37ca5acccb214ac879a08ec8db9a4c077d3e01",
                     "fulfillmentIds": [],
@@ -5299,7 +5476,7 @@
                         "AnalyticOfferGroupId": "Jamtracks0323",
                         "templateId": "SparksSong:sid_placeholder_96",
                         "webURL": "/item-shop/jam-tracks/the-edge-of-glory-0f1740a2",
-                        "inDate": "2024-10-24T00:00:00.000Z",
+                        "inDate": "2024-09-26T00:00:00.000Z",
                         "outDate": "2025-03-29T23:59:59.999Z"
                     },
                     "matchFilter": "",
@@ -5351,7 +5528,7 @@
                         },
                         {
                             "key": "inDate",
-                            "value": "2024-10-24T00:00:00.000Z"
+                            "value": "2024-09-26T00:00:00.000Z"
                         },
                         {
                             "key": "outDate",
@@ -5369,8 +5546,8 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Like A G6 for 500 MtxCurrency",
-                    "offerId": "v2:/5aa2fbfe3b276b1d054c443205140c3581725bee123956a67b79a85a203fd335",
+                    "devName": "[VIRTUAL]1 x Hey Batter Batter for 300 MtxCurrency",
+                    "offerId": "v2:/e168cdac2a63696233a3eb780d8e019bef1448186563701a4ec0a5223f56ded4",
                     "fulfillmentIds": [],
                     "dailyLimit": -1,
                     "weeklyLimit": -1,
@@ -5380,23 +5557,25 @@
                         {
                             "currencyType": "MtxCurrency",
                             "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
+                            "regularPrice": 300,
+                            "dynamicRegularPrice": 300,
+                            "finalPrice": 300,
                             "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
+                            "basePrice": 300
                         }
                     ],
                     "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_88",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "Jamtracks0323.98",
+                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S34/DAv2_EID_VelvetDeskCam.DAv2_EID_VelvetDeskCam",
+                        "LayoutId": "ShoheiOhtani.97",
                         "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "Jamtracks0323",
-                        "templateId": "SparksSong:sid_placeholder_88",
-                        "webURL": "/item-shop/jam-tracks/like-a-g6-2938c69d",
-                        "inDate": "2025-03-23T00:00:00.000Z",
-                        "outDate": "2025-03-25T23:59:59.999Z"
+                        "AnalyticOfferGroupId": "ShoheiOhtani",
+                        "templateId": "AthenaDance:eid_velvetdesk_cam",
+                        "webURL": "/item-shop/emotes/hey-batter-batter-029993be",
+                        "color1": "#3E93E3",
+                        "color2": "#1D468C",
+                        "textBackgroundColor": "#1D468C",
+                        "inDate": "2025-03-18T00:00:00.000Z",
+                        "outDate": "2025-03-28T23:59:59.999Z"
                     },
                     "matchFilter": "",
                     "filterWeight": 0.0,
@@ -5404,7 +5583,7 @@
                     "requirements": [
                         {
                             "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_88",
+                            "requiredId": "AthenaDance:eid_velvetdesk_cam",
                             "minQuantity": 1
                         }
                     ],
@@ -5419,15 +5598,11 @@
                     "metaInfo": [
                         {
                             "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_88"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
+                            "value": "/OfferCatalog/NewDisplayAssets/S34/DAv2_EID_VelvetDeskCam.DAv2_EID_VelvetDeskCam"
                         },
                         {
                             "key": "LayoutId",
-                            "value": "Jamtracks0323.98"
+                            "value": "ShoheiOhtani.97"
                         },
                         {
                             "key": "TileSize",
@@ -5435,28 +5610,40 @@
                         },
                         {
                             "key": "AnalyticOfferGroupId",
-                            "value": "Jamtracks0323"
+                            "value": "ShoheiOhtani"
                         },
                         {
                             "key": "templateId",
-                            "value": "SparksSong:sid_placeholder_88"
+                            "value": "AthenaDance:eid_velvetdesk_cam"
                         },
                         {
                             "key": "webURL",
-                            "value": "/item-shop/jam-tracks/like-a-g6-2938c69d"
+                            "value": "/item-shop/emotes/hey-batter-batter-029993be"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#3E93E3"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#1D468C"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#1D468C"
                         },
                         {
                             "key": "inDate",
-                            "value": "2025-03-23T00:00:00.000Z"
+                            "value": "2025-03-18T00:00:00.000Z"
                         },
                         {
                             "key": "outDate",
-                            "value": "2025-03-25T23:59:59.999Z"
+                            "value": "2025-03-28T23:59:59.999Z"
                         }
                     ],
                     "itemGrants": [
                         {
-                            "templateId": "SparksSong:sid_placeholder_88",
+                            "templateId": "AthenaDance:eid_velvetdesk_cam",
                             "quantity": 1
                         }
                     ],
@@ -5581,8 +5768,8 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x In Ha Mood for 500 MtxCurrency",
-                    "offerId": "v2:/2b8589deb5b513ef59c58c166ff04783bf8d082e24f2481d4c69e4bd01d0e83f",
+                    "devName": "[VIRTUAL]1 x Like A G6 for 500 MtxCurrency",
+                    "offerId": "v2:/5aa2fbfe3b276b1d054c443205140c3581725bee123956a67b79a85a203fd335",
                     "fulfillmentIds": [],
                     "dailyLimit": -1,
                     "weeklyLimit": -1,
@@ -5600,18 +5787,15 @@
                         }
                     ],
                     "meta": {
-                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S32/DAv2_EID_BerryTart.DAv2_EID_BerryTart",
-                        "LayoutId": "FortniteFlow0324.99",
+                        "NewDisplayAssetPath": "sid_placeholder_88",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "Jamtracks0323.98",
                         "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "FortniteFlow0324",
-                        "templateId": "AthenaDance:eid_berrytart",
-                        "webURL": "/item-shop/emotes/in-ha-mood-810ebd8b",
-                        "color1": "#47fdfe",
-                        "color2": "#2B6FA1",
-                        "color3": "#011F22",
-                        "textBackgroundColor": "#011F22",
-                        "inDate": "2025-03-24T00:00:00.000Z",
-                        "outDate": "2025-03-27T23:59:59.999Z"
+                        "AnalyticOfferGroupId": "Jamtracks0323",
+                        "templateId": "SparksSong:sid_placeholder_88",
+                        "webURL": "/item-shop/jam-tracks/like-a-g6-2938c69d",
+                        "inDate": "2025-03-23T00:00:00.000Z",
+                        "outDate": "2025-03-25T23:59:59.999Z"
                     },
                     "matchFilter": "",
                     "filterWeight": 0.0,
@@ -5619,7 +5803,7 @@
                     "requirements": [
                         {
                             "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaDance:eid_berrytart",
+                            "requiredId": "SparksSong:sid_placeholder_88",
                             "minQuantity": 1
                         }
                     ],
@@ -5634,11 +5818,15 @@
                     "metaInfo": [
                         {
                             "key": "NewDisplayAssetPath",
-                            "value": "/OfferCatalog/NewDisplayAssets/S32/DAv2_EID_BerryTart.DAv2_EID_BerryTart"
+                            "value": "sid_placeholder_88"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
                         },
                         {
                             "key": "LayoutId",
-                            "value": "FortniteFlow0324.99"
+                            "value": "Jamtracks0323.98"
                         },
                         {
                             "key": "TileSize",
@@ -5646,150 +5834,28 @@
                         },
                         {
                             "key": "AnalyticOfferGroupId",
-                            "value": "FortniteFlow0324"
+                            "value": "Jamtracks0323"
                         },
                         {
                             "key": "templateId",
-                            "value": "AthenaDance:eid_berrytart"
+                            "value": "SparksSong:sid_placeholder_88"
                         },
                         {
                             "key": "webURL",
-                            "value": "/item-shop/emotes/in-ha-mood-810ebd8b"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#47fdfe"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#2B6FA1"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#011F22"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#011F22"
+                            "value": "/item-shop/jam-tracks/like-a-g6-2938c69d"
                         },
                         {
                             "key": "inDate",
-                            "value": "2025-03-24T00:00:00.000Z"
+                            "value": "2025-03-23T00:00:00.000Z"
                         },
                         {
                             "key": "outDate",
-                            "value": "2025-03-27T23:59:59.999Z"
+                            "value": "2025-03-25T23:59:59.999Z"
                         }
                     ],
                     "itemGrants": [
                         {
-                            "templateId": "AthenaDance:eid_berrytart",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -2,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Hey Batter Batter for 300 MtxCurrency",
-                    "offerId": "v2:/e168cdac2a63696233a3eb780d8e019bef1448186563701a4ec0a5223f56ded4",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 300,
-                            "dynamicRegularPrice": 300,
-                            "finalPrice": 300,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 300
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S34/DAv2_EID_VelvetDeskCam.DAv2_EID_VelvetDeskCam",
-                        "LayoutId": "ShoheiOhtani.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "ShoheiOhtani",
-                        "templateId": "AthenaDance:eid_velvetdesk_cam",
-                        "webURL": "/item-shop/emotes/hey-batter-batter-029993be",
-                        "color1": "#3E93E3",
-                        "color2": "#1D468C",
-                        "textBackgroundColor": "#1D468C",
-                        "inDate": "2025-03-18T00:00:00.000Z",
-                        "outDate": "2025-03-28T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaDance:eid_velvetdesk_cam",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/OfferCatalog/NewDisplayAssets/S34/DAv2_EID_VelvetDeskCam.DAv2_EID_VelvetDeskCam"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "ShoheiOhtani.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "ShoheiOhtani"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaDance:eid_velvetdesk_cam"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/emotes/hey-batter-batter-029993be"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#3E93E3"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#1D468C"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#1D468C"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2025-03-18T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2025-03-28T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaDance:eid_velvetdesk_cam",
+                            "templateId": "SparksSong:sid_placeholder_88",
                             "quantity": 1
                         }
                     ],
@@ -9698,126 +9764,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Doggo, 1 x Chow Down for 1500 MtxCurrency",
-                    "offerId": "v2:/f5d3ec891e80140f5ff45a23190c0f50b3efdca0b076e26aa505ceeb8fa28e27",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 1500,
-                            "dynamicRegularPrice": 1500,
-                            "finalPrice": 1500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 1500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/DAv2_CID_419_M_Pug.DAv2_CID_419_M_Pug",
-                        "LayoutId": "OGMascots.98",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "OGMascots",
-                        "templateId": "AthenaCharacter:cid_419_athena_commando_m_pug",
-                        "webURL": "/item-shop/outfits/doggo-91563a6e",
-                        "color1": "#565e64",
-                        "color2": "#1b1b1b",
-                        "textBackgroundColor": "#1b1b1b",
-                        "inDate": "2025-03-23T00:00:00.000Z",
-                        "outDate": "2025-03-25T23:59:59.999Z",
-                        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_CID_419_Athena_Commando_M_Pug.DA_Featured_CID_419_Athena_Commando_M_Pug"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaCharacter:cid_419_athena_commando_m_pug",
-                            "minQuantity": 1
-                        },
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaBackpack:bid_276_pug",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/OfferCatalog/NewDisplayAssets/DAv2_CID_419_M_Pug.DAv2_CID_419_M_Pug"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "OGMascots.98"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "OGMascots"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaCharacter:cid_419_athena_commando_m_pug"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/outfits/doggo-91563a6e"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#565e64"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#1b1b1b"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#1b1b1b"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2025-03-23T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2025-03-25T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_CID_419_Athena_Commando_M_Pug.DA_Featured_CID_419_Athena_Commando_M_Pug",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaCharacter:cid_419_athena_commando_m_pug",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaBackpack:bid_276_pug",
-                            "quantity": 1,
-                            "attributes": {
-                                "extra_grant": true
-                            }
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x Frieza's Spaceship for 1200 MtxCurrency",
                     "offerId": "v2:/c40a367af08f657ff58cfb5f418b1c4d2afb6275ed4f78b57965cb4161b160b1",
                     "fulfillmentIds": [],
@@ -10052,6 +9998,126 @@
                         {
                             "templateId": "AthenaCharacter:character_dualparadox",
                             "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -1,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Doggo, 1 x Chow Down for 1500 MtxCurrency",
+                    "offerId": "v2:/f5d3ec891e80140f5ff45a23190c0f50b3efdca0b076e26aa505ceeb8fa28e27",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 1500,
+                            "dynamicRegularPrice": 1500,
+                            "finalPrice": 1500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 1500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/DAv2_CID_419_M_Pug.DAv2_CID_419_M_Pug",
+                        "LayoutId": "OGMascots.98",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "OGMascots",
+                        "templateId": "AthenaCharacter:cid_419_athena_commando_m_pug",
+                        "webURL": "/item-shop/outfits/doggo-91563a6e",
+                        "color1": "#565e64",
+                        "color2": "#1b1b1b",
+                        "textBackgroundColor": "#1b1b1b",
+                        "inDate": "2025-03-23T00:00:00.000Z",
+                        "outDate": "2025-03-25T23:59:59.999Z",
+                        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_CID_419_Athena_Commando_M_Pug.DA_Featured_CID_419_Athena_Commando_M_Pug"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaCharacter:cid_419_athena_commando_m_pug",
+                            "minQuantity": 1
+                        },
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaBackpack:bid_276_pug",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/OfferCatalog/NewDisplayAssets/DAv2_CID_419_M_Pug.DAv2_CID_419_M_Pug"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "OGMascots.98"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "OGMascots"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaCharacter:cid_419_athena_commando_m_pug"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/outfits/doggo-91563a6e"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#565e64"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#1b1b1b"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#1b1b1b"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2025-03-23T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2025-03-25T23:59:59.999Z"
+                        }
+                    ],
+                    "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_CID_419_Athena_Commando_M_Pug.DA_Featured_CID_419_Athena_Commando_M_Pug",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaCharacter:cid_419_athena_commando_m_pug",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaBackpack:bid_276_pug",
+                            "quantity": 1,
+                            "attributes": {
+                                "extra_grant": true
+                            }
                         }
                     ],
                     "additionalGrants": [],
@@ -11025,124 +11091,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Crop Duster for 800 MtxCurrency",
-                    "offerId": "v2:/225e72a3ab8042d31cd35b533ef4be1076e8e6c20952769a99bf2c9e4e7df7e7",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 800,
-                            "dynamicRegularPrice": 800,
-                            "finalPrice": 800,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 800
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/DAv2_Glider_ID_126_Farmer.DAv2_Glider_ID_126_Farmer",
-                        "LayoutId": "SpringR10.99",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "SpringR10",
-                        "templateId": "AthenaGlider:glider_id_126_farmer",
-                        "webURL": "/item-shop/gliders/crop-duster-70b76912",
-                        "color1": "#CB95E8",
-                        "color2": "#9071C6",
-                        "color3": "#9071C6",
-                        "tileBackgroundMaterial": "Pattern_Spring",
-                        "textBackgroundColor": "#544F84",
-                        "inDate": "2025-03-25T00:00:00.000Z",
-                        "outDate": "2025-03-26T23:59:59.999Z",
-                        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_Glider_ID_126_Farmer.DA_Featured_Glider_ID_126_Farmer"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaGlider:glider_id_126_farmer",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/OfferCatalog/NewDisplayAssets/DAv2_Glider_ID_126_Farmer.DAv2_Glider_ID_126_Farmer"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "SpringR10.99"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "SpringR10"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaGlider:glider_id_126_farmer"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/gliders/crop-duster-70b76912"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#CB95E8"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#9071C6"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#9071C6"
-                        },
-                        {
-                            "key": "tileBackgroundMaterial",
-                            "value": "Pattern_Spring"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#544F84"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2025-03-25T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2025-03-26T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_Glider_ID_126_Farmer.DA_Featured_Glider_ID_126_Farmer",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaGlider:glider_id_126_farmer",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -3,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x Oki Doki, 1 x Cairo, 1 x CAIRO, 1 x OKI DOKI for -1 MtxCurrency",
                     "offerId": "v2:/1bdf720fedb8c27a95b491a419483dd7fe1690d8d8b6e996164f8112c0da14a2",
                     "fulfillmentIds": [],
@@ -11304,6 +11252,124 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -2,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Crop Duster for 800 MtxCurrency",
+                    "offerId": "v2:/225e72a3ab8042d31cd35b533ef4be1076e8e6c20952769a99bf2c9e4e7df7e7",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 800,
+                            "dynamicRegularPrice": 800,
+                            "finalPrice": 800,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 800
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/DAv2_Glider_ID_126_Farmer.DAv2_Glider_ID_126_Farmer",
+                        "LayoutId": "SpringR10.99",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "SpringR10",
+                        "templateId": "AthenaGlider:glider_id_126_farmer",
+                        "webURL": "/item-shop/gliders/crop-duster-70b76912",
+                        "color1": "#CB95E8",
+                        "color2": "#9071C6",
+                        "color3": "#9071C6",
+                        "tileBackgroundMaterial": "Pattern_Spring",
+                        "textBackgroundColor": "#544F84",
+                        "inDate": "2025-03-25T00:00:00.000Z",
+                        "outDate": "2025-03-26T23:59:59.999Z",
+                        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_Glider_ID_126_Farmer.DA_Featured_Glider_ID_126_Farmer"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaGlider:glider_id_126_farmer",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/OfferCatalog/NewDisplayAssets/DAv2_Glider_ID_126_Farmer.DAv2_Glider_ID_126_Farmer"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "SpringR10.99"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "SpringR10"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaGlider:glider_id_126_farmer"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/gliders/crop-duster-70b76912"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#CB95E8"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#9071C6"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#9071C6"
+                        },
+                        {
+                            "key": "tileBackgroundMaterial",
+                            "value": "Pattern_Spring"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#544F84"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2025-03-25T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2025-03-26T23:59:59.999Z"
+                        }
+                    ],
+                    "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_Glider_ID_126_Farmer.DA_Featured_Glider_ID_126_Farmer",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaGlider:glider_id_126_farmer",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -3,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -12002,102 +12068,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_303) for 500 MtxCurrency",
-                    "offerId": "v2:/d41c8e57e9e4f408a743aa369dda8a56772eb527589953300c2d603a88a6f445",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_303",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "Jamtracks0323.98",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "Jamtracks0323",
-                        "templateId": "SparksSong:sid_placeholder_303",
-                        "webURL": "/item-shop/jam-tracks/missing-all-translations-tbd-sidplaceholder303-05567e1d",
-                        "inDate": "2025-03-23T00:00:00.000Z",
-                        "outDate": "2025-03-25T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_303",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_303"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "Jamtracks0323.98"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "Jamtracks0323"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksSong:sid_placeholder_303"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/jam-tracks/missing-all-translations-tbd-sidplaceholder303-05567e1d"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2025-03-23T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2025-03-25T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_303",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -4,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x The Engineer for 800 MtxCurrency",
                     "offerId": "v2:/4bcbb1de1e1d926e20669bebc3191e4e7428b3b3cb36504a244e066472a3e80c",
                     "fulfillmentIds": [],
@@ -12209,6 +12179,102 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x TBD (SID_Placeholder_303) for 500 MtxCurrency",
+                    "offerId": "v2:/d41c8e57e9e4f408a743aa369dda8a56772eb527589953300c2d603a88a6f445",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_303",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "Jamtracks0323.98",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "Jamtracks0323",
+                        "templateId": "SparksSong:sid_placeholder_303",
+                        "webURL": "/item-shop/jam-tracks/missing-all-translations-tbd-sidplaceholder303-05567e1d",
+                        "inDate": "2025-03-23T00:00:00.000Z",
+                        "outDate": "2025-03-25T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_303",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_303"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "Jamtracks0323.98"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "Jamtracks0323"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksSong:sid_placeholder_303"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/jam-tracks/missing-all-translations-tbd-sidplaceholder303-05567e1d"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2025-03-23T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2025-03-25T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_303",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -4,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Baseball Batana for 800 MtxCurrency",
                     "offerId": "v2:/7f7db6d68437f52f4421c7b85b160c4df704b39f31a12773ab03ef8887f1b0ec",
                     "fulfillmentIds": [],
@@ -12312,6 +12378,156 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -4,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Frieza's Spaceship Staff , 1 x Cell's Egg Shell, 1 x Frieza's Spaceship for -1 MtxCurrency",
+                    "offerId": "v2:/ea16cb5c32b3ac284ad0783a7850d9bc3adcd1956029a9ca3136e60021a7c2f6",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [],
+                    "dynamicBundleInfo": {
+                        "discountedBasePrice": -1200,
+                        "regularBasePrice": 0,
+                        "floorPrice": 400,
+                        "currencyType": "MtxCurrency",
+                        "currencySubType": "",
+                        "displayType": "AmountOff",
+                        "bundleItems": [
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 800,
+                                "discountedPrice": 800,
+                                "alreadyOwnedPriceReduction": 800,
+                                "item": {
+                                    "templateId": "AthenaPickaxe:pickaxe_cleveredge",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 800,
+                                "discountedPrice": 800,
+                                "alreadyOwnedPriceReduction": 800,
+                                "item": {
+                                    "templateId": "AthenaPickaxe:pickaxe_moonshock",
+                                    "quantity": 1
+                                }
+                            },
+                            {
+                                "bCanOwnMultiple": false,
+                                "regularPrice": 1200,
+                                "discountedPrice": 1200,
+                                "alreadyOwnedPriceReduction": 1200,
+                                "item": {
+                                    "templateId": "AthenaGlider:glider_cleveredge",
+                                    "quantity": 1
+                                }
+                            }
+                        ]
+                    },
+                    "meta": {
+                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S28/DAv2_Bundle_Featured_CleverEdgeGear.DAv2_Bundle_Featured_CleverEdgeGear",
+                        "bundleId": "DynamicBundle:b_cleveredgegear",
+                        "LayoutId": "DragonBallZ34-1.95",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "DragonBallZ34-1",
+                        "templateId": "DynamicBundle:b_cleveredgegear",
+                        "webURL": "/item-shop/bundles/frieza-cell-gear-bundle-9ec50c1b",
+                        "color1": "#008b91",
+                        "color2": "#004c66",
+                        "color3": "#002452",
+                        "textBackgroundColor": "#002452",
+                        "inDate": "2025-03-25T00:00:00.000Z",
+                        "outDate": "2025-03-27T23:59:59.999Z",
+                        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_CleverEdgeGear_Bundle.DA_Featured_CleverEdgeGear_Bundle"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [],
+                    "offerType": "DynamicBundle",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/OfferCatalog/NewDisplayAssets/S28/DAv2_Bundle_Featured_CleverEdgeGear.DAv2_Bundle_Featured_CleverEdgeGear"
+                        },
+                        {
+                            "key": "bundleId",
+                            "value": "DynamicBundle:b_cleveredgegear"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "DragonBallZ34-1.95"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "DragonBallZ34-1"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "DynamicBundle:b_cleveredgegear"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/bundles/frieza-cell-gear-bundle-9ec50c1b"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#008b91"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#004c66"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#002452"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#002452"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2025-03-25T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2025-03-27T23:59:59.999Z"
+                        }
+                    ],
+                    "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_CleverEdgeGear_Bundle.DA_Featured_CleverEdgeGear_Bundle",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaPickaxe:pickaxe_cleveredge",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaPickaxe:pickaxe_moonshock",
+                            "quantity": 1
+                        },
+                        {
+                            "templateId": "AthenaGlider:glider_cleveredge",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -1,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -12568,156 +12784,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Frieza's Spaceship Staff , 1 x Cell's Egg Shell, 1 x Frieza's Spaceship for -1 MtxCurrency",
-                    "offerId": "v2:/ea16cb5c32b3ac284ad0783a7850d9bc3adcd1956029a9ca3136e60021a7c2f6",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [],
-                    "dynamicBundleInfo": {
-                        "discountedBasePrice": -1200,
-                        "regularBasePrice": 0,
-                        "floorPrice": 400,
-                        "currencyType": "MtxCurrency",
-                        "currencySubType": "",
-                        "displayType": "AmountOff",
-                        "bundleItems": [
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 800,
-                                "discountedPrice": 800,
-                                "alreadyOwnedPriceReduction": 800,
-                                "item": {
-                                    "templateId": "AthenaPickaxe:pickaxe_cleveredge",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 800,
-                                "discountedPrice": 800,
-                                "alreadyOwnedPriceReduction": 800,
-                                "item": {
-                                    "templateId": "AthenaPickaxe:pickaxe_moonshock",
-                                    "quantity": 1
-                                }
-                            },
-                            {
-                                "bCanOwnMultiple": false,
-                                "regularPrice": 1200,
-                                "discountedPrice": 1200,
-                                "alreadyOwnedPriceReduction": 1200,
-                                "item": {
-                                    "templateId": "AthenaGlider:glider_cleveredge",
-                                    "quantity": 1
-                                }
-                            }
-                        ]
-                    },
-                    "meta": {
-                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S28/DAv2_Bundle_Featured_CleverEdgeGear.DAv2_Bundle_Featured_CleverEdgeGear",
-                        "bundleId": "DynamicBundle:b_cleveredgegear",
-                        "LayoutId": "DragonBallZ34-1.95",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "DragonBallZ34-1",
-                        "templateId": "DynamicBundle:b_cleveredgegear",
-                        "webURL": "/item-shop/bundles/frieza-cell-gear-bundle-9ec50c1b",
-                        "color1": "#008b91",
-                        "color2": "#004c66",
-                        "color3": "#002452",
-                        "textBackgroundColor": "#002452",
-                        "inDate": "2025-03-25T00:00:00.000Z",
-                        "outDate": "2025-03-27T23:59:59.999Z",
-                        "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_CleverEdgeGear_Bundle.DA_Featured_CleverEdgeGear_Bundle"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [],
-                    "offerType": "DynamicBundle",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/OfferCatalog/NewDisplayAssets/S28/DAv2_Bundle_Featured_CleverEdgeGear.DAv2_Bundle_Featured_CleverEdgeGear"
-                        },
-                        {
-                            "key": "bundleId",
-                            "value": "DynamicBundle:b_cleveredgegear"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "DragonBallZ34-1.95"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "DragonBallZ34-1"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "DynamicBundle:b_cleveredgegear"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/bundles/frieza-cell-gear-bundle-9ec50c1b"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#008b91"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#004c66"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#002452"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#002452"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2025-03-25T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2025-03-27T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/OfferCatalog/DisplayAssets/DA_Featured_CleverEdgeGear_Bundle.DA_Featured_CleverEdgeGear_Bundle",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaPickaxe:pickaxe_cleveredge",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaPickaxe:pickaxe_moonshock",
-                            "quantity": 1
-                        },
-                        {
-                            "templateId": "AthenaGlider:glider_cleveredge",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x Engage for 500 MtxCurrency",
                     "offerId": "v2:/7a4c61af0ab933da63c3bbf3f2b213f17013201671f2e0e032a0491754cb1f92",
                     "fulfillmentIds": [],
@@ -12857,7 +12923,7 @@
                         "AnalyticOfferGroupId": "Jamtracks0323",
                         "templateId": "SparksSong:sid_placeholder_210",
                         "webURL": "/item-shop/jam-tracks/missing-all-translations-before-i-forget-2962de40",
-                        "inDate": "2024-10-24T00:00:00.000Z",
+                        "inDate": "2024-09-26T00:00:00.000Z",
                         "outDate": "2025-03-29T23:59:59.999Z"
                     },
                     "matchFilter": "",
@@ -12909,7 +12975,7 @@
                         },
                         {
                             "key": "inDate",
-                            "value": "2024-10-24T00:00:00.000Z"
+                            "value": "2024-09-26T00:00:00.000Z"
                         },
                         {
                             "key": "outDate",
@@ -13033,102 +13099,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x All The Stars for 500 MtxCurrency",
-                    "offerId": "v2:/7a583383c57d01d751e8c9fae35584b504a3e25d0e09a07ed279f82ce30c0233",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_21",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "Jamtracks0323.98",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "Jamtracks0323",
-                        "templateId": "SparksSong:sid_placeholder_21",
-                        "webURL": "/item-shop/jam-tracks/missing-all-translations-all-the-stars-06a4a972",
-                        "inDate": "2025-03-23T00:00:00.000Z",
-                        "outDate": "2025-03-25T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_21",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_21"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "Jamtracks0323.98"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "Jamtracks0323"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksSong:sid_placeholder_21"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/jam-tracks/missing-all-translations-all-the-stars-06a4a972"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2025-03-23T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2025-03-25T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_21",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -1,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x Rap Monster for 500 MtxCurrency",
                     "offerId": "v2:/5f0db4879813ab90e949e3f794be5d9bedc1a2bf4a2ad0adb10e6b5cd5a0732e",
                     "fulfillmentIds": [],
@@ -13232,6 +13202,102 @@
                     "itemGrants": [
                         {
                             "templateId": "AthenaDance:eid_clayplug",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -1,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x All The Stars for 500 MtxCurrency",
+                    "offerId": "v2:/7a583383c57d01d751e8c9fae35584b504a3e25d0e09a07ed279f82ce30c0233",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_21",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "Jamtracks0323.98",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "Jamtracks0323",
+                        "templateId": "SparksSong:sid_placeholder_21",
+                        "webURL": "/item-shop/jam-tracks/missing-all-translations-all-the-stars-06a4a972",
+                        "inDate": "2025-03-23T00:00:00.000Z",
+                        "outDate": "2025-03-25T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_21",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_21"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "Jamtracks0323.98"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "Jamtracks0323"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksSong:sid_placeholder_21"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/jam-tracks/missing-all-translations-all-the-stars-06a4a972"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2025-03-23T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2025-03-25T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_21",
                             "quantity": 1
                         }
                     ],
@@ -14476,7 +14542,7 @@
                         "AnalyticOfferGroupId": "Jamtracks0323",
                         "templateId": "SparksSong:sid_placeholder_19",
                         "webURL": "/item-shop/jam-tracks/whats-my-age-again-8fa02992",
-                        "inDate": "2024-10-24T00:00:00.000Z",
+                        "inDate": "2024-09-26T00:00:00.000Z",
                         "outDate": "2025-03-29T23:59:59.999Z"
                     },
                     "matchFilter": "",
@@ -14528,7 +14594,7 @@
                         },
                         {
                             "key": "inDate",
-                            "value": "2024-10-24T00:00:00.000Z"
+                            "value": "2024-09-26T00:00:00.000Z"
                         },
                         {
                             "key": "outDate",
@@ -14802,117 +14868,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Clix Groove for 300 MtxCurrency",
-                    "offerId": "v2:/5a6a6e36029e400e932382467857626ca07e267fc79b333ee91398ed93c41b8d",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 300,
-                            "dynamicRegularPrice": 300,
-                            "finalPrice": 300,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 300
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S34/DAv2_EID_TwilightSpot_Hand.DAv2_EID_TwilightSpot_Hand",
-                        "LayoutId": "ClixBundle.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "ClixBundle",
-                        "templateId": "AthenaDance:eid_twilightspot_hand",
-                        "webURL": "/item-shop/emotes/clix-groove-7f134b2f",
-                        "color1": "#969696",
-                        "color2": "#B9B9B9",
-                        "color3": "#616C7E",
-                        "textBackgroundColor": "#435953",
-                        "inDate": "2025-03-23T00:00:00.000Z",
-                        "outDate": "2025-04-01T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaDance:eid_twilightspot_hand",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/OfferCatalog/NewDisplayAssets/S34/DAv2_EID_TwilightSpot_Hand.DAv2_EID_TwilightSpot_Hand"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "ClixBundle.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "ClixBundle"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaDance:eid_twilightspot_hand"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/emotes/clix-groove-7f134b2f"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#969696"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#B9B9B9"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#616C7E"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#435953"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2025-03-23T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2025-04-01T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaDance:eid_twilightspot_hand",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -2,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x Fly to Tokyo for 400 MtxCurrency",
                     "offerId": "v2:/89cca0ed083b699f0cba7d028b6ad55485a8f52c1f1e4e39431e7424d417c7b4",
                     "fulfillmentIds": [],
@@ -15021,6 +14976,117 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -3,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Clix Groove for 300 MtxCurrency",
+                    "offerId": "v2:/5a6a6e36029e400e932382467857626ca07e267fc79b333ee91398ed93c41b8d",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 300,
+                            "dynamicRegularPrice": 300,
+                            "finalPrice": 300,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 300
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S34/DAv2_EID_TwilightSpot_Hand.DAv2_EID_TwilightSpot_Hand",
+                        "LayoutId": "ClixBundle.97",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "ClixBundle",
+                        "templateId": "AthenaDance:eid_twilightspot_hand",
+                        "webURL": "/item-shop/emotes/clix-groove-7f134b2f",
+                        "color1": "#969696",
+                        "color2": "#B9B9B9",
+                        "color3": "#616C7E",
+                        "textBackgroundColor": "#435953",
+                        "inDate": "2025-03-23T00:00:00.000Z",
+                        "outDate": "2025-04-01T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaDance:eid_twilightspot_hand",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/OfferCatalog/NewDisplayAssets/S34/DAv2_EID_TwilightSpot_Hand.DAv2_EID_TwilightSpot_Hand"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "ClixBundle.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "ClixBundle"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaDance:eid_twilightspot_hand"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/emotes/clix-groove-7f134b2f"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#969696"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#B9B9B9"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#616C7E"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#435953"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2025-03-23T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2025-04-01T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaDance:eid_twilightspot_hand",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -2,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -15855,102 +15921,6 @@
                     "catalogGroupPriority": 0
                 },
                 {
-                    "devName": "[VIRTUAL]1 x Pompeii for 500 MtxCurrency",
-                    "offerId": "v2:/1b0e0c27775d16a1489a82856aab275aaeb1e575972dbf9aa7f7ca7e6aabe9e4",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "sid_placeholder_113",
-                        "offertag": "sparksjamloop",
-                        "LayoutId": "Jamtracks0323.97",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "Jamtracks0323",
-                        "templateId": "SparksSong:sid_placeholder_113",
-                        "webURL": "/item-shop/jam-tracks/pompeii-5aaa6efe",
-                        "inDate": "2024-10-24T00:00:00.000Z",
-                        "outDate": "2025-03-29T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "SparksSong:sid_placeholder_113",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "sid_placeholder_113"
-                        },
-                        {
-                            "key": "offertag",
-                            "value": "sparksjamloop"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "Jamtracks0323.97"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "Jamtracks0323"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "SparksSong:sid_placeholder_113"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/jam-tracks/pompeii-5aaa6efe"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2024-10-24T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2025-03-29T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "SparksSong:sid_placeholder_113",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -7,
-                    "catalogGroupPriority": 0
-                },
-                {
                     "devName": "[VIRTUAL]1 x OKI DOKI for 500 MtxCurrency",
                     "offerId": "v2:/b60eb9767d6f32df98d0ba1423117834c6e8e0cbb570bd5a7f70ab249c636403",
                     "fulfillmentIds": [],
@@ -16064,6 +16034,102 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -4,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Pompeii for 500 MtxCurrency",
+                    "offerId": "v2:/1b0e0c27775d16a1489a82856aab275aaeb1e575972dbf9aa7f7ca7e6aabe9e4",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "sid_placeholder_113",
+                        "offertag": "sparksjamloop",
+                        "LayoutId": "Jamtracks0323.97",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "Jamtracks0323",
+                        "templateId": "SparksSong:sid_placeholder_113",
+                        "webURL": "/item-shop/jam-tracks/pompeii-5aaa6efe",
+                        "inDate": "2024-09-26T00:00:00.000Z",
+                        "outDate": "2025-03-29T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "SparksSong:sid_placeholder_113",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "sid_placeholder_113"
+                        },
+                        {
+                            "key": "offertag",
+                            "value": "sparksjamloop"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "Jamtracks0323.97"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "Jamtracks0323"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "SparksSong:sid_placeholder_113"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/jam-tracks/pompeii-5aaa6efe"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2024-09-26T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2025-03-29T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "SparksSong:sid_placeholder_113",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -7,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -16396,7 +16462,7 @@
                         "AnalyticOfferGroupId": "Jamtracks0323",
                         "templateId": "SparksSong:sid_placeholder_18",
                         "webURL": "/item-shop/jam-tracks/numb-7627d780",
-                        "inDate": "2024-10-24T00:00:00.000Z",
+                        "inDate": "2024-09-26T00:00:00.000Z",
                         "outDate": "2025-03-29T23:59:59.999Z"
                     },
                     "matchFilter": "",
@@ -16448,7 +16514,7 @@
                         },
                         {
                             "key": "inDate",
-                            "value": "2024-10-24T00:00:00.000Z"
+                            "value": "2024-09-26T00:00:00.000Z"
                         },
                         {
                             "key": "outDate",
@@ -17160,7 +17226,7 @@
                         "AnalyticOfferGroupId": "Jamtracks0323",
                         "templateId": "SparksSong:sid_placeholder_231",
                         "webURL": "/item-shop/jam-tracks/fuel-b695c152",
-                        "inDate": "2024-10-24T00:00:00.000Z",
+                        "inDate": "2024-09-26T00:00:00.000Z",
                         "outDate": "2025-03-29T23:59:59.999Z"
                     },
                     "matchFilter": "",
@@ -17212,7 +17278,7 @@
                         },
                         {
                             "key": "inDate",
-                            "value": "2024-10-24T00:00:00.000Z"
+                            "value": "2024-09-26T00:00:00.000Z"
                         },
                         {
                             "key": "outDate",
@@ -17227,6 +17293,117 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -10,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Me & You for 500 MtxCurrency",
+                    "offerId": "v2:/b465e17c70f5077c6a1e06d3fe6bdb41d89d0376d2939eabf05360f22eeef7b0",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 500,
+                            "dynamicRegularPrice": 500,
+                            "finalPrice": 500,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 500
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S28/DAv2_EID_Rotisserie.DAv2_EID_Rotisserie",
+                        "LayoutId": "FortniteFlow0324.98",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "FortniteFlow0324",
+                        "templateId": "AthenaDance:eid_rotisserie",
+                        "webURL": "/item-shop/emotes/me-you-d65a6da1",
+                        "color1": "#47fdfe",
+                        "color2": "#2B6FA1",
+                        "color3": "#011F22",
+                        "textBackgroundColor": "#011F22",
+                        "inDate": "2025-03-24T00:00:00.000Z",
+                        "outDate": "2025-03-27T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaDance:eid_rotisserie",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/OfferCatalog/NewDisplayAssets/S28/DAv2_EID_Rotisserie.DAv2_EID_Rotisserie"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "FortniteFlow0324.98"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "FortniteFlow0324"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaDance:eid_rotisserie"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/emotes/me-you-d65a6da1"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#47fdfe"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#2B6FA1"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#011F22"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#011F22"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2025-03-24T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2025-03-27T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaDance:eid_rotisserie",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -3,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -17369,117 +17546,6 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -2,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Me & You for 500 MtxCurrency",
-                    "offerId": "v2:/b465e17c70f5077c6a1e06d3fe6bdb41d89d0376d2939eabf05360f22eeef7b0",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 500,
-                            "dynamicRegularPrice": 500,
-                            "finalPrice": 500,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 500
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S28/DAv2_EID_Rotisserie.DAv2_EID_Rotisserie",
-                        "LayoutId": "FortniteFlow0324.98",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "FortniteFlow0324",
-                        "templateId": "AthenaDance:eid_rotisserie",
-                        "webURL": "/item-shop/emotes/me-you-d65a6da1",
-                        "color1": "#47fdfe",
-                        "color2": "#2B6FA1",
-                        "color3": "#011F22",
-                        "textBackgroundColor": "#011F22",
-                        "inDate": "2025-03-24T00:00:00.000Z",
-                        "outDate": "2025-03-27T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaDance:eid_rotisserie",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/OfferCatalog/NewDisplayAssets/S28/DAv2_EID_Rotisserie.DAv2_EID_Rotisserie"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "FortniteFlow0324.98"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "FortniteFlow0324"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaDance:eid_rotisserie"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/emotes/me-you-d65a6da1"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#47fdfe"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#2B6FA1"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#011F22"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#011F22"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2025-03-24T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2025-03-27T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaDance:eid_rotisserie",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -3,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -18089,7 +18155,7 @@
                         "AnalyticOfferGroupId": "Jamtracks0323",
                         "templateId": "SparksSong:sid_placeholder_200",
                         "webURL": "/item-shop/jam-tracks/missing-all-translations-heathens-7efd7572",
-                        "inDate": "2024-10-24T00:00:00.000Z",
+                        "inDate": "2024-09-26T00:00:00.000Z",
                         "outDate": "2025-03-29T23:59:59.999Z"
                     },
                     "matchFilter": "",
@@ -18141,7 +18207,7 @@
                         },
                         {
                             "key": "inDate",
-                            "value": "2024-10-24T00:00:00.000Z"
+                            "value": "2024-09-26T00:00:00.000Z"
                         },
                         {
                             "key": "outDate",
@@ -18399,112 +18465,6 @@
                     "itemGrants": [
                         {
                             "templateId": "AthenaDance:eid_jadetowel",
-                            "quantity": 1
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -2,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Air Jordan 4 SE 'University Blue' for 800 MtxCurrency",
-                    "offerId": "v2:/580738e3e369c7b18f83a63899f71744d8cef4aa1cd1a4f961261d012c4a6059",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 800,
-                            "dynamicRegularPrice": 800,
-                            "finalPrice": 800,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 800
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S34/DAv2_Shoes_GoblinPennyDemure.DAv2_Shoes_GoblinPennyDemure",
-                        "LayoutId": "Nike4and5.98",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "Nike4and5",
-                        "templateId": "CosmeticShoes:shoes_goblinpennydemure",
-                        "webURL": "/item-shop/kicks/air-jordan-4-se-university-blue-fe36c1cf",
-                        "color1": "#A5CAF3",
-                        "color2": "#327CC7",
-                        "textBackgroundColor": "#1F62A6",
-                        "inDate": "2025-03-23T00:00:00.000Z",
-                        "outDate": "2025-03-29T23:59:59.999Z"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "CosmeticShoes:shoes_goblinpennydemure",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/OfferCatalog/NewDisplayAssets/S34/DAv2_Shoes_GoblinPennyDemure.DAv2_Shoes_GoblinPennyDemure"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "Nike4and5.98"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "Nike4and5"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "CosmeticShoes:shoes_goblinpennydemure"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/kicks/air-jordan-4-se-university-blue-fe36c1cf"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#A5CAF3"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#327CC7"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#1F62A6"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2025-03-23T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2025-03-29T23:59:59.999Z"
-                        }
-                    ],
-                    "itemGrants": [
-                        {
-                            "templateId": "CosmeticShoes:shoes_goblinpennydemure",
                             "quantity": 1
                         }
                     ],
@@ -18840,6 +18800,112 @@
                     ],
                     "additionalGrants": [],
                     "sortPriority": -16,
+                    "catalogGroupPriority": 0
+                },
+                {
+                    "devName": "[VIRTUAL]1 x Air Jordan 4 SE 'University Blue' for 800 MtxCurrency",
+                    "offerId": "v2:/580738e3e369c7b18f83a63899f71744d8cef4aa1cd1a4f961261d012c4a6059",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 800,
+                            "dynamicRegularPrice": 800,
+                            "finalPrice": 800,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 800
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S34/DAv2_Shoes_GoblinPennyDemure.DAv2_Shoes_GoblinPennyDemure",
+                        "LayoutId": "Nike4and5.98",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "Nike4and5",
+                        "templateId": "CosmeticShoes:shoes_goblinpennydemure",
+                        "webURL": "/item-shop/kicks/air-jordan-4-se-university-blue-fe36c1cf",
+                        "color1": "#A5CAF3",
+                        "color2": "#327CC7",
+                        "textBackgroundColor": "#1F62A6",
+                        "inDate": "2025-03-23T00:00:00.000Z",
+                        "outDate": "2025-03-29T23:59:59.999Z"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "CosmeticShoes:shoes_goblinpennydemure",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/OfferCatalog/NewDisplayAssets/S34/DAv2_Shoes_GoblinPennyDemure.DAv2_Shoes_GoblinPennyDemure"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "Nike4and5.98"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "Nike4and5"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "CosmeticShoes:shoes_goblinpennydemure"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/kicks/air-jordan-4-se-university-blue-fe36c1cf"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#A5CAF3"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#327CC7"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#1F62A6"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2025-03-23T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2025-03-29T23:59:59.999Z"
+                        }
+                    ],
+                    "itemGrants": [
+                        {
+                            "templateId": "CosmeticShoes:shoes_goblinpennydemure",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -2,
                     "catalogGroupPriority": 0
                 },
                 {
@@ -19450,7 +19516,7 @@
                         "AnalyticOfferGroupId": "Jamtracks0323",
                         "templateId": "SparksSong:sid_placeholder_330",
                         "webURL": "/item-shop/jam-tracks/missing-all-translations-hot-to-go-5cf3aff9",
-                        "inDate": "2024-10-24T00:00:00.000Z",
+                        "inDate": "2024-09-26T00:00:00.000Z",
                         "outDate": "2025-03-29T23:59:59.999Z"
                     },
                     "matchFilter": "",
@@ -19502,7 +19568,7 @@
                         },
                         {
                             "key": "inDate",
-                            "value": "2024-10-24T00:00:00.000Z"
+                            "value": "2024-09-26T00:00:00.000Z"
                         },
                         {
                             "key": "outDate",
@@ -20169,6 +20235,119 @@
                     "catalogGroupPriority": 0
                 },
                 {
+                    "devName": "[VIRTUAL]1 x Cell's Egg Shell for 800 MtxCurrency",
+                    "offerId": "v2:/ef4028fc1047e58b2ea2d4e3fda5c0242f61af5416c34118967900c107b47331",
+                    "fulfillmentIds": [],
+                    "dailyLimit": -1,
+                    "weeklyLimit": -1,
+                    "monthlyLimit": -1,
+                    "categories": [],
+                    "prices": [
+                        {
+                            "currencyType": "MtxCurrency",
+                            "currencySubType": "",
+                            "regularPrice": 800,
+                            "dynamicRegularPrice": 800,
+                            "finalPrice": 800,
+                            "saleExpiration": "9999-12-31T23:59:59.999Z",
+                            "basePrice": 800
+                        }
+                    ],
+                    "meta": {
+                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S28/DAv2_Pickaxe_MoonShock.DAv2_Pickaxe_MoonShock",
+                        "LayoutId": "DragonBallZ34-1.95",
+                        "TileSize": "Size_1_x_1",
+                        "AnalyticOfferGroupId": "DragonBallZ34-1",
+                        "templateId": "AthenaPickaxe:pickaxe_moonshock",
+                        "webURL": "/item-shop/pickaxes/cells-egg-shell-a5ee5421",
+                        "color1": "#008b91",
+                        "color2": "#004c66",
+                        "color3": "#002452",
+                        "textBackgroundColor": "#002452",
+                        "inDate": "2025-03-25T00:00:00.000Z",
+                        "outDate": "2025-03-27T23:59:59.999Z",
+                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Pickaxe_MoonShock.DA_Featured_Pickaxe_MoonShock"
+                    },
+                    "matchFilter": "",
+                    "filterWeight": 0.0,
+                    "appStoreId": [],
+                    "requirements": [
+                        {
+                            "requirementType": "DenyOnItemOwnership",
+                            "requiredId": "AthenaPickaxe:pickaxe_moonshock",
+                            "minQuantity": 1
+                        }
+                    ],
+                    "offerType": "StaticPrice",
+                    "giftInfo": {
+                        "bIsEnabled": true,
+                        "forcedGiftBoxTemplateId": "",
+                        "purchaseRequirements": [],
+                        "giftRecordIds": []
+                    },
+                    "refundable": true,
+                    "metaInfo": [
+                        {
+                            "key": "NewDisplayAssetPath",
+                            "value": "/OfferCatalog/NewDisplayAssets/S28/DAv2_Pickaxe_MoonShock.DAv2_Pickaxe_MoonShock"
+                        },
+                        {
+                            "key": "LayoutId",
+                            "value": "DragonBallZ34-1.95"
+                        },
+                        {
+                            "key": "TileSize",
+                            "value": "Size_1_x_1"
+                        },
+                        {
+                            "key": "AnalyticOfferGroupId",
+                            "value": "DragonBallZ34-1"
+                        },
+                        {
+                            "key": "templateId",
+                            "value": "AthenaPickaxe:pickaxe_moonshock"
+                        },
+                        {
+                            "key": "webURL",
+                            "value": "/item-shop/pickaxes/cells-egg-shell-a5ee5421"
+                        },
+                        {
+                            "key": "color1",
+                            "value": "#008b91"
+                        },
+                        {
+                            "key": "color2",
+                            "value": "#004c66"
+                        },
+                        {
+                            "key": "color3",
+                            "value": "#002452"
+                        },
+                        {
+                            "key": "textBackgroundColor",
+                            "value": "#002452"
+                        },
+                        {
+                            "key": "inDate",
+                            "value": "2025-03-25T00:00:00.000Z"
+                        },
+                        {
+                            "key": "outDate",
+                            "value": "2025-03-27T23:59:59.999Z"
+                        }
+                    ],
+                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Pickaxe_MoonShock.DA_Featured_Pickaxe_MoonShock",
+                    "itemGrants": [
+                        {
+                            "templateId": "AthenaPickaxe:pickaxe_moonshock",
+                            "quantity": 1
+                        }
+                    ],
+                    "additionalGrants": [],
+                    "sortPriority": -4,
+                    "catalogGroupPriority": 0
+                },
+                {
                     "devName": "[VIRTUAL]1 x Fishstick, 1 x Saltwater Satchel for 1200 MtxCurrency",
                     "offerId": "v2:/773c013b6752883525924742864cde03e2d00881da9575cb6c6c854900fb01cd",
                     "fulfillmentIds": [],
@@ -20282,119 +20461,6 @@
                             "attributes": {
                                 "extra_grant": true
                             }
-                        }
-                    ],
-                    "additionalGrants": [],
-                    "sortPriority": -4,
-                    "catalogGroupPriority": 0
-                },
-                {
-                    "devName": "[VIRTUAL]1 x Cell's Egg Shell for 800 MtxCurrency",
-                    "offerId": "v2:/ef4028fc1047e58b2ea2d4e3fda5c0242f61af5416c34118967900c107b47331",
-                    "fulfillmentIds": [],
-                    "dailyLimit": -1,
-                    "weeklyLimit": -1,
-                    "monthlyLimit": -1,
-                    "categories": [],
-                    "prices": [
-                        {
-                            "currencyType": "MtxCurrency",
-                            "currencySubType": "",
-                            "regularPrice": 800,
-                            "dynamicRegularPrice": 800,
-                            "finalPrice": 800,
-                            "saleExpiration": "9999-12-31T23:59:59.999Z",
-                            "basePrice": 800
-                        }
-                    ],
-                    "meta": {
-                        "NewDisplayAssetPath": "/OfferCatalog/NewDisplayAssets/S28/DAv2_Pickaxe_MoonShock.DAv2_Pickaxe_MoonShock",
-                        "LayoutId": "DragonBallZ34-1.95",
-                        "TileSize": "Size_1_x_1",
-                        "AnalyticOfferGroupId": "DragonBallZ34-1",
-                        "templateId": "AthenaPickaxe:pickaxe_moonshock",
-                        "webURL": "/item-shop/pickaxes/cells-egg-shell-a5ee5421",
-                        "color1": "#008b91",
-                        "color2": "#004c66",
-                        "color3": "#002452",
-                        "textBackgroundColor": "#002452",
-                        "inDate": "2025-03-25T00:00:00.000Z",
-                        "outDate": "2025-03-27T23:59:59.999Z",
-                        "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Pickaxe_MoonShock.DA_Featured_Pickaxe_MoonShock"
-                    },
-                    "matchFilter": "",
-                    "filterWeight": 0.0,
-                    "appStoreId": [],
-                    "requirements": [
-                        {
-                            "requirementType": "DenyOnItemOwnership",
-                            "requiredId": "AthenaPickaxe:pickaxe_moonshock",
-                            "minQuantity": 1
-                        }
-                    ],
-                    "offerType": "StaticPrice",
-                    "giftInfo": {
-                        "bIsEnabled": true,
-                        "forcedGiftBoxTemplateId": "",
-                        "purchaseRequirements": [],
-                        "giftRecordIds": []
-                    },
-                    "refundable": true,
-                    "metaInfo": [
-                        {
-                            "key": "NewDisplayAssetPath",
-                            "value": "/OfferCatalog/NewDisplayAssets/S28/DAv2_Pickaxe_MoonShock.DAv2_Pickaxe_MoonShock"
-                        },
-                        {
-                            "key": "LayoutId",
-                            "value": "DragonBallZ34-1.95"
-                        },
-                        {
-                            "key": "TileSize",
-                            "value": "Size_1_x_1"
-                        },
-                        {
-                            "key": "AnalyticOfferGroupId",
-                            "value": "DragonBallZ34-1"
-                        },
-                        {
-                            "key": "templateId",
-                            "value": "AthenaPickaxe:pickaxe_moonshock"
-                        },
-                        {
-                            "key": "webURL",
-                            "value": "/item-shop/pickaxes/cells-egg-shell-a5ee5421"
-                        },
-                        {
-                            "key": "color1",
-                            "value": "#008b91"
-                        },
-                        {
-                            "key": "color2",
-                            "value": "#004c66"
-                        },
-                        {
-                            "key": "color3",
-                            "value": "#002452"
-                        },
-                        {
-                            "key": "textBackgroundColor",
-                            "value": "#002452"
-                        },
-                        {
-                            "key": "inDate",
-                            "value": "2025-03-25T00:00:00.000Z"
-                        },
-                        {
-                            "key": "outDate",
-                            "value": "2025-03-27T23:59:59.999Z"
-                        }
-                    ],
-                    "displayAssetPath": "/Game/Catalog/DisplayAssets/DA_Featured_Pickaxe_MoonShock.DA_Featured_Pickaxe_MoonShock",
-                    "itemGrants": [
-                        {
-                            "templateId": "AthenaPickaxe:pickaxe_moonshock",
-                            "quantity": 1
                         }
                     ],
                     "additionalGrants": [],
