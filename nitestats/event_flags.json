@@ -3,7 +3,7 @@
         "standalone-store": {
             "states": [
                 {
-                    "validFrom": "2025-04-08T07:29:36.988Z",
+                    "validFrom": "2025-04-08T07:59:24.549Z",
                     "activeEvents": [],
                     "state": {
                         "activePurchaseLimitingEventIds": [],
@@ -13,12 +13,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-04-08T09:29:36.988Z"
+            "cacheExpire": "2025-04-08T09:59:24.549Z"
         },
         "client-matchmaking": {
             "states": [
                 {
-                    "validFrom": "2025-04-08T07:29:36.988Z",
+                    "validFrom": "2025-04-08T07:59:24.549Z",
                     "activeEvents": [],
                     "state": {
                         "region": {
@@ -74,24 +74,24 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-04-08T09:29:36.988Z"
+            "cacheExpire": "2025-04-08T09:59:24.549Z"
         },
         "tk": {
             "states": [
                 {
-                    "validFrom": "2025-04-08T07:29:36.988Z",
+                    "validFrom": "2025-04-08T07:59:24.549Z",
                     "activeEvents": [],
                     "state": {
                         "k": []
                     }
                 }
             ],
-            "cacheExpire": "2025-04-08T09:29:36.988Z"
+            "cacheExpire": "2025-04-08T09:59:24.549Z"
         },
         "featured-islands": {
             "states": [
                 {
-                    "validFrom": "2025-04-08T07:29:36.988Z",
+                    "validFrom": "2025-04-08T07:59:24.549Z",
                     "activeEvents": [],
                     "state": {
                         "islandCodes": [],
@@ -101,12 +101,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-04-08T09:29:36.988Z"
+            "cacheExpire": "2025-04-08T09:59:24.549Z"
         },
         "community-votes": {
             "states": [
                 {
-                    "validFrom": "2025-04-08T07:29:36.988Z",
+                    "validFrom": "2025-04-08T07:59:24.549Z",
                     "activeEvents": [],
                     "state": {
                         "electionId": "",
@@ -116,12 +116,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-04-08T09:29:36.988Z"
+            "cacheExpire": "2025-04-08T09:59:24.549Z"
         },
         "client-events": {
             "states": [
                 {
-                    "validFrom": "2025-04-08T07:29:36.988Z",
+                    "validFrom": "2025-04-08T07:59:24.549Z",
                     "activeEvents": [
                         {
                             "eventType": "EventFlag.Event_DelMar_Season01_Dailies",
@@ -1182,6 +1182,11 @@
                             "activeSince": "2025-04-08T00:00:00.000Z"
                         },
                         {
+                            "eventType": "EventFlag.Event_SparksS08",
+                            "activeUntil": "2025-06-17T08:00:00.000Z",
+                            "activeSince": "2025-04-08T08:00:00.000Z"
+                        },
+                        {
                             "eventType": "Sparks.Spotlight.taste",
                             "activeUntil": "2025-04-10T00:00:00.000Z",
                             "activeSince": "2025-04-08T08:00:00.000Z"
@@ -1429,6 +1434,14 @@
                                 "eventStart": "2025-04-01T13:00:00Z",
                                 "eventEnd": "2025-04-15T13:00:00Z",
                                 "eventType": "EventFlag.Event_S34_SprocketPoppy"
+                            },
+                            {
+                                "instanceId": "225vf7pfd70j95orpvf4takik8[2]0",
+                                "devName": "Event_Sparks_Season08",
+                                "eventName": "CalendarEvent_SparksS08",
+                                "eventStart": "2025-04-08T08:00:00Z",
+                                "eventEnd": "2025-06-17T08:00:00Z",
+                                "eventType": "EventFlag.Event_SparksS08"
                             }
                         ],
                         "seasonNumber": 34,
@@ -1845,6 +1858,11 @@
                             "activeSince": "2025-04-08T00:00:00.000Z"
                         },
                         {
+                            "eventType": "EventFlag.Event_SparksS08",
+                            "activeUntil": "2025-06-17T08:00:00.000Z",
+                            "activeSince": "2025-04-08T08:00:00.000Z"
+                        },
+                        {
                             "eventType": "Sparks.Spotlight.taste",
                             "activeUntil": "2025-04-10T00:00:00.000Z",
                             "activeSince": "2025-04-08T08:00:00.000Z"
@@ -2076,6 +2094,14 @@
                                 "eventStart": "2025-04-01T13:00:00Z",
                                 "eventEnd": "2025-04-15T13:00:00Z",
                                 "eventType": "EventFlag.Event_S34_SprocketPoppy"
+                            },
+                            {
+                                "instanceId": "225vf7pfd70j95orpvf4takik8[2]0",
+                                "devName": "Event_Sparks_Season08",
+                                "eventName": "CalendarEvent_SparksS08",
+                                "eventStart": "2025-04-08T08:00:00Z",
+                                "eventEnd": "2025-06-17T08:00:00Z",
+                                "eventType": "EventFlag.Event_SparksS08"
                             }
                         ],
                         "seasonNumber": 34,
@@ -2094,9 +2120,9 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-04-08T09:29:36.988Z"
+            "cacheExpire": "2025-04-08T09:59:24.549Z"
         }
     },
     "cacheIntervalMins": 15,
-    "currentTime": "2025-04-08T07:51:50.679Z"
+    "currentTime": "2025-04-08T08:15:45.724Z"
 }
