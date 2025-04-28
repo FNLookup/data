@@ -3,7 +3,7 @@
         "standalone-store": {
             "states": [
                 {
-                    "validFrom": "2025-04-28T16:32:08.871Z",
+                    "validFrom": "2025-04-28T16:47:00.820Z",
                     "activeEvents": [],
                     "state": {
                         "activePurchaseLimitingEventIds": [],
@@ -13,12 +13,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-04-28T18:32:08.871Z"
+            "cacheExpire": "2025-04-28T18:47:00.820Z"
         },
         "client-matchmaking": {
             "states": [
                 {
-                    "validFrom": "2025-04-28T16:32:08.871Z",
+                    "validFrom": "2025-04-28T16:47:00.820Z",
                     "activeEvents": [],
                     "state": {
                         "region": {
@@ -72,26 +72,82 @@
                             }
                         }
                     }
+                },
+                {
+                    "validFrom": "2025-04-28T19:00:00.000Z",
+                    "activeEvents": [],
+                    "state": {
+                        "region": {
+                            "NAE": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "NAW": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "NAC": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "EU": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "OCE": {
+                                "eventFlagsForcedOff": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "ASIA": {
+                                "eventFlagsForcedOff": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "BR": {
+                                "eventFlagsForcedOn": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            },
+                            "ME": {
+                                "eventFlagsForcedOff": [
+                                    "Playlist_NoBuildBR_Habanero_Solo",
+                                    "Playlist_NoBuildBR_Habanero_Squad"
+                                ]
+                            }
+                        }
+                    }
                 }
             ],
-            "cacheExpire": "2025-04-28T18:32:08.871Z"
+            "cacheExpire": "2025-04-28T18:47:00.820Z"
         },
         "tk": {
             "states": [
                 {
-                    "validFrom": "2025-04-28T16:32:08.871Z",
+                    "validFrom": "2025-04-28T16:47:00.820Z",
                     "activeEvents": [],
                     "state": {
                         "k": []
                     }
                 }
             ],
-            "cacheExpire": "2025-04-28T18:32:08.871Z"
+            "cacheExpire": "2025-04-28T18:47:00.820Z"
         },
         "featured-islands": {
             "states": [
                 {
-                    "validFrom": "2025-04-28T16:32:08.871Z",
+                    "validFrom": "2025-04-28T16:47:00.820Z",
                     "activeEvents": [],
                     "state": {
                         "islandCodes": [],
@@ -101,12 +157,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-04-28T18:32:08.871Z"
+            "cacheExpire": "2025-04-28T18:47:00.820Z"
         },
         "community-votes": {
             "states": [
                 {
-                    "validFrom": "2025-04-28T16:32:08.871Z",
+                    "validFrom": "2025-04-28T16:47:00.820Z",
                     "activeEvents": [],
                     "state": {
                         "electionId": "",
@@ -116,12 +172,12 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-04-28T18:32:08.871Z"
+            "cacheExpire": "2025-04-28T18:47:00.820Z"
         },
         "client-events": {
             "states": [
                 {
-                    "validFrom": "2025-04-28T16:32:08.871Z",
+                    "validFrom": "2025-04-28T16:47:00.820Z",
                     "activeEvents": [
                         {
                             "eventType": "EventFlag.Event_DelMar_Season01_Dailies",
@@ -249,13 +305,13 @@
                             "activeSince": "2025-03-25T13:00:00.000Z"
                         },
                         {
-                            "eventType": "EventFlag.Event_S34_WeaponExpertiseSniper",
-                            "activeUntil": "2025-05-16T13:00:00.000Z",
+                            "eventType": "EventFlag.Event_S34_WeaponExpertise",
+                            "activeUntil": "2025-05-02T06:00:00.000Z",
                             "activeSince": "2025-03-25T13:00:00.000Z"
                         },
                         {
-                            "eventType": "EventFlag.Event_S34_WeaponExpertise",
-                            "activeUntil": "2025-05-16T13:00:00.000Z",
+                            "eventType": "EventFlag.Event_S34_WeaponExpertiseSniper",
+                            "activeUntil": "2025-05-02T06:00:00.000Z",
                             "activeSince": "2025-03-25T13:00:00.000Z"
                         },
                         {
@@ -317,11 +373,6 @@
                             "eventType": "EventFlag.Event_SparksS08",
                             "activeUntil": "2025-06-17T08:00:00.000Z",
                             "activeSince": "2025-04-08T08:00:00.000Z"
-                        },
-                        {
-                            "eventType": "EventFlag.Event_DJTest_ReleaseVersionFix",
-                            "activeUntil": "2025-06-17T09:00:00.000Z",
-                            "activeSince": "2025-04-08T13:00:00.000Z"
                         },
                         {
                             "eventType": "EventFlag.Event_ReloadQuests_Dashberry_Kickstart",
@@ -795,20 +846,20 @@
                                 "eventType": "EventFlag.Event_S34_CollectionQuests"
                             },
                             {
-                                "instanceId": "3dl8emr46k4b4o9hark3hoq7dl[2]0",
-                                "devName": "Event_S34_WeaponExpertiseSniper",
-                                "eventName": "CalendarEvent_S34_WeaponExpertiseSniper",
-                                "eventStart": "2025-03-25T13:00:00Z",
-                                "eventEnd": "2025-05-16T13:00:00Z",
-                                "eventType": "EventFlag.Event_S34_WeaponExpertiseSniper"
-                            },
-                            {
                                 "instanceId": "2db5h7nu6oa1icqtvd5hd1uase[2]0",
                                 "devName": "Event_S34_WeaponExpertise",
                                 "eventName": "CalendarEvent_S34_WeaponExpertise",
                                 "eventStart": "2025-03-25T13:00:00Z",
-                                "eventEnd": "2025-05-16T13:00:00Z",
+                                "eventEnd": "2025-05-02T06:00:00Z",
                                 "eventType": "EventFlag.Event_S34_WeaponExpertise"
+                            },
+                            {
+                                "instanceId": "3dl8emr46k4b4o9hark3hoq7dl[2]0",
+                                "devName": "Event_S34_WeaponExpertiseSniper",
+                                "eventName": "CalendarEvent_S34_WeaponExpertiseSniper",
+                                "eventStart": "2025-03-25T13:00:00Z",
+                                "eventEnd": "2025-05-02T06:00:00Z",
+                                "eventType": "EventFlag.Event_S34_WeaponExpertiseSniper"
                             },
                             {
                                 "instanceId": "225vf7pfd70j95orpvf4takik8[2]0",
@@ -817,14 +868,6 @@
                                 "eventStart": "2025-04-08T08:00:00Z",
                                 "eventEnd": "2025-06-17T08:00:00Z",
                                 "eventType": "EventFlag.Event_SparksS08"
-                            },
-                            {
-                                "instanceId": "5dj58625nmcg7omdtp1hgc2a5p[2]0",
-                                "devName": "Event_DJTest_ReleaseVersionFix",
-                                "eventName": "CalendarEvent_DJTest_ReleaseVersionFix",
-                                "eventStart": "2025-04-08T13:00:00Z",
-                                "eventEnd": "2025-06-17T09:00:00Z",
-                                "eventType": "EventFlag.Event_DJTest_ReleaseVersionFix"
                             },
                             {
                                 "instanceId": "3b6f4qq0dod84f5lj176ahsvos[2]0",
@@ -899,9 +942,9 @@
                     }
                 }
             ],
-            "cacheExpire": "2025-04-28T18:32:08.871Z"
+            "cacheExpire": "2025-04-28T18:47:00.820Z"
         }
     },
     "cacheIntervalMins": 15,
-    "currentTime": "2025-04-28T16:50:15.643Z"
+    "currentTime": "2025-04-28T17:09:55.768Z"
 }
