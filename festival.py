@@ -89,22 +89,6 @@ def transform_data(input_data, output_file):
         alltransform = json.dumps(transformed_data, indent=4)
         f.write(alltransform)
 
-        try:
-            if ogstuff != alltransform:
-                # new jam tracks
-                set_old = json.loads(ogstuff)['tracks']
-                newjt = [item for item in json.loads(alltransform)['tracks'] if item not in set_old]
-                strnewjtrs = 'New/Updated Jam Tracks:\n'
-                for t in newjt:
-                    strnewjtrs += t['artist'] + ' - ' + t['title'] + '\n'
-                message = {
-                    "content": os.getenv("UTP") + " **JAM TRACKS UPDATED:** \n" + strnewjtrs
-                }
-                print('NEW JAM TRACKS!')
-                requests.post(wbhk, json=message)
-        except Exception as e:
-            print(f"Exception lol:{e}")
-
 if __name__ == "__main__":
     api_url = "https://fortnitecontent-website-prod07.ol.epicgames.com/content/api/pages/fortnite-game/spark-tracks"
     print("Receiving data from", api_url)
