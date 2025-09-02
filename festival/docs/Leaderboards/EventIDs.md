@@ -6,6 +6,7 @@ Jam Track Event IDs are the common Event IDs used in the Events Service. Their s
 
 - Replace `x` with the current season number
 - For Festival Season 1, instead of `season00x` it is `evergreen`.
+- For Festival Season 10, it is `season010`.
 - `su` is the `su` field found in a Jam Track's Metadata.
 
 ## Jam Track Event Window IDs
@@ -36,5 +37,6 @@ A new type of Event ID and Event Window ID was introduced in Season 7:
 Event ID: `alltime_su_type` <br/>
 Event Window ID: `alltime`
 
-Querying this Event ID and Event Window ID will allow up to 100 pages of entries. This type of Event ID and Event Window ID currently only works on Season 7 songs.
+Querying this Event ID and Event Window ID will allow up to 100 pages of entries.
 
+This event ID and window are now used by default as the leaderboard API requests made by Fortnite. 
