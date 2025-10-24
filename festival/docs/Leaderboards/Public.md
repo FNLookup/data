@@ -7,8 +7,8 @@ Auth Required: Yes (`{gameId}:profile:{accountId}:commands READ`)
 ## Path Parameters
 
 `gameId`: `FNFestival` <br/>
-`eventId`: [Jam Track Event Id](https://github.com/FNLookup/data/blob/betterfestivaldocs/festival/docs/Leaderboards/EventIDs.md#jam-track-event-ids) <br/>
-`eventWindowId`: [Jam Track Event Window Id](https://github.com/FNLookup/data/blob/betterfestivaldocs/festival/docs/Leaderboards/EventIDs.md#jam-track-event-window-ids) <br/>
+`eventId`: [Jam Track Event Id](https://github.com/FNLookup/data/blob/main/festival/docs/Leaderboards/EventIDs.md#jam-track-event-ids) <br/>
+`eventWindowId`: [Jam Track Event Window Id](https://github.com/FNLookup/data/blob/main/festival/docs/Leaderboards/EventIDs.md#jam-track-event-ids) <br/>
 `accountId`: Your Account Id
 
 ## Query Parameters
